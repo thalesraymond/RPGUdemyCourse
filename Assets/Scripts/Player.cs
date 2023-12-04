@@ -15,6 +15,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float wallCheckDistance;
     [SerializeField] private LayerMask whatIsGround;
 
+    public int facingDirection { get; private set; } = 1;
+    private bool facingRight = true;
+
+
     #region States
     public PlayerStateMachine StateMachine { get; private set; }
 
@@ -67,6 +71,8 @@ public class Player : MonoBehaviour
     public void SetVelocity(float xVelocity, float yVelocity)
     {
         this.Rb.velocity = new Vector2 (xVelocity, yVelocity);
+
+        this.FlipController(xVelocity);
     }
 
     public bool IsGroundDetected() => Physics2D.Raycast(this.groundCheck.position, Vector2.down, groundCheckDistance, this.whatIsGround);
@@ -77,5 +83,22 @@ public class Player : MonoBehaviour
 
         Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y));
 
+    }
+
+    public void Flip()
+    {
+        facingDirection = facingDirection * -1;
+
+        facingRight = !facingRight;
+
+        this.transform.Rotate(0, 180, 0);
+    }
+
+    public void FlipController(float x)
+    {
+        if (x > 0 && !facingRight)
+            this.Flip();
+        else if(x < 0&& facingRight)
+            this.Flip();
     }
 }
