@@ -22,7 +22,7 @@ public class PlayerGroundedState : PlayerState
     {
         base.Update();
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && this.Player.IsGroundDetected())
         {
             this.StateMachine.ChangeState(this.Player.JumpState);
         }
