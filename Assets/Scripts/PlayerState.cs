@@ -10,6 +10,10 @@ public class PlayerState
 
     private string _animBoolName;
 
+    protected float xInput;
+
+    protected Rigidbody2D Rb;
+
     public PlayerState(Player player, PlayerStateMachine stateMachine, string animBoolName)
     {
         this.Player = player;
@@ -22,16 +26,20 @@ public class PlayerState
 
     public virtual void Enter()
     {
-        Debug.Log("I enter" + this._animBoolName);
+        this.Player.Anim.SetBool(this._animBoolName, true);
+
+        this.Rb = this.Player.Rb;
     }
 
     public virtual void Exit()
     {
-        Debug.Log("I Exit" + this._animBoolName);
+        this.Player.Anim.SetBool(this._animBoolName, false);
     }
 
     public virtual void Update()
     {
-        Debug.Log("I Update" + this._animBoolName);
+        this.xInput = Input.GetAxisRaw("Horizontal");
+
+        this.Player.Anim.SetFloat("yVelocity", this.Rb.velocity.y);
     }
 }
