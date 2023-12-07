@@ -52,8 +52,12 @@ public class PlayerState
 
     private void CheckForDashInput()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        this.Player.DashUsageTimer -= Time.deltaTime;
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && this.Player.DashUsageTimer < 0)
         {
+            this.Player.DashUsageTimer = this.Player.DashCoolDown;
+
             this.Player.DashDirection = Input.GetAxisRaw("Horizontal");
 
             if (this.Player.DashDirection == 0)
