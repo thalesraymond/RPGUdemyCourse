@@ -115,9 +115,12 @@ public class Player : MonoBehaviour
 
     public void FlipController(float x)
     {
-        if (x > 0 && !facingRight)
+        if(this.StateMachine.CurrentState is PlayerWallSlideState)
+            return;
+
+        if (x > 0 && !this.facingRight)
             this.Flip();
-        else if(x < 0&& facingRight)
+        else if (x < 0 && this.facingRight)
             this.Flip();
     }
 }

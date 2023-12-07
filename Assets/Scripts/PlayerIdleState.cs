@@ -22,9 +22,10 @@ public class PlayerIdleState : PlayerGroundedState
     {
         base.Update();
 
-        if(this.xInput != 0)
-        {
+        if (this.xInput == this.Player.FacingDirection && this.Player.IsWallDetected())
+            return;
+
+        if (this.xInput != 0)
             this.StateMachine.ChangeState(this.Player.MoveState);
-        }
     }
 }
