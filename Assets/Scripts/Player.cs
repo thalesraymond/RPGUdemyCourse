@@ -68,7 +68,6 @@ public class Player : MonoBehaviour
         this.DashState = new PlayerDashState(this, this.StateMachine, "Dash");
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         this.Anim = this.GetComponentInChildren<Animator>();
@@ -78,8 +77,6 @@ public class Player : MonoBehaviour
         this.StateMachine.Initialize(this.IdleState); 
     }
 
-
-    // Update is called once per frame
     void Update()
     {
         this.StateMachine.CurrentState.Update();
