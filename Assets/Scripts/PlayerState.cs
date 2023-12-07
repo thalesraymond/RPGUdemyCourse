@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class PlayerState
@@ -13,6 +14,8 @@ public class PlayerState
     protected float xInput;
 
     protected Rigidbody2D Rb;
+
+    protected float StateTimer;
 
     public PlayerState(Player player, PlayerStateMachine stateMachine, string animBoolName)
     {
@@ -41,5 +44,7 @@ public class PlayerState
         this.xInput = Input.GetAxisRaw("Horizontal");
 
         this.Player.Anim.SetFloat("yVelocity", this.Rb.velocity.y);
+
+        this.StateTimer -= Time.deltaTime;
     }
 }

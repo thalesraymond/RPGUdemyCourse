@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     [Header("Move Info")]
     public float MoveSpeed = 12f;
     public float JumpForce;
+    public float DashSpeed;
+    public float DashDuration;
 
     [Header("Collision Info")]
     [SerializeField] private Transform groundCheck;
@@ -29,6 +31,8 @@ public class Player : MonoBehaviour
     public PlayerJumpState JumpState { get; private set; }
 
     public PlayerAirState AirState { get; private set; }
+
+    public PlayerDashState DashState { get; private set; }
     #endregion
 
     #region Components
@@ -50,6 +54,8 @@ public class Player : MonoBehaviour
         this.JumpState = new PlayerJumpState(this, this.StateMachine, "Jump");
 
         this.AirState = new PlayerAirState(this, this.StateMachine, "Jump");
+
+        this.DashState = new PlayerDashState(this, this.StateMachine, "Dash");
     }
 
     // Start is called before the first frame update
@@ -61,6 +67,7 @@ public class Player : MonoBehaviour
 
         this.StateMachine.Initialize(this.IdleState); 
     }
+
 
     // Update is called once per frame
     void Update()

@@ -22,6 +22,11 @@ public class PlayerGroundedState : PlayerState
     {
         base.Update();
 
+        if(Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            this.StateMachine.ChangeState(this.Player.DashState);
+        }
+
         if(Input.GetKeyDown(KeyCode.Space) && this.Player.IsGroundDetected())
         {
             this.StateMachine.ChangeState(this.Player.JumpState);
