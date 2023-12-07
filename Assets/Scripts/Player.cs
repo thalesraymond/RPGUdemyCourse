@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     [Header("Move Info")]
     public float MoveSpeed = 12f;
     public float JumpForce;
+    public float WallSlideDrag;
 
     [Header("dash info")]
     public float DashCoolDown;
@@ -37,6 +38,8 @@ public class Player : MonoBehaviour
 
     public PlayerAirState AirState { get; private set; }
 
+    public PlayerWallSlideState WallSlideState { get; private set; }
+
     public PlayerDashState DashState { get; private set; }
     #endregion
 
@@ -59,6 +62,8 @@ public class Player : MonoBehaviour
         this.JumpState = new PlayerJumpState(this, this.StateMachine, "Jump");
 
         this.AirState = new PlayerAirState(this, this.StateMachine, "Jump");
+
+        this.WallSlideState = new PlayerWallSlideState(this, this.StateMachine, "WallSlide");
 
         this.DashState = new PlayerDashState(this, this.StateMachine, "Dash");
     }
@@ -88,6 +93,8 @@ public class Player : MonoBehaviour
     }
 
     public bool IsGroundDetected() => Physics2D.Raycast(this.groundCheck.position, Vector2.down, groundCheckDistance, this.whatIsGround);
+
+    public bool IsWallDetected() => Physics2D.Raycast(this.wallCheck.position, Vector2.right * this.FacingDirection, wallCheckDistance, this.whatIsGround);
 
     private void OnDrawGizmos()
     {

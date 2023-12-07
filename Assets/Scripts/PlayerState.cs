@@ -13,6 +13,8 @@ public class PlayerState
 
     protected float xInput;
 
+    protected float yInput;
+
     protected Rigidbody2D Rb;
 
     protected float StateTimer;
@@ -42,6 +44,8 @@ public class PlayerState
     public virtual void Update()
     {
         this.xInput = Input.GetAxisRaw("Horizontal");
+
+        this.yInput = Input.GetAxisRaw("Vertical");
 
         this.Player.Anim.SetFloat("yVelocity", this.Rb.velocity.y);
 
