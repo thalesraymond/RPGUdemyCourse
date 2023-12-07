@@ -46,5 +46,20 @@ public class PlayerState
         this.Player.Anim.SetFloat("yVelocity", this.Rb.velocity.y);
 
         this.StateTimer -= Time.deltaTime;
+
+        this.CheckForDashInput();
+    }
+
+    private void CheckForDashInput()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            this.Player.DashDirection = Input.GetAxisRaw("Horizontal");
+
+            if (this.Player.DashDirection == 0)
+                this.Player.DashDirection = this.Player.FacingDirection;
+
+            this.StateMachine.ChangeState(this.Player.DashState);
+        }
     }
 }

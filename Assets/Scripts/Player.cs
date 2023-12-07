@@ -7,8 +7,11 @@ public class Player : MonoBehaviour
     [Header("Move Info")]
     public float MoveSpeed = 12f;
     public float JumpForce;
+
+    [Header("dash info")]
     public float DashSpeed;
     public float DashDuration;
+    public float DashDirection;
 
     [Header("Collision Info")]
     [SerializeField] private Transform groundCheck;
@@ -17,7 +20,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float wallCheckDistance;
     [SerializeField] private LayerMask whatIsGround;
 
-    public int facingDirection { get; private set; } = 1;
+    public int FacingDirection { get; private set; } = 1;
     private bool facingRight = true;
 
 
@@ -94,7 +97,7 @@ public class Player : MonoBehaviour
 
     public void Flip()
     {
-        facingDirection = facingDirection * -1;
+        FacingDirection = FacingDirection * -1;
 
         facingRight = !facingRight;
 
