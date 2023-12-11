@@ -44,6 +44,8 @@ public class Player : MonoBehaviour
 
     public PlayerWallJumpState WallJumpState { get; private set; }
 
+    public PlayerPrimaryAttackState PrimaryAttackState { get; private set; }
+
     #endregion
 
     #region Components
@@ -71,6 +73,8 @@ public class Player : MonoBehaviour
         this.DashState = new PlayerDashState(this, this.StateMachine, "Dash");
 
         this.WallJumpState = new PlayerWallJumpState(this, this.StateMachine, "Jump");
+
+        this.PrimaryAttackState = new PlayerPrimaryAttackState(this, this.StateMachine, "Attack");
     }
 
     void Start()
@@ -125,4 +129,6 @@ public class Player : MonoBehaviour
         else if (x < 0 && this.facingRight)
             this.Flip();
     }
+
+    public void AnimationTrigger() => this.StateMachine.CurrentState.AnimationFinishTrigger();
 }

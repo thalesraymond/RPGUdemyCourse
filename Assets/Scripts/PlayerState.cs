@@ -19,6 +19,8 @@ public class PlayerState
 
     protected float StateTimer;
 
+    protected bool TriggerCalled;
+
     public PlayerState(Player player, PlayerStateMachine stateMachine, string animBoolName)
     {
         this.Player = player;
@@ -26,6 +28,8 @@ public class PlayerState
         this.StateMachine = stateMachine;
 
         this._animBoolName = animBoolName;
+
+        this.TriggerCalled = false;
 
     }
 
@@ -72,5 +76,10 @@ public class PlayerState
 
             this.StateMachine.ChangeState(this.Player.DashState);
         }
+    }
+
+    public virtual void AnimationFinishTrigger()
+    {
+        this.TriggerCalled = true;
     }
 }
