@@ -38,6 +38,8 @@ public class PlayerState
         this.Player.Anim.SetBool(this._animBoolName, true);
 
         this.Rb = this.Player.Rb;
+
+        this.TriggerCalled = false;
     }
 
     public virtual void Exit()

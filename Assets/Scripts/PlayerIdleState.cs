@@ -12,7 +12,7 @@ public class PlayerIdleState : PlayerGroundedState
     {
         base.Enter();
 
-        this.Rb.velocity = Vector2.zero;
+        this.Player.SetVelocityToZero();
     }
 
     public override void Exit()
@@ -23,6 +23,9 @@ public class PlayerIdleState : PlayerGroundedState
     public override void Update()
     {
         base.Update();
+
+        if(this.Player.IsBusy)
+            return;
 
         if (this.xInput == this.Player.FacingDirection && this.Player.IsWallDetected())
             return;

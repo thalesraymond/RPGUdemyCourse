@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Attack Details")]
+    public float[] AttackMovement;
+    public bool IsBusy { get; private set; }
+
     [Header("Move Info")]
     public float MoveSpeed = 12f;
     public float JumpForce;
@@ -55,6 +59,58 @@ public class Player : MonoBehaviour
 
     #endregion
 
+    #region Collisions
+    public bool IsGroundDetected() => Physics2D.Raycast(this.groundCheck.position, Vector2.down, groundCheckDistance, this.whatIsGround);
+
+    public bool IsWallDetected() => Physics2D.Raycast(this.wallCheck.position, Vector2.right * this.FacingDirection, wallCheckDistance, this.whatIsGround);
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance));
+
+        Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y));
+
+    }
+
+    #endregion
+
+    #region Flip
+
+    public void Flip()
+    {
+        FacingDirection = FacingDirection * -1;
+
+        facingRight = !facingRight;
+
+        this.transform.Rotate(0, 180, 0);
+    }
+
+    public void FlipController(float x)
+    {
+        if (this.StateMachine.CurrentState is PlayerWallSlideState)
+            return;
+
+        if (x > 0 && !this.facingRight)
+            this.Flip();
+        else if (x < 0 && this.facingRight)
+            this.Flip();
+    }
+
+    #endregion
+
+    #region Velocity
+
+    public void SetVelocity(float xVelocity, float yVelocity)
+    {
+        this.Rb.velocity = new Vector2(xVelocity, yVelocity);
+
+        this.FlipController(xVelocity);
+    }
+
+    public void SetVelocityToZero() => this.Rb.velocity = Vector2.zero;
+
+    #endregion
+
 
     private void Awake()
     {
@@ -90,45 +146,16 @@ public class Player : MonoBehaviour
     {
         this.StateMachine.CurrentState.Update();
     }
-
-    public void SetVelocity(float xVelocity, float yVelocity)
-    {
-        this.Rb.velocity = new Vector2 (xVelocity, yVelocity);
-
-        this.FlipController(xVelocity);
-    }
-
-    public bool IsGroundDetected() => Physics2D.Raycast(this.groundCheck.position, Vector2.down, groundCheckDistance, this.whatIsGround);
-
-    public bool IsWallDetected() => Physics2D.Raycast(this.wallCheck.position, Vector2.right * this.FacingDirection, wallCheckDistance, this.whatIsGround);
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance));
-
-        Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y));
-
-    }
-
-    public void Flip()
-    {
-        FacingDirection = FacingDirection * -1;
-
-        facingRight = !facingRight;
-
-        this.transform.Rotate(0, 180, 0);
-    }
-
-    public void FlipController(float x)
-    {
-        if(this.StateMachine.CurrentState is PlayerWallSlideState)
-            return;
-
-        if (x > 0 && !this.facingRight)
-            this.Flip();
-        else if (x < 0 && this.facingRight)
-            this.Flip();
-    }
+    
 
     public void AnimationTrigger() => this.StateMachine.CurrentState.AnimationFinishTrigger();
+
+    public IEnumerator BusyFor(float seconds)
+    {
+        this.IsBusy = true;
+
+        yield return new WaitForSeconds(seconds);
+
+        this.IsBusy = false;
+    }
 }
