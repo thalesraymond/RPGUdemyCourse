@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class PlayerDashState : PlayerState
 {
     public PlayerDashState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
@@ -25,6 +21,9 @@ public class PlayerDashState : PlayerState
     public override void Update()
     {
         base.Update();
+
+        if (!this.Player.IsGroundDetected() && this.Player.IsWallDetected())
+            this.StateMachine.ChangeState(this.Player.WallSlideState);
 
         this.Player.SetVelocity(this.Player.DashSpeed * this.Player.DashDirection, 0);
 

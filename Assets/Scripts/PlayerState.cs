@@ -56,6 +56,9 @@ public class PlayerState
 
     private void CheckForDashInput()
     {
+        if (this.Player.IsWallDetected())
+            return;
+
         this.Player.DashUsageTimer -= Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && this.Player.DashUsageTimer < 0)
