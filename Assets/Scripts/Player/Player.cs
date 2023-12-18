@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Entity
 {
     [Header("Attack Details")]
     public float[] AttackMovement;
@@ -19,17 +19,6 @@ public class Player : MonoBehaviour
     public float DashSpeed;
     public float DashDuration;
     public float DashDirection;
-
-    [Header("Collision Info")]
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private float groundCheckDistance;
-    [SerializeField] private Transform wallCheck;
-    [SerializeField] private float wallCheckDistance;
-    [SerializeField] private LayerMask whatIsGround;
-
-    public int FacingDirection { get; private set; } = 1;
-    private bool facingRight = true;
-
 
     #region States
     public PlayerStateMachine StateMachine { get; private set; }
@@ -52,68 +41,10 @@ public class Player : MonoBehaviour
 
     #endregion
 
-    #region Components
-    public Animator Anim { get; private set; }
-
-    public Rigidbody2D Rb {  get; private set; }
-
-    #endregion
-
-    #region Collisions
-    public bool IsGroundDetected() => Physics2D.Raycast(this.groundCheck.position, Vector2.down, groundCheckDistance, this.whatIsGround);
-
-    public bool IsWallDetected() => Physics2D.Raycast(this.wallCheck.position, Vector2.right * this.FacingDirection, wallCheckDistance, this.whatIsGround);
-
-    private void OnDrawGizmos()
+    protected override void Awake()
     {
-        Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance));
+        base.Awake();
 
-        Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y));
-
-    }
-
-    #endregion
-
-    #region Flip
-
-    public void Flip()
-    {
-        FacingDirection = FacingDirection * -1;
-
-        facingRight = !facingRight;
-
-        this.transform.Rotate(0, 180, 0);
-    }
-
-    public void FlipController(float x)
-    {
-        if (this.StateMachine.CurrentState is PlayerWallSlideState)
-            return;
-
-        if (x > 0 && !this.facingRight)
-            this.Flip();
-        else if (x < 0 && this.facingRight)
-            this.Flip();
-    }
-
-    #endregion
-
-    #region Velocity
-
-    public void SetVelocity(float xVelocity, float yVelocity)
-    {
-        this.Rb.velocity = new Vector2(xVelocity, yVelocity);
-
-        this.FlipController(xVelocity);
-    }
-
-    public void SetVelocityToZero() => this.Rb.velocity = Vector2.zero;
-
-    #endregion
-
-
-    private void Awake()
-    {
         this.StateMachine = new PlayerStateMachine();
 
         this.IdleState = new PlayerIdleState(this, this.StateMachine, "Idle");
@@ -133,17 +64,17 @@ public class Player : MonoBehaviour
         this.PrimaryAttackState = new PlayerPrimaryAttackState(this, this.StateMachine, "Attack");
     }
 
-    void Start()
+    protected override void Start()
     {
-        this.Anim = this.GetComponentInChildren<Animator>();
-
-        this.Rb = this.GetComponent<Rigidbody2D>();
+        base.Start();
 
         this.StateMachine.Initialize(this.IdleState); 
     }
 
-    void Update()
+    protected override void Update()
     {
+        base.Update();
+
         this.StateMachine.CurrentState.Update();
     }
     

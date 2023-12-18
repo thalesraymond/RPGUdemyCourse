@@ -6,7 +6,7 @@ public class EnemyState
 {
     protected EnemyStateMachine StateMachine;
 
-    protected Enemy Enemy;
+    protected Enemy EnemyBase;
 
     protected bool triggerCalled;
 
@@ -14,9 +14,9 @@ public class EnemyState
 
     protected float StateTimer;
 
-    public EnemyState(Enemy enemy, EnemyStateMachine stateMachine, string animBoolName)
+    public EnemyState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName)
     {
-        this.Enemy = enemy;
+        this.EnemyBase = enemyBase;
         this.StateMachine = stateMachine;
         this.animBoolName = animBoolName;
     }
@@ -24,12 +24,12 @@ public class EnemyState
     public virtual void Enter()
     {
         triggerCalled = false;
-        this.Enemy.Anim.SetBool(this.animBoolName, true);
+        this.EnemyBase.Anim.SetBool(this.animBoolName, true);
     }
 
     public virtual void Exit()
     {
-        this.Enemy.Anim.SetBool(this.animBoolName, false);
+        this.EnemyBase.Anim.SetBool(this.animBoolName, false);
     }
 
     public virtual void Update()
