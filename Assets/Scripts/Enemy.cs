@@ -12,6 +12,8 @@ public class Enemy : Entity
 
     [Header("AttackInfo")]
     public float AttackDistance;
+    public float AttackCooldown;
+    public float LastTimeAttack;
 
     public EnemyStateMachine StateMachine { get; private set; }
 
@@ -41,4 +43,6 @@ public class Enemy : Entity
         Gizmos.color = Color.yellow;
         Gizmos.DrawLine(this.transform.position, new Vector3(transform.position.x + this.AttackDistance * this.FacingDirection, transform.position.y));
     }
+
+    public virtual void AnimationFinishTrigger() => this.StateMachine.CurrentState.AnimationFinishTrigger();
 }

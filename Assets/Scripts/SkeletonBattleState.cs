@@ -29,9 +29,8 @@ public class SkeletonBattleState : SkeletonGroundedState
 
         if (this.Enemy.IsPlayerDetected() && this.Enemy.IsPlayerDetected().distance < this.Enemy.AttackDistance)
         {
-            Debug.Log("IN ATTACK RANGE");
-            this.Enemy.SetVelocityToZero();
-            return;
+            if(this.CanAttack())
+                this.StateMachine.ChangeState(this.Enemy.AttackState);
         }
 
         this._moveDirection = this.IsPlayerToTheRight() ? 1 : -1;
@@ -45,4 +44,20 @@ public class SkeletonBattleState : SkeletonGroundedState
             return true;
         return false;
     }
+
+    private bool CanAttack()
+    {
+        if (Time.time >= this.Enemy.LastTimeAttack + this.Enemy.AttackCooldown)
+        {
+            this.Enemy.LastTimeAttack = Time.time;
+
+            return true;
+        }
+
+        Debug.Log("Attack Cooldown!");
+
+        return false;
+    }
+
+
 }
