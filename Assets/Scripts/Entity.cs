@@ -5,6 +5,11 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
+    [Header("Knockback info")]
+    [SerializeField] protected Vector2 KnockbackDirection;
+    [SerializeField] protected float KnockbackDuration;
+    protected bool IsKnockback;
+
     [Header("Collision Info")]
     public Transform AttackCheck;
     public float AttackCheckRadius;
@@ -50,7 +55,20 @@ public class Entity : MonoBehaviour
     {
         this.FX.StartCoroutine("FlashFx");
 
+        StartCoroutine(HitKnockback());
+
         Debug.Log(gameObject.name + " was damaged!");
+    }
+
+    protected virtual IEnumerator HitKnockback()
+    {
+        this.IsKnockback = true;
+
+        Rb.velocity = new Vector2(KnockbackDirection.x * -FacingDirection, KnockbackDirection.y);
+
+        yield return new WaitForSeconds(KnockbackDuration);
+
+        this.IsKnockback = false;
     }
 
     #region Collisions
@@ -98,12 +116,19 @@ public class Entity : MonoBehaviour
 
     public void SetVelocity(float xVelocity, float yVelocity)
     {
+        if (IsKnockback) return;
+
         this.Rb.velocity = new Vector2(xVelocity, yVelocity);
 
         this.FlipController(xVelocity);
     }
 
-    public void SetVelocityToZero() => this.Rb.velocity = Vector2.zero;
+    public void SetVelocityToZero()
+    {
+        if (this.IsKnockback) return;
+
+        this.Rb.velocity = Vector2.zero;
+    }
 
     #endregion
 }
