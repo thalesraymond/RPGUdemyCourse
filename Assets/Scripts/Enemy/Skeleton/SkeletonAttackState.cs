@@ -13,6 +13,8 @@ public class SkeletonAttackState : EnemyState
     public override void Enter()
     {
         base.Enter();
+
+        this.enemy.SetVelocityToZero();
     }
 
     public override void Exit()

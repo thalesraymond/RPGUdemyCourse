@@ -9,6 +9,7 @@ public class Enemy : Entity
     [Header("MoveInfo")]
     public float MoveSpeed;
     public float IdleTime;
+    public float BattleTime;
 
     [Header("AttackInfo")]
     public float AttackDistance;
@@ -34,7 +35,7 @@ public class Enemy : Entity
             Debug.Log(this.IsPlayerDetected().collider.gameObject.name + "I See");
     }
 
-    public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(this.wallCheck.position, Vector2.right * FacingDirection, 50, this.WhatIsPlayer);
+    public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(this.wallCheck.position, Vector2.right * FacingDirection, 30, this.WhatIsPlayer);
 
     protected override void OnDrawGizmos()
     {

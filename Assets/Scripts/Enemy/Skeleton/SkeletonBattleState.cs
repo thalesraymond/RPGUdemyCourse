@@ -27,10 +27,16 @@ public class SkeletonBattleState : SkeletonGroundedState
     {
         base.Update();
 
-        if (this.Enemy.IsPlayerDetected() && this.Enemy.IsPlayerDetected().distance < this.Enemy.AttackDistance)
+        if (this.Enemy.IsPlayerDetected())
         {
-            if(this.CanAttack())
+            this.StateTimer = this.Enemy.BattleTime;
+
+            if (this.CanAttack())
                 this.StateMachine.ChangeState(this.Enemy.AttackState);
+        }
+        else if(this.StateTimer < 0 || Vector2.Distance(this._player.transform.position, this.Enemy.transform.position) > 7)
+        {
+            this.StateMachine.ChangeState(this.Enemy.IdleState);
         }
 
         this._moveDirection = this.IsPlayerToTheRight() ? 1 : -1;
@@ -47,14 +53,12 @@ public class SkeletonBattleState : SkeletonGroundedState
 
     private bool CanAttack()
     {
-        if (Time.time >= this.Enemy.LastTimeAttack + this.Enemy.AttackCooldown)
+        if (Time.time >= this.Enemy.LastTimeAttack + this.Enemy.AttackCooldown && this.Enemy.IsPlayerDetected().distance < this.Enemy.AttackDistance)
         {
             this.Enemy.LastTimeAttack = Time.time;
 
             return true;
         }
-
-        Debug.Log("Attack Cooldown!");
 
         return false;
     }

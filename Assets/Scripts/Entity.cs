@@ -6,6 +6,8 @@ using UnityEngine;
 public class Entity : MonoBehaviour
 {
     [Header("Collision Info")]
+    public Transform AttackCheck;
+    public float AttackCheckRadius;
     [SerializeField] protected Transform groundCheck;
     [SerializeField] protected float groundCheckDistance;
     [SerializeField] protected Transform wallCheck;
@@ -20,6 +22,8 @@ public class Entity : MonoBehaviour
 
     public Rigidbody2D Rb { get; private set; }
 
+    public EntityFX FX { get; private set; }
+
     #endregion
 
     protected virtual void Awake()
@@ -33,11 +37,20 @@ public class Entity : MonoBehaviour
 
         this.Rb = this.GetComponent<Rigidbody2D>();
 
+        this.FX = GetComponent<EntityFX>();
+
     }
 
     protected virtual void Update()
     {
 
+    }
+
+    public virtual void Damage()
+    {
+        this.FX.StartCoroutine("FlashFx");
+
+        Debug.Log(gameObject.name + " was damaged!");
     }
 
     #region Collisions
@@ -50,6 +63,8 @@ public class Entity : MonoBehaviour
         Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance));
 
         Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y));
+
+        Gizmos.DrawWireSphere(this.AttackCheck.position, AttackCheckRadius);
 
     }
 
