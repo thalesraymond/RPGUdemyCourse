@@ -44,4 +44,14 @@ public class EnemySkeleton : Enemy
             StateMachine.ChangeState(this.StunnedState);
         }
     }
+
+    public override bool CheckCanBeStunned()
+    {
+        if (!base.CheckCanBeStunned())
+            return false;
+
+        this.StateMachine.ChangeState(this.StunnedState);
+
+        return true;
+    }
 }
