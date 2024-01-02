@@ -16693,6 +16693,8 @@ MonoBehaviour:
   AttackDistance: 1.3
   AttackCooldown: 2
   LastTimeAttack: 0
+  StunDuration: 1
+  StunDirection: {x: 7, y: 12}
 --- !u!4 &1892579682
 Transform:
   m_ObjectHideFlags: 0
