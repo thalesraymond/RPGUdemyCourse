@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class CloneSkillController : MonoBehaviour
 {
+
     [SerializeField] private float colorLosingSpeed;
-    [SerializeField] private float cloneDurantion;
     private float cloneTimer;
 
     private SpriteRenderer spriteRenderer;
-    public void SetupClone(Transform newTransform)
+    public void SetupClone(Transform newTransform, float cloneDurantion)
     {
         transform.position = newTransform.position + new Vector3(0,-0.45f,0);
 
