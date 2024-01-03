@@ -15,7 +15,7 @@ public class SkeletonBattleState : SkeletonGroundedState
     {
         base.Enter();
 
-        this._player = GameObject.Find("Player").transform;
+        this._player = PlayerManager.Instance.Player.transform;
     }
 
     public override void Exit()

@@ -9,6 +9,8 @@ public class PlayerDashState : PlayerState
         base.Enter();
 
         this.StateTimer = this.Player.DashDuration;
+
+        SkillManager.Instance.CloneSkill.CreateClone(this.Player.transform);
     }
 
     public override void Exit()

@@ -16,8 +16,6 @@ public class Player : Entity
     public float WallSlideDrag;
 
     [Header("dash info")]
-    public float DashCoolDown;
-    public float DashUsageTimer;
     public float DashSpeed;
     public float DashDuration;
     public float DashDirection;

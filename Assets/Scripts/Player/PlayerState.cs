@@ -65,12 +65,8 @@ public class PlayerState
         if (this.Player.IsWallDetected())
             return;
 
-        this.Player.DashUsageTimer -= Time.deltaTime;
-
-        if (Input.GetKeyDown(KeyCode.LeftShift) && this.Player.DashUsageTimer < 0)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && SkillManager.Instance.DashSkill.CanUseSkill())
         {
-            this.Player.DashUsageTimer = this.Player.DashCoolDown;
-
             this.Player.DashDirection = Input.GetAxisRaw("Horizontal");
 
             if (this.Player.DashDirection == 0)
