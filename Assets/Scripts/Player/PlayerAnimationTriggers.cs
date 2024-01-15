@@ -20,4 +20,9 @@ public class PlayerAnimationTriggers : MonoBehaviour
         foreach (var hit in colliders)
             hit.GetComponent<Enemy>().Damage();
     }
+
+    private void ThrowSword()
+    {
+        SkillManager.Instance.SwordSkill.CreateSword();
+    }
 }
