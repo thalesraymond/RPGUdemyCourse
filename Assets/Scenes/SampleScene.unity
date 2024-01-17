@@ -462,7 +462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cooldown: 0
   swordPrefab: {fileID: 6578003958029585156, guid: 6787dfd65feb3594a8427005f76e61a4, type: 3}
-  launchForce: {x: 15, y: 20}
+  launchForce: {x: 35, y: 25}
   swordGravity: 4
   numberOfDots: 20
   dotSpacing: 0.07
@@ -17265,6 +17265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AimDot
       objectReference: {fileID: 0}
+    - target: {fileID: 4969571460614494458, guid: ddc2a44bb70d1574eb481ba754d157f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8036921368848099088, guid: ddc2a44bb70d1574eb481ba754d157f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.51
@@ -17358,9 +17362,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2218857649738203065, guid: 6787dfd65feb3594a8427005f76e61a4, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6578003958029585156, guid: 6787dfd65feb3594a8427005f76e61a4, type: 3}
       propertyPath: m_Name
       value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 6578003958029585156, guid: 6787dfd65feb3594a8427005f76e61a4, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6578003958029585156, guid: 6787dfd65feb3594a8427005f76e61a4, type: 3}
       propertyPath: m_IsActive

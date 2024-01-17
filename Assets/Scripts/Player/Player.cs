@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : Entity
 {
+
     [Header("Attack Details")]
     public float[] AttackMovement;
     public bool IsBusy { get; private set; }
@@ -21,6 +22,7 @@ public class Player : Entity
     public float DashDirection;
 
     public SkillManager SkillManager { get; private set; }
+    public GameObject Sword { get; private set; }
 
     #region States
     public PlayerStateMachine StateMachine { get; private set; }
@@ -105,4 +107,14 @@ public class Player : Entity
 
         this.IsBusy = false;
     }
+
+    public void AssignNewSword(GameObject sword)
+    {
+        this.Sword = sword;
+    }
+
+    public void ClearSword()
+    {
+        Destroy(this.Sword);
+    }    
 }

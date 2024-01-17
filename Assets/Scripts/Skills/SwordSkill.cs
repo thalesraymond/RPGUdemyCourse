@@ -51,7 +51,9 @@ public class SwordSkill : Skill
 
         var swordSkillController = newSword.GetComponent<SwordSkillController>();
 
-        swordSkillController.SetupSword(finalDirection, swordGravity);
+        swordSkillController.SetupSword(finalDirection, swordGravity, this.Player);
+
+        this.Player.AssignNewSword(newSword);
 
         this.DotsActive(false);
     }
