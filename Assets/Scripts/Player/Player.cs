@@ -15,6 +15,7 @@ public class Player : Entity
     public float MoveSpeed = 12f;
     public float JumpForce;
     public float WallSlideDrag;
+    public float SwordReturnImpact;
 
     [Header("dash info")]
     public float DashSpeed;
@@ -113,8 +114,10 @@ public class Player : Entity
         this.Sword = sword;
     }
 
-    public void ClearSword()
+    public void CatchTheSword()
     {
+        this.StateMachine.ChangeState(PlayerCatchSwordState);
+
         Destroy(this.Sword);
     }    
 }

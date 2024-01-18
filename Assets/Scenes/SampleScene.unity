@@ -16727,6 +16727,7 @@ MonoBehaviour:
   MoveSpeed: 8
   JumpForce: 14
   WallSlideDrag: 0.7
+  SwordReturnImpact: 7
   DashSpeed: 25
   DashDuration: 0.2
   DashDirection: 0
