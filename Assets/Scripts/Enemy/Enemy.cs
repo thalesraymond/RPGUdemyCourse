@@ -36,9 +36,6 @@ public class Enemy : Entity
         base.Update();
 
         this.StateMachine.CurrentState.Update();
-
-        if(this.IsPlayerDetected().collider != null)
-            Debug.Log(this.IsPlayerDetected().collider.gameObject.name + "I See");
     }
 
     public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(this.wallCheck.position, Vector2.right * FacingDirection, 30, this.WhatIsPlayer);
