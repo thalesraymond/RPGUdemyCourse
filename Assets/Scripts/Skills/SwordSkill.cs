@@ -1,9 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SwordSkill : Skill
 {
+    public SwordType SwordType = SwordType.Regular;
+
     [Header("Skill info")]
     [SerializeField] private GameObject swordPrefab;
     [SerializeField] private Vector2 launchForce;
@@ -17,6 +17,10 @@ public class SwordSkill : Skill
     [SerializeField] private GameObject dotPrefab;
     [SerializeField] private Transform dotsParent;
 
+    [Header("Bounce Info")]
+    [SerializeField] private int amountOfBounces;
+    [SerializeField] private float bounceGravity;
+
     private GameObject[] dots;
 
     protected override void Start()
@@ -28,21 +32,21 @@ public class SwordSkill : Skill
 
     protected override void Update()
     {
-        if(Input.GetKeyUp(KeyCode.Mouse1))
+        if (Input.GetKeyUp(KeyCode.Mouse1))
         {
             var aimDirection = this.GetAimDirection();
 
             this.finalDirection = new Vector2(aimDirection.normalized.x * launchForce.x, aimDirection.normalized.y * launchForce.y);
         }
 
-        if(Input.GetKey(KeyCode.Mouse1))
+        if (Input.GetKey(KeyCode.Mouse1))
         {
             for (int i = 0; i < this.dots.Length; i++)
             {
                 dots[i].transform.position = this.DotsPosition(i * this.dotSpacing);
             }
         }
-            
+
     }
 
     public void CreateSword()
@@ -50,6 +54,13 @@ public class SwordSkill : Skill
         var newSword = Instantiate(swordPrefab, Player.transform.position, transform.rotation);
 
         var swordSkillController = newSword.GetComponent<SwordSkillController>();
+
+        if(this.SwordType == SwordType.Bounce)
+        {
+            this.swordGravity = this.bounceGravity;
+
+            swordSkillController.SetupBounce(true, this.amountOfBounces);
+        }
 
         swordSkillController.SetupSword(finalDirection, swordGravity, this.Player);
 
@@ -91,9 +102,9 @@ public class SwordSkill : Skill
 
     private Vector2 DotsPosition(float t)
     {
-        var position = (Vector2) Player.transform.position + new Vector2(
+        var position = (Vector2)Player.transform.position + new Vector2(
             this.GetAimDirection().normalized.x * this.launchForce.x,
-            this.GetAimDirection().normalized.y * this.launchForce.y) * t + 0.5f * (Physics2D.gravity * swordGravity *  (t * t));
+            this.GetAimDirection().normalized.y * this.launchForce.y) * t + 0.5f * (Physics2D.gravity * swordGravity * (t * t));
 
         return position;
     }
