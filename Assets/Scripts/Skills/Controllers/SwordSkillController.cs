@@ -26,6 +26,16 @@ public class SwordSkillController : MonoBehaviour
     [Header("Pierce Info")]
     [SerializeField] private int pierceAmount;
 
+    [Header("Spin Info")]
+    private float maxTravelDistance;
+    private float spinDuration;
+    private float spinTimer;
+    private bool wasStopped;
+    private bool isSpinning;
+
+    private float hitTimer;
+    private float hitCooldown;
+
     private void Awake()
     {
         animator = GetComponentInChildren<Animator>();
@@ -57,6 +67,14 @@ public class SwordSkillController : MonoBehaviour
         this.pierceAmount = pierceAmount;
     }
 
+    public void SetupSpin(bool isSpinning, float maxTravelDistance, float spinDuration, float hitCooldown)
+    {
+        this.isSpinning = isSpinning;
+        this.maxTravelDistance = maxTravelDistance;
+        this.spinDuration = spinDuration;
+        this.hitCooldown = hitCooldown;
+    }
+
     public void ReturnSword()
     {
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
@@ -80,31 +98,79 @@ public class SwordSkillController : MonoBehaviour
         }
 
         this.BounceLogic();
+        this.SpinLogic();
+    }
+
+    private void SpinLogic()
+    {
+        if (!this.isSpinning)
+            return;
+
+
+        if (Vector2.Distance(player.transform.position, transform.position) > maxTravelDistance && !wasStopped)
+            this.StopWhenSpinning();
+
+        if (!wasStopped)
+            return;
+
+        spinTimer -= Time.deltaTime;
+
+        if (spinTimer < 0)
+        {
+            isReturning = true;
+            isSpinning = false;
+        }
+
+        hitTimer -= Time.deltaTime;
+
+        if (hitTimer < 0)
+        {
+            hitTimer = hitCooldown;
+
+            var colliders = Physics2D.OverlapCircleAll(transform.position, 1);
+
+            foreach (var hit in colliders)
+            {
+                if (hit.GetComponent<Enemy>() == null)
+                    continue;
+
+                hit.GetComponent<Enemy>().Damage();
+            }
+        }
+    }
+
+    private void StopWhenSpinning()
+    {
+        wasStopped = true;
+        rb.constraints = RigidbodyConstraints2D.FreezePosition;
+        spinTimer = spinDuration;
     }
 
     private void BounceLogic()
     {
-        if (isBouncing && enemyTargets.Count > 0)
+        if (!isBouncing || enemyTargets.Count <= 0)
+            return;
+
+        transform.position = Vector2.MoveTowards(transform.position, enemyTargets[targetIndex].position, this.bounceSpeed * Time.deltaTime);
+
+        if (Vector2.Distance(transform.position, enemyTargets[targetIndex].position) >= .2f)
+            return;
+
+        enemyTargets[targetIndex].GetComponent<Enemy>().Damage();
+
+        targetIndex++;
+
+        amountOfBounces--;
+
+        if (amountOfBounces <= 0)
         {
-            transform.position = Vector2.MoveTowards(transform.position, enemyTargets[targetIndex].position, this.bounceSpeed * Time.deltaTime);
-
-            if (Vector2.Distance(transform.position, enemyTargets[targetIndex].position) < .2f)
-            {
-                targetIndex++;
-
-                amountOfBounces--;
-
-                if (amountOfBounces <= 0)
-                {
-                    isBouncing = false;
-                    isReturning = true;
-                }
-
-
-                if (targetIndex >= enemyTargets.Count)
-                    targetIndex = 0;
-            }
+            isBouncing = false;
+            isReturning = true;
         }
+
+
+        if (targetIndex >= enemyTargets.Count)
+            targetIndex = 0;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -119,7 +185,13 @@ public class SwordSkillController : MonoBehaviour
 
     private void StuckInto(Collider2D collision)
     {
-        if(pierceAmount > 0 && collision.GetComponent<Enemy>() != null)
+        if (isSpinning)
+        {
+            this.StopWhenSpinning();
+            return;
+        }
+
+            if (pierceAmount > 0 && collision.GetComponent<Enemy>() != null)
         {
             pierceAmount--;
             return;

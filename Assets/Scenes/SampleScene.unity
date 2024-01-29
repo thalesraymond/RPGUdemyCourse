@@ -720,7 +720,7 @@ MonoBehaviour:
   Cooldown: 0
   ClonePrefab: {fileID: 536364139892343762, guid: 320087ca0b353a04c931ad9ec9b5cba9, type: 3}
   cloneDurantion: 1.5
-  canAttack: 0
+  canAttack: 1
 --- !u!114 &479376727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,6 +773,10 @@ MonoBehaviour:
   bounceGravity: 5
   pierceAmount: 2
   pierceGravity: 1
+  maxTravelDistance: 7
+  spinDuration: 2
+  spinGravity: 1
+  hitCooldown: 0.35
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
