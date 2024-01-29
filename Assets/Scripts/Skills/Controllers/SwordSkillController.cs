@@ -23,6 +23,9 @@ public class SwordSkillController : MonoBehaviour
     private int targetIndex;
     [SerializeField] private float bounceSpeed = 10;
 
+    [Header("Pierce Info")]
+    [SerializeField] private int pierceAmount;
+
     private void Awake()
     {
         animator = GetComponentInChildren<Animator>();
@@ -37,7 +40,8 @@ public class SwordSkillController : MonoBehaviour
 
         this.player = player;
 
-        animator.SetBool("Rotation", true);
+        if(pierceAmount <= 0)
+            animator.SetBool("Rotation", true);
     }
 
     public void SetupBounce(bool isBouncing, int amountOfBounces)
@@ -46,6 +50,11 @@ public class SwordSkillController : MonoBehaviour
         this.amountOfBounces = amountOfBounces;
 
         this.enemyTargets = new List<Transform>();
+    }
+
+    public void SetupPierce(int pierceAmount)
+    {
+        this.pierceAmount = pierceAmount;
     }
 
     public void ReturnSword()
@@ -103,13 +112,19 @@ public class SwordSkillController : MonoBehaviour
         if (isReturning)
             return;
 
-        CheckRadiusForBounceSword(collision);
+        CheckRadiusForSwordEffect(collision);
 
         StuckInto(collision);
     }
 
     private void StuckInto(Collider2D collision)
     {
+        if(pierceAmount > 0 && collision.GetComponent<Enemy>() != null)
+        {
+            pierceAmount--;
+            return;
+        }
+
         canRotate = false;
 
         cd.enabled = false;
@@ -126,10 +141,14 @@ public class SwordSkillController : MonoBehaviour
         transform.parent = collision.transform;
     }
 
-    private void CheckRadiusForBounceSword(Collider2D collision)
+    private void CheckRadiusForSwordEffect(Collider2D collision)
     {
-        if (collision.GetComponent<Enemy>() is null)
+        var enemy = collision.GetComponent<Enemy>();
+
+        if (enemy is null)
             return;
+
+        enemy.Damage();
 
         if (!isBouncing || enemyTargets.Count > 0)
             return;
