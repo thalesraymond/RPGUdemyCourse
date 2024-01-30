@@ -10,6 +10,7 @@ public class Enemy : Entity
     public float MoveSpeed;
     public float IdleTime;
     public float BattleTime;
+    private float defaultMoveSpeed;
 
     [Header("AttackInfo")]
     public float AttackDistance;
@@ -29,6 +30,8 @@ public class Enemy : Entity
         base.Awake();
 
         this.StateMachine = new EnemyStateMachine();
+
+        defaultMoveSpeed = MoveSpeed;
     }
 
     protected override void Update()
@@ -36,6 +39,29 @@ public class Enemy : Entity
         base.Update();
 
         this.StateMachine.CurrentState.Update();
+    }
+
+    public virtual void FreezeTime(bool timeFrozen)
+    {
+        if(timeFrozen)
+        {
+            MoveSpeed = 0;
+            Anim.speed = 0;
+        }
+        else
+        {
+            MoveSpeed = defaultMoveSpeed;
+            Anim.speed = 1;
+        }
+    }
+
+    protected virtual IEnumerator FreezeTimeFor(float seconds)
+    {
+        FreezeTime(true);
+
+        yield return new WaitForSeconds(seconds);
+
+        FreezeTime(false);
     }
 
     public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(this.wallCheck.position, Vector2.right * FacingDirection, 30, this.WhatIsPlayer);

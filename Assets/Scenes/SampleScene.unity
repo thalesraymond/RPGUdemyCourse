@@ -765,18 +765,21 @@ MonoBehaviour:
   swordPrefab: {fileID: 6578003958029585156, guid: 6787dfd65feb3594a8427005f76e61a4, type: 3}
   launchForce: {x: 35, y: 25}
   swordGravity: 4
+  freezeTimeDuration: 0.5
   numberOfDots: 20
   dotSpacing: 0.07
   dotPrefab: {fileID: 4969571460614494458, guid: ddc2a44bb70d1574eb481ba754d157f5, type: 3}
   dotsParent: {fileID: 1336535551}
   bounceAmount: 4
   bounceGravity: 5
+  bounceSpeed: 20
   pierceAmount: 2
   pierceGravity: 1
   maxTravelDistance: 7
   spinDuration: 2
   spinGravity: 1
   hitCooldown: 0.35
+  returnSpeed: 15
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class SwordSkill : Skill
     [SerializeField] private GameObject swordPrefab;
     [SerializeField] private Vector2 launchForce;
     [SerializeField] private float swordGravity;
+    [SerializeField] private float freezeTimeDuration;
 
     private Vector2 finalDirection;
 
@@ -21,6 +22,7 @@ public class SwordSkill : Skill
     [Header("Bounce Info")]
     [SerializeField] private int bounceAmount;
     [SerializeField] private float bounceGravity;
+    [SerializeField] private float bounceSpeed;
 
 
     [Header("Pierce Info")]
@@ -32,6 +34,7 @@ public class SwordSkill : Skill
     [SerializeField] private float spinDuration = 2;
     [SerializeField] private float spinGravity = 1;
     [SerializeField] private float hitCooldown = .35f;
+    [SerializeField] private float returnSpeed;
 
     private GameObject[] dots;
 
@@ -86,13 +89,14 @@ public class SwordSkill : Skill
         var swordSkillController = newSword.GetComponent<SwordSkillController>();
 
         if(this.SwordType == SwordType.Bounce)
-            swordSkillController.SetupBounce(true, this.bounceAmount);
+            swordSkillController.SetupBounce(true, this.bounceAmount, this.bounceSpeed);
         else if(this.SwordType == SwordType.Pierce)
             swordSkillController.SetupPierce(this.pierceAmount);      
         else if(this.SwordType == SwordType.Spin)
             swordSkillController.SetupSpin(true, this.maxTravelDistance, this.spinDuration, this.hitCooldown);
 
-        swordSkillController.SetupSword(finalDirection, swordGravity, this.Player);
+        this.SetupGravity();
+        swordSkillController.SetupSword(finalDirection, this.swordGravity, this.Player, this.freezeTimeDuration, this.returnSpeed);
 
         this.Player.AssignNewSword(newSword);
 
