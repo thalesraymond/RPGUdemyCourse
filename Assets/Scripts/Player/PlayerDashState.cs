@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class PlayerDashState : PlayerState
 {
     public PlayerDashState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)

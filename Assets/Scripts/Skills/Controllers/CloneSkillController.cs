@@ -17,18 +17,30 @@ public class CloneSkillController : MonoBehaviour
 
     private Transform closestEnemyTransform;
 
-    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack)
+    private void SetupClone(float cloneDurantion, bool canAttack)
     {
-        transform.position = newTransform.position + new Vector3(0,-0.45f,0);
-
         cloneTimer = cloneDurantion;
 
-        if(canAttack)
+        if (canAttack)
         {
             animator.SetInteger("AttackNumber", Random.Range(1, 3));
         }
 
         this.FaceClosestTarget();
+    }
+
+    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack)
+    {
+        transform.position = newTransform.position + new Vector3(0, -0.45f, 0);
+
+        SetupClone(cloneDurantion, canAttack);
+    }
+
+    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Vector3 offSet)
+    {
+        transform.position = newTransform.position + offSet;
+
+        SetupClone(cloneDurantion, canAttack);
     }
 
     private void Awake()

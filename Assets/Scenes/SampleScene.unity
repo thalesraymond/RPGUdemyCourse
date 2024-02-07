@@ -18278,11 +18278,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hotKeyPrefab: {fileID: 7647031974840823083, guid: cbdcebb8a73217f438455b9c37cdb376, type: 3}
-  keyCodes: 7100000077000000650000007200000074000000
+  keyCodes: 7100000077000000650000006600000074000000
   MaxSize: 15
   GrowSpeed: 1
   CanGrow: 0
-  Targets: []
+  amountOfAttacks: 4
+  cloneAttackCooldown: 0.3
+  CanShrink: 0
+  shrinkSpeed: 3
 --- !u!212 &2040145595
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18344,7 +18347,7 @@ Transform:
   m_GameObject: {fileID: 2040145593}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.79, y: 0.69, z: 0}
+  m_LocalPosition: {x: 6.55, y: -0.81, z: 0}
   m_LocalScale: {x: 3.95, y: 3.95, z: 3.95}
   m_ConstrainProportionsScale: 1
   m_Children: []
