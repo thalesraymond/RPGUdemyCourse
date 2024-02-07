@@ -19,6 +19,8 @@ public class Entity : MonoBehaviour
     [SerializeField] protected float wallCheckDistance;
     [SerializeField] protected LayerMask whatIsGround;
 
+    public SpriteRenderer SpriteRenderer { get; private set; }
+
     public int FacingDirection { get; private set; } = 1;
     protected bool facingRight = true;
 
@@ -43,6 +45,8 @@ public class Entity : MonoBehaviour
         this.Rb = this.GetComponent<Rigidbody2D>();
 
         this.FX = GetComponent<EntityFX>();
+
+        this.SpriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
     }
 
@@ -129,4 +133,6 @@ public class Entity : MonoBehaviour
     }
 
     #endregion
+
+    public void ToogleTransparent(bool transparent) => this.SpriteRenderer.color = transparent ? Color.clear : Color.white;
 }
