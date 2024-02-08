@@ -38,8 +38,6 @@ public class PlayerBlackholeState : PlayerState
         Player.Rb.gravityScale = this._defaultGravityScale;
 
         this.Player.ToogleTransparent(false);
-
-        // We exit the blackhole state in blackhole skill controller
     }
 
     public override void Update()
@@ -61,5 +59,12 @@ public class PlayerBlackholeState : PlayerState
                 this._skillUsed = true;
             }
         }
+
+        if (this.Player.SkillManager.BlackholeSkill.SkillCompleted())
+        {
+            this.StateMachine.ChangeState(this.Player.AirState);
+        }
+
+
     }
 }

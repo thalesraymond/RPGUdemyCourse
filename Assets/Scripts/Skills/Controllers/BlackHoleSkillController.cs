@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class BlackHoleSkillController : MonoBehaviour
@@ -10,6 +8,7 @@ public class BlackHoleSkillController : MonoBehaviour
 
     private float _maxSize;
     private float _growSpeed;
+    private float _blackHoleTimer;
     private bool _canGrow = true;
     private List<Transform> _targets = new();
 
@@ -17,6 +16,7 @@ public class BlackHoleSkillController : MonoBehaviour
     private int _amountOfAttacks = 4;
     private float _cloneAttackCooldown = 0.3f;
     private float _cloneAttackTimer;
+    private bool _playerCanDissapear = true;
 
     private List<GameObject> _createdHotkey = new();
 
@@ -25,18 +25,37 @@ public class BlackHoleSkillController : MonoBehaviour
 
     private bool _canCreateHotkey = true;
 
-    public void SetupBlackHole(float maxSize, float growSpeed, float shrinkSpeed, int amountOfAttacks, float cloneAttackCooldown)
+    public bool PlayerCanExitState { get; private set; }
+
+    public void SetupBlackHole(float maxSize, float growSpeed, float shrinkSpeed, int amountOfAttacks, float cloneAttackCooldown, float blackHoleDuration)
     {
         _maxSize = maxSize;
         _growSpeed = growSpeed;
         _shrinkSpeed = shrinkSpeed;
         _amountOfAttacks = amountOfAttacks;
         _cloneAttackCooldown = cloneAttackCooldown;
+        _blackHoleTimer = blackHoleDuration;
     }
 
     private void Update()
     {
         _cloneAttackTimer -= Time.deltaTime;
+
+        _blackHoleTimer -= Time.deltaTime;
+
+        if (_blackHoleTimer < 0)
+        {
+            this._blackHoleTimer = Mathf.Infinity;
+
+            if (this._targets.Count > 0)
+            {
+                this.ReleaseCloneAttack();
+            }
+            else
+            {
+                this.FinishBlackholeHability();
+            }
+        }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -61,16 +80,25 @@ public class BlackHoleSkillController : MonoBehaviour
 
     private void ReleaseCloneAttack()
     {
+        if (this._targets.Count <= 0)
+            return;
+
         _cloneAttackReleased = true;
         DestroyHotkeys();
         _canCreateHotkey = false;
 
-        PlayerManager.Instance.Player.ToogleTransparent(true);
+
+        if(this._playerCanDissapear)
+        {
+            PlayerManager.Instance.Player.ToogleTransparent(true);
+            this._playerCanDissapear = false;
+        }
+
     }
 
     private void CloneAttackLogic()
     {
-        if (_cloneAttackTimer < 0 && _cloneAttackReleased)
+        if (_cloneAttackTimer < 0 && _cloneAttackReleased && this._amountOfAttacks > 0)
         {
             _cloneAttackTimer = _cloneAttackCooldown;
 
@@ -103,7 +131,9 @@ public class BlackHoleSkillController : MonoBehaviour
         _cloneAttackReleased = false;
         _canShrink = true;
 
-        PlayerManager.Instance.Player.ExitBlackholeHability();
+        this.PlayerCanExitState = true;
+
+        this.DestroyHotkeys();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -124,7 +154,7 @@ public class BlackHoleSkillController : MonoBehaviour
         if (_cloneAttackReleased)
             return;
 
-        if(!_canCreateHotkey)
+        if (!_canCreateHotkey)
             return;
 
         var newHotKey = Instantiate(this.hotKeyPrefab, collision.transform.position + new Vector3(0, 2), Quaternion.identity);

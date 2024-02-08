@@ -124,9 +124,4 @@ public class Player : Entity
 
         Destroy(this.Sword);
     }  
-    
-    public void ExitBlackholeHability()
-    {
-        StateMachine.ChangeState(this.AirState);
-    }
 }
