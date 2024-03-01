@@ -17,7 +17,7 @@ public class CloneSkillController : MonoBehaviour
 
     private Transform closestEnemyTransform;
 
-    private void SetupClone(float cloneDurantion, bool canAttack)
+    private void SetupClone(float cloneDurantion, bool canAttack, Transform closestEnemy)
     {
         cloneTimer = cloneDurantion;
 
@@ -26,21 +26,23 @@ public class CloneSkillController : MonoBehaviour
             animator.SetInteger("AttackNumber", Random.Range(1, 3));
         }
 
+        this.closestEnemyTransform = closestEnemy;
+
         this.FaceClosestTarget();
     }
 
-    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack)
+    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Transform closestEnemy)
     {
         transform.position = newTransform.position + new Vector3(0, -0.45f, 0);
 
-        SetupClone(cloneDurantion, canAttack);
+        SetupClone(cloneDurantion, canAttack, closestEnemy);
     }
 
-    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Vector3 offSet)
+    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Transform closestEnemy, Vector3 offSet)
     {
         transform.position = newTransform.position + offSet;
 
-        SetupClone(cloneDurantion, canAttack);
+        SetupClone(cloneDurantion, canAttack, closestEnemy);
     }
 
     private void Awake()
@@ -81,15 +83,8 @@ public class CloneSkillController : MonoBehaviour
 
     private void FaceClosestTarget()
     {
-        var closestEnemy = Physics2D.OverlapCircleAll(transform.position, 25)
-            .Where(hit => hit.GetComponent<Enemy>() is not null)
-            .OrderBy(hit => Vector2.Distance(transform.position, hit.transform.position))
-            .FirstOrDefault();
-
-        if (closestEnemy != null)
-        {
-            this.closestEnemyTransform = closestEnemy.transform;
-
+        if (this.closestEnemyTransform != null)
+        { 
             if (transform.position.x > closestEnemyTransform.position.x)
             {
                 transform.Rotate(0, 180, 0);

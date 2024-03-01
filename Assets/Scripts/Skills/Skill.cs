@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Skill : MonoBehaviour
@@ -20,7 +21,7 @@ public class Skill : MonoBehaviour
 
     public virtual bool CanUseSkill()
     {
-        if(CooldownTimer < 0)
+        if (CooldownTimer < 0)
         {
             UseSkill();
             CooldownTimer = Cooldown;
@@ -33,5 +34,15 @@ public class Skill : MonoBehaviour
     public virtual void UseSkill()
     {
         // TODO: Use Skill
+    }
+
+    protected virtual Transform FindClosestEnemy(Transform checkTransform)
+    {
+        var closestEnemy = Physics2D.OverlapCircleAll(checkTransform.position, 25)
+                            .Where(hit => hit.GetComponent<Enemy>() is not null)
+                            .OrderBy(hit => Vector2.Distance(checkTransform.position, hit.transform.position))
+                            .FirstOrDefault();
+
+        return closestEnemy.transform;
     }
 }

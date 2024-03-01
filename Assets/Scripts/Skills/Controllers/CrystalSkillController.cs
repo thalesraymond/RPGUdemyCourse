@@ -18,12 +18,16 @@ public class CrystalSkillController : MonoBehaviour
 
     [SerializeField] private float _growSpeed = 5f;
 
-    public void SetupCrystal(float crystalDuration, bool canExplode, bool canMove, float moveSpeed)
+    private Transform _closestTarget;
+
+    public void SetupCrystal(float crystalDuration, bool canExplode, bool canMove, float moveSpeed, Transform closesTarget)
     {
         this._crystalExistTimer = crystalDuration;
         this._canExplode = canExplode;
         this._canMove = canMove;
         this._moveSpeed = moveSpeed;
+        this._closestTarget = closesTarget;
+
     }
 
     private void Update()
@@ -39,6 +43,17 @@ public class CrystalSkillController : MonoBehaviour
         {
             transform.localScale = Vector2.Lerp(transform.localScale, new Vector2(3, 3), this._growSpeed * Time.deltaTime);
         }    
+
+        if(this._canMove)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, this._closestTarget.position, this._moveSpeed * Time.deltaTime);
+
+            if(Vector2.Distance(transform.position, this._closestTarget.position) < 1f)
+            {
+                _canMove = false;
+                FinishCrystal();
+            }
+        }
 
     }
 

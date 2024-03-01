@@ -17,8 +17,8 @@ public class CloneSkill : Skill
         var newClone = Instantiate(ClonePrefab);
 
         if(offset == null)
-            newClone.GetComponent<CloneSkillController>().SetupClone(clonePosition, cloneDurantion, canAttack);
+            newClone.GetComponent<CloneSkillController>().SetupClone(clonePosition, cloneDurantion, canAttack, this.FindClosestEnemy(newClone.transform));
         else
-            newClone.GetComponent<CloneSkillController>().SetupClone(clonePosition, cloneDurantion, canAttack, offset.Value);
+            newClone.GetComponent<CloneSkillController>().SetupClone(clonePosition, cloneDurantion, canAttack, this.FindClosestEnemy(newClone.transform), offset.Value);
     }
 }

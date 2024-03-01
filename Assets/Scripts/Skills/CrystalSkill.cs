@@ -25,10 +25,15 @@ public class CrystalSkill : Skill
 
             var crystalSkillController = _currentCrystal.GetComponent<CrystalSkillController>();
 
-            crystalSkillController.SetupCrystal(_crystalDuration, _canExplode, _canMoveToEnemy, _moveSpeed);
+            crystalSkillController.SetupCrystal(_crystalDuration, _canExplode, _canMoveToEnemy, _moveSpeed, this.FindClosestEnemy(this._currentCrystal.transform));
         }
         else
         {
+            if (_canMoveToEnemy)
+            {
+                return;
+            }
+
             var playerPosition = this.Player.transform.position;
 
             this.Player.transform.position = _currentCrystal.transform.position;
