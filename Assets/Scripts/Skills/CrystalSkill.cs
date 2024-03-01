@@ -8,6 +8,13 @@ public class CrystalSkill : Skill
     [SerializeField] private GameObject _crystalPrefab;
     private GameObject _currentCrystal;
 
+    [Header("Explosive Crystal")]
+    [SerializeField] private bool _canExplode;
+
+    [Header("Moving Crystal")]
+    [SerializeField] private bool _canMoveToEnemy;
+    [SerializeField] private float _moveSpeed;
+
     public override void UseSkill()
     {
         base.UseSkill();
@@ -18,12 +25,19 @@ public class CrystalSkill : Skill
 
             var crystalSkillController = _currentCrystal.GetComponent<CrystalSkillController>();
 
-            crystalSkillController.SetupCrystal(_crystalDuration);
+            crystalSkillController.SetupCrystal(_crystalDuration, _canExplode, _canMoveToEnemy, _moveSpeed);
         }
         else
         {
+            var playerPosition = this.Player.transform.position;
+
             this.Player.transform.position = _currentCrystal.transform.position;
-            Destroy(this._currentCrystal);
+
+            this._currentCrystal.transform.position = playerPosition;
+
+            Debug.Log("Destroy Crystal");
+
+            this._currentCrystal.GetComponent<CrystalSkillController>().FinishCrystal();
         }
     }
 }

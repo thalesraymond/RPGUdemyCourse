@@ -250,7 +250,7 @@ Transform:
   m_GameObject: {fileID: 160821234}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.37, y: 0.119999886, z: -10}
+  m_LocalPosition: {x: 9.79, y: 0.079999685, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -815,8 +815,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cooldown: 0
-  _crystalDuration: 0.7
+  _crystalDuration: 2
   _crystalPrefab: {fileID: 7159641837902430175, guid: c2eec28ef021afc40a65c3219df68794, type: 3}
+  _canExplode: 1
+  _canMoveToEnemy: 0
+  _moveSpeed: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,7 +907,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.37, y: 0.119999886, z: -10}
+  m_LocalPosition: {x: 9.79, y: 0.079999685, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17738,7 +17741,7 @@ Transform:
   m_GameObject: {fileID: 1820392514}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.37, y: -3.12, z: 0}
+  m_LocalPosition: {x: 9.79, y: -3.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
