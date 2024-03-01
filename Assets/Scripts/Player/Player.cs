@@ -99,6 +99,11 @@ public class Player : Entity
         base.Update();
 
         this.StateMachine.CurrentState.Update();
+
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            this.SkillManager.CrystalSkill.CanUseSkill();
+        }
     }
     
 
