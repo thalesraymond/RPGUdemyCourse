@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 public class PlayerCounterAttackState : PlayerState
 {
+    private bool _canCreateClone;
     public PlayerCounterAttackState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }
@@ -16,6 +15,8 @@ public class PlayerCounterAttackState : PlayerState
         this.StateTimer = Player.CounterAttackDuration;
 
         Player.Anim.SetBool("SuccessfulCounterAttack", false);
+
+        this._canCreateClone = true;
     }
 
     public override void Exit()
@@ -40,6 +41,12 @@ public class PlayerCounterAttackState : PlayerState
             {
                 this.StateTimer = 10; // any value bigger than one second
                 Player.Anim.SetBool("SuccessfulCounterAttack", true);
+
+                if (this._canCreateClone)
+                {
+                    this.Player.SkillManager.CloneSkill.CreateCloneOnCounterAttack(hit.transform);
+                    this._canCreateClone = false;
+                }
             }
         }
 

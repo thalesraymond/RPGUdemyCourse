@@ -43,6 +43,13 @@ public class Skill : MonoBehaviour
                             .OrderBy(hit => Vector2.Distance(checkTransform.position, hit.transform.position))
                             .FirstOrDefault();
 
+        if (closestEnemy == null)
+        {
+            Debug.Log("No enemy found");
+
+            return this.Player.transform;
+        }
+
         return closestEnemy.transform;
     }
 }
