@@ -15,11 +15,21 @@ public class CrystalSkill : Skill
     [SerializeField] private bool _canMoveToEnemy;
     [SerializeField] private float _moveSpeed;
 
+    [Header("Multi Stacking Crystal")]
+    [SerializeField] private bool _canUseMultiStack;
+    [SerializeField] private int _amountOfStacks;
+    [SerializeField] private float _multiStackCooldown;
+    [SerializeField] private float _useTimeWindow;
+    private List<GameObject> _crystalLeft = new List<GameObject>();
+
     public override void UseSkill()
     {
         base.UseSkill();
 
-        if(_currentCrystal == null)
+        if (this.CanUseMultiCryustal())
+            return;
+
+        if (_currentCrystal == null)
         {
             _currentCrystal = Instantiate(_crystalPrefab, Player.transform.position, Quaternion.identity);
 
@@ -44,5 +54,61 @@ public class CrystalSkill : Skill
 
             this._currentCrystal.GetComponent<CrystalSkillController>().FinishCrystal();
         }
+    }
+
+    private bool CanUseMultiCryustal()
+    {
+        if (this._canUseMultiStack)
+        {
+            if (_crystalLeft.Count <= 0)
+                RefilCrystal();
+
+            if (this._crystalLeft.Count > 0)
+            {
+                if(this._crystalLeft.Count == this._amountOfStacks)
+                    Invoke("ResetHability", this._useTimeWindow);
+
+                this.Cooldown = 0;
+
+                var crystalToSpawn = this._crystalLeft[this._crystalLeft.Count - 1];
+
+                var newCrystal = Instantiate(crystalToSpawn, Player.transform.position, Quaternion.identity);
+
+                _crystalLeft.Remove(crystalToSpawn);
+
+                newCrystal.GetComponent<CrystalSkillController>()
+                    .SetupCrystal(_crystalDuration, _canExplode, _canMoveToEnemy, _moveSpeed, this.FindClosestEnemy(newCrystal.transform));
+
+                if (this._crystalLeft.Count <= 0)
+                {
+                    this.Cooldown = this._multiStackCooldown;
+                    RefilCrystal();
+                }
+
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private void RefilCrystal()
+    {
+        this._crystalLeft.Clear();
+
+        for (int i = 0; i < _amountOfStacks; i++)
+        {
+            this._crystalLeft.Add(this._crystalPrefab);
+        }
+    }
+
+    private void ResetHability()
+    {
+        if (CooldownTimer > 0)
+            return;
+
+        this.CooldownTimer = _multiStackCooldown;
+
+        RefilCrystal();
     }
 }
