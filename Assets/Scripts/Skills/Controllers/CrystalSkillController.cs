@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CrystalSkillController : MonoBehaviour
@@ -39,16 +37,16 @@ public class CrystalSkillController : MonoBehaviour
             FinishCrystal();
         }
 
-        if(this._canGrow)
+        if (this._canGrow)
         {
             transform.localScale = Vector2.Lerp(transform.localScale, new Vector2(3, 3), this._growSpeed * Time.deltaTime);
-        }    
+        }
 
-        if(this._canMove)
+        if (this._canMove)
         {
             transform.position = Vector2.MoveTowards(transform.position, this._closestTarget.position, this._moveSpeed * Time.deltaTime);
 
-            if(Vector2.Distance(transform.position, this._closestTarget.position) < 1f)
+            if (Vector2.Distance(transform.position, this._closestTarget.position) < 1f)
             {
                 _canMove = false;
                 FinishCrystal();
@@ -63,7 +61,7 @@ public class CrystalSkillController : MonoBehaviour
 
         foreach (var hit in colliders)
         {
-            if(hit.GetComponent<Enemy>() is not null)
+            if (hit.GetComponent<Enemy>() is not null)
                 hit.GetComponent<Enemy>().Damage();
         }
     }

@@ -1,7 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class CloneSkill : Skill
@@ -21,7 +18,7 @@ public class CloneSkill : Skill
     {
         var newClone = Instantiate(ClonePrefab);
 
-        if(offset == null)
+        if (offset == null)
             newClone.GetComponent<CloneSkillController>().SetupClone(clonePosition, cloneDurantion, canAttack, this.FindClosestEnemy(newClone.transform));
         else
             newClone.GetComponent<CloneSkillController>().SetupClone(clonePosition, cloneDurantion, canAttack, this.FindClosestEnemy(newClone.transform), offset.Value);
@@ -29,20 +26,20 @@ public class CloneSkill : Skill
 
     public void CreateCloneOnDashStart()
     {
-        if(canCreateCloneOnDashStart)
+        if (canCreateCloneOnDashStart)
             CreateClone(this.Player.transform);
 
     }
 
     public void CreateCloneOnDashOver()
     {
-        if(canCreateCloneOnDashOver)
+        if (canCreateCloneOnDashOver)
             CreateClone(this.Player.transform);
     }
 
     public void CreateCloneOnCounterAttack(Transform enemyTransform)
     {
-        if(canCreateCloneOnCounterAttack)
+        if (canCreateCloneOnCounterAttack)
             StartCoroutine(CreateCloneWithDelay(enemyTransform, new Vector3(1.5f * this.Player.FacingDirection, 0)));
 
     }

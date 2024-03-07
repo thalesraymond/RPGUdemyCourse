@@ -37,7 +37,7 @@ public class PlayerCounterAttackState : PlayerState
         {
             var canBeStunned = hit.GetComponent<Enemy>().CheckCanBeStunned();
 
-            if(canBeStunned)
+            if (canBeStunned)
             {
                 this.StateTimer = 10; // any value bigger than one second
                 Player.Anim.SetBool("SuccessfulCounterAttack", true);
@@ -50,7 +50,7 @@ public class PlayerCounterAttackState : PlayerState
             }
         }
 
-        if(this.StateTimer < 0 || this.TriggerCalled)
+        if (this.StateTimer < 0 || this.TriggerCalled)
         {
             this.StateMachine.ChangeState(this.Player.IdleState);
         }

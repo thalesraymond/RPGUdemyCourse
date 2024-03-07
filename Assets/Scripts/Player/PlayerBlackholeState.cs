@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerBlackholeState : PlayerState
@@ -51,7 +49,7 @@ public class PlayerBlackholeState : PlayerState
         {
             this.Rb.velocity = new Vector2(0, -.1f);
 
-            if(!_skillUsed)
+            if (!_skillUsed)
             {
                 if (this.Player.SkillManager.BlackholeSkill.CanUseSkill())
                     _skillUsed = true;

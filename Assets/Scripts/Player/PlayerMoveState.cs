@@ -1,11 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class PlayerMoveState : PlayerGroundedState
 {
     public PlayerMoveState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
-    { 
+    {
     }
 
     public override void Enter()
@@ -22,7 +18,7 @@ public class PlayerMoveState : PlayerGroundedState
     {
         base.Update();
 
-        if(this.Player.IsWallDetected())
+        if (this.Player.IsWallDetected())
             this.StateMachine.ChangeState(this.Player.IdleState);
 
         this.Player.SetVelocity(xInput * this.Player.MoveSpeed, this.Rb.velocity.y);

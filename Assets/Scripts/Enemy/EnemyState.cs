@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyState
@@ -34,7 +32,7 @@ public class EnemyState
 
     public virtual void Update()
     {
-        this.StateTimer -= Time.deltaTime; 
+        this.StateTimer -= Time.deltaTime;
 
     }
 

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SkeletonGroundedState : EnemyState
@@ -28,7 +26,7 @@ public class SkeletonGroundedState : EnemyState
     {
         base.Update();
 
-        if(this.Enemy.IsPlayerDetected() || Vector2.Distance(this.Enemy.transform.position, this.Player.position) < 2)
+        if (this.Enemy.IsPlayerDetected() || Vector2.Distance(this.Enemy.transform.position, this.Player.position) < 2)
             this.StateMachine.ChangeState(this.Enemy.BattleState);
     }
 }

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : Entity
@@ -43,7 +42,7 @@ public class Enemy : Entity
 
     public virtual void FreezeTime(bool timeFrozen)
     {
-        if(timeFrozen)
+        if (timeFrozen)
         {
             MoveSpeed = 0;
             Anim.speed = 0;

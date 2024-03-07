@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EntityFX : MonoBehaviour
@@ -28,7 +27,7 @@ public class EntityFX : MonoBehaviour
 
     private void RedColorBlink()
     {
-        if(spriteRenderer.color != Color.white)
+        if (spriteRenderer.color != Color.white)
             spriteRenderer.color = Color.white;
         else
             spriteRenderer.color = Color.red;

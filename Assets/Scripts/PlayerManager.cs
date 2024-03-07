@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -9,9 +7,9 @@ public class PlayerManager : MonoBehaviour
 
     private void Awake()
     {
-        if(Instance != null)
+        if (Instance != null)
         {
-            Destroy(Instance.gameObject );
+            Destroy(Instance.gameObject);
             return;
         }
 

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SkeletonBattleState : SkeletonGroundedState
@@ -34,7 +32,7 @@ public class SkeletonBattleState : SkeletonGroundedState
             if (this.CanAttack())
                 this.StateMachine.ChangeState(this.Enemy.AttackState);
         }
-        else if(this.StateTimer < 0 || Vector2.Distance(this._player.transform.position, this.Enemy.transform.position) > 7)
+        else if (this.StateTimer < 0 || Vector2.Distance(this._player.transform.position, this.Enemy.transform.position) > 7)
         {
             this.StateMachine.ChangeState(this.Enemy.IdleState);
         }

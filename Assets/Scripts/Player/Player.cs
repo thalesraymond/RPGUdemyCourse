@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : Entity
@@ -100,12 +99,12 @@ public class Player : Entity
 
         this.StateMachine.CurrentState.Update();
 
-        if(Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             this.SkillManager.CrystalSkill.CanUseSkill();
         }
     }
-    
+
 
     public void AnimationTrigger() => this.StateMachine.CurrentState.AnimationFinishTrigger();
 
@@ -128,5 +127,5 @@ public class Player : Entity
         this.StateMachine.ChangeState(PlayerCatchSwordState);
 
         Destroy(this.Sword);
-    }  
+    }
 }

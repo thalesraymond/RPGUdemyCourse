@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerPrimaryAttackState : PlayerState
@@ -52,10 +50,10 @@ public class PlayerPrimaryAttackState : PlayerState
     {
         base.Update();
 
-        if(this.StateTimer < 0)
+        if (this.StateTimer < 0)
             this.Player.SetVelocityToZero();
 
-        if (this.TriggerCalled)            
-            this.StateMachine.ChangeState(this.Player.IdleState);        
+        if (this.TriggerCalled)
+            this.StateMachine.ChangeState(this.Player.IdleState);
     }
 }

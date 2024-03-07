@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SkeletonStunnedState : EnemyState
@@ -32,7 +30,7 @@ public class SkeletonStunnedState : EnemyState
     {
         base.Update();
 
-        if(this.StateTimer < 0)
+        if (this.StateTimer < 0)
             this.StateMachine.ChangeState(this.enemy.IdleState);
     }
 }

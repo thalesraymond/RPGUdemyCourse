@@ -88,7 +88,7 @@ public class BlackHoleSkillController : MonoBehaviour
         _canCreateHotkey = false;
 
 
-        if(this._playerCanDissapear)
+        if (this._playerCanDissapear)
         {
             PlayerManager.Instance.Player.ToogleTransparent(true);
             this._playerCanDissapear = false;

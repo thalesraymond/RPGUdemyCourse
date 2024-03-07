@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAimSwordState : PlayerState
@@ -33,8 +31,8 @@ public class PlayerAimSwordState : PlayerState
 
         var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        if(Player.transform.position.x > mousePosition.x && Player.FacingDirection == 1)
-            Player.Flip();  
+        if (Player.transform.position.x > mousePosition.x && Player.FacingDirection == 1)
+            Player.Flip();
         else if (Player.transform.position.x < mousePosition.x && Player.FacingDirection == -1)
             Player.Flip();
     }

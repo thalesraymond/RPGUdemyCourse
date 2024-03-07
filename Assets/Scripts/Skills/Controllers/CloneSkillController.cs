@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -60,10 +58,10 @@ public class CloneSkillController : MonoBehaviour
         {
             this.spriteRenderer.color = new Color(1, 1, 1, spriteRenderer.color.a - (Time.deltaTime * colorLosingSpeed));
 
-            if(spriteRenderer.color.a <= 0)
+            if (spriteRenderer.color.a <= 0)
             {
                 Destroy(gameObject);
-            }            
+            }
         }
     }
 
@@ -84,7 +82,7 @@ public class CloneSkillController : MonoBehaviour
     private void FaceClosestTarget()
     {
         if (this.closestEnemyTransform != null)
-        { 
+        {
             if (transform.position.x > closestEnemyTransform.position.x)
             {
                 transform.Rotate(0, 180, 0);

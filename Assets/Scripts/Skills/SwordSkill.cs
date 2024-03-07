@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class SwordSkill : Skill
@@ -88,11 +87,11 @@ public class SwordSkill : Skill
 
         var swordSkillController = newSword.GetComponent<SwordSkillController>();
 
-        if(this.SwordType == SwordType.Bounce)
+        if (this.SwordType == SwordType.Bounce)
             swordSkillController.SetupBounce(true, this.bounceAmount, this.bounceSpeed);
-        else if(this.SwordType == SwordType.Pierce)
-            swordSkillController.SetupPierce(this.pierceAmount);      
-        else if(this.SwordType == SwordType.Spin)
+        else if (this.SwordType == SwordType.Pierce)
+            swordSkillController.SetupPierce(this.pierceAmount);
+        else if (this.SwordType == SwordType.Spin)
             swordSkillController.SetupSpin(true, this.maxTravelDistance, this.spinDuration, this.hitCooldown);
 
         this.SetupGravity();

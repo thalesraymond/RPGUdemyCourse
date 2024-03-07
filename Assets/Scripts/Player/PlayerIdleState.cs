@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class PlayerIdleState : PlayerGroundedState
 {
     public PlayerIdleState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
@@ -24,7 +20,7 @@ public class PlayerIdleState : PlayerGroundedState
     {
         base.Update();
 
-        if(this.Player.IsBusy)
+        if (this.Player.IsBusy)
             return;
 
         if (this.xInput == this.Player.FacingDirection && this.Player.IsWallDetected())

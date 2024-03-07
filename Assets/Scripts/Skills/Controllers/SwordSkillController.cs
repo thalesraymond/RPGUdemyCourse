@@ -1,11 +1,10 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 public class SwordSkillController : MonoBehaviour
 {
-    private Animator animator; 
+    private Animator animator;
     private Rigidbody2D rb;
     private CircleCollider2D cd;
 
@@ -194,7 +193,7 @@ public class SwordSkillController : MonoBehaviour
         if (isReturning)
             return;
 
-        if(collision.GetComponent<Enemy>() != null)
+        if (collision.GetComponent<Enemy>() != null)
         {
             var enemy = collision.GetComponent<Enemy>();
             this.DamageAndFreeze(enemy);
@@ -220,7 +219,7 @@ public class SwordSkillController : MonoBehaviour
             return;
         }
 
-            if (pierceAmount > 0 && collision.GetComponent<Enemy>() != null)
+        if (pierceAmount > 0 && collision.GetComponent<Enemy>() != null)
         {
             pierceAmount--;
             return;

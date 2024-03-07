@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class SkeletonIdleState : SkeletonGroundedState
 {
     public SkeletonIdleState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName, EnemySkeleton enemy) : base(enemyBase, stateMachine, animBoolName, enemy)
@@ -24,7 +20,7 @@ public class SkeletonIdleState : SkeletonGroundedState
     {
         base.Update();
 
-        if(this.StateTimer < 0)
+        if (this.StateTimer < 0)
             this.StateMachine.ChangeState(this.Enemy.MoveState);
     }
 

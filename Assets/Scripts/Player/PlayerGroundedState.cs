@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerGroundedState : PlayerState
@@ -22,20 +20,20 @@ public class PlayerGroundedState : PlayerState
     {
         base.Update();
 
-        if(Input.GetKeyDown(KeyCode.Mouse1) && this.HasNoSword())
+        if (Input.GetKeyDown(KeyCode.Mouse1) && this.HasNoSword())
             this.StateMachine.ChangeState(this.Player.PlayerAimSwordState);
 
         if (Input.GetKeyDown(KeyCode.Q))
             this.StateMachine.ChangeState(this.Player.CounterAttackState);
 
-        if(Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
             this.StateMachine.ChangeState(this.Player.PrimaryAttackState);
 
         if (!this.Player.IsGroundDetected())
         {
             this.StateMachine.ChangeState(this.Player.AirState);
             return;
-        }        
+        }
 
         if (Input.GetKeyDown(KeyCode.Space) && this.Player.IsGroundDetected())
             this.StateMachine.ChangeState(this.Player.JumpState);
@@ -47,11 +45,11 @@ public class PlayerGroundedState : PlayerState
 
     private bool HasNoSword()
     {
-        if(!this.Player.Sword)
+        if (!this.Player.Sword)
             return true;
 
         this.Player.Sword.GetComponent<SwordSkillController>().ReturnSword();
 
-        return false;            
+        return false;
     }
 }

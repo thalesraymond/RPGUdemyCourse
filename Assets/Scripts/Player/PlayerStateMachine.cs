@@ -1,16 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class PlayerStateMachine
 {
-    public PlayerState CurrentState {  get; private set; }
+    public PlayerState CurrentState { get; private set; }
 
     public void Initialize(PlayerState startState)
     {
         this.CurrentState = startState;
 
-        this.CurrentState.Enter(); 
+        this.CurrentState.Enter();
     }
 
     public void ChangeState(PlayerState newState)
