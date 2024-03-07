@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 public class CrystalSkillController : MonoBehaviour
@@ -17,6 +18,8 @@ public class CrystalSkillController : MonoBehaviour
     [SerializeField] private float _growSpeed = 5f;
 
     private Transform _closestTarget;
+
+    [SerializeField] private LayerMask _whatIsEnemy;
 
     public void SetupCrystal(float crystalDuration, bool canExplode, bool canMove, float moveSpeed, Transform closesTarget)
     {
@@ -55,14 +58,27 @@ public class CrystalSkillController : MonoBehaviour
 
     }
 
+    public void ChooseRandomEnemy()
+    {
+        var radius = SkillManager.Instance.BlackholeSkill.GetBlackholeRadius();
+
+        var colliders = Physics2D.OverlapCircleAll(transform.position, radius, this._whatIsEnemy);
+
+        if(!colliders.Any())
+            return;
+
+        _closestTarget = colliders[Random.Range(0, colliders.Length)].transform;
+    }
+
     private void AnimationExplodeEvent()
     {
-        var colliders = Physics2D.OverlapCircleAll(transform.position, this._circleCollider2D.radius);
+        var enemyColliders = Physics2D
+            .OverlapCircleAll(transform.position, this._circleCollider2D.radius)
+            .Where(hit => hit.GetComponent<Enemy>() is not null);
 
-        foreach (var hit in colliders)
+        foreach (var hit in enemyColliders)
         {
-            if (hit.GetComponent<Enemy>() is not null)
-                hit.GetComponent<Enemy>().Damage();
+            hit.GetComponent<Enemy>().Damage();
         }
     }
 

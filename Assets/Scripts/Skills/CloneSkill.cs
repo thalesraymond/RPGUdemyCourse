@@ -16,8 +16,18 @@ public class CloneSkill : Skill
     [SerializeField] private bool canDuplicateClone;
     [SerializeField] private float cloneDuplicationPercentageChance;
 
+    [Header("Crystal instead of clone")]
+    public bool canCreateCrystalInsteadOfClone;
+
     public void CreateClone(Transform clonePosition, Vector3? offset = null)
     {
+        if (canCreateCrystalInsteadOfClone)
+        {
+            SkillManager.Instance.CrystalSkill.CreateCrystal();
+
+            return;
+        }
+
         var newClone = Instantiate(ClonePrefab, this.Player.transform.position, Quaternion.identity);
 
         if (offset == null)

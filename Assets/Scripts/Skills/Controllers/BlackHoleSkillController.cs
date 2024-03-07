@@ -25,6 +25,8 @@ public class BlackHoleSkillController : MonoBehaviour
 
     private bool _canCreateHotkey = true;
 
+    private bool _isCrystalInsteadOfClone => SkillManager.Instance.CloneSkill.canCreateCrystalInsteadOfClone;
+
     public bool PlayerCanExitState { get; private set; }
 
     public void SetupBlackHole(float maxSize, float growSpeed, float shrinkSpeed, int amountOfAttacks, float cloneAttackCooldown, float blackHoleDuration)
@@ -35,6 +37,8 @@ public class BlackHoleSkillController : MonoBehaviour
         _amountOfAttacks = amountOfAttacks;
         _cloneAttackCooldown = cloneAttackCooldown;
         _blackHoleTimer = blackHoleDuration;
+
+        this._playerCanDissapear = !this._isCrystalInsteadOfClone && true;
     }
 
     private void Update()
@@ -115,7 +119,15 @@ public class BlackHoleSkillController : MonoBehaviour
                 xOffset = -1;
             }
 
-            SkillManager.Instance.CloneSkill.CreateClone(_targets[randomIndex], new Vector3(xOffset, 0));
+            if(_isCrystalInsteadOfClone)
+            {
+                SkillManager.Instance.CrystalSkill.CreateCrystal();
+                SkillManager.Instance.CrystalSkill.CurrentCrystalChooseRandomTarget();
+            }
+            else
+            {
+                SkillManager.Instance.CloneSkill.CreateClone(_targets[randomIndex], new Vector3(xOffset, 0));
+            }            
 
             _amountOfAttacks--;
 
