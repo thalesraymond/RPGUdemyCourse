@@ -15,7 +15,13 @@ public class CloneSkillController : MonoBehaviour
 
     private Transform closestEnemyTransform;
 
-    private void SetupClone(float cloneDurantion, bool canAttack, Transform closestEnemy)
+    private bool canDuplicateClone;
+
+    private float cloneDuplicationPercentageChance;
+
+    private int facingDirection = 1;
+
+    private void SetupClone(float cloneDurantion, bool canAttack, Transform closestEnemy, bool canDuplicateClone, float cloneDuplicationPercentageChance)
     {
         cloneTimer = cloneDurantion;
 
@@ -26,21 +32,25 @@ public class CloneSkillController : MonoBehaviour
 
         this.closestEnemyTransform = closestEnemy;
 
+        this.canDuplicateClone = canDuplicateClone;
+
+        this.cloneDuplicationPercentageChance = cloneDuplicationPercentageChance;
+
         this.FaceClosestTarget();
     }
 
-    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Transform closestEnemy)
+    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Transform closestEnemy, bool canDuplicateClone, float cloneDuplicationPercentageChance)
     {
         transform.position = newTransform.position + new Vector3(0, -0.45f, 0);
 
-        SetupClone(cloneDurantion, canAttack, closestEnemy);
+        SetupClone(cloneDurantion, canAttack, closestEnemy, canDuplicateClone, cloneDuplicationPercentageChance);
     }
 
-    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Transform closestEnemy, Vector3 offSet)
+    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Transform closestEnemy, bool canDuplicateClone, float cloneDuplicationPercentageChance, Vector3 offSet)
     {
         transform.position = newTransform.position + offSet;
 
-        SetupClone(cloneDurantion, canAttack, closestEnemy);
+        SetupClone(cloneDurantion, canAttack, closestEnemy, canDuplicateClone, cloneDuplicationPercentageChance);
     }
 
     private void Awake()
@@ -76,7 +86,18 @@ public class CloneSkillController : MonoBehaviour
             .Where(hit => hit.GetComponent<Enemy>() is not null);
 
         foreach (var hit in colliders)
+        {
             hit.GetComponent<Enemy>().Damage();
+
+            if (this.canDuplicateClone)
+            {
+                if(Random.Range(0, 100) < this.cloneDuplicationPercentageChance)
+                {
+                    SkillManager.Instance.CloneSkill.CreateClone(hit.transform, new Vector3(1f * this.facingDirection, 0));
+                }
+            }
+        }
+            
     }
 
     private void FaceClosestTarget()
@@ -85,7 +106,8 @@ public class CloneSkillController : MonoBehaviour
         {
             if (transform.position.x > closestEnemyTransform.position.x)
             {
-                transform.Rotate(0, 180, 0);
+                this.facingDirection = -1;
+                this.transform.Rotate(0, 180, 0);
             }
         }
     }
