@@ -16,7 +16,10 @@ public class PlayerAnimationTriggers : MonoBehaviour
             .Where(hit => hit.GetComponent<Enemy>() is not null);
 
         foreach (var hit in colliders)
+        {
             hit.GetComponent<Enemy>().Damage();
+            hit.GetComponent<CharacterStats>().TakeDamage(this.player.Stats.Damage);
+        }
     }
 
     private void ThrowSword()

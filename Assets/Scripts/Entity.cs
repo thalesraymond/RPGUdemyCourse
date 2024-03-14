@@ -19,6 +19,8 @@ public class Entity : MonoBehaviour
 
     public SpriteRenderer SpriteRenderer { get; private set; }
 
+    public CharacterStats Stats { get; private set; }
+
     public int FacingDirection { get; private set; } = 1;
     protected bool facingRight = true;
 
@@ -45,6 +47,8 @@ public class Entity : MonoBehaviour
         this.FX = GetComponent<EntityFX>();
 
         this.SpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
+        this.Stats = GetComponent<CharacterStats>();
 
     }
 
