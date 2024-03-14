@@ -5,14 +5,19 @@ using UnityEngine;
 
 public class CharacterStats : MonoBehaviour
 {
-    public int Damage;
-    public int MaxHealthPoints;
+    public Stat Damage;
+    public Stat MaxHealthPoints;
+
     public int CurrentHealthPoints;
 
     // Start is called before the first frame update
     void Start()
     {
-        CurrentHealthPoints = MaxHealthPoints;
+        CurrentHealthPoints = MaxHealthPoints.GetValue();
+
+        //example equip sword
+
+        this.Damage.AddModifier(4);
     }
 
     public void TakeDamage(int demage)
