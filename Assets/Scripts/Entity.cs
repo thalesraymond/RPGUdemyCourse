@@ -17,8 +17,6 @@ public class Entity : MonoBehaviour
     [SerializeField] protected float wallCheckDistance;
     [SerializeField] protected LayerMask whatIsGround;
 
-    public SpriteRenderer SpriteRenderer { get; private set; }
-
     public CharacterStats Stats { get; private set; }
 
     public int FacingDirection { get; private set; } = 1;
@@ -30,6 +28,10 @@ public class Entity : MonoBehaviour
     public Rigidbody2D Rb { get; private set; }
 
     public EntityFX FX { get; private set; }
+
+    public CapsuleCollider2D CapsuleCollider { get; private set; }
+
+    public SpriteRenderer SpriteRenderer { get; private set; }
 
     #endregion
 
@@ -49,6 +51,8 @@ public class Entity : MonoBehaviour
         this.SpriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
         this.Stats = GetComponent<CharacterStats>();
+
+        this.CapsuleCollider = GetComponent<CapsuleCollider2D>();
 
     }
 
@@ -137,4 +141,8 @@ public class Entity : MonoBehaviour
     #endregion
 
     public void ToogleTransparent(bool transparent) => this.SpriteRenderer.color = transparent ? Color.clear : Color.white;
+
+    public virtual void Die()
+    { 
+    }
 }

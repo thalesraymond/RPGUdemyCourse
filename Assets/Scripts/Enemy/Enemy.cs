@@ -24,6 +24,8 @@ public class Enemy : Entity
 
     public EnemyStateMachine StateMachine { get; private set; }
 
+    public string LastAnimationName { get; private set; }
+
     protected override void Awake()
     {
         base.Awake();
@@ -96,4 +98,6 @@ public class Enemy : Entity
 
         return true;
     }
+
+    public virtual void AssignLastAnimationName(string name) => this.LastAnimationName = name;
 }

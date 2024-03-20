@@ -17,7 +17,15 @@ public class PlayerStats : CharacterStats
     {
         base.TakeDamage(damage);
 
+     
         this._player.DamageEffect();
+    }
+
+    protected override void Die()
+    {
+        base.Die();
+
+        this._player.Die();
     }
 
     // Update is called once per frame
