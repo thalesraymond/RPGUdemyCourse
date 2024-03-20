@@ -16968,11 +16968,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1820392514}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbd94d38f70d159438f3d97a11d90bc2, type: 3}
+  m_Script: {fileID: 11500000, guid: 6646483b25bb85f4280824ad13d9cde8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Strength:
+    _baseValue: 0
+    Modifiers: 
   Damage:
-    _baseValue: 7
+    _baseValue: 5
     Modifiers: 
   MaxHealthPoints:
     _baseValue: 100
@@ -17148,14 +17151,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1892579678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbd94d38f70d159438f3d97a11d90bc2, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d822b846a58e6645b801d383c810cce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Strength:
+    _baseValue: 0
+    Modifiers: 
   Damage:
     _baseValue: 10
     Modifiers: 
   MaxHealthPoints:
-    _baseValue: 100
+    _baseValue: 500
     Modifiers: 
   CurrentHealthPoints: 0
 --- !u!1 &1894388397

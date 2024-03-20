@@ -206,7 +206,7 @@ public class SwordSkillController : MonoBehaviour
 
     private void DamageAndFreeze(Enemy enemy)
     {
-        enemy.Damage();
+        enemy.DamageEffect();
 
         enemy.StartCoroutine("FreezeTimeFor", this.freezeTimeDuration);
     }
@@ -248,7 +248,7 @@ public class SwordSkillController : MonoBehaviour
         if (enemy is null)
             return;
 
-        enemy.Damage();
+        enemy.DamageEffect();
 
         if (!isBouncing || enemyTargets.Count > 0)
             return;

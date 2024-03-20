@@ -78,7 +78,7 @@ public class CrystalSkillController : MonoBehaviour
 
         foreach (var hit in enemyColliders)
         {
-            hit.GetComponent<Enemy>().Damage();
+            hit.GetComponent<Enemy>().DamageEffect();
         }
     }
 

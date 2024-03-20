@@ -16,7 +16,10 @@ public class EnemySkeletonAnimationTriggers : MonoBehaviour
             .Where(hit => hit.GetComponent<Player>() is not null);
 
         foreach (var hit in colliders)
-            hit.GetComponent<Player>().Damage();
+        {
+            this.enemy.Stats.DoDamage(hit.GetComponent<PlayerStats>());
+        }
+            
     }
 
     private void OpenCounterWindow() => enemy.OpenCounterAttackWindow();
