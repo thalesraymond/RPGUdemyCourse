@@ -16819,9 +16819,9 @@ GameObject:
   - component: {fileID: 1820392516}
   - component: {fileID: 1820392515}
   - component: {fileID: 1820392518}
-  - component: {fileID: 1820392517}
   - component: {fileID: 1820392519}
   - component: {fileID: 1820392520}
+  - component: {fileID: 1820392517}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -16974,11 +16974,26 @@ MonoBehaviour:
   Strength:
     _baseValue: 0
     Modifiers: 
-  Damage:
-    _baseValue: 100
+  Agility:
+    _baseValue: 0
+    Modifiers: 
+  Intelligence:
+    _baseValue: 0
+    Modifiers: 
+  Vitality:
+    _baseValue: 0
     Modifiers: 
   MaxHealthPoints:
+    _baseValue: 100
+    Modifiers: 
+  Armor:
     _baseValue: 5
+    Modifiers: 
+  Evasion:
+    _baseValue: 10
+    Modifiers: 
+  Damage:
+    _baseValue: 100
     Modifiers: 
   CurrentHealthPoints: 0
 --- !u!1 &1892579678
@@ -17112,11 +17127,26 @@ MonoBehaviour:
   Strength:
     _baseValue: 0
     Modifiers: 
-  Damage:
-    _baseValue: 10
+  Agility:
+    _baseValue: 0
+    Modifiers: 
+  Intelligence:
+    _baseValue: 0
+    Modifiers: 
+  Vitality:
+    _baseValue: 0
     Modifiers: 
   MaxHealthPoints:
     _baseValue: 100
+    Modifiers: 
+  Armor:
+    _baseValue: 0
+    Modifiers: 
+  Evasion:
+    _baseValue: 0
+    Modifiers: 
+  Damage:
+    _baseValue: 10
     Modifiers: 
   CurrentHealthPoints: 0
 --- !u!70 &1892579685
