@@ -16987,14 +16987,35 @@ MonoBehaviour:
     _baseValue: 100
     Modifiers: 
   Armor:
-    _baseValue: 5
+    _baseValue: 0
     Modifiers: 
   Evasion:
-    _baseValue: 10
+    _baseValue: 0
+    Modifiers: 
+  MagicResistance:
+    _baseValue: 0
     Modifiers: 
   Damage:
-    _baseValue: 100
+    _baseValue: 10
     Modifiers: 
+  CriticalHitChance:
+    _baseValue: 0
+    Modifiers: 
+  CriticalHitPower:
+    _baseValue: 0
+    Modifiers: 
+  FireDamage:
+    _baseValue: 0
+    Modifiers: 
+  IceDamage:
+    _baseValue: 0
+    Modifiers: 
+  LightningDamage:
+    _baseValue: 0
+    Modifiers: 
+  IsIgnited: 0
+  IsChilled: 0
+  IsShocked: 0
   CurrentHealthPoints: 0
 --- !u!1 &1892579678
 GameObject:
@@ -17145,9 +17166,30 @@ MonoBehaviour:
   Evasion:
     _baseValue: 0
     Modifiers: 
+  MagicResistance:
+    _baseValue: 0
+    Modifiers: 
   Damage:
     _baseValue: 10
     Modifiers: 
+  CriticalHitChance:
+    _baseValue: 0
+    Modifiers: 
+  CriticalHitPower:
+    _baseValue: 0
+    Modifiers: 
+  FireDamage:
+    _baseValue: 5
+    Modifiers: 
+  IceDamage:
+    _baseValue: 5
+    Modifiers: 
+  LightningDamage:
+    _baseValue: 1
+    Modifiers: 
+  IsIgnited: 0
+  IsChilled: 0
+  IsShocked: 0
   CurrentHealthPoints: 0
 --- !u!70 &1892579685
 CapsuleCollider2D:
