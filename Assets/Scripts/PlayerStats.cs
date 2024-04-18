@@ -27,10 +27,4 @@ public class PlayerStats : CharacterStats
 
         this._player.Die();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

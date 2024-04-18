@@ -20,12 +20,6 @@ public class EnemyStats : CharacterStats
         _enemy.DamageEffect();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     protected override void Die()
     {
         base.Die();

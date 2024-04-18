@@ -27,10 +27,18 @@ public class CharacterStats : MonoBehaviour
     public Stat IceDamage;
     public Stat LightningDamage;
 
-    [SerializeField] public bool IsIgnited;
-    [SerializeField] public bool IsChilled;
-    [SerializeField] public bool IsShocked;
+    public bool IsIgnited; // does damage over time
+    public bool IsChilled; // reduce armor by 20%
+    public bool IsShocked; // reduce accuracy by 20%
 
+    private float _ignitedTimer;
+    private float _igniteDamageCooldown = .3f;
+    private float _igniteDamageTimer;
+
+    private float _shockedTimer;
+    private float _chilledTimer;
+
+    private int _igniteDamage;
 
     public int CurrentHealthPoints;
 
@@ -38,6 +46,35 @@ public class CharacterStats : MonoBehaviour
     protected virtual void Start()
     {
         CurrentHealthPoints = MaxHealthPoints.GetValue();
+    }
+
+    protected virtual void Update()
+    {
+        this._igniteDamageTimer -= Time.deltaTime;
+
+        this._ignitedTimer -= Time.deltaTime;
+
+        this._shockedTimer -= Time.deltaTime;
+
+        this._chilledTimer -= Time.deltaTime;
+
+        if(_ignitedTimer < 0)
+            this.IsIgnited = false;
+
+        if (_chilledTimer < 0)
+            this.IsChilled = false;
+
+        if (_shockedTimer < 0)
+            this.IsShocked = false;
+
+        if (this._igniteDamageTimer < 0 && this.IsIgnited)
+        {
+            Debug.Log("Take burn damage." + this._igniteDamage);
+
+            this.BaseTakeDamage(this._igniteDamage);
+
+            _igniteDamageTimer = _igniteDamageCooldown;
+        }
     }
 
     public virtual void DoDamage(CharacterStats targetStats)
@@ -56,7 +93,14 @@ public class CharacterStats : MonoBehaviour
 
     private int CheckTargetArmor(CharacterStats targetStats, int totalDamage)
     {
-        totalDamage -= targetStats.Armor.GetValue();
+        if (this.IsChilled)
+        {
+            totalDamage -= Mathf.RoundToInt(targetStats.Armor.GetValue() * .8f);
+        }
+        else
+        {
+            totalDamage -= targetStats.Armor.GetValue();
+        }        
 
         totalDamage = Mathf.Clamp(0, totalDamage, int.MaxValue);
 
@@ -67,6 +111,11 @@ public class CharacterStats : MonoBehaviour
     {
         var totalEvasion = targetStats.Evasion.GetValue();
 
+        if (this.IsShocked)
+        {
+            totalEvasion += 20;
+        }
+
         return Random.Range(0, 100) < totalEvasion;
     }
 
@@ -74,7 +123,13 @@ public class CharacterStats : MonoBehaviour
     {
         CurrentHealthPoints -= damage;
 
-        Debug.Log(damage);
+        if (CurrentHealthPoints <= 0)
+            Die();
+    }
+
+    public void BaseTakeDamage(int damage)
+    {
+        CurrentHealthPoints -= damage;
 
         if (CurrentHealthPoints <= 0)
             Die();
@@ -104,7 +159,7 @@ public class CharacterStats : MonoBehaviour
         var canApplyChill = iceDamage > 0;
         var canApplyShock = lightningDamage > 0;
 
-        this.ApplyAilment(canApplyIgnite, canApplyChill, canApplyShock);
+        targetStats.ApplyAilment(canApplyIgnite, fireDamage, canApplyChill, canApplyShock);
     }
 
     private int CheckTargetMagicResistance(CharacterStats targetStats, int totalMagicalDamage)
@@ -116,7 +171,7 @@ public class CharacterStats : MonoBehaviour
         return totalMagicalDamage;
     }
 
-    public virtual void ApplyAilment(bool ignited, bool chilled, bool shocked)
+    public virtual void ApplyAilment(bool ignited, int fireDamage, bool chilled, bool shocked)
     {
         // Check if any of the flags is already set
         if (this.IsIgnited || this.IsChilled || this.IsShocked)
@@ -158,7 +213,18 @@ public class CharacterStats : MonoBehaviour
             this.IsShocked = shocked;
         }
 
+        this._ignitedTimer = this.IsIgnited ? 2 : 0;
+
+        this._chilledTimer = this.IsChilled ? 2 : 0;
+
+        this._shockedTimer = this.IsShocked ? 2 : 0;
+
+        if (this.IsIgnited)
+            this.SetupIgniteDamage(Mathf.RoundToInt(fireDamage * .2f));
+
         // Log the resulting values
         Debug.Log("is ignited: " + this.IsIgnited + " is chilled: " + this.IsChilled + " is shocked: " + this.IsShocked);
     }
+
+    public void SetupIgniteDamage(int damage) => this._igniteDamage = damage;
 }
