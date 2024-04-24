@@ -42,10 +42,12 @@ public class CharacterStats : MonoBehaviour
 
     public int CurrentHealthPoints;
 
+    public System.Action OnHealthChanged;
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
-        CurrentHealthPoints = MaxHealthPoints.GetValue();
+        CurrentHealthPoints = this.GetMaxHealthValue();
     }
 
     protected virtual void Update()
@@ -71,7 +73,7 @@ public class CharacterStats : MonoBehaviour
         {
             Debug.Log("Take burn damage." + this._igniteDamage);
 
-            this.BaseTakeDamage(this._igniteDamage);
+            this.DecreaseHealthBy(this._igniteDamage);
 
             _igniteDamageTimer = _igniteDamageCooldown;
         }
@@ -86,9 +88,9 @@ public class CharacterStats : MonoBehaviour
 
         totalDamage = this.CheckTargetArmor(targetStats, totalDamage);
 
-        //targetStats.TakeDamage(totalDamage);
+        targetStats.TakeDamage(totalDamage);
 
-        this.DoMagicalDamage(targetStats);
+        //this.DoMagicalDamage(targetStats);
     }
 
     private int CheckTargetArmor(CharacterStats targetStats, int totalDamage)
@@ -121,15 +123,16 @@ public class CharacterStats : MonoBehaviour
 
     public virtual void TakeDamage(int damage)
     {
-        CurrentHealthPoints -= damage;
+        this.DecreaseHealthBy(damage);
 
-        if (CurrentHealthPoints <= 0)
-            Die();
     }
 
-    public void BaseTakeDamage(int damage)
+    protected virtual void DecreaseHealthBy(int damage)
     {
         CurrentHealthPoints -= damage;
+
+        if(this.OnHealthChanged != null)
+            this.OnHealthChanged();
 
         if (CurrentHealthPoints <= 0)
             Die();
@@ -227,4 +230,6 @@ public class CharacterStats : MonoBehaviour
     }
 
     public void SetupIgniteDamage(int damage) => this._igniteDamage = damage;
+
+    public int GetMaxHealthValue() => MaxHealthPoints.GetValue() + Vitality.GetValue() * 5;
 }

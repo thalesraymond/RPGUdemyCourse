@@ -27,7 +27,7 @@ public class EnemySkeleton : Enemy
 
         StunnedState = new SkeletonStunnedState(this, this.StateMachine, "Stunned", this);
 
-        DeathState = new SkeletonDeathState(this, this.StateMachine, "Death", this);
+        DeathState = new SkeletonDeathState(this, this.StateMachine, "Stunned", this);
     }
 
     protected override void Start()
