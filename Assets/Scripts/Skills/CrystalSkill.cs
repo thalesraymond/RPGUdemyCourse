@@ -85,7 +85,7 @@ public class CrystalSkill : Skill
             if (this._crystalLeft.Count > 0)
             {
                 if (this._crystalLeft.Count == this._amountOfStacks)
-                    Invoke("ResetHability", this._useTimeWindow);
+                    Invoke(nameof(ResetHability), this._useTimeWindow);
 
                 this.Cooldown = 0;
 

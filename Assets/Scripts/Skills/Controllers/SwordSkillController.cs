@@ -58,7 +58,7 @@ public class SwordSkillController : MonoBehaviour
         if (pierceAmount <= 0)
             animator.SetBool("Rotation", true);
 
-        Invoke("DestroySword", 7);
+        Invoke(nameof(DestroySword), 7);
     }
 
     private void DestroySword()

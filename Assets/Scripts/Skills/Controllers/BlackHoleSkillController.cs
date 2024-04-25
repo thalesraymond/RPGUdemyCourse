@@ -133,7 +133,7 @@ public class BlackHoleSkillController : MonoBehaviour
 
             if (_amountOfAttacks <= 0)
             {
-                Invoke("FinishBlackholeHability", 1f);
+                Invoke(nameof(FinishBlackholeHability), 1f);
             }
         }
     }

@@ -31,6 +31,8 @@ public class CharacterStats : MonoBehaviour
     public bool IsChilled; // reduce armor by 20%
     public bool IsShocked; // reduce accuracy by 20%
 
+    [SerializeField] private float _ailmentDurantion = 4f;
+
     private float _ignitedTimer;
     private float _igniteDamageCooldown = .3f;
     private float _igniteDamageTimer;
@@ -44,10 +46,14 @@ public class CharacterStats : MonoBehaviour
 
     public System.Action OnHealthChanged;
 
+    private EntityFX _entityFX;
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
         CurrentHealthPoints = this.GetMaxHealthValue();
+
+        _entityFX = GetComponent<EntityFX>();
     }
 
     protected virtual void Update()
@@ -88,9 +94,9 @@ public class CharacterStats : MonoBehaviour
 
         totalDamage = this.CheckTargetArmor(targetStats, totalDamage);
 
-        targetStats.TakeDamage(totalDamage);
+        //targetStats.TakeDamage(totalDamage);
 
-        //this.DoMagicalDamage(targetStats);
+        this.DoMagicalDamage(targetStats);
     }
 
     private int CheckTargetArmor(CharacterStats targetStats, int totalDamage)
@@ -216,14 +222,27 @@ public class CharacterStats : MonoBehaviour
             this.IsShocked = shocked;
         }
 
-        this._ignitedTimer = this.IsIgnited ? 2 : 0;
+        this._ignitedTimer = this.IsIgnited ? this._ailmentDurantion : 0;
 
-        this._chilledTimer = this.IsChilled ? 2 : 0;
+        this._chilledTimer = this.IsChilled ? this._ailmentDurantion : 0;
 
-        this._shockedTimer = this.IsShocked ? 2 : 0;
+        this._shockedTimer = this.IsShocked ? this._ailmentDurantion : 0;
 
         if (this.IsIgnited)
+        {
             this.SetupIgniteDamage(Mathf.RoundToInt(fireDamage * .2f));
+
+            this._entityFX.IgniteFxFor(this._ailmentDurantion);
+        }
+        else if(this.IsChilled)
+        {
+            this._entityFX.ChillFxFor(this._ailmentDurantion);
+        }
+        else if(this.IsShocked)
+        {
+            this._entityFX.ShockedFxFor(this._ailmentDurantion);
+        }
+            
 
         // Log the resulting values
         Debug.Log("is ignited: " + this.IsIgnited + " is chilled: " + this.IsChilled + " is shocked: " + this.IsShocked);
