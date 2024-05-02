@@ -237,6 +237,10 @@ public class CharacterStats : MonoBehaviour
         else if(this.IsChilled)
         {
             this._entityFX.ChillFxFor(this._ailmentDurantion);
+
+            var slowPercentage = 0.2f;
+
+            GetComponent<Entity>().SlowEntityBy(slowPercentage, this._ailmentDurantion);
         }
         else if(this.IsShocked)
         {

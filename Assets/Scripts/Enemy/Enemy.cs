@@ -42,6 +42,22 @@ public class Enemy : Entity
         this.StateMachine.CurrentState.Update();
     }
 
+    public override void SlowEntityBy(float slowPercentage, float slowDurantion)
+    {
+        this.MoveSpeed = this.MoveSpeed * (1 - slowPercentage);
+
+        base.SlowEntityBy(slowPercentage, slowDurantion);
+
+        Invoke(nameof(ReturnToDefaultSpeed), slowDurantion);
+    }
+
+    protected override void ReturnToDefaultSpeed()
+    {
+        this.MoveSpeed = defaultMoveSpeed;
+
+        base.ReturnToDefaultSpeed();
+    }
+
     public virtual void FreezeTime(bool timeFrozen)
     {
         if (timeFrozen)
