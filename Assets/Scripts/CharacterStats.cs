@@ -48,6 +48,9 @@ public class CharacterStats : MonoBehaviour
 
     private EntityFX _entityFX;
 
+    [SerializeField] private GameObject _thunderStrikePrefab;
+    [SerializeField] private int _shockDamage;
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
@@ -77,8 +80,6 @@ public class CharacterStats : MonoBehaviour
 
         if (this._igniteDamageTimer < 0 && this.IsIgnited)
         {
-            Debug.Log("Take burn damage." + this._igniteDamage);
-
             this.DecreaseHealthBy(this._igniteDamage);
 
             _igniteDamageTimer = _igniteDamageCooldown;
@@ -244,12 +245,24 @@ public class CharacterStats : MonoBehaviour
         }
         else if(this.IsShocked)
         {
+            if(GetComponent<Player>() != null)
+                return;
+
+            var closestEnemy = Physics2D.OverlapCircleAll(transform.position, 25)
+                    .Where(hit => hit.GetComponent<Enemy>() is not null)
+                    .OrderBy(hit => Vector2.Distance(transform.position, hit.transform.position))
+                    .Skip(1)
+                    .FirstOrDefault();
+
+            if(closestEnemy != null)
+            {
+                var newThunderstrike = Instantiate(this._thunderStrikePrefab, transform.position, Quaternion.identity);
+
+                newThunderstrike.GetComponent<ThunderstrikeController>().Setup(this._shockDamage, closestEnemy.GetComponent<CharacterStats>());
+            }
+
             this._entityFX.ShockedFxFor(this._ailmentDurantion);
         }
-            
-
-        // Log the resulting values
-        Debug.Log("is ignited: " + this.IsIgnited + " is chilled: " + this.IsChilled + " is shocked: " + this.IsShocked);
     }
 
     public void SetupIgniteDamage(int damage) => this._igniteDamage = damage;

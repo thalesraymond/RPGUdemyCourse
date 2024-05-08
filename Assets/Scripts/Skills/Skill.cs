@@ -43,8 +43,6 @@ public class Skill : MonoBehaviour
 
         if (closestEnemy == null)
         {
-            Debug.Log("No enemy found");
-
             return this.Player.transform;
         }
 
