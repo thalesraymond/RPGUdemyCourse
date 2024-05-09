@@ -2,13 +2,11 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class SwordSkillController : MonoBehaviour
+public class SwordSkillController : SkillController
 {
     private Animator animator;
     private Rigidbody2D rb;
     private CircleCollider2D cd;
-
-    private Player player;
 
     private bool canRotate = true;
     private bool isReturning;
@@ -44,14 +42,12 @@ public class SwordSkillController : MonoBehaviour
         cd = GetComponent<CircleCollider2D>();
     }
 
-    public void SetupSword(Vector2 direction, float gravityScale, Player player, float freezeTimeDurantion, float returnSpeed)
+    public void SetupSword(Vector2 direction, float gravityScale, float freezeTimeDurantion, float returnSpeed)
     {
         rb.velocity = direction;
         rb.gravityScale = gravityScale;
 
         this.returnSpeed = returnSpeed;
-
-        this.player = player;
 
         this.freezeTimeDuration = freezeTimeDurantion;
 
@@ -104,10 +100,10 @@ public class SwordSkillController : MonoBehaviour
 
         if (isReturning)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, this.returnSpeed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, this.Player.transform.position, this.returnSpeed * Time.deltaTime);
 
-            if (Vector2.Distance(transform.position, player.transform.position) < .2f)
-                player.CatchTheSword();
+            if (Vector2.Distance(transform.position, this.Player.transform.position) < .2f)
+                this.Player.CatchTheSword();
         }
 
         this.BounceLogic();
@@ -120,7 +116,7 @@ public class SwordSkillController : MonoBehaviour
             return;
 
 
-        if (Vector2.Distance(player.transform.position, transform.position) > maxTravelDistance && !wasStopped)
+        if (Vector2.Distance(this.Player.transform.position, transform.position) > maxTravelDistance && !wasStopped)
             this.StopWhenSpinning();
 
         if (!wasStopped)
@@ -206,7 +202,7 @@ public class SwordSkillController : MonoBehaviour
 
     private void DamageAndFreeze(Enemy enemy)
     {
-        enemy.DamageEffect();
+        this.Player.Stats.DoDamage(enemy.GetComponent<CharacterStats>());
 
         enemy.StartCoroutine("FreezeTimeFor", this.freezeTimeDuration);
     }
@@ -248,7 +244,7 @@ public class SwordSkillController : MonoBehaviour
         if (enemy is null)
             return;
 
-        enemy.DamageEffect();
+        enemy.DamageImpact();
 
         if (!isBouncing || enemyTargets.Count > 0)
             return;

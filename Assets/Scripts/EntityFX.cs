@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EntityFX : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
+    private SpriteRenderer _spriteRenderer;
 
     [Header("FX")]
     [SerializeField] private Material hitMaterial;
@@ -16,38 +16,38 @@ public class EntityFX : MonoBehaviour
 
     private void Start()
     {
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
-        originalMaterial = spriteRenderer.material;
+        originalMaterial = _spriteRenderer.material;
     }
 
     private IEnumerator FlashFx()
     {
-        spriteRenderer.material = hitMaterial;
+        _spriteRenderer.material = hitMaterial;
 
-        var currentColor = spriteRenderer.color;
+        var currentColor = _spriteRenderer.color;
 
-        spriteRenderer.color = Color.white;
+        _spriteRenderer.color = Color.white;
 
         yield return new WaitForSeconds(0.2f);
 
-        spriteRenderer.material = originalMaterial;
-        spriteRenderer.color = currentColor;
+        _spriteRenderer.material = originalMaterial;
+        _spriteRenderer.color = currentColor;
     }
 
     public void RedColorBlink()
     {
-        if (spriteRenderer.color != Color.white)
-            spriteRenderer.color = Color.white;
+        if (_spriteRenderer.color != Color.white)
+            _spriteRenderer.color = Color.white;
         else
-            spriteRenderer.color = Color.red;
+            _spriteRenderer.color = Color.red;
     }
 
     public void CancelColorChange()
     {
         this.CancelInvoke();
 
-        this.spriteRenderer.color = Color.white;
+        this._spriteRenderer.color = Color.white;
     }
 
     public void IgniteFxFor(float seconds)
@@ -73,22 +73,24 @@ public class EntityFX : MonoBehaviour
 
     private void IgniteColorFx()
     {
-        if(spriteRenderer.color != _igniteColors[0])
-            spriteRenderer.color = _igniteColors[0];
+        if(_spriteRenderer.color != _igniteColors[0])
+            _spriteRenderer.color = _igniteColors[0];
         else
-            spriteRenderer.color = _igniteColors[1];
+            _spriteRenderer.color = _igniteColors[1];
     }
 
     private void ChillColorFx()
     {
-        spriteRenderer.color = this._chillColor;
+        _spriteRenderer.color = this._chillColor;
     }
 
     private void ShockedColorFx()
     {
-        if (spriteRenderer.color != _shockColors[0])
-            spriteRenderer.color = _shockColors[0];
+        if (_spriteRenderer.color != _shockColors[0])
+            _spriteRenderer.color = _shockColors[0];
         else
-            spriteRenderer.color = _shockColors[1];
+            _spriteRenderer.color = _shockColors[1];
     }
+
+    public void ToogleTransparent(bool transparent) => this._spriteRenderer.color = transparent ? Color.clear : Color.white;
 }

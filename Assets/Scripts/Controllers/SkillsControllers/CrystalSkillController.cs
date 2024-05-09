@@ -1,7 +1,7 @@
 using System.Linq;
 using UnityEngine;
 
-public class CrystalSkillController : MonoBehaviour
+public class CrystalSkillController : SkillController
 {
     private Animator _animator => GetComponent<Animator>();
 
@@ -28,7 +28,6 @@ public class CrystalSkillController : MonoBehaviour
         this._canMove = canMove;
         this._moveSpeed = moveSpeed;
         this._closestTarget = closesTarget;
-
     }
 
     private void Update()
@@ -78,7 +77,7 @@ public class CrystalSkillController : MonoBehaviour
 
         foreach (var hit in enemyColliders)
         {
-            hit.GetComponent<Enemy>().DamageEffect();
+            this.Player.Stats.DoMagicalDamage(hit.GetComponent<CharacterStats>());
         }
     }
 

@@ -73,12 +73,7 @@ public class Entity : MonoBehaviour
         Anim.speed = 1;
     }
 
-    public virtual void DamageEffect()
-    {
-        this.FX.StartCoroutine("FlashFx");
-
-        StartCoroutine(HitKnockback());
-    }
+    public virtual void DamageImpact() => StartCoroutine(HitKnockback());
 
     protected virtual IEnumerator HitKnockback()
     {
@@ -155,8 +150,6 @@ public class Entity : MonoBehaviour
     }
 
     #endregion
-
-    public void ToogleTransparent(bool transparent) => this.SpriteRenderer.color = transparent ? Color.clear : Color.white;
 
     public virtual void Die()
     { 

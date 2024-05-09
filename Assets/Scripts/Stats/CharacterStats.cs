@@ -51,6 +51,8 @@ public class CharacterStats : MonoBehaviour
     [SerializeField] private GameObject _thunderStrikePrefab;
     [SerializeField] private int _shockDamage;
 
+    protected bool IsDead;
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
@@ -69,7 +71,7 @@ public class CharacterStats : MonoBehaviour
 
         this._chilledTimer -= Time.deltaTime;
 
-        if(_ignitedTimer < 0)
+        if (_ignitedTimer < 0)
             this.IsIgnited = false;
 
         if (_chilledTimer < 0)
@@ -78,6 +80,11 @@ public class CharacterStats : MonoBehaviour
         if (_shockedTimer < 0)
             this.IsShocked = false;
 
+        this.ApplyIgniteDamage();
+    }
+
+    private void ApplyIgniteDamage()
+    {
         if (this._igniteDamageTimer < 0 && this.IsIgnited)
         {
             this.DecreaseHealthBy(this._igniteDamage);
@@ -95,9 +102,9 @@ public class CharacterStats : MonoBehaviour
 
         totalDamage = this.CheckTargetArmor(targetStats, totalDamage);
 
-        //targetStats.TakeDamage(totalDamage);
+        targetStats.TakeDamage(totalDamage);
 
-        this.DoMagicalDamage(targetStats);
+        //this.DoMagicalDamage(targetStats);
     }
 
     private int CheckTargetArmor(CharacterStats targetStats, int totalDamage)
@@ -132,6 +139,10 @@ public class CharacterStats : MonoBehaviour
     {
         this.DecreaseHealthBy(damage);
 
+        GetComponent<Entity>().DamageImpact();
+
+        this._entityFX.StartCoroutine("FlashFx");
+
     }
 
     protected virtual void DecreaseHealthBy(int damage)
@@ -141,13 +152,13 @@ public class CharacterStats : MonoBehaviour
         if(this.OnHealthChanged != null)
             this.OnHealthChanged();
 
-        if (CurrentHealthPoints <= 0)
+        if (CurrentHealthPoints <= 0 && !this.IsDead)
             Die();
     }
 
     protected virtual void Die()
     {
-        //throw new NotImplementedException();
+        this.IsDead = true;
     }
 
     public virtual void DoMagicalDamage(CharacterStats targetStats)

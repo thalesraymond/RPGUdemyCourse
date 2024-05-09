@@ -35,7 +35,7 @@ public class PlayerBlackholeState : PlayerState
 
         Player.Rb.gravityScale = this._defaultGravityScale;
 
-        this.Player.ToogleTransparent(false);
+        this.Player.FX.ToogleTransparent(false);
     }
 
     public override void Update()

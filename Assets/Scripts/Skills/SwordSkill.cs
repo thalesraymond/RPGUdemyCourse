@@ -95,7 +95,7 @@ public class SwordSkill : Skill
             swordSkillController.SetupSpin(true, this.maxTravelDistance, this.spinDuration, this.hitCooldown);
 
         this.SetupGravity();
-        swordSkillController.SetupSword(finalDirection, this.swordGravity, this.Player, this.freezeTimeDuration, this.returnSpeed);
+        swordSkillController.SetupSword(finalDirection, this.swordGravity, this.freezeTimeDuration, this.returnSpeed);
 
         this.Player.AssignNewSword(newSword);
 

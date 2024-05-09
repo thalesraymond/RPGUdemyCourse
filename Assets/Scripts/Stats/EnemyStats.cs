@@ -2,29 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStats : CharacterStats
+public class EnemyStats : CharacterStats
 {
-    private Player _player;
+    private Enemy _enemy;
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
 
-        _player = GetComponent<Player>();
+        _enemy = GetComponent<Enemy>();
     }
 
     public override void TakeDamage(int damage)
     {
         base.TakeDamage(damage);
-
-     
-        this._player.DamageEffect();
     }
 
     protected override void Die()
     {
         base.Die();
 
-        this._player.Die();
+        _enemy.Die();
     }
 }

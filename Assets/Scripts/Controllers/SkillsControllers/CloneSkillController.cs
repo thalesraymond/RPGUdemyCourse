@@ -1,7 +1,7 @@
 using System.Linq;
 using UnityEngine;
 
-public class CloneSkillController : MonoBehaviour
+public class CloneSkillController : SkillController
 {
 
     [SerializeField] private float colorLosingSpeed;
@@ -87,7 +87,7 @@ public class CloneSkillController : MonoBehaviour
 
         foreach (var hit in colliders)
         {
-            hit.GetComponent<Enemy>().DamageEffect();
+            this.Player.Stats.DoDamage(hit.GetComponent<CharacterStats>());
 
             if (this.canDuplicateClone)
             {

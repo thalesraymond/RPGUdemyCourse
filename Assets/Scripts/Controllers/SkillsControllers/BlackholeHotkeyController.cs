@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class BlackholeHotkeyController : MonoBehaviour
+public class BlackholeHotkeyController : SkillController
 {
     private SpriteRenderer spriteRenderer;
     private KeyCode blackholeHotkey;

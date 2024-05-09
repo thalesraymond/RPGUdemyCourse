@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlackHoleSkillController : MonoBehaviour
+public class BlackHoleSkillController : SkillController
 {
     [SerializeField] private GameObject hotKeyPrefab;
     [SerializeField] private List<KeyCode> keyCodes;
@@ -94,7 +94,7 @@ public class BlackHoleSkillController : MonoBehaviour
 
         if (this._playerCanDissapear)
         {
-            PlayerManager.Instance.Player.ToogleTransparent(true);
+            PlayerManager.Instance.Player.FX.ToogleTransparent(true);
             this._playerCanDissapear = false;
         }
 
