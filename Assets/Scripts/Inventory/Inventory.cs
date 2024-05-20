@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class Inventory : MonoBehaviour
 {
@@ -10,10 +12,15 @@ public class Inventory : MonoBehaviour
 
     public Dictionary<ItemData, InventoryItem> InventoryDictionary;
 
+    public List<InventoryItem> StashItems;
+    public Dictionary<ItemData, InventoryItem> StashDictionary;
+
     [Header("UI")]
     [SerializeField] private Transform _inventorySlotParent;
+    [SerializeField] private Transform _stashSlotParent;
 
-    private ItemSlotUI[] _itemSlots;
+    private ItemSlotUI[] _inventoryItemsSlots;
+    private ItemSlotUI[] _stashItemsSlots;
 
     private void Awake()
     {
@@ -27,52 +34,89 @@ public class Inventory : MonoBehaviour
     {
         InventoryItems = new List<InventoryItem>();
 
+        StashItems = new List<InventoryItem>();
+
         InventoryDictionary = new Dictionary<ItemData, InventoryItem>();
 
-        this._itemSlots = _inventorySlotParent.GetComponentsInChildren<ItemSlotUI>();
+        StashDictionary = new Dictionary<ItemData, InventoryItem>();
+
+        this._inventoryItemsSlots = _inventorySlotParent.GetComponentsInChildren<ItemSlotUI>();
+
+        this._stashItemsSlots = _stashSlotParent.GetComponentsInChildren<ItemSlotUI>();
+    }
+
+    private void UpdateSlots(ItemSlotUI[] slots, List<InventoryItem> items)
+    {
+        for (int i = 0; i < items.Count; i++)
+            slots[i].UpdateSlot(items[i]);
     }
 
     private void UpdateSlotUI()
     {
-        for (int i = 0; i < this.InventoryItems.Count; i++)
-        {
-            this._itemSlots[i].UpdateSlot(this.InventoryItems[i]);
-        }
+        UpdateSlots(this._inventoryItemsSlots, this.InventoryItems);
+        UpdateSlots(this._stashItemsSlots, this.StashItems);
     }
 
     public void AddItem(ItemData item)
     {
-        if (InventoryDictionary.TryGetValue(item, out var foundInventoryItem))
+        switch (item.ItemType)
         {
-            foundInventoryItem.AddStack();
-        }
-        else
-        {
-            var inventoryItem = new InventoryItem(item);
-
-            this.InventoryItems.Add(inventoryItem);
-            this.InventoryDictionary.Add(item, inventoryItem);
+            case ItemType.Material:
+                this.AddToInventory(item, StashDictionary, StashItems);
+                break;
+            case ItemType.Equipment:
+                this.AddToInventory(item, InventoryDictionary, InventoryItems);
+                break;
+            default:
+                Debug.Log("Invalid item type");
+                break;
         }
 
         UpdateSlotUI();
     }
 
-    public void RemoveItem(ItemData item)
+    private void AddToInventory(ItemData item, Dictionary<ItemData, InventoryItem> inventoryDictionary, List<InventoryItem> inventoryList)
     {
-        if (!InventoryDictionary.TryGetValue(item, out var foundInventoryItem))
-            return;
-        
-
-        if (foundInventoryItem.StackSize <= 1)
-        {
-            this.InventoryItems.Remove(foundInventoryItem);
-            this.InventoryDictionary.Remove(item);
-        }
+        if (inventoryDictionary.TryGetValue(item, out var foundInventoryItem))
+            foundInventoryItem.AddStack();
         else
         {
-            foundInventoryItem.RemoveStack();
+            var inventoryItem = new InventoryItem(item);
+
+            inventoryList.Add(inventoryItem);
+            inventoryDictionary.Add(item, inventoryItem);
+        }
+    }
+
+    public void RemoveItem(ItemData item)
+    {
+        switch (item.ItemType)
+        {
+            case ItemType.Material:
+                this.RemoveFromInventory(item, StashDictionary, StashItems);
+                break;
+            case ItemType.Equipment:
+                this.RemoveFromInventory(item, InventoryDictionary, InventoryItems);
+                break;
+            default:
+                Debug.Log("Invalid item type");
+                break;
         }
 
         UpdateSlotUI();
+    }
+
+    private void RemoveFromInventory(ItemData item, Dictionary<ItemData, InventoryItem> inventoryDictionary, List<InventoryItem> inventoryList)
+    {
+        if (!inventoryDictionary.TryGetValue(item, out var foundInventoryItem))
+            return;
+
+        if (foundInventoryItem.StackSize <= 1)
+        {
+            inventoryList.Remove(foundInventoryItem);
+            inventoryDictionary.Remove(item);
+        }
+        else
+            foundInventoryItem.RemoveStack();
     }
 }
