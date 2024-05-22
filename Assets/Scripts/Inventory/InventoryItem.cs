@@ -18,4 +18,19 @@ public class InventoryItem
     public void AddStack() => StackSize++;
 
     public void RemoveStack() => StackSize--;
+
+    public override bool Equals(object obj)
+    {
+        if(obj is InventoryItem other)
+        {
+            return ItemData.Equals(other.ItemData);
+        }
+
+        return false;
+    }
+
+    public override int GetHashCode()
+    {
+        return ItemData.GetHashCode();
+    }
 }
