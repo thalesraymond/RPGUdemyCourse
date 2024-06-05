@@ -74,9 +74,7 @@ public class Inventory : MonoBehaviour
 
         if(sameTypeEquipped.Value != null)
         {
-            this.EquipmentDictionary.Remove(sameTypeEquipped.Key);
-
-            this.EquipmentItems.Remove(sameTypeEquipped.Value );
+            this.UnequipItem(sameTypeEquipped);
 
             this.AddItem(sameTypeEquipped.Value.ItemData);
         }
@@ -85,7 +83,18 @@ public class Inventory : MonoBehaviour
         this.EquipmentDictionary.Add(equipment, new InventoryItem(item));
         this.EquipmentItems.Add(new InventoryItem(item));
 
+        equipment.AddModifier();
+
         UpdateSlotUI();
+    }
+
+    private void UnequipItem(KeyValuePair<EquipmentItemData, InventoryItem> sameTypeEquipped)
+    {
+        this.EquipmentDictionary.Remove(sameTypeEquipped.Key);
+
+        this.EquipmentItems.Remove(sameTypeEquipped.Value);
+
+        sameTypeEquipped.Key.RemoveModifier();
     }
 
     private void UpdateSlots(ItemSlotUI[] slots, List<InventoryItem> items)

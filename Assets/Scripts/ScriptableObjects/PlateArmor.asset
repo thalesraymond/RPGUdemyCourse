@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fa689a73b2978547924f275adec9685, type: 3}
-  m_Name: NiceArmor
+  m_Name: PlateArmor
   m_EditorClassIdentifier: 
   ItemType: 1
   ItemName: Nice Armor
