@@ -32,7 +32,7 @@ public class ItemSlotUI : MonoBehaviour, IPointerDownHandler
         }
     }
 
-    private void ClearSlot()
+    protected void ClearSlot()
     {
         _itemImage.sprite = null;
         _itemText.text = string.Empty;
@@ -42,6 +42,9 @@ public class ItemSlotUI : MonoBehaviour, IPointerDownHandler
 
     public virtual void OnPointerDown(PointerEventData eventData)
     {
+        if (this.Item?.ItemData == null)
+            return;
+
         if (this.Item.ItemData.ItemType != ItemType.Equipment)
             return;
 

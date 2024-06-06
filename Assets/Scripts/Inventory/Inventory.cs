@@ -88,7 +88,7 @@ public class Inventory : MonoBehaviour
         UpdateSlotUI();
     }
 
-    private void UnequipItem(KeyValuePair<EquipmentItemData, InventoryItem> sameTypeEquipped)
+    public void UnequipItem(KeyValuePair<EquipmentItemData, InventoryItem> sameTypeEquipped)
     {
         this.EquipmentDictionary.Remove(sameTypeEquipped.Key);
 

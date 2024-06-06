@@ -14,7 +14,15 @@ public class EquipmentSlotUI : ItemSlotUI
 
     public override void OnPointerDown(PointerEventData eventData)
     {
-        // Intentionaly left blank
-        //base.OnPointerDown(eventData);
+        var equipment = this.Item?.ItemData as EquipmentItemData;
+
+        if (equipment == null)
+            return;
+
+        Inventory.Instance.UnequipItem(new KeyValuePair<EquipmentItemData, InventoryItem>(equipment, this.Item));
+
+        Inventory.Instance.AddItem(equipment);
+
+        this.ClearSlot();
     }
 }
