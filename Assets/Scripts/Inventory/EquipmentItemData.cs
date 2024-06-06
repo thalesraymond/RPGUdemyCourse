@@ -37,6 +37,9 @@ public class EquipmentItemData : ItemData
     public int MagicResistance;
     public int Health;
 
+    [Header("Crafting")]
+    public List<InventoryItem> CraftingMaterials;
+
     public void AddModifier()
     {
         var playerStats = PlayerManager.Instance.Player.GetComponent<PlayerStats>();

@@ -62,7 +62,7 @@ public class Inventory : MonoBehaviour
     {
         var equipment = item as EquipmentItemData;
 
-        if(equipment == null)
+        if (equipment == null)
         {
             Debug.LogWarning("Item is not an equipment item");
             return;
@@ -72,7 +72,7 @@ public class Inventory : MonoBehaviour
 
         var sameTypeEquipped = this.EquipmentDictionary.FirstOrDefault(equippedItem => equippedItem.Key.EquipmentType == equipment.EquipmentType);
 
-        if(sameTypeEquipped.Value != null)
+        if (sameTypeEquipped.Value != null)
         {
             this.UnequipItem(sameTypeEquipped);
 
@@ -105,7 +105,7 @@ public class Inventory : MonoBehaviour
 
             slots[i].UpdateSlot(itemToPut);
         }
-            
+
     }
 
     private void UpdateSlotUI()
@@ -179,5 +179,43 @@ public class Inventory : MonoBehaviour
         }
         else
             foundInventoryItem.RemoveStack();
+    }
+
+    public bool CanCraftItem(EquipmentItemData itemToCraft, List<InventoryItem> requiredMaterials)
+    {
+        var materialsToRemove = new List<InventoryItem>();
+        foreach (InventoryItem v in requiredMaterials)
+        {
+            if (this.StashDictionary.TryGetValue(v.ItemData, out var stashValue))
+            {
+                if (stashValue.StackSize < v.StackSize)
+                {
+                    Debug.Log("not enough materials");
+
+                    return false;
+                }
+                else
+                {
+                    materialsToRemove.Add(stashValue);
+                }
+            }
+            else
+            {
+                Debug.Log("not enough materials");
+
+                return false;
+            }
+        }
+
+        foreach(InventoryItem v1 in materialsToRemove)
+        {
+            this.RemoveItem(v1.ItemData);
+        }
+
+        this.AddItem(itemToCraft);
+
+        Debug.Log("Here is your item: " + itemToCraft.ItemName);
+
+        return true;
     }
 }
