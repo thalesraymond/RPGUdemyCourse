@@ -51,7 +51,7 @@ public class CharacterStats : MonoBehaviour
     [SerializeField] private GameObject _thunderStrikePrefab;
     [SerializeField] private int _shockDamage;
 
-    protected bool IsDead;
+    public bool IsDead {get; private set;}
 
     // Start is called before the first frame update
     protected virtual void Start()

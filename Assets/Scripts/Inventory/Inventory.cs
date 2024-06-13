@@ -1,15 +1,12 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class Inventory : MonoBehaviour
 {
     public static Inventory Instance;
+
+    public List<ItemData> StartingEquipment = new List<ItemData>();
 
     public List<InventoryItem> EquipmentItems;
     public Dictionary<EquipmentItemData, InventoryItem> EquipmentDictionary;
@@ -56,6 +53,16 @@ public class Inventory : MonoBehaviour
         this._stashItemsSlots = _stashSlotParent.GetComponentsInChildren<ItemSlotUI>();
 
         this._equipmentItemsSlots = _equipmentSlotParent.GetComponentsInChildren<EquipmentSlotUI>();
+
+        AddStartingItems();
+    }
+
+    private void AddStartingItems()
+    {
+        foreach (var item in this.StartingEquipment)
+        {
+            this.AddItem(item);
+        }
     }
 
     public void EquipItem(ItemData item)
@@ -74,7 +81,7 @@ public class Inventory : MonoBehaviour
 
         if (sameTypeEquipped.Value != null)
         {
-            this.UnequipItem(sameTypeEquipped);
+            this.UnequipItem(sameTypeEquipped.Key);
 
             this.AddItem(sameTypeEquipped.Value.ItemData);
         }
@@ -88,13 +95,19 @@ public class Inventory : MonoBehaviour
         UpdateSlotUI();
     }
 
-    public void UnequipItem(KeyValuePair<EquipmentItemData, InventoryItem> sameTypeEquipped)
+    public void UnequipItem(EquipmentItemData equipment)
     {
-        this.EquipmentDictionary.Remove(sameTypeEquipped.Key);
+        if (equipment == null)
+        {
+            Debug.LogWarning("Item is not an equipment item");
+            return;
+        }
 
-        this.EquipmentItems.Remove(sameTypeEquipped.Value);
+        this.EquipmentDictionary.Remove(equipment);
 
-        sameTypeEquipped.Key.RemoveModifier();
+        this.EquipmentItems.Remove(this.EquipmentItems.FirstOrDefault(item => item.ItemData == equipment));
+
+        equipment.RemoveModifier();
     }
 
     private void UpdateSlots(ItemSlotUI[] slots, List<InventoryItem> items)
@@ -108,10 +121,11 @@ public class Inventory : MonoBehaviour
 
     }
 
-    private void UpdateSlotUI()
+    public void UpdateSlotUI()
     {
         UpdateSlots(this._inventoryItemsSlots, this.InventoryItems);
         UpdateSlots(this._stashItemsSlots, this.StashItems);
+
         foreach (var slot in this._equipmentItemsSlots)
         {
             slot.UpdateSlot(this.EquipmentDictionary.FirstOrDefault(equipment => equipment.Key.EquipmentType == slot.SlotType).Value);
@@ -207,7 +221,7 @@ public class Inventory : MonoBehaviour
             }
         }
 
-        foreach(InventoryItem v1 in materialsToRemove)
+        foreach (InventoryItem v1 in materialsToRemove)
         {
             this.RemoveItem(v1.ItemData);
         }
@@ -218,4 +232,8 @@ public class Inventory : MonoBehaviour
 
         return true;
     }
+
+    public List<InventoryItem> GetEquimentList() => this.EquipmentItems;
+
+    public List<InventoryItem> GetStashList() => this.StashItems;
 }

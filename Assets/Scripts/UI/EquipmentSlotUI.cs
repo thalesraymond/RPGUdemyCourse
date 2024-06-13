@@ -19,7 +19,7 @@ public class EquipmentSlotUI : ItemSlotUI
         if (equipment == null)
             return;
 
-        Inventory.Instance.UnequipItem(new KeyValuePair<EquipmentItemData, InventoryItem>(equipment, this.Item));
+        Inventory.Instance.UnequipItem(equipment);
 
         Inventory.Instance.AddItem(equipment);
 

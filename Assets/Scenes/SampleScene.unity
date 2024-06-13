@@ -524,6 +524,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da7fb875ed2a4b347be9abe86def7630, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StartingEquipment:
+  - {fileID: 11400000, guid: 810ab573851126a4d94a4aa9aceeeea6, type: 2}
+  - {fileID: 11400000, guid: 810ab573851126a4d94a4aa9aceeeea6, type: 2}
+  - {fileID: 11400000, guid: 2e8ba06c91580b24ca90047848659a3e, type: 2}
+  - {fileID: 11400000, guid: 5c5e53a647b7f6d4ab306609838fbdcb, type: 2}
+  - {fileID: 11400000, guid: 2e8ba06c91580b24ca90047848659a3e, type: 2}
+  - {fileID: 11400000, guid: d45e46450e2bd51409ac3bebd5632f49, type: 2}
   EquipmentItems: []
   InventoryItems: []
   StashItems: []
@@ -2386,7 +2393,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _possibleItemDrop: 2
   _dropPrefab: {fileID: 6274325555594385552, guid: bcf8cacc869edaf46a49ba52abdf1f34, type: 3}
-  _item: {fileID: 11400000, guid: 85f176601318dd240b7dee4ad5376c08, type: 2}
   _possibleDrops:
   - {fileID: 11400000, guid: 810ab573851126a4d94a4aa9aceeeea6, type: 2}
   - {fileID: 11400000, guid: 2e8ba06c91580b24ca90047848659a3e, type: 2}
@@ -2490,7 +2496,7 @@ MonoBehaviour:
   CurrentHealthPoints: 0
   _thunderStrikePrefab: {fileID: 1124772325334426409, guid: 0392226d20e79b44a809b6d22eafd96e, type: 3}
   _shockDamage: 1
-  _level: 1
+  _level: 45
   _percentageModifier: 0.4
 --- !u!114 &523745758
 MonoBehaviour:
@@ -10792,7 +10798,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _possibleItemDrop: 2
   _dropPrefab: {fileID: 6274325555594385552, guid: bcf8cacc869edaf46a49ba52abdf1f34, type: 3}
-  _item: {fileID: 11400000, guid: 85f176601318dd240b7dee4ad5376c08, type: 2}
   _possibleDrops:
   - {fileID: 11400000, guid: 810ab573851126a4d94a4aa9aceeeea6, type: 2}
   - {fileID: 11400000, guid: 2e8ba06c91580b24ca90047848659a3e, type: 2}
@@ -10896,7 +10901,7 @@ MonoBehaviour:
   CurrentHealthPoints: 0
   _thunderStrikePrefab: {fileID: 1124772325334426409, guid: 0392226d20e79b44a809b6d22eafd96e, type: 3}
   _shockDamage: 1
-  _level: 1
+  _level: 2
   _percentageModifier: 0.4
 --- !u!114 &1340300474
 MonoBehaviour:
@@ -22042,7 +22047,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _possibleItemDrop: 2
   _dropPrefab: {fileID: 6274325555594385552, guid: bcf8cacc869edaf46a49ba52abdf1f34, type: 3}
-  _item: {fileID: 11400000, guid: 85f176601318dd240b7dee4ad5376c08, type: 2}
   _possibleDrops:
   - {fileID: 11400000, guid: 810ab573851126a4d94a4aa9aceeeea6, type: 2}
   - {fileID: 11400000, guid: 2e8ba06c91580b24ca90047848659a3e, type: 2}
@@ -22146,7 +22150,7 @@ MonoBehaviour:
   CurrentHealthPoints: 0
   _thunderStrikePrefab: {fileID: 1124772325334426409, guid: 0392226d20e79b44a809b6d22eafd96e, type: 3}
   _shockDamage: 1
-  _level: 1
+  _level: 2
   _percentageModifier: 0.4
 --- !u!114 &1638647727
 MonoBehaviour:
@@ -23435,6 +23439,7 @@ GameObject:
   - component: {fileID: 1820392518}
   - component: {fileID: 1820392519}
   - component: {fileID: 1820392520}
+  - component: {fileID: 1820392521}
   - component: {fileID: 1820392517}
   m_Layer: 6
   m_Name: Player
@@ -23642,6 +23647,24 @@ MonoBehaviour:
   CurrentHealthPoints: 0
   _thunderStrikePrefab: {fileID: 1124772325334426409, guid: 0392226d20e79b44a809b6d22eafd96e, type: 3}
   _shockDamage: 1
+--- !u!114 &1820392521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820392514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5b50ea53833c348afaf7b985333b84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _possibleItemDrop: 0
+  _dropPrefab: {fileID: 6274325555594385552, guid: bcf8cacc869edaf46a49ba52abdf1f34, type: 3}
+  _possibleDrops: []
+  _actualDrops: []
+  _chanceToLooseItems: 20
+  _chanceToLooseMaterials: 60
 --- !u!1 &1837942153
 GameObject:
   m_ObjectHideFlags: 0
@@ -24018,7 +24041,7 @@ MonoBehaviour:
   CurrentHealthPoints: 0
   _thunderStrikePrefab: {fileID: 1124772325334426409, guid: 0392226d20e79b44a809b6d22eafd96e, type: 3}
   _shockDamage: 1
-  _level: 1
+  _level: 2
   _percentageModifier: 0.4
 --- !u!70 &1892579685
 CapsuleCollider2D:
@@ -24069,7 +24092,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _possibleItemDrop: 2
   _dropPrefab: {fileID: 6274325555594385552, guid: bcf8cacc869edaf46a49ba52abdf1f34, type: 3}
-  _item: {fileID: 11400000, guid: 85f176601318dd240b7dee4ad5376c08, type: 2}
   _possibleDrops:
   - {fileID: 11400000, guid: 810ab573851126a4d94a4aa9aceeeea6, type: 2}
   - {fileID: 11400000, guid: 2e8ba06c91580b24ca90047848659a3e, type: 2}

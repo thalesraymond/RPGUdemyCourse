@@ -6,13 +6,12 @@ public class ItemDrop : MonoBehaviour
 {
     [SerializeField] private int _possibleItemDrop;
     [SerializeField] private GameObject _dropPrefab;
-    [SerializeField] private ItemData _item;
     [SerializeField] private ItemData[] _possibleDrops;
     [SerializeField] private List<ItemData> _actualDrops = new List<ItemData>();
 
     private int _actualPossibleItemDropCount => Mathf.Min(this._possibleItemDrop, this._actualDrops.Count);
 
-    public void GenerateDrops()
+    public virtual void GenerateDrops()
     {
         foreach (var possibleDrop in _possibleDrops)
         {
@@ -31,7 +30,7 @@ public class ItemDrop : MonoBehaviour
             DropItem(itemData);
         }
     }
-    public void DropItem(ItemData itemData)
+    protected void DropItem(ItemData itemData)
     {
         var newDrop = Instantiate(_dropPrefab, transform.position, Quaternion.identity);
 
