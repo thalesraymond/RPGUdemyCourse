@@ -236,4 +236,11 @@ public class Inventory : MonoBehaviour
     public List<InventoryItem> GetEquimentList() => this.EquipmentItems;
 
     public List<InventoryItem> GetStashList() => this.StashItems;
+
+    public EquipmentItemData GetEquipmentByType(EquipmentType equipmentType)
+    {
+        var equipmentItemData = this.EquipmentDictionary.FirstOrDefault(item => item.Key.EquipmentType == equipmentType).Key;
+        
+        return equipmentItemData;
+    }
 }

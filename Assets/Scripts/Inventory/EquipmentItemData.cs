@@ -15,6 +15,8 @@ public class EquipmentItemData : ItemData
 {
     public EquipmentType EquipmentType;
 
+    public ItemEffect[] Effects;
+
     [Header("Major Stats")]
     public int StrengthModifier;
     public int AgilityModifier;
@@ -85,6 +87,14 @@ public class EquipmentItemData : ItemData
         playerStats.MagicResistance.RemoveModifier(this.MagicResistance);
         playerStats.MaxHealthPoints.RemoveModifier(this.Health);
 
+    }
+
+    public void ExecuteItemEffect()
+    {
+        foreach (var effect in this.Effects)
+        {
+            effect.ExecuteEffect();
+        }
     }
 
 

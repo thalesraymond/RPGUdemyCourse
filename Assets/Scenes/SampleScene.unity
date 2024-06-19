@@ -531,6 +531,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5c5e53a647b7f6d4ab306609838fbdcb, type: 2}
   - {fileID: 11400000, guid: 2e8ba06c91580b24ca90047848659a3e, type: 2}
   - {fileID: 11400000, guid: d45e46450e2bd51409ac3bebd5632f49, type: 2}
+  - {fileID: 11400000, guid: 4d1bc9456e521274782027b8f2009cc9, type: 2}
   EquipmentItems: []
   InventoryItems: []
   StashItems: []
@@ -2496,7 +2497,7 @@ MonoBehaviour:
   CurrentHealthPoints: 0
   _thunderStrikePrefab: {fileID: 1124772325334426409, guid: 0392226d20e79b44a809b6d22eafd96e, type: 3}
   _shockDamage: 1
-  _level: 45
+  _level: 2
   _percentageModifier: 0.4
 --- !u!114 &523745758
 MonoBehaviour:
