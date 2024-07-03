@@ -89,13 +89,11 @@ public class EquipmentItemData : ItemData
 
     }
 
-    public void ExecuteItemEffect()
+    public void ExecuteItemEffect(Transform enemyPosition)
     {
         foreach (var effect in this.Effects)
         {
-            effect.ExecuteEffect();
+            effect.ExecuteEffect(enemyPosition);
         }
     }
-
-
 }

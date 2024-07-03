@@ -23633,13 +23633,13 @@ MonoBehaviour:
     _baseValue: 0
     Modifiers: 
   FireDamage:
-    _baseValue: 10
+    _baseValue: 1
     Modifiers: 
   IceDamage:
     _baseValue: 0
     Modifiers: 
   LightningDamage:
-    _baseValue: 0
+    _baseValue: 5
     Modifiers: 
   IsIgnited: 0
   IsChilled: 0

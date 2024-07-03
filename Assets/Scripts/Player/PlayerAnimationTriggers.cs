@@ -25,7 +25,7 @@ public class PlayerAnimationTriggers : MonoBehaviour
             var equippedWeapon = Inventory.Instance.GetEquipmentByType(EquipmentType.Weapon);
             
             if(equippedWeapon != null)
-                equippedWeapon.ExecuteItemEffect();
+                equippedWeapon.ExecuteItemEffect(targetStats.transform);
         }
     }
 

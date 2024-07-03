@@ -269,7 +269,7 @@ public class CharacterStats : MonoBehaviour
             {
                 var newThunderstrike = Instantiate(this._thunderStrikePrefab, transform.position, Quaternion.identity);
 
-                newThunderstrike.GetComponent<ThunderstrikeController>().Setup(this._shockDamage, closestEnemy.GetComponent<CharacterStats>());
+                newThunderstrike.GetComponent<ShockStrikeController>().Setup(this._shockDamage, closestEnemy.GetComponent<CharacterStats>());
             }
 
             this._entityFX.ShockedFxFor(this._ailmentDurantion);
