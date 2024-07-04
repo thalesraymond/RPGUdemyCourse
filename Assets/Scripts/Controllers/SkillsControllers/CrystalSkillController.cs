@@ -78,6 +78,11 @@ public class CrystalSkillController : SkillController
         foreach (var hit in enemyColliders)
         {
             this.Player.Stats.DoMagicalDamage(hit.GetComponent<CharacterStats>());
+
+            var equipmentAmulet = Inventory.Instance.GetEquipmentByType(EquipmentType.Amulet);
+
+            if(equipmentAmulet != null)
+                equipmentAmulet.ExecuteItemEffect(hit.transform);
         }
     }
 

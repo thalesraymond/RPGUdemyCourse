@@ -6,7 +6,7 @@ public class PlayerPrimaryAttackState : PlayerState
     {
     }
 
-    private int comboCounter;
+    public int ComboCounter { get; private set; }
 
     private float timeSinceLastAttack;
     private float comboWindow = 2;
@@ -17,12 +17,12 @@ public class PlayerPrimaryAttackState : PlayerState
 
         this.xInput = 0;
 
-        if (comboCounter > 2 || Time.time >= timeSinceLastAttack + comboWindow)
-            comboCounter = 0;
+        if (ComboCounter > 2 || Time.time >= timeSinceLastAttack + comboWindow)
+            ComboCounter = 0;
 
-        this.Player.SetVelocity(this.Player.AttackMovement[comboCounter] * this.GetAttackDirection(), this.Rb.velocity.y);
+        this.Player.SetVelocity(this.Player.AttackMovement[ComboCounter] * this.GetAttackDirection(), this.Rb.velocity.y);
 
-        this.Player.Anim.SetInteger("ComboCounter", comboCounter);
+        this.Player.Anim.SetInteger("ComboCounter", ComboCounter);
 
         this.StateTimer = .1f;
     }
@@ -41,7 +41,7 @@ public class PlayerPrimaryAttackState : PlayerState
 
         this.Player.StartCoroutine(this.Player.BusyFor(.2f));
 
-        comboCounter++;
+        ComboCounter++;
 
         timeSinceLastAttack = Time.time;
     }

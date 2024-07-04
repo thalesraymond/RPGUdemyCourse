@@ -204,7 +204,12 @@ public class SwordSkillController : SkillController
     {
         this.Player.Stats.DoDamage(enemy.GetComponent<CharacterStats>());
 
-        enemy.StartCoroutine("FreezeTimeFor", this.freezeTimeDuration);
+        enemy.StartCoroutine(nameof(enemy.FreezeTimeFor), this.freezeTimeDuration);
+
+        var equipmentAmulet = Inventory.Instance.GetEquipmentByType(EquipmentType.Amulet);
+
+            if(equipmentAmulet != null)
+                equipmentAmulet.ExecuteItemEffect(enemy.transform);
     }
 
     private void StuckInto(Collider2D collision)
