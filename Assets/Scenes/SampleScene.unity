@@ -534,12 +534,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4d1bc9456e521274782027b8f2009cc9, type: 2}
   - {fileID: 11400000, guid: ce9011034c57df442b5dccbc9133bb58, type: 2}
   - {fileID: 11400000, guid: 83580521ebb38e549887b3dfd007efe7, type: 2}
+  - {fileID: 11400000, guid: 2ca39a9c81d8d7d48b8a7b1710c919ac, type: 2}
+  - {fileID: 11400000, guid: 0069991eac1269248b3e1b34abf15a11, type: 2}
   EquipmentItems: []
   InventoryItems: []
   StashItems: []
   _inventorySlotParent: {fileID: 1004615520}
   _stashSlotParent: {fileID: 2055562406}
   _equipmentSlotParent: {fileID: 563428391}
+  _lastTimeUsedFlask: 0
 --- !u!4 &78321579
 Transform:
   m_ObjectHideFlags: 0

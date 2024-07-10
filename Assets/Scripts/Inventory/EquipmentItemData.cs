@@ -42,6 +42,9 @@ public class EquipmentItemData : ItemData
     [Header("Crafting")]
     public List<InventoryItem> CraftingMaterials;
 
+    [Header("Cooldown")]
+    public float CooldownDuration;
+
     public void AddModifier()
     {
         var playerStats = PlayerManager.Instance.Player.GetComponent<PlayerStats>();

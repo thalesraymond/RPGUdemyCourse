@@ -26,6 +26,9 @@ public class Inventory : MonoBehaviour
     private ItemSlotUI[] _stashItemsSlots;
     private EquipmentSlotUI[] _equipmentItemsSlots;
 
+    [Header("Items cooldown")]
+    [SerializeField] private float _lastTimeUsedFlask;
+
     private void Awake()
     {
         if (Instance == null)
@@ -108,6 +111,8 @@ public class Inventory : MonoBehaviour
         this.EquipmentItems.Remove(this.EquipmentItems.FirstOrDefault(item => item.ItemData == equipment));
 
         equipment.RemoveModifier();
+
+        this.UpdateSlotUI();
     }
 
     private void UpdateSlots(ItemSlotUI[] slots, List<InventoryItem> items)
@@ -242,5 +247,32 @@ public class Inventory : MonoBehaviour
         var equipmentItemData = this.EquipmentDictionary.FirstOrDefault(item => item.Key.EquipmentType == equipmentType).Key;
         
         return equipmentItemData;
+    }
+
+    public void UseFlask()
+    {
+        var currentFlask = GetEquipmentByType(EquipmentType.Flask);
+
+        if(currentFlask == null)
+        {
+            Debug.Log("No flask equipped");
+            return;
+        }
+
+        var canUseFlask = Time.time > _lastTimeUsedFlask + currentFlask.CooldownDuration;
+
+        if(!canUseFlask)
+        {
+            Debug.Log("Can't use flask");
+            return;
+        }
+
+        currentFlask.ExecuteItemEffect(null);
+
+        _lastTimeUsedFlask = Time.time;
+
+        // remove flask
+        this.UnequipItem(currentFlask);
+        //this.RemoveItem(currentFlask);
     }
 }

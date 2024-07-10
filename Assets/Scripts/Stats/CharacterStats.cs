@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditorInternal;
@@ -51,7 +52,7 @@ public class CharacterStats : MonoBehaviour
     [SerializeField] private GameObject _thunderStrikePrefab;
     [SerializeField] private int _shockDamage;
 
-    public bool IsDead {get; private set;}
+    public bool IsDead { get; private set; }
 
     // Start is called before the first frame update
     protected virtual void Start()
@@ -116,7 +117,7 @@ public class CharacterStats : MonoBehaviour
         else
         {
             totalDamage -= targetStats.Armor.GetValue();
-        }        
+        }
 
         totalDamage = Mathf.Clamp(0, totalDamage, int.MaxValue);
 
@@ -149,11 +150,22 @@ public class CharacterStats : MonoBehaviour
     {
         CurrentHealthPoints -= damage;
 
-        if(this.OnHealthChanged != null)
+        if (this.OnHealthChanged != null)
             this.OnHealthChanged();
 
         if (CurrentHealthPoints <= 0 && !this.IsDead)
             Die();
+    }
+
+    public virtual void IncreaseHealthBy(int amount)
+    {
+        CurrentHealthPoints += amount;
+
+        if (CurrentHealthPoints > this.GetMaxHealthValue())
+            this.CurrentHealthPoints = this.GetMaxHealthValue();
+
+        if (this.OnHealthChanged != null)
+            this.OnHealthChanged();
     }
 
     protected virtual void Die()
@@ -246,7 +258,7 @@ public class CharacterStats : MonoBehaviour
 
             this._entityFX.IgniteFxFor(this._ailmentDurantion);
         }
-        else if(this.IsChilled)
+        else if (this.IsChilled)
         {
             this._entityFX.ChillFxFor(this._ailmentDurantion);
 
@@ -254,9 +266,9 @@ public class CharacterStats : MonoBehaviour
 
             GetComponent<Entity>().SlowEntityBy(slowPercentage, this._ailmentDurantion);
         }
-        else if(this.IsShocked)
+        else if (this.IsShocked)
         {
-            if(GetComponent<Player>() != null)
+            if (GetComponent<Player>() != null)
                 return;
 
             var closestEnemy = Physics2D.OverlapCircleAll(transform.position, 25)
@@ -265,7 +277,7 @@ public class CharacterStats : MonoBehaviour
                     .Skip(1)
                     .FirstOrDefault();
 
-            if(closestEnemy != null)
+            if (closestEnemy != null)
             {
                 var newThunderstrike = Instantiate(this._thunderStrikePrefab, transform.position, Quaternion.identity);
 
@@ -279,4 +291,18 @@ public class CharacterStats : MonoBehaviour
     public void SetupIgniteDamage(int damage) => this._igniteDamage = damage;
 
     public int GetMaxHealthValue() => MaxHealthPoints.GetValue() + Vitality.GetValue() * 5;
+
+    public virtual void IncreaseStatBy(int modifier, float duration, Stat statToModify)
+    {
+        StartCoroutine(IncreaseStatByCoroutine(modifier, duration, statToModify));
+    }
+
+    IEnumerator IncreaseStatByCoroutine(int modifier, float duration, Stat statToModify)
+    {
+        statToModify.AddModifier(modifier);
+
+        yield return new WaitForSeconds(duration);
+
+        statToModify.RemoveModifier(modifier);
+    }
 }
