@@ -105,7 +105,7 @@ public class CharacterStats : MonoBehaviour
 
         targetStats.TakeDamage(totalDamage);
 
-        //this.DoMagicalDamage(targetStats);
+        this.DoMagicalDamage(targetStats);
     }
 
     private int CheckTargetArmor(CharacterStats targetStats, int totalDamage)
