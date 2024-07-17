@@ -81,6 +81,8 @@ public class Enemy : Entity
         FreezeTime(false);
     }
 
+    public virtual void StartFreezeTimeForCoroutine(float seconds) => StartCoroutine(FreezeTimeFor(seconds));
+
     public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(this.wallCheck.position, Vector2.right * FacingDirection, 30, this.WhatIsPlayer);
 
     protected override void OnDrawGizmos()

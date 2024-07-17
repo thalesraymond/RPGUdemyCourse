@@ -204,7 +204,7 @@ public class SwordSkillController : SkillController
     {
         this.Player.Stats.DoDamage(enemy.GetComponent<CharacterStats>());
 
-        enemy.StartCoroutine(nameof(enemy.FreezeTimeFor), this.freezeTimeDuration);
+        enemy.StartFreezeTimeForCoroutine(this.freezeTimeDuration);
 
         var equipmentAmulet = Inventory.Instance.GetEquipmentByType(EquipmentType.Amulet);
 

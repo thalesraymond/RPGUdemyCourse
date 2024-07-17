@@ -28,6 +28,10 @@ public class Inventory : MonoBehaviour
 
     [Header("Items cooldown")]
     [SerializeField] private float _lastTimeUsedFlask;
+    [SerializeField] private float _lastTimeUsedArmor;
+
+    [SerializeField] private float _flaskCooldown;
+    [SerializeField] private float _armorCooldown;
 
     private void Awake()
     {
@@ -259,7 +263,7 @@ public class Inventory : MonoBehaviour
             return;
         }
 
-        var canUseFlask = Time.time > _lastTimeUsedFlask + currentFlask.CooldownDuration;
+        var canUseFlask = Time.time > _lastTimeUsedFlask + this._flaskCooldown;
 
         if(!canUseFlask)
         {
@@ -271,8 +275,34 @@ public class Inventory : MonoBehaviour
 
         _lastTimeUsedFlask = Time.time;
 
+        this._flaskCooldown = currentFlask.CooldownDuration;
+
         // remove flask
         this.UnequipItem(currentFlask);
         //this.RemoveItem(currentFlask);
+    }
+
+    public bool CanUseArmor()
+    {
+        var currentArmor = this.GetEquipmentByType(EquipmentType.Armor);
+
+        if (currentArmor == null) 
+        {
+            Debug.Log("No armor equipped");
+            return false;
+        }
+
+        if (Time.time > this._lastTimeUsedArmor + this._armorCooldown)
+        {
+            this._lastTimeUsedArmor = Time.time;
+
+            this._armorCooldown = currentArmor.CooldownDuration;
+
+            return true; 
+        }
+
+        Debug.Log("Can't use armor");
+
+        return false;
     }
 }

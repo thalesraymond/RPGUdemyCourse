@@ -538,6 +538,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0069991eac1269248b3e1b34abf15a11, type: 2}
   - {fileID: 11400000, guid: 101a416c7e154714c95242374a9d13c3, type: 2}
   - {fileID: 11400000, guid: f0eb9d9470816bd4380f0c6e25151a62, type: 2}
+  - {fileID: 11400000, guid: 3a65b100684267644aedaff81b09f573, type: 2}
+  - {fileID: 11400000, guid: e0932f963bd3e0847884614a689771c7, type: 2}
   EquipmentItems: []
   InventoryItems: []
   StashItems: []
@@ -545,6 +547,7 @@ MonoBehaviour:
   _stashSlotParent: {fileID: 2055562406}
   _equipmentSlotParent: {fileID: 563428391}
   _lastTimeUsedFlask: 0
+  _lastTimeUsedArmor: 0
 --- !u!4 &78321579
 Transform:
   m_ObjectHideFlags: 0
@@ -2855,7 +2858,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 359}
+  m_AnchoredPosition: {x: 9, y: 246}
   m_SizeDelta: {x: 973.9, y: 112.838}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &563428392

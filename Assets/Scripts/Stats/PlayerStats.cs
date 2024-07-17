@@ -29,4 +29,14 @@ public class PlayerStats : CharacterStats
         if(playerDrops != null)
             playerDrops.GenerateDrops();
     }
+
+    protected override void DecreaseHealthBy(int damage)
+    {
+        base.DecreaseHealthBy(damage);
+
+        var currentArmor = Inventory.Instance.GetEquipmentByType(EquipmentType.Armor);
+
+        if(currentArmor != null)
+            currentArmor.ExecuteItemEffect(this._player.transform);
+    }
 }
