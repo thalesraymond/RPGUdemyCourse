@@ -17,43 +17,6 @@ public class BuffEffect : ItemEffect
 
         _playerStats = PlayerManager.Instance.Player.GetComponent<PlayerStats>();
 
-        _playerStats.IncreaseStatBy(_buffAmount, _buffDuration, this.GetStatToModify());
-    }
-
-    private Stat GetStatToModify()
-    {
-        switch (_type)
-        {
-            case StatType.Strength:
-                return _playerStats.Strength;
-            case StatType.Agility:
-                return _playerStats.Agility;
-            case StatType.Intelligence:
-                return _playerStats.Intelligence;
-            case StatType.Vitality:
-                return _playerStats.Vitality;
-            case StatType.Damage:
-                return _playerStats.Damage;
-            case StatType.CriticalHitChance:
-                return _playerStats.CriticalHitChance;
-            case StatType.CriticalHitPower:
-                return _playerStats.CriticalHitPower;
-            case StatType.FireDamage:
-                return _playerStats.FireDamage;
-            case StatType.IceDamage:
-                return _playerStats.IceDamage;
-            case StatType.LightningDamage:
-                return _playerStats.LightningDamage;
-            case StatType.Armor:
-                return _playerStats.Armor;
-            case StatType.Evasion:
-                return _playerStats.Evasion;
-            case StatType.MagicResistance:
-                return _playerStats.MagicResistance;
-            case StatType.Health:
-                return _playerStats.MaxHealthPoints;
-            default:
-                return null;
-        }
+        _playerStats.IncreaseStatBy(_buffAmount, _buffDuration, _playerStats.StatOfType(this._type));
     }
 }

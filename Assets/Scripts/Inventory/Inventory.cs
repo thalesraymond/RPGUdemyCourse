@@ -21,10 +21,12 @@ public class Inventory : MonoBehaviour
     [SerializeField] private Transform _inventorySlotParent;
     [SerializeField] private Transform _stashSlotParent;
     [SerializeField] private Transform _equipmentSlotParent;
+    [SerializeField] private Transform _statsSlotParent;
 
     private ItemSlotUI[] _inventoryItemsSlots;
     private ItemSlotUI[] _stashItemsSlots;
     private EquipmentSlotUI[] _equipmentItemsSlots;
+    private StatSlotUI[] _statsSlots;
 
     [Header("Items cooldown")]
     [SerializeField] private float _lastTimeUsedFlask;
@@ -60,6 +62,8 @@ public class Inventory : MonoBehaviour
         this._stashItemsSlots = _stashSlotParent.GetComponentsInChildren<ItemSlotUI>();
 
         this._equipmentItemsSlots = _equipmentSlotParent.GetComponentsInChildren<EquipmentSlotUI>();
+
+        this._statsSlots = this._statsSlotParent.GetComponentsInChildren<StatSlotUI>();
 
         AddStartingItems();
     }
@@ -138,6 +142,11 @@ public class Inventory : MonoBehaviour
         foreach (var slot in this._equipmentItemsSlots)
         {
             slot.UpdateSlot(this.EquipmentDictionary.FirstOrDefault(equipment => equipment.Key.EquipmentType == slot.SlotType).Value);
+        }
+
+        foreach (var slot in this._statsSlots)
+        {
+            slot.UpdateStatValueUI();
         }
     }
 

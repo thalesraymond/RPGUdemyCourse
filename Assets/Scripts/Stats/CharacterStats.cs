@@ -305,4 +305,41 @@ public class CharacterStats : MonoBehaviour
 
         statToModify.RemoveModifier(modifier);
     }
+
+    public Stat StatOfType(StatType type)
+    {
+        switch (type)
+        {
+            case StatType.Strength:
+                return this.Strength;
+            case StatType.Agility:
+                return this.Agility;
+            case StatType.Intelligence:
+                return this.Intelligence;
+            case StatType.Vitality:
+                return this.Vitality;
+            case StatType.Damage:
+                return this.Damage;
+            case StatType.CriticalHitChance:
+                return this.CriticalHitChance;
+            case StatType.CriticalHitPower:
+                return this.CriticalHitPower;
+            case StatType.FireDamage:
+                return this.FireDamage;
+            case StatType.IceDamage:
+                return this.IceDamage;
+            case StatType.LightningDamage:
+                return this.LightningDamage;
+            case StatType.Armor:
+                return this.Armor;
+            case StatType.Evasion:
+                return this.Evasion;
+            case StatType.MagicResistance:
+                return this.MagicResistance;
+            case StatType.Health:
+                return this.MaxHealthPoints;
+            default:
+                return null;
+        }
+    }
 }
