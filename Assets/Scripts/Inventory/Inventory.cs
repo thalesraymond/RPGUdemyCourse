@@ -152,6 +152,9 @@ public class Inventory : MonoBehaviour
 
     public void AddItem(ItemData item)
     {
+        if(item.ItemType == ItemType.Equipment && !this.CanAddEquipmentItem())
+            return;
+
         switch (item.ItemType)
         {
             case ItemType.Material:
@@ -258,7 +261,7 @@ public class Inventory : MonoBehaviour
     public EquipmentItemData GetEquipmentByType(EquipmentType equipmentType)
     {
         var equipmentItemData = this.EquipmentDictionary.FirstOrDefault(item => item.Key.EquipmentType == equipmentType).Key;
-        
+
         return equipmentItemData;
     }
 
@@ -266,7 +269,7 @@ public class Inventory : MonoBehaviour
     {
         var currentFlask = GetEquipmentByType(EquipmentType.Flask);
 
-        if(currentFlask == null)
+        if (currentFlask == null)
         {
             Debug.Log("No flask equipped");
             return;
@@ -274,7 +277,7 @@ public class Inventory : MonoBehaviour
 
         var canUseFlask = Time.time > _lastTimeUsedFlask + this._flaskCooldown;
 
-        if(!canUseFlask)
+        if (!canUseFlask)
         {
             Debug.Log("Can't use flask");
             return;
@@ -295,7 +298,7 @@ public class Inventory : MonoBehaviour
     {
         var currentArmor = this.GetEquipmentByType(EquipmentType.Armor);
 
-        if (currentArmor == null) 
+        if (currentArmor == null)
         {
             Debug.Log("No armor equipped");
             return false;
@@ -307,11 +310,22 @@ public class Inventory : MonoBehaviour
 
             this._armorCooldown = currentArmor.CooldownDuration;
 
-            return true; 
+            return true;
         }
 
         Debug.Log("Can't use armor");
 
         return false;
+    }
+
+    public bool CanAddEquipmentItem()
+    {
+        if (this.InventoryItems.Count >= this._inventoryItemsSlots.Length)
+        {
+            Debug.Log("Can't add item");
+            return false;
+        }
+
+        return true;
     }
 }
