@@ -4,12 +4,19 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using Cinemachine;
 
-public class ItemSlotUI : MonoBehaviour, IPointerDownHandler
+public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler
 {
     [SerializeField] private Image _itemImage;
     [SerializeField] private TextMeshProUGUI _itemText;
 
+    private UI _ui;
+
     public InventoryItem Item;
+
+    private void Start()
+    {
+        _ui = GetComponentInParent<UI>();
+    }
 
     public void UpdateSlot(InventoryItem newItem)
     {
@@ -56,5 +63,26 @@ public class ItemSlotUI : MonoBehaviour, IPointerDownHandler
             return;
 
         Inventory.Instance.EquipItem(this.Item.ItemData);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        this._ui.ItemToolTipUI.HideTooltip();
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if(this.Item == null)
+            return;
+
+        this._ui.ItemToolTipUI.ShowTooltip(this.Item.ItemData as EquipmentItemData);
+    }
+
+    public void OnPointerMove(PointerEventData eventData)
+    {
+        if (this.Item == null)
+            return;
+
+        this._ui.ItemToolTipUI.ShowTooltip(this.Item.ItemData as EquipmentItemData);
     }
 }

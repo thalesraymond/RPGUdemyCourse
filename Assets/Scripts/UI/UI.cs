@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class UI : MonoBehaviour
 {
+    public ItemToolTipUI ItemToolTipUI;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        this.ItemToolTipUI = GetComponentInChildren<ItemToolTipUI>(true);
     }
-
+     
     // Update is called once per frame
     void Update()
     {
