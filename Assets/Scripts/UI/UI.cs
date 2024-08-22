@@ -6,6 +6,8 @@ public class UI : MonoBehaviour
 {
     public ItemToolTipUI ItemToolTipUI;
 
+    public StatToolTipUI StatToolTipUI;
+
     // Start is called before the first frame update
     void Start()
     {

@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ItemToolTipUI : MonoBehaviour
+public class ItemToolTipUI : ToolTipUI
 {
     [SerializeField] private TextMeshProUGUI _itemNameText;
 
@@ -24,14 +24,6 @@ public class ItemToolTipUI : MonoBehaviour
         _itemTypeText.text = item.ItemType.ToString();
         _itemDescriptionText.text = item.GetDescription();
 
-        var mousePosition = Input.mousePosition;
-
-        var tooltipPosition = new Vector3(mousePosition.x, mousePosition.y - 5, transform.position.z);
-
-        transform.position = tooltipPosition;
-
-        gameObject.SetActive(true);
+        this.PositionToolTip();
     }
-
-    public void HideTooltip() => gameObject.SetActive(false);
 }

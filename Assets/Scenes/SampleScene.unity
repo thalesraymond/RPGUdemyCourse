@@ -2001,6 +2001,7 @@ MonoBehaviour:
   _statValueText: {fileID: 234705169}
   _statNameText: {fileID: 1548362091}
   _statType: 13
+  _statDescription: Your total health
 --- !u!222 &234705171
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3567,6 +3568,7 @@ MonoBehaviour:
   _statValueText: {fileID: 389192673}
   _statNameText: {fileID: 1019714252}
   _statType: 12
+  _statDescription: Overall defense against magical attacks
 --- !u!222 &389192675
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5174,6 +5176,7 @@ RectTransform:
   - {fileID: 563428391}
   - {fileID: 1750622406}
   - {fileID: 571862604}
+  - {fileID: 2129778341}
   m_Father: {fileID: 596302394}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -6356,10 +6359,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 571862604}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 159.015, y: -150.965}
+  m_SizeDelta: {x: 198.03, y: 28.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &566380076
 MonoBehaviour:
@@ -6612,7 +6615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &571862604
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6633,7 +6636,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -497}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 313, y: 215.37}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &571862605
 MonoBehaviour:
@@ -6982,7 +6985,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3ee8977236be240ab706aafe22f0f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemToolTipUI: {fileID: 0}
+  ItemToolTipUI: {fileID: 571862605}
+  StatToolTipUI: {fileID: 2129778336}
 --- !u!1 &609734618
 GameObject:
   m_ObjectHideFlags: 0
@@ -14204,6 +14208,7 @@ MonoBehaviour:
   _statValueText: {fileID: 814463069}
   _statNameText: {fileID: 1948138625}
   _statType: 9
+  _statDescription: Amount of Lightning damage you do.
 --- !u!222 &814463071
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14730,6 +14735,7 @@ MonoBehaviour:
   _statValueText: {fileID: 847186824}
   _statNameText: {fileID: 1207773988}
   _statType: 2
+  _statDescription: Increases magical damage and magical resistance
 --- !u!222 &847186826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14882,6 +14888,7 @@ MonoBehaviour:
   _statValueText: {fileID: 855347180}
   _statNameText: {fileID: 737337468}
   _statType: 5
+  _statDescription: The chance of hitting a critical hit
 --- !u!222 &855347182
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15070,6 +15077,7 @@ MonoBehaviour:
   _statValueText: {fileID: 888149336}
   _statNameText: {fileID: 358272674}
   _statType: 1
+  _statDescription: Increases evasion and critical chance
 --- !u!222 &888149338
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16367,6 +16375,7 @@ MonoBehaviour:
   _statValueText: {fileID: 1069865622}
   _statNameText: {fileID: 1390475765}
   _statType: 7
+  _statDescription: Amount of Fire damage you do.
 --- !u!222 &1069865624
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16860,6 +16869,7 @@ MonoBehaviour:
   _statValueText: {fileID: 1162221285}
   _statNameText: {fileID: 2130506094}
   _statType: 4
+  _statDescription: Amount of the physical damage you do.
 --- !u!222 &1162221287
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17654,10 +17664,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 571862604}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 161.5, y: -75.275}
+  m_SizeDelta: {x: 203, y: 50.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1320591097
 MonoBehaviour:
@@ -18276,6 +18286,7 @@ MonoBehaviour:
   _statValueText: {fileID: 1351845685}
   _statNameText: {fileID: 452631763}
   _statType: 0
+  _statDescription: Increases damage and critical power.
 --- !u!222 &1351845687
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19336,6 +19347,7 @@ MonoBehaviour:
   _statValueText: {fileID: 1461242541}
   _statNameText: {fileID: 1236483706}
   _statType: 8
+  _statDescription: Amount of Ice damage you do.
 --- !u!222 &1461242543
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20415,6 +20427,7 @@ MonoBehaviour:
   _statValueText: {fileID: 1549773457}
   _statNameText: {fileID: 2064355642}
   _statType: 3
+  _statDescription: Increases Health
 --- !u!222 &1549773459
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32879,10 +32892,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 571862604}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 126.01, y: -118.555}
+  m_SizeDelta: {x: 132.02, y: 36.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1807038015
 MonoBehaviour:
@@ -33154,13 +33167,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Strength:
-    _baseValue: 0
+    _baseValue: 10
     Modifiers: 
   Agility:
-    _baseValue: 0
+    _baseValue: 5
     Modifiers: 
   Intelligence:
-    _baseValue: 1
+    _baseValue: 4
     Modifiers: 
   Vitality:
     _baseValue: 5
@@ -34055,6 +34068,140 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 85f176601318dd240b7dee4ad5376c08, type: 2}
   - {fileID: 11400000, guid: d45e46450e2bd51409ac3bebd5632f49, type: 2}
   _actualDrops: []
+--- !u!1 &1893375991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1893375994}
+  - component: {fileID: 1893375993}
+  - component: {fileID: 1893375992}
+  m_Layer: 5
+  m_Name: StatDescription
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1893375992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893375991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: ItemName
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
+  m_sharedMaterial: {fileID: -8065883861848785263, guid: 84bdc42b70bb5e54aa18bb33c1fa834e, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -123.728874, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1893375993
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893375991}
+  m_CullTransparentMesh: 1
+--- !u!224 &1893375994
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893375991}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2129778341}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 112.81, y: -64.405}
+  m_SizeDelta: {x: 105.619995, y: 28.81}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1894388397
 GameObject:
   m_ObjectHideFlags: 0
@@ -36130,6 +36277,7 @@ MonoBehaviour:
   _statValueText: {fileID: 2112683586}
   _statNameText: {fileID: 452899131}
   _statType: 11
+  _statDescription: Chance to avoid an attack.
 --- !u!222 &2112683588
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36282,6 +36430,8 @@ MonoBehaviour:
   _statValueText: {fileID: 2115156720}
   _statNameText: {fileID: 2105359103}
   _statType: 10
+  _statDescription: Armor status, the amount of damage that gets deflected before
+    hitting your HP
 --- !u!222 &2115156722
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36434,6 +36584,7 @@ MonoBehaviour:
   _statValueText: {fileID: 2122883387}
   _statNameText: {fileID: 1867801580}
   _statType: 6
+  _statDescription: The power multiplier of the critical hit.
 --- !u!222 &2122883389
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36544,6 +36695,138 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6657952408028320971, guid: 32c0ef297edd1a74ca8732f25e425e4f, type: 3}
   m_PrefabInstance: {fileID: 2123918264}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2129778335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2129778341}
+  - component: {fileID: 2129778340}
+  - component: {fileID: 2129778339}
+  - component: {fileID: 2129778338}
+  - component: {fileID: 2129778337}
+  - component: {fileID: 2129778336}
+  m_Layer: 5
+  m_Name: StatToolTip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2129778336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129778335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51bf4eafaca2eb64bb7d215d6b5091bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _statDescriptionText: {fileID: 1893375992}
+--- !u!114 &2129778337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129778335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 60
+    m_Right: 50
+    m_Top: 50
+    m_Bottom: 50
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &2129778338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129778335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 2
+--- !u!114 &2129778339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129778335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7058824}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1304042699, guid: da89205dae10eec418b1b8a3247f98dc, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2129778340
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129778335}
+  m_CullTransparentMesh: 1
+--- !u!224 &2129778341
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129778335}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1893375994}
+  m_Father: {fileID: 507620294}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -497}
+  m_SizeDelta: {x: 215.62, y: 128.81}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &2130506092
 GameObject:
   m_ObjectHideFlags: 0
