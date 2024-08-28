@@ -6987,6 +6987,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemToolTipUI: {fileID: 571862605}
   StatToolTipUI: {fileID: 2129778336}
+  _characterUI: {fileID: 507620293}
+  _skillTreeUI: {fileID: 1094555767}
+  _craftUI: {fileID: 1604385889}
+  _optionsUI: {fileID: 992111188}
 --- !u!1 &609734618
 GameObject:
   m_ObjectHideFlags: 0
