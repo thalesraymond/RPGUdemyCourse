@@ -33,4 +33,7 @@ MonoBehaviour:
   Evasion: 0
   MagicResistance: 15
   Health: 20
-  CraftingMaterials: []
+  CraftingMaterials:
+  - ItemData: {fileID: 11400000, guid: 2e8ba06c91580b24ca90047848659a3e, type: 2}
+    StackSize: 3
+  CooldownDuration: 0

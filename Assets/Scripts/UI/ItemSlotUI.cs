@@ -6,16 +6,16 @@ using Cinemachine;
 
 public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler
 {
-    [SerializeField] private Image _itemImage;
-    [SerializeField] private TextMeshProUGUI _itemText;
+    [SerializeField] protected Image ItemImage;
+    [SerializeField] protected TextMeshProUGUI ItemText;
 
-    private UI _ui;
+    protected UI UI;
 
     public InventoryItem Item;
 
-    private void Start()
+    protected virtual void Start()
     {
-        _ui = GetComponentInParent<UI>();
+        this.UI = GetComponentInParent<UI>();
     }
 
     public void UpdateSlot(InventoryItem newItem)
@@ -24,14 +24,14 @@ public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
 
         if (this.Item != null)
         {
-            _itemImage.color = Color.white;
+            ItemImage.color = Color.white;
 
-            _itemImage.sprite = this.Item.ItemData.ItemIcon;
+            ItemImage.sprite = this.Item.ItemData.ItemIcon;
 
             if (Item.StackSize > 1)
-                _itemText.text = Item.StackSize.ToString();
+                ItemText.text = Item.StackSize.ToString();
             else
-                _itemText.text = string.Empty;
+                ItemText.text = string.Empty;
         }
         else
         {
@@ -41,10 +41,15 @@ public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
 
     protected void ClearSlot()
     {
-        _itemImage.sprite = null;
-        _itemText.text = string.Empty;
+        if(this.ItemImage == null || this.ItemText == null)
+        {
+            return;
+        } 
+        
+        ItemImage.sprite = null;
+        ItemText.text = string.Empty;
 
-        _itemImage.color = Color.clear;
+        ItemImage.color = Color.clear;
     }
 
     public virtual void OnPointerDown(PointerEventData eventData)
@@ -67,7 +72,7 @@ public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        this._ui.ItemToolTipUI.HideTooltip();
+        this.UI.ItemToolTipUI.HideTooltip();
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -75,7 +80,7 @@ public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
         if(this.Item == null)
             return;
 
-        this._ui.ItemToolTipUI.ShowTooltip(this.Item.ItemData as EquipmentItemData);
+        this.UI.ItemToolTipUI.ShowTooltip(this.Item.ItemData as EquipmentItemData);
     }
 
     public void OnPointerMove(PointerEventData eventData)
@@ -83,6 +88,6 @@ public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
         if (this.Item == null)
             return;
 
-        this._ui.ItemToolTipUI.ShowTooltip(this.Item.ItemData as EquipmentItemData);
+        this.UI.ItemToolTipUI.ShowTooltip(this.Item.ItemData as EquipmentItemData);
     }
 }

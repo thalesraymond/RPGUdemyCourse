@@ -6,11 +6,13 @@ public class UI : MonoBehaviour
 {
     public ItemToolTipUI ItemToolTipUI;
     public StatToolTipUI StatToolTipUI;
+    public CraftWindowUI CraftWindowUI;
 
     [SerializeField] private GameObject _characterUI;
     [SerializeField] private GameObject _skillTreeUI;
     [SerializeField] private GameObject _craftUI;
     [SerializeField] private GameObject _optionsUI;
+    
 
     // Start is called before the first frame update
     void Start()

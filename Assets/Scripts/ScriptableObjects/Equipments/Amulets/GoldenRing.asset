@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fa689a73b2978547924f275adec9685, type: 3}
-  m_Name: BlueWolfArmor
+  m_Name: GoldenRing
   m_EditorClassIdentifier: 
   ItemType: 1
-  ItemName: Blue Wolf Armor
-  ItemIcon: {fileID: 288293509, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
-  DropChance: 1.7
-  EquipmentType: 1
+  ItemName: Golden Ring
+  ItemIcon: {fileID: -878758905, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  DropChance: 0
+  EquipmentType: 2
   Effects:
-  - {fileID: 11400000, guid: 3c4f134aa9e41bf4997b49d089475988, type: 2}
-  StrengthModifier: 4
+  - {fileID: 11400000, guid: e714afa30419e65499da3e505fa0d9c5, type: 2}
+  StrengthModifier: 0
   AgilityModifier: 0
   IntelligenceModifier: 0
   VitalityModifier: 0
@@ -28,14 +28,12 @@ MonoBehaviour:
   CriticalHitPower: 0
   FireDamage: 0
   IceDamage: 0
-  LightningDamage: 0
-  Armor: 10
+  LightningDamage: 10
+  Armor: 0
   Evasion: 0
-  MagicResistance: 5
-  Health: 50
+  MagicResistance: 15
+  Health: 30
   CraftingMaterials:
-  - ItemData: {fileID: 11400000, guid: 810ab573851126a4d94a4aa9aceeeea6, type: 2}
-    StackSize: 4
   - ItemData: {fileID: 11400000, guid: 2e8ba06c91580b24ca90047848659a3e, type: 2}
-    StackSize: 2
-  CooldownDuration: 5
+    StackSize: 4
+  CooldownDuration: 0

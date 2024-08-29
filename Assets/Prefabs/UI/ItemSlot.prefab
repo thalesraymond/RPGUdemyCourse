@@ -89,8 +89,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48dba7b3b3652d247a220b0dc258ebd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _itemImage: {fileID: 6516267995705598717}
-  _itemText: {fileID: 4974366771670444441}
+  ItemImage: {fileID: 6516267995705598717}
+  ItemText: {fileID: 4974366771670444441}
   Item:
     ItemData: {fileID: 0}
     StackSize: 0

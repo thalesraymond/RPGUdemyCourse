@@ -17,6 +17,7 @@ MonoBehaviour:
   ItemIcon: {fileID: -1581127718, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
   DropChance: 21
   EquipmentType: 1
+  Effects: []
   StrengthModifier: 0
   AgilityModifier: 0
   IntelligenceModifier: 0
@@ -31,4 +32,7 @@ MonoBehaviour:
   Evasion: 0
   MagicResistance: 0
   Health: 15
-  CraftingMaterials: []
+  CraftingMaterials:
+  - ItemData: {fileID: 11400000, guid: 2e8ba06c91580b24ca90047848659a3e, type: 2}
+    StackSize: 5
+  CooldownDuration: 0
