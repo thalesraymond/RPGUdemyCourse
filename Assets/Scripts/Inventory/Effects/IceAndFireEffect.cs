@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "IceAndFireEffect", menuName = "Data/Item Effect/Ice and Fire")]

@@ -119,7 +119,7 @@ public class BlackHoleSkillController : SkillController
                 xOffset = -1;
             }
 
-            if(_isCrystalInsteadOfClone)
+            if (_isCrystalInsteadOfClone)
             {
                 SkillManager.Instance.CrystalSkill.CreateCrystal();
                 SkillManager.Instance.CrystalSkill.CurrentCrystalChooseRandomTarget();
@@ -127,7 +127,7 @@ public class BlackHoleSkillController : SkillController
             else
             {
                 SkillManager.Instance.CloneSkill.CreateClone(_targets[randomIndex], new Vector3(xOffset, 0));
-            }            
+            }
 
             _amountOfAttacks--;
 

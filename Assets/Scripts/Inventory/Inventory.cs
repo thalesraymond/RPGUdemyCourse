@@ -152,7 +152,7 @@ public class Inventory : MonoBehaviour
 
     public void AddItem(ItemData item)
     {
-        if(item.ItemType == ItemType.Equipment && !this.CanAddEquipmentItem())
+        if (item.ItemType == ItemType.Equipment && !this.CanAddEquipmentItem())
             return;
 
         switch (item.ItemType)

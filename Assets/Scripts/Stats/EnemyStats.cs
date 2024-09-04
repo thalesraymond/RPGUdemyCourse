@@ -1,15 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyStats : CharacterStats
 {
     private Enemy _enemy;
     private ItemDrop _itemDropSystem;
-    
+
     [Header("Level details")]
     [SerializeField] private int _level = 1;
-    [Range(0f,1f)] [SerializeField] private float _percentageModifier =  .4f;
+    [Range(0f, 1f)][SerializeField] private float _percentageModifier = .4f;
     protected override void Start()
     {
         base.Start();
@@ -23,9 +21,9 @@ public class EnemyStats : CharacterStats
 
     private void ApplyLevelModifier()
     {
-        Modify(this.MaxHealthPoints);        
+        Modify(this.MaxHealthPoints);
         this.CurrentHealthPoints = this.MaxHealthPoints.GetValue();
-        
+
         // Do not modify strength, agility, intelligence, vitality for enemies
         // Modify(this.Strength);
         // Modify(this.Agility);
@@ -39,7 +37,7 @@ public class EnemyStats : CharacterStats
 
         Modify(this.Armor);
         Modify(this.Evasion);
-        Modify(this.MagicResistance); 
+        Modify(this.MagicResistance);
 
         Modify(this.CriticalHitChance);
         Modify(this.CriticalHitPower);
@@ -47,7 +45,7 @@ public class EnemyStats : CharacterStats
 
     private void Modify(Stat stat)
     {
-        for(var i = 1; i < _level; i++)
+        for (var i = 1; i < _level; i++)
         {
             var modifier = stat.GetValue() * _percentageModifier;
 

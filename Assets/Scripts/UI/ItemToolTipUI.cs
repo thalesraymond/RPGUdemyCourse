@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ItemToolTipUI : ToolTipUI
 {
@@ -14,12 +11,12 @@ public class ItemToolTipUI : ToolTipUI
 
     public void ShowTooltip(EquipmentItemData item)
     {
-        if(item == null)
+        if (item == null)
         {
             HideTooltip();
             return;
         }
-         
+
         _itemNameText.text = item.ItemName;
         _itemTypeText.text = item.ItemType.ToString();
         _itemDescriptionText.text = item.GetDescription();

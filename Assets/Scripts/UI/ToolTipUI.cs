@@ -1,16 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ToolTipUI : MonoBehaviour
 {
     public void HideTooltip() => gameObject.SetActive(false);
 
-    protected void PositionToolTip()
+    protected void PositionToolTip(int offset = 5)
     {
         var mousePosition = Input.mousePosition;
 
-        var tooltipPosition = new Vector3(mousePosition.x, mousePosition.y - 5, transform.position.z);
+        var tooltipPosition = new Vector3(mousePosition.x, mousePosition.y - offset, transform.position.z);
 
         transform.position = tooltipPosition;
 

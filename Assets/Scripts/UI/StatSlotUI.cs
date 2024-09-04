@@ -1,17 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class StatSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler
 {
     [SerializeField] private string _statName;
     [SerializeField] private TextMeshProUGUI _statValueText;
     [SerializeField] private TextMeshProUGUI _statNameText;
-    [SerializeField] private StatType _statType;    
+    [SerializeField] private StatType _statType;
     [SerializeField][TextArea] private string _statDescription;
 
     private UI _ui;
@@ -38,7 +34,7 @@ public class StatSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         if (playerStats == null)
         {
             return;
-        }        
+        }
 
         switch (_statType)
         {

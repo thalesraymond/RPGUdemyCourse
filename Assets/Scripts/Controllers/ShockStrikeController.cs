@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class ShockStrikeController : MonoBehaviour
@@ -15,7 +11,7 @@ public class ShockStrikeController : MonoBehaviour
 
     private int _damage = 1;
 
-    public void Setup(int  damage, CharacterStats targetStats)
+    public void Setup(int damage, CharacterStats targetStats)
     {
         _damage = damage;
         this._targetStats = targetStats;

@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Data.Common;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,7 +16,7 @@ public class CraftWindowUI : MonoBehaviour
 
     private void Start()
     {
-        
+
     }
 
     public void SetupCraftWindow(EquipmentItemData equipmentItemData)

@@ -19,7 +19,7 @@ public class EnemySkeletonAnimationTriggers : MonoBehaviour
         {
             this.enemy.Stats.DoDamage(hit.GetComponent<PlayerStats>());
         }
-            
+
     }
 
     private void OpenCounterWindow() => enemy.OpenCounterAttackWindow();

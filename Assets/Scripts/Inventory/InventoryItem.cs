@@ -1,10 +1,7 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 [Serializable]
-public class InventoryItem 
+public class InventoryItem
 {
     public ItemData ItemData;
     public int StackSize;
@@ -21,7 +18,7 @@ public class InventoryItem
 
     public override bool Equals(object obj)
     {
-        if(obj is InventoryItem other)
+        if (obj is InventoryItem other)
         {
             return ItemData.Equals(other.ItemData);
         }

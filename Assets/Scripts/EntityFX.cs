@@ -73,7 +73,7 @@ public class EntityFX : MonoBehaviour
 
     private void IgniteColorFx()
     {
-        if(_spriteRenderer.color != _igniteColors[0])
+        if (_spriteRenderer.color != _igniteColors[0])
             _spriteRenderer.color = _igniteColors[0];
         else
             _spriteRenderer.color = _igniteColors[1];

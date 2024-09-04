@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "BuffEffec", menuName = "Data/Item Effect/Buff Effect")]

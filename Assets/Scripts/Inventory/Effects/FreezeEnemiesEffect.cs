@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -10,7 +8,7 @@ public class FreezeEnemiesEffect : ItemEffect
 
     public override void ExecuteEffect(Transform transform)
     {
-        if(!Inventory.Instance.CanUseArmor())
+        if (!Inventory.Instance.CanUseArmor())
             return;
 
         Debug.Log("Start Freeze Enemies Effect executed");
@@ -18,7 +16,7 @@ public class FreezeEnemiesEffect : ItemEffect
         var playerStats = PlayerManager.Instance.Player.GetComponent<PlayerStats>();
 
 
-        if(playerStats.CurrentHealthPoints > playerStats.MaxHealthPoints.GetValue() * .20f)
+        if (playerStats.CurrentHealthPoints > playerStats.MaxHealthPoints.GetValue() * .20f)
             return;
 
         var enemyColliders = Physics2D

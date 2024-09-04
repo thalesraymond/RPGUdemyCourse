@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class PlayerStats : CharacterStats
 {
     private Player _player;
@@ -26,7 +22,7 @@ public class PlayerStats : CharacterStats
 
         var playerDrops = GetComponent<PlayerItemDrop>();
 
-        if(playerDrops != null)
+        if (playerDrops != null)
             playerDrops.GenerateDrops();
     }
 
@@ -36,7 +32,7 @@ public class PlayerStats : CharacterStats
 
         var currentArmor = Inventory.Instance.GetEquipmentByType(EquipmentType.Armor);
 
-        if(currentArmor != null)
+        if (currentArmor != null)
             currentArmor.ExecuteItemEffect(this._player.transform);
     }
 }

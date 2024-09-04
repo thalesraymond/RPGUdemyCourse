@@ -208,8 +208,8 @@ public class SwordSkillController : SkillController
 
         var equipmentAmulet = Inventory.Instance.GetEquipmentByType(EquipmentType.Amulet);
 
-            if(equipmentAmulet != null)
-                equipmentAmulet.ExecuteItemEffect(enemy.transform);
+        if (equipmentAmulet != null)
+            equipmentAmulet.ExecuteItemEffect(enemy.transform);
     }
 
     private void StuckInto(Collider2D collision)

@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using UnityEngine;
 
@@ -23,8 +22,8 @@ public class PlayerAnimationTriggers : MonoBehaviour
             this.player.Stats.DoDamage(targetStats);
 
             var equippedWeapon = Inventory.Instance.GetEquipmentByType(EquipmentType.Weapon);
-            
-            if(equippedWeapon != null)
+
+            if (equippedWeapon != null)
                 equippedWeapon.ExecuteItemEffect(targetStats.transform);
         }
     }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -13,7 +11,7 @@ public class CraftSlotUI : ItemSlotUI
 
     public void SetupCraftSlot(EquipmentItemData equipmentItemData)
     {
-        if(this.Item == null)
+        if (this.Item == null)
         {
             Debug.LogWarning("Null item");
             return;
@@ -25,7 +23,7 @@ public class CraftSlotUI : ItemSlotUI
 
         this.ItemText.text = equipmentItemData.ItemName;
 
-        if(this.ItemText.text.Length > 12)
+        if (this.ItemText.text.Length > 12)
         {
             this.ItemText.fontSize = this.ItemText.fontSize * .7f;
         }

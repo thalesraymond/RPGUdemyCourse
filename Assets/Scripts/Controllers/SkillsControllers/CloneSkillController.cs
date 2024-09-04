@@ -91,13 +91,13 @@ public class CloneSkillController : SkillController
 
             if (this.canDuplicateClone)
             {
-                if(Random.Range(0, 100) < this.cloneDuplicationPercentageChance)
+                if (Random.Range(0, 100) < this.cloneDuplicationPercentageChance)
                 {
                     SkillManager.Instance.CloneSkill.CreateClone(hit.transform, new Vector3(1f * this.facingDirection, 0));
                 }
             }
         }
-            
+
     }
 
     private void FaceClosestTarget()

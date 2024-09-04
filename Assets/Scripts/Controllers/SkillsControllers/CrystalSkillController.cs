@@ -63,7 +63,7 @@ public class CrystalSkillController : SkillController
 
         var colliders = Physics2D.OverlapCircleAll(transform.position, radius, this._whatIsEnemy);
 
-        if(!colliders.Any())
+        if (!colliders.Any())
             return;
 
         _closestTarget = colliders[Random.Range(0, colliders.Length)].transform;
@@ -81,7 +81,7 @@ public class CrystalSkillController : SkillController
 
             var equipmentAmulet = Inventory.Instance.GetEquipmentByType(EquipmentType.Amulet);
 
-            if(equipmentAmulet != null)
+            if (equipmentAmulet != null)
                 equipmentAmulet.ExecuteItemEffect(hit.transform);
         }
     }

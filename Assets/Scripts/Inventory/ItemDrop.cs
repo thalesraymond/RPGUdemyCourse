@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,7 +14,7 @@ public class ItemDrop : MonoBehaviour
     {
         foreach (var possibleDrop in _possibleDrops)
         {
-            if(Random.Range(0, 100) > possibleDrop.DropChance)
+            if (Random.Range(0, 100) > possibleDrop.DropChance)
                 continue;
 
             _actualDrops.Add(possibleDrop);
@@ -39,4 +38,3 @@ public class ItemDrop : MonoBehaviour
         newDrop.GetComponent<ItemObject>().SetupItem(itemData, randomVelocity);
     }
 }
- 

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -27,7 +25,7 @@ public class PlayerItemDrop : ItemDrop
         {
             inventory.RemoveItem(item.ItemData);
 
-            if(item.ItemData is EquipmentItemData equipmentItemData)
+            if (item.ItemData is EquipmentItemData equipmentItemData)
                 inventory.UnequipItem(equipmentItemData);
 
             DropItem(item.ItemData);

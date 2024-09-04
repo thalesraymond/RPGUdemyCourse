@@ -1,8 +1,7 @@
-using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using Cinemachine;
+using UnityEngine.UI;
 
 public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler
 {
@@ -41,11 +40,11 @@ public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
 
     protected void ClearSlot()
     {
-        if(this.ItemImage == null || this.ItemText == null)
+        if (this.ItemImage == null || this.ItemText == null)
         {
             return;
-        } 
-        
+        }
+
         ItemImage.sprite = null;
         ItemText.text = string.Empty;
 
@@ -54,7 +53,7 @@ public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
 
     public virtual void OnPointerDown(PointerEventData eventData)
     {
-        if(Input.GetKey(KeyCode.LeftControl) && this.Item != null)
+        if (Input.GetKey(KeyCode.LeftControl) && this.Item != null)
         {
             Inventory.Instance.RemoveItem(this.Item.ItemData);
 
@@ -77,7 +76,7 @@ public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if(this.Item == null)
+        if (this.Item == null)
             return;
 
         this.UI.ItemToolTipUI.ShowTooltip(this.Item.ItemData as EquipmentItemData);
