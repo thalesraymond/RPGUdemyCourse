@@ -14,7 +14,9 @@ public class EquipmentItemData : ItemData
 {
     public EquipmentType EquipmentType;
 
+    [Header("Unique Effects")]
     public ItemEffect[] Effects;
+    [SerializeField][TextArea] public string ItemEffectDescription;
 
     [Header("Major Stats")]
     public int StrengthModifier;
@@ -43,6 +45,7 @@ public class EquipmentItemData : ItemData
 
     [Header("Cooldown")]
     public float CooldownDuration;
+    
 
     public void AddModifier()
     {
@@ -120,6 +123,24 @@ public class EquipmentItemData : ItemData
         this.AddItemDescription(this.Evasion, "Evasion");
         this.AddItemDescription(this.MagicResistance, "Magic Resistance");
         this.AddItemDescription(this.Health, "Health");
+
+        if(ItemEffectDescription.Length > 0)
+        {
+            sb.AppendLine();
+            // If ItemEffectDescription have more than 50 characters, then add 50 characters, break a line and put the rest
+            
+            if (ItemEffectDescription.Length > 50)
+            {
+                sb.AppendLine(ItemEffectDescription.Substring(0, 50));
+                sb.AppendLine(ItemEffectDescription.Substring(50, ItemEffectDescription.Length - 50));
+            }
+            else
+            {
+                sb.AppendLine(ItemEffectDescription);
+            }
+
+
+        }
 
         return sb.ToString();
     }

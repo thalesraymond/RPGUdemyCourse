@@ -19,6 +19,7 @@ MonoBehaviour:
   EquipmentType: 1
   Effects:
   - {fileID: 11400000, guid: 5999cb1f1feb77d4789ec2f4906c432b, type: 2}
+  ItemEffectDescription: Increase Evasion on each taken hit.
   StrengthModifier: 0
   AgilityModifier: 5
   IntelligenceModifier: 0
