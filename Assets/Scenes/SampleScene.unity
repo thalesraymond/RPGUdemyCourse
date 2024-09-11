@@ -10373,7 +10373,7 @@ MonoBehaviour:
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
   _skillName: Crystal
-  _skillDescription: Tooltip Skill Text =D
+  _skillDescription: Press F to create a crystal that you can teleport to
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
   _skillPrice: 100
@@ -19998,7 +19998,7 @@ MonoBehaviour:
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
   _skillName: Controlled Destruction
-  _skillDescription: Tooltip Skill Text =D
+  _skillDescription: A summoned crystal will follow the nearest enemy
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
   _skillPrice: 500
@@ -25276,7 +25276,7 @@ MonoBehaviour:
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
   _skillName: Mirage Blink
-  _skillDescription: Tooltip Skill Text =D
+  _skillDescription: Leave a residual image after teleporting to the crystal
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
   _skillPrice: 200
@@ -27929,7 +27929,7 @@ MonoBehaviour:
   - {fileID: 1407557176}
   _skillImage: {fileID: 0}
   _skillName: Explosion
-  _skillDescription: Tooltip Skill Text =D
+  _skillDescription: Make your crystal explosive
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
   _skillPrice: 200
@@ -40271,7 +40271,7 @@ MonoBehaviour:
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
   _skillName: Multiple Destruction
-  _skillDescription: Tooltip Skill Text =D
+  _skillDescription: Summon up to three crystals without cooldown
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
   _skillPrice: 1000
