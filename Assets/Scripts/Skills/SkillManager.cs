@@ -14,6 +14,8 @@ public class SkillManager : MonoBehaviour
 
     public CrystalSkill CrystalSkill { get; private set; }
 
+    public ParrySkill ParrySkill { get; private set; }
+
     private void Awake()
     {
         if (Instance != null)
@@ -37,5 +39,7 @@ public class SkillManager : MonoBehaviour
         this.BlackholeSkill = GetComponent<BlackholeSkill>();
 
         this.CrystalSkill = GetComponent<CrystalSkill>();
+
+        this.ParrySkill = GetComponent<ParrySkill>();
     }
 }

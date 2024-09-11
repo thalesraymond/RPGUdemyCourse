@@ -42,9 +42,11 @@ public class PlayerCounterAttackState : PlayerState
                 this.StateTimer = 10; // any value bigger than one second
                 Player.Anim.SetBool("SuccessfulCounterAttack", true);
 
+                this.Player.SkillManager.ParrySkill.UseSkill();
+
                 if (this._canCreateClone)
                 {
-                    this.Player.SkillManager.CloneSkill.CreateCloneOnCounterAttack(hit.transform);
+                    this.Player.SkillManager.ParrySkill.MakeMirageOnParry(hit.transform);
                     this._canCreateClone = false;
                 }
             }
