@@ -10,7 +10,7 @@ public class PlayerDashState : PlayerState
 
         this.StateTimer = this.Player.DashDuration;
 
-        this.Player.SkillManager.CloneSkill.CreateCloneOnDashStart();
+        Player.SkillManager.DashSkill.CreateCloneOnDash();
     }
 
     public override void Exit()
@@ -19,7 +19,7 @@ public class PlayerDashState : PlayerState
 
         this.Player.SetVelocity(0, this.Rb.velocity.y);
 
-        this.Player.SkillManager.CloneSkill.CreateCloneOnDashOver();
+        Player.SkillManager.DashSkill.CreateCloneOnDashArrival();
     }
 
     public override void Update()

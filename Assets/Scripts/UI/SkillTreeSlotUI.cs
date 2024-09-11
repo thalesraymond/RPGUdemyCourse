@@ -16,6 +16,8 @@ public class SkillTreeSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExit
     [SerializeField] private Color _lockedSkillColor;
     [SerializeField] private Color _unlockedSkillColor;
 
+    [SerializeField] private int _skillPrice;
+
     protected UI UI;
 
     private void OnValidate()
@@ -29,9 +31,12 @@ public class SkillTreeSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
         this._skillImage.color = this.Unlocked ? this._unlockedSkillColor : this._lockedSkillColor;
 
-        GetComponent<Button>().onClick.AddListener(UnlockSkillSlot);
-
         this.UI = GetComponentInParent<UI>();
+    }
+
+    private void Awake()
+    {
+        GetComponent<Button>().onClick.AddListener(UnlockSkillSlot);
     }
 
     public void UnlockSkillSlot()
@@ -52,6 +57,12 @@ public class SkillTreeSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExit
                 Debug.Log("Incompatible skill already unlocked");
                 return;
             }
+        }
+
+        if(!PlayerManager.Instance.HaveEnoughMoney(this._skillPrice))
+        {
+            Debug.Log("Not enough currency");
+            return;
         }
 
         this.Unlocked = true;

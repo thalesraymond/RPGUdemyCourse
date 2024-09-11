@@ -9,8 +9,6 @@ public class CloneSkill : Skill
     [Space]
     [SerializeField] private bool canAttack;
 
-    [SerializeField] private bool canCreateCloneOnDashStart;
-    [SerializeField] private bool canCreateCloneOnDashOver;
     [SerializeField] private bool canCreateCloneOnCounterAttack;
     [SerializeField] private float cloneOnCounterAttackDelay;
     [SerializeField] private bool canDuplicateClone;
@@ -36,18 +34,7 @@ public class CloneSkill : Skill
             newClone.GetComponent<CloneSkillController>().SetupClone(clonePosition, cloneDurantion, canAttack, this.FindClosestEnemy(newClone.transform), canDuplicateClone, cloneDuplicationPercentageChance, offset.Value);
     }
 
-    public void CreateCloneOnDashStart()
-    {
-        if (canCreateCloneOnDashStart)
-            CreateClone(this.Player.transform);
 
-    }
-
-    public void CreateCloneOnDashOver()
-    {
-        if (canCreateCloneOnDashOver)
-            CreateClone(this.Player.transform);
-    }
 
     public void CreateCloneOnCounterAttack(Transform enemyTransform)
     {

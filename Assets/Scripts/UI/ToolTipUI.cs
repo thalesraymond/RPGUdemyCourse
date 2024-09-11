@@ -41,8 +41,6 @@ public class ToolTipUI : MonoBehaviour
 
         transform.position = tooltipPosition;
 
-        Debug.Log(mousePosition.x + " " + mousePosition.y);
-
         gameObject.SetActive(true);
     }
 }

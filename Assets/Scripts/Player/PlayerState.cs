@@ -62,6 +62,9 @@ public class PlayerState
         if (this.Player.IsWallDetected())
             return;
 
+        if (!this.Player.SkillManager.DashSkill.DashUnlocked)
+            return;
+
         if (Input.GetKeyDown(KeyCode.LeftShift) && SkillManager.Instance.DashSkill.CanUseSkill())
         {
             this.Player.DashDirection = Input.GetAxisRaw("Horizontal");
