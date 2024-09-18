@@ -16,6 +16,8 @@ public class SkillManager : MonoBehaviour
 
     public ParrySkill ParrySkill { get; private set; }
 
+    public DodgeSkill DodgeSkill { get; private set; }
+
     private void Awake()
     {
         if (Instance != null)
@@ -41,5 +43,7 @@ public class SkillManager : MonoBehaviour
         this.CrystalSkill = GetComponent<CrystalSkill>();
 
         this.ParrySkill = GetComponent<ParrySkill>();
+
+        this.DodgeSkill = GetComponent<DodgeSkill>();
     }
 }

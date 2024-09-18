@@ -103,7 +103,7 @@ public class Inventory : MonoBehaviour
 
         equipment.AddModifier();
 
-        UpdateSlotUI();
+        UpdateSlotAndStatsUI();
     }
 
     public void UnequipItem(EquipmentItemData equipment)
@@ -120,7 +120,7 @@ public class Inventory : MonoBehaviour
 
         equipment.RemoveModifier();
 
-        this.UpdateSlotUI();
+        this.UpdateSlotAndStatsUI();
     }
 
     private void UpdateSlots(ItemSlotUI[] slots, List<InventoryItem> items)
@@ -134,7 +134,7 @@ public class Inventory : MonoBehaviour
 
     }
 
-    public void UpdateSlotUI()
+    public void UpdateSlotAndStatsUI()
     {
         UpdateSlots(this._inventoryItemsSlots, this.InventoryItems);
         UpdateSlots(this._stashItemsSlots, this.StashItems);
@@ -168,7 +168,7 @@ public class Inventory : MonoBehaviour
                 break;
         }
 
-        UpdateSlotUI();
+        UpdateSlotAndStatsUI();
     }
 
     private void AddToInventory(ItemData item, Dictionary<ItemData, InventoryItem> inventoryDictionary, List<InventoryItem> inventoryList)
@@ -199,7 +199,7 @@ public class Inventory : MonoBehaviour
                 break;
         }
 
-        UpdateSlotUI();
+        UpdateSlotAndStatsUI();
     }
 
     private void RemoveFromInventory(ItemData item, Dictionary<ItemData, InventoryItem> inventoryDictionary, List<InventoryItem> inventoryList)

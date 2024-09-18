@@ -6585,6 +6585,7 @@ GameObject:
   - component: {fileID: 479376730}
   - component: {fileID: 479376731}
   - component: {fileID: 479376732}
+  - component: {fileID: 479376733}
   m_Layer: 0
   m_Name: SkillManager
   m_TagString: Untagged
@@ -6753,6 +6754,24 @@ MonoBehaviour:
   _parrySlotRestoreUnlockButton: {fileID: 1807350986}
   _parryHealthRestorePercentageAmount: 0.1
   _parrySlotWithMirageUnlockButton: {fileID: 1071708587}
+--- !u!114 &479376733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479376724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bf825b2110aa41af0e7e13c45a84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cooldown: 0
+  _dodgeSkillUnlockButton: {fileID: 1639200012}
+  DodgeUnlocked: 0
+  _evasionAmount: 10
+  _mirageDodgeSkillUnlockButton: {fileID: 692951468}
+  MirageDodgeUnlocked: 0
 --- !u!1 &502515597
 GameObject:
   m_ObjectHideFlags: 0
@@ -10537,7 +10556,7 @@ MonoBehaviour:
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
   _skillName: Dodge Mirage
-  _skillDescription: Tooltip Skill Text =D
+  _skillDescription: On a sucessful evasion, a mirage is left behind at your location.
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
   _skillPrice: 1000
@@ -38929,7 +38948,7 @@ MonoBehaviour:
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
   _skillName: Dodge
-  _skillDescription: Tooltip Skill Text =D
+  _skillDescription: Increase chance to avoid attacks
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
   _skillPrice: 500

@@ -31,6 +31,6 @@ public class PlayerItemDrop : ItemDrop
             DropItem(item.ItemData);
         }
 
-        inventory.UpdateSlotUI();
+        inventory.UpdateSlotAndStatsUI();
     }
 }

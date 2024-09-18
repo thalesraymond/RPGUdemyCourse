@@ -22,6 +22,8 @@ public class Stat
     public void AddModifier(int modifier)
     {
         this.Modifiers.Add(modifier);
+
+        Inventory.Instance.UpdateSlotAndStatsUI();
     }
 
     public void RemoveModifier(int modifier)

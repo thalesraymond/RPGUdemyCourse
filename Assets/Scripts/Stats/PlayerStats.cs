@@ -1,3 +1,6 @@
+using UnityEditor.Tilemaps;
+using UnityEngine;
+
 public class PlayerStats : CharacterStats
 {
     private Player _player;
@@ -34,5 +37,12 @@ public class PlayerStats : CharacterStats
 
         if (currentArmor != null)
             currentArmor.ExecuteItemEffect(this._player.transform);
+    }
+
+    public override void OnEvasion()
+    {
+        base.OnEvasion();
+
+        this._player.SkillManager.DodgeSkill.CreateMirageOnDodge();
     }
 }
