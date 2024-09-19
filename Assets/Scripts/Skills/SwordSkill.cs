@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SwordSkill : Skill
 {
@@ -9,6 +10,8 @@ public class SwordSkill : Skill
     [SerializeField] private Vector2 launchForce;
     [SerializeField] private float swordGravity;
     [SerializeField] private float freezeTimeDuration;
+    [SerializeField] private SkillTreeSlotUI _swordThrowSkillUnlockButton;
+    public bool SwordThrowUnlocked { get; private set; }
 
     private Vector2 finalDirection;
 
@@ -22,11 +25,15 @@ public class SwordSkill : Skill
     [SerializeField] private int bounceAmount;
     [SerializeField] private float bounceGravity;
     [SerializeField] private float bounceSpeed;
+    [SerializeField] private SkillTreeSlotUI _swordBounceSkillUnlockButton;
+    public bool SwordBounceUnlocked { get; private set; }
 
 
     [Header("Pierce Info")]
     [SerializeField] private int pierceAmount;
     [SerializeField] private float pierceGravity;
+    [SerializeField] private SkillTreeSlotUI _swordPierceSkillUnlockButton;
+    public bool SwordPierceUnlocked { get; private set; }
 
     [Header("Spin Info")]
     [SerializeField] private float maxTravelDistance = 7;
@@ -34,6 +41,14 @@ public class SwordSkill : Skill
     [SerializeField] private float spinGravity = 1;
     [SerializeField] private float hitCooldown = .35f;
     [SerializeField] private float returnSpeed;
+    [SerializeField] private SkillTreeSlotUI _swordSpinSkillUnlockButton;
+    public bool SwordSpinUnlocked { get; private set; }
+
+    [Header("Passive Skills")]
+    [SerializeField] private SkillTreeSlotUI _swordTimeStopSkillUnlockButton;
+    public bool SwordTimeStopUnlocked { get; private set; }
+    [SerializeField] private SkillTreeSlotUI _vulnerableSkillUnlockButton;
+    public bool SwordVulnerableUnlocked { get; private set; }
 
     private GameObject[] dots;
 
@@ -44,6 +59,13 @@ public class SwordSkill : Skill
         this.GenerateDots();
 
         this.SetupGravity();
+
+        this._swordThrowSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockSwordThrow);
+        this._swordBounceSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockSwordBounce);
+        this._swordPierceSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockSwordPierce);
+        this._swordSpinSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockSwordSpin);
+        this._swordTimeStopSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockSwordTimeStop);
+        this._vulnerableSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockSwordVulnerable);
     }
 
     private void SetupGravity()
@@ -140,5 +162,52 @@ public class SwordSkill : Skill
             this.GetAimDirection().normalized.y * this.launchForce.y) * t + 0.5f * (Physics2D.gravity * swordGravity * (t * t));
 
         return position;
+    }
+
+    private void UnlockSwordThrow()
+    {
+        if (this._swordThrowSkillUnlockButton.Unlocked)
+        {
+            this.SwordType = SwordType.Regular;
+            this.SwordThrowUnlocked = true;
+        }
+    }
+
+    private void UnlockSwordBounce()
+    {
+        if (this._swordBounceSkillUnlockButton.Unlocked)
+        {
+            this.SwordType = SwordType.Bounce;
+            this.SwordBounceUnlocked = true;
+        }
+    }
+
+    private void UnlockSwordSpin()
+    {
+        if (this._swordSpinSkillUnlockButton.Unlocked)
+        {
+            this.SwordType = SwordType.Spin;
+            this.SwordSpinUnlocked = true;
+        }
+    }
+
+    private void UnlockSwordPierce()
+    {
+        if (this._swordPierceSkillUnlockButton.Unlocked)
+        {
+            this.SwordType = SwordType.Pierce;
+            this.SwordPierceUnlocked = true;
+        }
+    }
+
+    private void UnlockSwordTimeStop()
+    {
+        if (this._swordTimeStopSkillUnlockButton.Unlocked)
+            this.SwordTimeStopUnlocked = true;
+    }
+    private void UnlockSwordVulnerable()
+    {
+        if (this._vulnerableSkillUnlockButton.Unlocked)
+            this.SwordVulnerableUnlocked = true;
     }
 }

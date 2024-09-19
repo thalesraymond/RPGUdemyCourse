@@ -11,25 +11,25 @@ public class CrystalSkill : Skill
 
     [Header("Simple Crystal")]
     [SerializeField] private SkillTreeSlotUI _simpleCrystalSlotUnlockButton;
-    public bool SimpleCrystalUnlocked;
+    public bool SimpleCrystalUnlocked { get; private set; }
 
 
     [Header("Crystal Mirage")]
     [SerializeField] private SkillTreeSlotUI _crystalMirageSlotUnlockButton;
-    [SerializeField] public bool CrystalMirageUnlocked;
+    [SerializeField] public bool CrystalMirageUnlocked { get; private set; }
 
     [Header("Explosive Crystal")]
     [SerializeField] private SkillTreeSlotUI _explosiveCrystalSlotUnlockButton;
-    [SerializeField] private bool ExplosiveCrystalUnlocked;
+    public bool ExplosiveCrystalUnlocked { get; private set; }
 
     [Header("Moving Crystal")]
     [SerializeField] private SkillTreeSlotUI _movingCrystalSlotUnlockButton;
-    [SerializeField] private bool MovingCrystalUnlocked;
+     public bool MovingCrystalUnlocked { get; private set; }
     [SerializeField] private float _moveSpeed;
 
     [Header("Multi Stacking Crystal")]
     [SerializeField] private SkillTreeSlotUI _multiStackingCrystalSlotUnlockButton;
-    [SerializeField] private bool MultiStackingCrystalUnlocked;
+    public bool MultiStackingCrystalUnlocked { get; private set; }
     [SerializeField] private int _amountOfStacks;
     [SerializeField] private float _multiStackCooldown;
     [SerializeField] private float _useTimeWindow;

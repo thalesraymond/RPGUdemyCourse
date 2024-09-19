@@ -53,6 +53,8 @@ public class CharacterStats : MonoBehaviour
 
     public bool IsDead { get; private set; }
 
+    private bool _isVulnerable;
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
@@ -159,6 +161,9 @@ public class CharacterStats : MonoBehaviour
 
     protected virtual void DecreaseHealthBy(int damage)
     {
+        if(this._isVulnerable)
+            damage = Mathf.RoundToInt(damage * 1.1f);
+            
         CurrentHealthPoints -= damage;
 
         if (this.OnHealthChanged != null)
@@ -352,5 +357,16 @@ public class CharacterStats : MonoBehaviour
             default:
                 return null;
         }
+    }
+
+    public void MakeVulnerableFor(float duration) => StartCoroutine(VulnerableForCoroutine(duration));
+
+    private IEnumerator VulnerableForCoroutine(float duration)
+    {
+        this._isVulnerable = true;
+
+        yield return new WaitForSeconds(duration);
+
+        this._isVulnerable = false;
     }
 }

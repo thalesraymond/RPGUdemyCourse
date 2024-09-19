@@ -202,9 +202,15 @@ public class SwordSkillController : SkillController
 
     private void DamageAndFreeze(Enemy enemy)
     {
-        this.Player.Stats.DoDamage(enemy.GetComponent<CharacterStats>());
+        var enemyStats = enemy.GetComponent<CharacterStats>();
 
-        enemy.StartFreezeTimeForCoroutine(this.freezeTimeDuration);
+        this.Player.Stats.DoDamage(enemyStats);
+
+        if(this.Player.SkillManager.SwordSkill.SwordTimeStopUnlocked)
+            enemy.StartFreezeTimeForCoroutine(this.freezeTimeDuration);
+
+        if(this.Player.SkillManager.SwordSkill.SwordVulnerableUnlocked)
+            enemyStats.MakeVulnerableFor(this.freezeTimeDuration);
 
         var equipmentAmulet = Inventory.Instance.GetEquipmentByType(EquipmentType.Amulet);
 

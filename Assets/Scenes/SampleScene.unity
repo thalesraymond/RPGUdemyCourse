@@ -5579,10 +5579,11 @@ MonoBehaviour:
   - {fileID: 1130383999}
   _skillImage: {fileID: 0}
   _skillName: Chainsaw Sword
-  _skillDescription: Tooltip Skill Text =D
+  _skillDescription: Your sword will spin in the air for a moment hitting all enemies
+    nearby.
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
-  _skillPrice: 0
+  _skillPrice: 300
 --- !u!114 &448080025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6463,10 +6464,10 @@ MonoBehaviour:
   - {fileID: 1130383999}
   _skillImage: {fileID: 0}
   _skillName: Bullet Sword
-  _skillDescription: Tooltip Skill Text =D
+  _skillDescription: Your sword throw will pierce all enemies in its way.
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
-  _skillPrice: 0
+  _skillPrice: 300
 --- !u!114 &462566957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6669,11 +6670,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cooldown: 0
-  SwordType: 2
+  SwordType: 0
   swordPrefab: {fileID: 6578003958029585156, guid: 6787dfd65feb3594a8427005f76e61a4, type: 3}
   launchForce: {x: 35, y: 25}
   swordGravity: 4
   freezeTimeDuration: 0.5
+  _swordThrowSkillUnlockButton: {fileID: 1426376347}
   numberOfDots: 20
   dotSpacing: 0.07
   dotPrefab: {fileID: 4969571460614494458, guid: ddc2a44bb70d1574eb481ba754d157f5, type: 3}
@@ -6681,13 +6683,18 @@ MonoBehaviour:
   bounceAmount: 4
   bounceGravity: 5
   bounceSpeed: 20
+  _swordBounceSkillUnlockButton: {fileID: 1130383999}
   pierceAmount: 2
   pierceGravity: 1
+  _swordPierceSkillUnlockButton: {fileID: 462566956}
   maxTravelDistance: 7
   spinDuration: 2
   spinGravity: 1
   hitCooldown: 0.35
   returnSpeed: 15
+  _swordSpinSkillUnlockButton: {fileID: 448080024}
+  _swordTimeStopSkillUnlockButton: {fileID: 2028053639}
+  _vulnerableSkillUnlockButton: {fileID: 1591624655}
 --- !u!114 &479376730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6724,16 +6731,11 @@ MonoBehaviour:
   _crystalDuration: 3
   _crystalPrefab: {fileID: 7159641837902430175, guid: c2eec28ef021afc40a65c3219df68794, type: 3}
   _simpleCrystalSlotUnlockButton: {fileID: 666681283}
-  SimpleCrystalUnlocked: 0
   _crystalMirageSlotUnlockButton: {fileID: 1407557176}
-  CrystalMirageUnlocked: 0
   _explosiveCrystalSlotUnlockButton: {fileID: 1563798980}
-  ExplosiveCrystalUnlocked: 0
   _movingCrystalSlotUnlockButton: {fileID: 1009174208}
-  MovingCrystalUnlocked: 0
   _moveSpeed: 5
   _multiStackingCrystalSlotUnlockButton: {fileID: 1734398538}
-  MultiStackingCrystalUnlocked: 0
   _amountOfStacks: 3
   _multiStackCooldown: 5
   _useTimeWindow: 2
@@ -21936,10 +21938,11 @@ MonoBehaviour:
   - {fileID: 462566956}
   _skillImage: {fileID: 0}
   _skillName: BouncySword
-  _skillDescription: Tooltip Skill Text =D
+  _skillDescription: Your sword will hit the near three enemies regardless of their
+    position.
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
-  _skillPrice: 0
+  _skillPrice: 300
 --- !u!114 &1130384000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25535,10 +25538,10 @@ MonoBehaviour:
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
   _skillName: Sword Throw
-  _skillDescription: Tooltip Skill Text =D
+  _skillDescription: You can now throw your sword with mouse right click
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
-  _skillPrice: 0
+  _skillPrice: 100
 --- !u!114 &1426376348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28500,7 +28503,7 @@ MonoBehaviour:
   _skillDescription: Tooltip Skill Text =D
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
-  _skillPrice: 0
+  _skillPrice: 1000
 --- !u!114 &1591624656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44707,7 +44710,7 @@ MonoBehaviour:
   _skillDescription: Tooltip Skill Text =D
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   _unlockedSkillColor: {r: 1, g: 1, b: 1, a: 1}
-  _skillPrice: 0
+  _skillPrice: 200
 --- !u!114 &2028053640
 MonoBehaviour:
   m_ObjectHideFlags: 0
