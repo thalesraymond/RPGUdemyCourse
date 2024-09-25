@@ -109,7 +109,7 @@ public class CharacterStats : MonoBehaviour
         this.DoMagicalDamage(targetStats);
     }
 
-    private int CheckTargetArmor(CharacterStats targetStats, int totalDamage)
+    protected int CheckTargetArmor(CharacterStats targetStats, int totalDamage)
     {
         if (this.IsChilled)
         {
@@ -130,7 +130,7 @@ public class CharacterStats : MonoBehaviour
 
     }
 
-    private bool TargetCanAvoidAttack(CharacterStats targetStats)
+    protected bool TargetCanAvoidAttack(CharacterStats targetStats)
     {
         var totalEvasion = targetStats.Evasion.GetValue();
 

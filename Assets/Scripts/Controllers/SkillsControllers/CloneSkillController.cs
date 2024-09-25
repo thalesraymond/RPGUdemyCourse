@@ -1,4 +1,5 @@
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CloneSkillController : SkillController
@@ -6,6 +7,7 @@ public class CloneSkillController : SkillController
 
     [SerializeField] private float colorLosingSpeed;
     private float cloneTimer;
+    private float _attackMultipler;
 
     private Animator animator;
 
@@ -21,7 +23,7 @@ public class CloneSkillController : SkillController
 
     private int facingDirection = 1;
 
-    private void SetupClone(float cloneDurantion, bool canAttack, Transform closestEnemy, bool canDuplicateClone, float cloneDuplicationPercentageChance)
+    private void SetupClone(float cloneDurantion, bool canAttack, Transform closestEnemy, bool canDuplicateClone, float cloneDuplicationPercentageChance, float attackMultipler)
     {
         cloneTimer = cloneDurantion;
 
@@ -29,6 +31,8 @@ public class CloneSkillController : SkillController
         {
             animator.SetInteger("AttackNumber", Random.Range(1, 3));
         }
+
+        this._attackMultipler = attackMultipler;
 
         this.closestEnemyTransform = closestEnemy;
 
@@ -39,18 +43,18 @@ public class CloneSkillController : SkillController
         this.FaceClosestTarget();
     }
 
-    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Transform closestEnemy, bool canDuplicateClone, float cloneDuplicationPercentageChance)
+    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Transform closestEnemy, bool canDuplicateClone, float cloneDuplicationPercentageChance, float attackMultipler)
     {
         transform.position = newTransform.position + new Vector3(0, -0.45f, 0);
 
-        SetupClone(cloneDurantion, canAttack, closestEnemy, canDuplicateClone, cloneDuplicationPercentageChance);
+        SetupClone(cloneDurantion, canAttack, closestEnemy, canDuplicateClone, cloneDuplicationPercentageChance, attackMultipler);
     }
 
-    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Transform closestEnemy, bool canDuplicateClone, float cloneDuplicationPercentageChance, Vector3 offSet)
+    public void SetupClone(Transform newTransform, float cloneDurantion, bool canAttack, Transform closestEnemy, bool canDuplicateClone, float cloneDuplicationPercentageChance, float attackMultipler, Vector3 offSet)
     {
         transform.position = newTransform.position + offSet;
 
-        SetupClone(cloneDurantion, canAttack, closestEnemy, canDuplicateClone, cloneDuplicationPercentageChance);
+        SetupClone(cloneDurantion, canAttack, closestEnemy, canDuplicateClone, cloneDuplicationPercentageChance, attackMultipler);
     }
 
     private void Awake()
@@ -87,7 +91,11 @@ public class CloneSkillController : SkillController
 
         foreach (var hit in colliders)
         {
-            this.Player.Stats.DoDamage(hit.GetComponent<CharacterStats>());
+            //this.Player.Stats.DoDamage(hit.GetComponent<CharacterStats>());
+            var playerStats = this.Player.GetComponent<PlayerStats>();
+            var enemyStats = hit.GetComponent<EnemyStats>();
+
+            playerStats.CloneDoDamage(enemyStats, this._attackMultipler);
 
             if (this.canDuplicateClone)
             {

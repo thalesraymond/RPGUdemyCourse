@@ -45,4 +45,21 @@ public class PlayerStats : CharacterStats
 
         this._player.SkillManager.DodgeSkill.CreateMirageOnDodge();
     }
+
+    public void CloneDoDamage(CharacterStats targetStats, float attackMultiplier)
+    {
+        if (this.TargetCanAvoidAttack(targetStats))
+            return;
+
+        var totalDamage = Damage.GetValue() + Strength.GetValue();
+
+        totalDamage = this.CheckTargetArmor(targetStats, totalDamage);
+        
+        if(attackMultiplier > 0)
+            totalDamage = Mathf.RoundToInt(totalDamage * attackMultiplier);
+
+        targetStats.TakeDamage(totalDamage);
+
+        this.DoMagicalDamage(targetStats);
+    }
 }

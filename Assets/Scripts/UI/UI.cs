@@ -12,7 +12,10 @@ public class UI : MonoBehaviour
     [SerializeField] private GameObject _craftUI;
     [SerializeField] private GameObject _optionsUI;
 
-
+    void Awake()
+    {
+        SwitchTo(this._skillTreeUI); // We need this to fix the order of the assigned events
+    }
     // Start is called before the first frame update
     void Start()
     {

@@ -25,7 +25,7 @@ public class BlackHoleSkillController : SkillController
 
     private bool _canCreateHotkey = true;
 
-    private bool _isCrystalInsteadOfClone => SkillManager.Instance.CloneSkill.canCreateCrystalInsteadOfClone;
+    private bool _isCrystalInsteadOfClone => SkillManager.Instance.CloneSkill.CrystalInsteadOfCloneUnlocked;
 
     public bool PlayerCanExitState { get; private set; }
 

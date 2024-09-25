@@ -38,7 +38,7 @@ public class PlayerGroundedState : PlayerState
         if (Input.GetKeyDown(KeyCode.Space) && this.Player.IsGroundDetected())
             this.StateMachine.ChangeState(this.Player.JumpState);
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R) && this.Player.SkillManager.BlackholeSkill.BackholeUnlocked)
             this.StateMachine.ChangeState(this.Player.PlayerBlackholeState);
 
     }
