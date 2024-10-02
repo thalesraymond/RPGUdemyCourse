@@ -11,6 +11,7 @@ public class UI : MonoBehaviour
     [SerializeField] private GameObject _skillTreeUI;
     [SerializeField] private GameObject _craftUI;
     [SerializeField] private GameObject _optionsUI;
+    [SerializeField] private GameObject _inGameUI;
 
     void Awake()
     {
@@ -22,6 +23,7 @@ public class UI : MonoBehaviour
         this.ItemToolTipUI = GetComponentInChildren<ItemToolTipUI>(true);
 
         SwitchTo(null);
+        SwitchTo(this._inGameUI);
 
         this.ItemToolTipUI.HideTooltip();
 
@@ -60,7 +62,11 @@ public class UI : MonoBehaviour
         }
 
         if (menu == null)
+        {
+            SwitchTo(this._inGameUI);
             return;
+        }
+
 
         menu.SetActive(true);
     }
@@ -70,6 +76,7 @@ public class UI : MonoBehaviour
         if (menu != null && menu.activeSelf)
         {
             menu.SetActive(false);
+            SwitchTo(this._inGameUI);
             return;
         }
 
