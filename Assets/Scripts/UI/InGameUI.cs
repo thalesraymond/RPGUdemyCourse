@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +14,7 @@ public class InGameUI : MonoBehaviour
     [SerializeField] private Image _crystalImage;
     [SerializeField] private Image _swordImage;
     [SerializeField] private Image _blackHoleImage;
+    [SerializeField] private TextMeshProUGUI _currentSouls;
     
     private SkillManager _skillManager => SkillManager.Instance;
 
@@ -49,6 +51,8 @@ public class InGameUI : MonoBehaviour
         CheckCooldownOf(this._crystalImage, this._skillManager.CrystalSkill.Cooldown);
         CheckCooldownOf(this._swordImage, this._skillManager.SwordSkill.Cooldown);
         CheckCooldownOf(this._blackHoleImage, this._skillManager.BlackholeSkill.Cooldown);
+
+        this._currentSouls.text = PlayerManager.Instance.GetCurrencyAmount().ToString("#,#");
     }
 
     private void UpdateHealthUI()

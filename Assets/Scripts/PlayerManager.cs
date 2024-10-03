@@ -32,4 +32,6 @@ public class PlayerManager : MonoBehaviour
         Debug.Log("Player doesn't have enough money");
         return false;
     }
+
+    public int GetCurrencyAmount() => this.Currency;
 }
