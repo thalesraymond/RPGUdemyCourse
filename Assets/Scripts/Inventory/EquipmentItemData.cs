@@ -124,22 +124,13 @@ public class EquipmentItemData : ItemData
         this.AddItemDescription(this.MagicResistance, "Magic Resistance");
         this.AddItemDescription(this.Health, "Health");
 
-        if(ItemEffectDescription.Length > 0)
+        for (int i = 0; i < this.Effects.Length; i++)
         {
-            sb.AppendLine();
-            // If ItemEffectDescription have more than 50 characters, then add 50 characters, break a line and put the rest
-            
-            if (ItemEffectDescription.Length > 50)
+            if(this.Effects[i].EffectDescription.Length > 0)
             {
-                sb.AppendLine(ItemEffectDescription.Substring(0, 50));
-                sb.AppendLine(ItemEffectDescription.Substring(50, ItemEffectDescription.Length - 50));
+                sb.AppendLine();
+                sb.Append(this.Effects[i].EffectDescription);
             }
-            else
-            {
-                sb.AppendLine(ItemEffectDescription);
-            }
-
-
         }
 
         return sb.ToString();
