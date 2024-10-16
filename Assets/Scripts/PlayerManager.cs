@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour
+public class PlayerManager : MonoBehaviour, ISaveManager
 {
     public static PlayerManager Instance;
     public Player Player;
@@ -34,4 +34,14 @@ public class PlayerManager : MonoBehaviour
     }
 
     public int GetCurrencyAmount() => this.Currency;
+
+    public void LoadData(GameData data)
+    {
+        this.Currency = data.Currency;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.Currency = this.Currency;
+    }
 }
