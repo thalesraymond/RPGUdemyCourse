@@ -1,4 +1,5 @@
 using System.Text;
+using UnityEditor;
 using UnityEngine;
 
 public enum ItemType
@@ -10,6 +11,7 @@ public enum ItemType
 [CreateAssetMenu(fileName = "New Item Data", menuName = "Data/Item")]
 public class ItemData : ScriptableObject
 {
+    public string ItemId;
     public ItemType ItemType;
 
     public string ItemName;
@@ -24,5 +26,13 @@ public class ItemData : ScriptableObject
     public virtual string GetDescription()
     {
         return string.Empty;
+    }
+
+    private void OnValidate()
+    {
+        #if UNITY_EDITOR
+        string path = AssetDatabase.GetAssetPath(this);
+        this.ItemId = AssetDatabase.AssetPathToGUID(path);
+        #endif
     }
 }

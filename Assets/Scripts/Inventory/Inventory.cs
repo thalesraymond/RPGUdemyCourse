@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour
+public class Inventory : MonoBehaviour, ISaveManager
 {
     public static Inventory Instance;
 
@@ -35,6 +36,9 @@ public class Inventory : MonoBehaviour
     [SerializeField] private float _flaskCooldown;
     [SerializeField] private float _armorCooldown;
 
+    [Header("Database")]
+    public List<InventoryItem> LoadedItems;
+
     private void Awake()
     {
         if (Instance == null)
@@ -65,11 +69,24 @@ public class Inventory : MonoBehaviour
 
         this._statsSlots = this._statsSlotParent.GetComponentsInChildren<StatSlotUI>();
 
-        AddStartingItems();
+        Invoke(nameof(AddStartingItems), 1); // Delay starting items so load game data is finished
     }
 
     private void AddStartingItems()
     {
+        if(this.LoadedItems.Count > 0)
+        {
+            foreach (var item in this.LoadedItems)
+            {
+                for (int i = 0; i < item.StackSize; i++)
+                {
+                    this.AddItem(item.ItemData);
+                }
+            }
+
+            return;
+        }
+
         foreach (var item in this.StartingEquipment)
         {
             this.AddItem(item);
@@ -327,5 +344,50 @@ public class Inventory : MonoBehaviour
         }
 
         return true;
+    }
+
+    public void LoadData(GameData data)
+    {
+        foreach(var inventoryDictItem in data.InventoryItems)
+        {
+            foreach(var databaseItem in this.GetItemDatabase())
+            {
+                if(databaseItem == null || databaseItem.ItemId != inventoryDictItem.Key) continue;
+
+                var itemToLoad = new InventoryItem(databaseItem);
+                
+                itemToLoad.StackSize = inventoryDictItem.Value;
+                
+                this.LoadedItems.Add(itemToLoad);
+            }
+        }
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.InventoryItems.Clear();
+
+        foreach (var item in this.InventoryDictionary)
+        {
+            data.InventoryItems.Add(item.Key.ItemId, item.Value.StackSize);
+        }
+    }
+
+
+    private List<ItemData> GetItemDatabase()
+    {
+        var itemDatabase = new List<ItemData>();
+
+        var assetNames = AssetDatabase.FindAssets("", new[] { "Assets/Scripts/ScriptableObjects/Equipments" });
+
+        foreach (var assetName in assetNames)
+        {
+            var assetPath = AssetDatabase.GUIDToAssetPath(assetName);
+            var itemData = AssetDatabase.LoadAssetAtPath<ItemData>(assetPath);
+
+            itemDatabase.Add(itemData);
+        }
+
+        return itemDatabase;
     }
 }
