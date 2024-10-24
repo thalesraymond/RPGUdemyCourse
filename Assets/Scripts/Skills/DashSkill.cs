@@ -23,6 +23,10 @@ public class DashSkill : Skill
         this._dashSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockDash);
         this._cloneOnDashSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockCloneOnDash);
         this._cloneOnDashArrivalSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockCloneOnDashArrival);
+
+        this.UnlockDash();
+        this.UnlockCloneOnDash();
+        this.UnlockCloneOnDashArrival();
     }
 
     public override void UseSkill()

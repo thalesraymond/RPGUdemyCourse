@@ -2,13 +2,14 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class SkillTreeSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler
+public class SkillTreeSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler, ISaveManager
 {
     public bool Unlocked;
 
     [SerializeField] private SkillTreeSlotUI[] _shouldBeUnlocked;
     [SerializeField] private SkillTreeSlotUI[] _shouldBeLocked;
     [SerializeField] private Image _skillImage;
+    [SerializeField] private Button _unlockButton;
 
     [SerializeField] private string _skillName;
     [SerializeField][TextArea] private string _skillDescription;
@@ -27,11 +28,34 @@ public class SkillTreeSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void Start()
     {
-        this._skillImage = this.GetComponent<Image>();
+        this.GetComponents();
+
+        this.SetupUnlockedStatus();
+    }
+
+    private void SetupUnlockedStatus()
+    {
+        this.GetComponents();
 
         this._skillImage.color = this.Unlocked ? this._unlockedSkillColor : this._lockedSkillColor;
+    }
 
-        this.UI = GetComponentInParent<UI>();
+    private void GetComponents()
+    {
+        if (this._skillImage == null)
+        {
+            this._skillImage = this.GetComponent<Image>();
+        }
+
+        if (this.UI == null)
+        {
+            this.UI = GetComponentInParent<UI>();
+        }
+
+        if (this._unlockButton == null)
+        {
+            this._unlockButton = GetComponent<Button>();
+        }
     }
 
     private void Awake()
@@ -84,4 +108,25 @@ public class SkillTreeSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExit
         this.UI.SkillToolTipUI.ShowTooltip(this._skillName, this._skillDescription);
     }
 
+    public void LoadData(GameData data)
+    {
+        if(data.SkillTree.TryGetValue(this._skillName, out bool skillUnlocked))
+        {
+            this.Unlocked = skillUnlocked;
+            this.SetupUnlockedStatus();
+        }
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        if (data.SkillTree.TryGetValue(this._skillName, out _))
+        {
+            data.SkillTree.Remove(this._skillName);
+            data.SkillTree.Add(this._skillName, this.Unlocked);
+        }
+        else
+        {
+            data.SkillTree.Add(this._skillName, this.Unlocked);
+        }
+    }
 }

@@ -66,6 +66,13 @@ public class SwordSkill : Skill
         this._swordSpinSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockSwordSpin);
         this._swordTimeStopSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockSwordTimeStop);
         this._vulnerableSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockSwordVulnerable);
+
+        this.UnlockSwordThrow();
+        this.UnlockSwordBounce();
+        this.UnlockSwordPierce();
+        this.UnlockSwordSpin();
+        this.UnlockSwordTimeStop();
+        this.UnlockSwordVulnerable();
     }
 
     private void SetupGravity()

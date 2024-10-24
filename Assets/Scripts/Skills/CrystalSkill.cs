@@ -45,6 +45,12 @@ public class CrystalSkill : Skill
         this._explosiveCrystalSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockExplosiveCrystal);
         this._movingCrystalSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockMovingCrystal);
         this._multiStackingCrystalSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockMultiStackingCrystal);
+
+        this.UnlockSimpleCrystal();
+        this.UnlockCrystalMirage();
+        this.UnlockExplosiveCrystal();
+        this.UnlockMovingCrystal();
+        this.UnlockMultiStackingCrystal();
     }
 
     public override bool CanUseSkill()

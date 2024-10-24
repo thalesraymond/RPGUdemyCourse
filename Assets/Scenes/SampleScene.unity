@@ -1220,6 +1220,7 @@ MonoBehaviour:
   _lastTimeUsedArmor: 0
   _flaskCooldown: 0
   _armorCooldown: 0
+  LoadedItems: []
 --- !u!224 &78321579
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2534,6 +2535,7 @@ MonoBehaviour:
   _shouldBeLocked:
   - {fileID: 896316049}
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Multiple Mirage
   _skillDescription: Create multiple clones
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -3673,6 +3675,7 @@ MonoBehaviour:
   _shouldBeUnlocked: []
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Dash
   _skillDescription: Perform a fast dash to escape danger!
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -3975,6 +3978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _fileName: game_data.json
+  _encryptData: 1
 --- !u!4 &277893749
 Transform:
   m_ObjectHideFlags: 0
@@ -6668,6 +6672,7 @@ MonoBehaviour:
   - {fileID: 1043467838}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Dash Actually Here
   _skillDescription: Leave a residual image of yourself at your dash final point
     that confuses enemies
@@ -6929,6 +6934,7 @@ MonoBehaviour:
   - {fileID: 462566956}
   - {fileID: 1130383999}
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Chainsaw Sword
   _skillDescription: Your sword will spin in the air for a moment hitting all enemies
     nearby.
@@ -7668,6 +7674,7 @@ MonoBehaviour:
   _shouldBeUnlocked: []
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Time Mirage
   _skillDescription: Your Clone can now attack with 30% of your power
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -7814,6 +7821,7 @@ MonoBehaviour:
   - {fileID: 448080024}
   - {fileID: 1130383999}
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Bullet Sword
   _skillDescription: Your sword throw will pierce all enemies in its way.
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -12039,6 +12047,7 @@ MonoBehaviour:
   _shouldBeUnlocked: []
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Crystal
   _skillDescription: Press F to create a crystal that you can teleport to
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -12203,6 +12212,7 @@ MonoBehaviour:
   - {fileID: 1639200012}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Dodge Mirage
   _skillDescription: On a sucessful evasion, a mirage is left behind at your location.
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -20570,6 +20580,7 @@ MonoBehaviour:
   _shouldBeUnlocked: []
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Parry
   _skillDescription: Be able to counter attacks with precision timming
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -20715,6 +20726,7 @@ MonoBehaviour:
   _shouldBeLocked:
   - {fileID: 178622659}
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Crystal Mirage
   _skillDescription: Instead of clones, spawn crystals.
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -21949,6 +21961,7 @@ MonoBehaviour:
   - {fileID: 666681283}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Controlled Destruction
   _skillDescription: A summoned crystal will follow the nearest enemy
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -22093,6 +22106,7 @@ MonoBehaviour:
   - {fileID: 461527353}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Agressive Mirage
   _skillDescription: Make your clones more powerful. They can now attack with 80%
     of your power.
@@ -22746,6 +22760,7 @@ MonoBehaviour:
   - {fileID: 247667994}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Dash Here I Am
   _skillDescription: Leave a residual image of yourself at your dash start point
     that confuses enemies
@@ -23283,6 +23298,7 @@ MonoBehaviour:
   - {fileID: 890798877}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Mirage On Parry
   _skillDescription: Each sucessful counter attack leaves a residual image that confuses
     enemies
@@ -24230,6 +24246,7 @@ MonoBehaviour:
   - {fileID: 448080024}
   - {fileID: 462566956}
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: BouncySword
   _skillDescription: Your sword will hit the near three enemies regardless of their
     position.
@@ -27863,6 +27880,7 @@ MonoBehaviour:
   - {fileID: 666681283}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Mirage Blink
   _skillDescription: Leave a residual image after teleporting to the crystal
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -28103,6 +28121,7 @@ MonoBehaviour:
   _shouldBeUnlocked: []
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Sword Throw
   _skillDescription: You can now throw your sword with mouse right click
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -30800,6 +30819,7 @@ MonoBehaviour:
   _shouldBeLocked:
   - {fileID: 1407557176}
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Explosion
   _skillDescription: Make your crystal explosive
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -31061,6 +31081,7 @@ MonoBehaviour:
   - {fileID: 461527353}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Blackhole
   _skillDescription: Invoke a powerfull blackhole that freezes your enemies and perform
     a quick attack on each of them
@@ -31350,6 +31371,7 @@ MonoBehaviour:
   - {fileID: 2028053639}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Vulnerability
   _skillDescription: Tooltip Skill Text =D
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -41877,6 +41899,7 @@ MonoBehaviour:
   _shouldBeUnlocked: []
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Dodge
   _skillDescription: Increase chance to avoid attacks
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -43429,6 +43452,7 @@ MonoBehaviour:
   - {fileID: 666681283}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Multiple Destruction
   _skillDescription: Summon up to three crystals without cooldown
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -44958,6 +44982,7 @@ MonoBehaviour:
   - {fileID: 890798877}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Restore With Parry
   _skillDescription: Each sucessful counter attack restore a bit of health
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
@@ -48312,6 +48337,7 @@ MonoBehaviour:
   - {fileID: 1426376347}
   _shouldBeLocked: []
   _skillImage: {fileID: 0}
+  _unlockButton: {fileID: 0}
   _skillName: Time Stop
   _skillDescription: Tooltip Skill Text =D
   _lockedSkillColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}

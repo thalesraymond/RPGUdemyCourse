@@ -18,12 +18,6 @@ public class ParrySkill : Skill
     [SerializeField] private SkillTreeSlotUI _parrySlotWithMirageUnlockButton;
     public bool ParryWithMirageUnlocked { get; private set; }
 
-
-    public override bool CanUseSkill()
-    {
-        return base.CanUseSkill();
-    }
-
     protected override void Start()
     {
         base.Start();
@@ -31,7 +25,17 @@ public class ParrySkill : Skill
         this._parrySlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockParrySkill);
         this._parrySlotRestoreUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockParryRestore);
         this._parrySlotWithMirageUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockParryWithMirage);
+
+        this.UnlockParrySkill();
+        this.UnlockParryRestore();
+        this.UnlockParryWithMirage();
     }
+
+    public override bool CanUseSkill()
+    {
+        return base.CanUseSkill();
+    }
+
 
     private void UnlockParrySkill()
     {

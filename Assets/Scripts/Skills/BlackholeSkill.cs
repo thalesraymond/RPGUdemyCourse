@@ -15,6 +15,14 @@ public class BlackholeSkill : Skill
     public bool BackholeUnlocked { get; private set; }
 
     private BlackHoleSkillController _currentBlackHoleController;
+    protected override void Start()
+    {
+        base.Start();
+
+        this._blackHoleSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockBlackHole);
+
+        this.UnlockBlackHole();
+    }
 
     private void UnlockBlackHole()
     {
@@ -40,12 +48,6 @@ public class BlackholeSkill : Skill
         this._currentBlackHoleController.SetupBlackHole(_maxSize, _growSpeed, _shrinkSpeed, _amountOfAttacks, _cloneAttackCooldown, _blackHoleDuration);
     }
 
-    protected override void Start()
-    {
-        base.Start();
-
-        this._blackHoleSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockBlackHole);
-    }
 
     protected override void Update()
     {

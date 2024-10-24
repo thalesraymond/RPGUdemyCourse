@@ -40,6 +40,11 @@ public class CloneSkill : Skill
          this._aggressiveCloneSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockAggressiveClone);
          this._multipleClonesSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockMultipleClones);
          this._crystalInsteadOfCloneSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockCrystalInsteadOfClone);
+
+         this.UnlockCloneAttack();
+         this.UnlockAggressiveClone();
+         this.UnlockMultipleClones();
+         this.UnlockCrystalInsteadOfClone();
     }
 
     private void UnlockCloneAttack()

@@ -14,6 +14,17 @@ public class DodgeSkill : Skill
     [SerializeField] private SkillTreeSlotUI _mirageDodgeSkillUnlockButton;
     public bool MirageDodgeUnlocked;
 
+    protected override void Start()
+    {
+        base.Start();
+
+        this._dodgeSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockDodge);
+        this._mirageDodgeSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockMirage);
+
+        this.UnlockDodge();
+        this.UnlockMirage();
+    }
+
     public override bool CanUseSkill()
     {
         return base.CanUseSkill();
@@ -23,15 +34,6 @@ public class DodgeSkill : Skill
     {
         base.UseSkill();
     }
-
-    protected override void Start()
-    {
-        base.Start();
-
-        this._dodgeSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockDodge);
-        this._mirageDodgeSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockMirage);
-    }
-
     private void UnlockDodge()
     {
         if(this._dodgeSkillUnlockButton.Unlocked)

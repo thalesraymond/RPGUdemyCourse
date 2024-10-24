@@ -13,6 +13,7 @@ public class SaveManager : MonoBehaviour
     private FileDataHandler _fileDataHandler;
 
     [SerializeField] private string _fileName;
+    [SerializeField] private bool _encryptData;
 
     private void Awake()
     {
@@ -32,9 +33,16 @@ public class SaveManager : MonoBehaviour
     {
         this._saveManagers = this.FindAllSaveManagers();
 
-        this._fileDataHandler = new FileDataHandler(Application.persistentDataPath, this._fileName);
+        this._fileDataHandler = new FileDataHandler(Application.persistentDataPath, this._fileName, this._encryptData);
 
         this.LoadGame();
+    }
+
+    [ContextMenu("Delete Save Data")]
+    private void DeleteSaveData()
+    {
+        this._fileDataHandler = new FileDataHandler(Application.persistentDataPath, this._fileName, this._encryptData);
+        this._fileDataHandler.Delete(); 
     }
 
     public void NewGame()
