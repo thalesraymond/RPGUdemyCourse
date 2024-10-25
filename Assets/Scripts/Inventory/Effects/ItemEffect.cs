@@ -1,13 +1,15 @@
 using UnityEngine;
 
-
-public class ItemEffect : ScriptableObject
+namespace Inventory.Effects
 {
-    [TextArea]
-    public string EffectDescription;
-    
-    public virtual void ExecuteEffect(Transform enemyPosition)
+    public class ItemEffect : ScriptableObject
     {
-        Debug.Log("effect executed");
+        [TextArea]
+        public string EffectDescription;
+    
+        public virtual void ExecuteEffect(Transform enemyPosition)
+        {
+            Debug.Log("effect executed");
+        }
     }
 }

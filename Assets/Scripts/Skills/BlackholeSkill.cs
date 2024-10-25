@@ -1,75 +1,80 @@
+using Controllers.SkillsControllers;
+using UI;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BlackholeSkill : Skill
+namespace Skills
 {
-    [SerializeField] private GameObject _blackHolePrefab;
-
-    [SerializeField] private float _maxSize;
-    [SerializeField] private float _growSpeed;
-    [SerializeField] private float _shrinkSpeed;
-    [SerializeField] private int _amountOfAttacks;
-    [SerializeField] private float _cloneAttackCooldown;
-    [SerializeField] private float _blackHoleDuration;
-    [SerializeField] private SkillTreeSlotUI _blackHoleSlotUnlockButton;
-    public bool BackholeUnlocked { get; private set; }
-
-    private BlackHoleSkillController _currentBlackHoleController;
-    protected override void Start()
+    public class BlackholeSkill : Skill
     {
-        base.Start();
+        [SerializeField] private GameObject _blackHolePrefab;
 
-        this._blackHoleSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockBlackHole);
+        [SerializeField] private float _maxSize;
+        [SerializeField] private float _growSpeed;
+        [SerializeField] private float _shrinkSpeed;
+        [SerializeField] private int _amountOfAttacks;
+        [SerializeField] private float _cloneAttackCooldown;
+        [SerializeField] private float _blackHoleDuration;
+        [SerializeField] private SkillTreeSlotUI _blackHoleSlotUnlockButton;
+        public bool BackholeUnlocked { get; private set; }
 
-        this.UnlockBlackHole();
-    }
-
-    private void UnlockBlackHole()
-    {
-        if (this._blackHoleSlotUnlockButton.Unlocked)
+        private BlackHoleSkillController _currentBlackHoleController;
+        protected override void Start()
         {
-            this.BackholeUnlocked = true;
+            base.Start();
+
+            this._blackHoleSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockBlackHole);
+
+            this.UnlockBlackHole();
         }
-    }
 
-    public override bool CanUseSkill()
-    {
-        return base.CanUseSkill();
-    }
+        private void UnlockBlackHole()
+        {
+            if (this._blackHoleSlotUnlockButton.Unlocked)
+            {
+                this.BackholeUnlocked = true;
+            }
+        }
 
-    public override void UseSkill()
-    {
-        base.UseSkill();
+        public override bool CanUseSkill()
+        {
+            return base.CanUseSkill();
+        }
 
-        var newBlackHole = Instantiate(this._blackHolePrefab, Player.transform.position, Quaternion.identity);
+        public override void UseSkill()
+        {
+            base.UseSkill();
 
-        this._currentBlackHoleController = newBlackHole.GetComponent<BlackHoleSkillController>();
+            var newBlackHole = Instantiate(this._blackHolePrefab, Player.transform.position, Quaternion.identity);
 
-        this._currentBlackHoleController.SetupBlackHole(_maxSize, _growSpeed, _shrinkSpeed, _amountOfAttacks, _cloneAttackCooldown, _blackHoleDuration);
-    }
+            this._currentBlackHoleController = newBlackHole.GetComponent<BlackHoleSkillController>();
+
+            this._currentBlackHoleController.SetupBlackHole(_maxSize, _growSpeed, _shrinkSpeed, _amountOfAttacks, _cloneAttackCooldown, _blackHoleDuration);
+        }
 
 
-    protected override void Update()
-    {
-        base.Update();
-    }
+        protected override void Update()
+        {
+            base.Update();
+        }
 
-    public bool SkillCompleted()
-    {
-        if (this._currentBlackHoleController is null)
+        public bool SkillCompleted()
+        {
+            if (this._currentBlackHoleController is null)
+                return false;
+
+            if (this._currentBlackHoleController.PlayerCanExitState)
+            {
+                this._currentBlackHoleController = null;
+                return true;
+            }
+
             return false;
-
-        if (this._currentBlackHoleController.PlayerCanExitState)
-        {
-            this._currentBlackHoleController = null;
-            return true;
         }
 
-        return false;
-    }
-
-    public float GetBlackholeRadius()
-    {
-        return this._maxSize / 2;
+        public float GetBlackholeRadius()
+        {
+            return this._maxSize / 2;
+        }
     }
 }

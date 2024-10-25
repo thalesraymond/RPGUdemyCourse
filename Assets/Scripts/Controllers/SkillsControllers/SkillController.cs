@@ -1,11 +1,14 @@
 using UnityEngine;
 
-public class SkillController : MonoBehaviour
+namespace Controllers.SkillsControllers
 {
-    protected Player Player;
-
-    public virtual void Start()
+    public class SkillController : MonoBehaviour
     {
-        this.Player = PlayerManager.Instance.Player;
+        protected Player.Player Player;
+
+        public virtual void Start()
+        {
+            this.Player = PlayerManager.Instance.Player;
+        }
     }
 }

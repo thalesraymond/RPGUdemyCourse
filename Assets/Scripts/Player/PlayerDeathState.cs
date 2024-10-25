@@ -1,28 +1,31 @@
-public class PlayerDeathState : PlayerState
+namespace Player
 {
-    public PlayerDeathState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
+    public class PlayerDeathState : PlayerState
     {
-    }
+        public PlayerDeathState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
+        {
+        }
 
-    public override void AnimationFinishTrigger()
-    {
-        base.AnimationFinishTrigger();
-    }
+        public override void AnimationFinishTrigger()
+        {
+            base.AnimationFinishTrigger();
+        }
 
-    public override void Enter()
-    {
-        base.Enter();
-    }
+        public override void Enter()
+        {
+            base.Enter();
+        }
 
-    public override void Exit()
-    {
-        base.Exit();
-    }
+        public override void Exit()
+        {
+            base.Exit();
+        }
 
-    public override void Update()
-    {
-        base.Update();
+        public override void Update()
+        {
+            base.Update();
 
-        this.Player.SetVelocityToZero();
+            this.Player.SetVelocityToZero();
+        }
     }
 }

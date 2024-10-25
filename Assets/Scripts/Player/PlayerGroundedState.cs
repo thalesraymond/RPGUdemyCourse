@@ -1,55 +1,59 @@
+using Controllers.SkillsControllers;
 using UnityEngine;
 
-public class PlayerGroundedState : PlayerState
+namespace Player
 {
-    public PlayerGroundedState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
+    public class PlayerGroundedState : PlayerState
     {
-    }
-
-    public override void Enter()
-    {
-        base.Enter();
-    }
-
-    public override void Exit()
-    {
-        base.Exit();
-    }
-
-    public override void Update()
-    {
-        base.Update();
-
-        if (Input.GetKeyDown(KeyCode.Mouse1) && this.HasNoSword() && this.Player.SkillManager.SwordSkill.SwordThrowUnlocked)
-            this.StateMachine.ChangeState(this.Player.PlayerAimSwordState);
-
-        if (Input.GetKeyDown(KeyCode.Q) && this.Player.SkillManager.ParrySkill.ParrySkillUnlocked)
-            this.StateMachine.ChangeState(this.Player.CounterAttackState);
-
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-            this.StateMachine.ChangeState(this.Player.PrimaryAttackState);
-
-        if (!this.Player.IsGroundDetected())
+        public PlayerGroundedState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
         {
-            this.StateMachine.ChangeState(this.Player.AirState);
-            return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && this.Player.IsGroundDetected())
-            this.StateMachine.ChangeState(this.Player.JumpState);
+        public override void Enter()
+        {
+            base.Enter();
+        }
 
-        if (Input.GetKeyDown(KeyCode.R) && this.Player.SkillManager.BlackholeSkill.BackholeUnlocked && this.Player.SkillManager.BlackholeSkill.CanUseSkill())
-            this.StateMachine.ChangeState(this.Player.PlayerBlackholeState);
+        public override void Exit()
+        {
+            base.Exit();
+        }
 
-    }
+        public override void Update()
+        {
+            base.Update();
 
-    private bool HasNoSword()
-    {
-        if (!this.Player.Sword)
-            return true;
+            if (Input.GetKeyDown(KeyCode.Mouse1) && this.HasNoSword() && this.Player.SkillManager.SwordSkill.SwordThrowUnlocked)
+                this.StateMachine.ChangeState(this.Player.PlayerAimSwordState);
 
-        this.Player.Sword.GetComponent<SwordSkillController>().ReturnSword();
+            if (Input.GetKeyDown(KeyCode.Q) && this.Player.SkillManager.ParrySkill.ParrySkillUnlocked)
+                this.StateMachine.ChangeState(this.Player.CounterAttackState);
 
-        return false;
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+                this.StateMachine.ChangeState(this.Player.PrimaryAttackState);
+
+            if (!this.Player.IsGroundDetected())
+            {
+                this.StateMachine.ChangeState(this.Player.AirState);
+                return;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Space) && this.Player.IsGroundDetected())
+                this.StateMachine.ChangeState(this.Player.JumpState);
+
+            if (Input.GetKeyDown(KeyCode.R) && this.Player.SkillManager.BlackholeSkill.BackholeUnlocked && this.Player.SkillManager.BlackholeSkill.CanUseSkill())
+                this.StateMachine.ChangeState(this.Player.PlayerBlackholeState);
+
+        }
+
+        private bool HasNoSword()
+        {
+            if (!this.Player.Sword)
+                return true;
+
+            this.Player.Sword.GetComponent<SwordSkillController>().ReturnSword();
+
+            return false;
+        }
     }
 }

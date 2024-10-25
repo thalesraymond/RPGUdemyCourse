@@ -1,34 +1,37 @@
-public class SkeletonMoveState : SkeletonGroundedState
+namespace Enemy.Skeleton
 {
-    public SkeletonMoveState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName, EnemySkeleton enemySkeleton) : base(enemyBase, stateMachine, animBoolName, enemySkeleton)
+    public class SkeletonMoveState : SkeletonGroundedState
     {
-    }
-
-    public override void Enter()
-    {
-        base.Enter();
-    }
-
-    public override void Exit()
-    {
-        base.Exit();
-    }
-
-    public override string ToString()
-    {
-        return base.ToString();
-    }
-
-    public override void Update()
-    {
-        base.Update();
-
-        this.Enemy.SetVelocity(this.Enemy.MoveSpeed * this.Enemy.FacingDirection, this.Enemy.Rb.velocity.y);
-
-        if (this.Enemy.IsWallDetected() || !Enemy.IsGroundDetected())
+        public SkeletonMoveState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName, EnemySkeleton enemySkeleton) : base(enemyBase, stateMachine, animBoolName, enemySkeleton)
         {
-            this.Enemy.Flip();
-            this.StateMachine.ChangeState(Enemy.IdleState);
+        }
+
+        public override void Enter()
+        {
+            base.Enter();
+        }
+
+        public override void Exit()
+        {
+            base.Exit();
+        }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+
+        public override void Update()
+        {
+            base.Update();
+
+            this.Enemy.SetVelocity(this.Enemy.MoveSpeed * this.Enemy.FacingDirection, this.Enemy.Rb.velocity.y);
+
+            if (this.Enemy.IsWallDetected() || !Enemy.IsGroundDetected())
+            {
+                this.Enemy.Flip();
+                this.StateMachine.ChangeState(Enemy.IdleState);
+            }
         }
     }
 }

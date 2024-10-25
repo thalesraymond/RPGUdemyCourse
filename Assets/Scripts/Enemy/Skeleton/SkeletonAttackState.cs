@@ -1,34 +1,37 @@
 using UnityEngine;
 
-public class SkeletonAttackState : EnemyState
+namespace Enemy.Skeleton
 {
-    private EnemySkeleton enemy;
-    public SkeletonAttackState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName, EnemySkeleton enemy) : base(enemyBase, stateMachine, animBoolName)
+    public class SkeletonAttackState : EnemyState
     {
-        this.enemy = enemy;
-    }
+        private EnemySkeleton enemy;
+        public SkeletonAttackState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName, EnemySkeleton enemy) : base(enemyBase, stateMachine, animBoolName)
+        {
+            this.enemy = enemy;
+        }
 
-    public override void Enter()
-    {
-        base.Enter();
+        public override void Enter()
+        {
+            base.Enter();
 
-        this.enemy.SetVelocityToZero();
-    }
+            this.enemy.SetVelocityToZero();
+        }
 
-    public override void Exit()
-    {
-        base.Exit();
+        public override void Exit()
+        {
+            base.Exit();
 
-        this.enemy.LastTimeAttack = Time.time;
-    }
+            this.enemy.LastTimeAttack = Time.time;
+        }
 
-    public override void Update()
-    {
-        base.Update();
+        public override void Update()
+        {
+            base.Update();
 
-        this.enemy.SetVelocityToZero();
+            this.enemy.SetVelocityToZero();
 
-        if (this.triggerCalled)
-            this.StateMachine.ChangeState(enemy.BattleState);
+            if (this.triggerCalled)
+                this.StateMachine.ChangeState(enemy.BattleState);
+        }
     }
 }

@@ -1,33 +1,36 @@
 using System;
 
-[Serializable]
-public class InventoryItem
+namespace Inventory
 {
-    public ItemData ItemData;
-    public int StackSize;
-
-    public InventoryItem(ItemData itemData)
+    [Serializable]
+    public class InventoryItem
     {
-        ItemData = itemData;
-        AddStack();
-    }
+        public ItemData ItemData;
+        public int StackSize;
 
-    public void AddStack() => StackSize++;
-
-    public void RemoveStack() => StackSize--;
-
-    public override bool Equals(object obj)
-    {
-        if (obj is InventoryItem other)
+        public InventoryItem(ItemData itemData)
         {
-            return ItemData.Equals(other.ItemData);
+            ItemData = itemData;
+            AddStack();
         }
 
-        return false;
-    }
+        public void AddStack() => StackSize++;
 
-    public override int GetHashCode()
-    {
-        return ItemData.GetHashCode();
+        public void RemoveStack() => StackSize--;
+
+        public override bool Equals(object obj)
+        {
+            if (obj is InventoryItem other)
+            {
+                return ItemData.Equals(other.ItemData);
+            }
+
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return ItemData.GetHashCode();
+        }
     }
 }

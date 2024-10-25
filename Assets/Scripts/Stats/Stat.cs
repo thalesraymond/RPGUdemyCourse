@@ -2,33 +2,36 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-[System.Serializable]
-public class Stat
+namespace Stats
 {
-    [SerializeField] private int _baseValue;
-
-    public List<int> Modifiers;
-
-    public Stat()
+    [System.Serializable]
+    public class Stat
     {
-        Modifiers = new List<int>();
+        [SerializeField] private int _baseValue;
+
+        public List<int> Modifiers;
+
+        public Stat()
+        {
+            Modifiers = new List<int>();
+        }
+
+        public int GetValue()
+        {
+            return this._baseValue + this.Modifiers.Sum();
+        }
+
+        public void AddModifier(int modifier)
+        {
+            this.Modifiers.Add(modifier);
+
+            Inventory.Inventory.Instance.UpdateSlotAndStatsUI();
+        }
+
+        public void RemoveModifier(int modifier)
+        {
+            this.Modifiers.Remove(modifier);
+        }
+
     }
-
-    public int GetValue()
-    {
-        return this._baseValue + this.Modifiers.Sum();
-    }
-
-    public void AddModifier(int modifier)
-    {
-        this.Modifiers.Add(modifier);
-
-        Inventory.Instance.UpdateSlotAndStatsUI();
-    }
-
-    public void RemoveModifier(int modifier)
-    {
-        this.Modifiers.Remove(modifier);
-    }
-
 }

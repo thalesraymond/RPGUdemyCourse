@@ -1,35 +1,41 @@
 using System.Linq;
+using Inventory;
+using Skills;
+using Stats;
 using UnityEngine;
 
-public class PlayerAnimationTriggers : MonoBehaviour
+namespace Player
 {
-    private Player player => this.GetComponentInParent<Player>();
-
-    private void AnimationTrigger()
+    public class PlayerAnimationTriggers : MonoBehaviour
     {
-        this.player.AnimationTrigger();
-    }
+        private Player player => this.GetComponentInParent<Player>();
 
-    private void AttackTrigger()
-    {
-        var colliders = Physics2D.OverlapCircleAll(player.AttackCheck.position, player.AttackCheckRadius)
-            .Where(hit => hit.GetComponent<Enemy>() is not null);
-
-        foreach (var hit in colliders)
+        private void AnimationTrigger()
         {
-            var targetStats = hit.GetComponent<EnemyStats>();
-
-            this.player.Stats.DoDamage(targetStats);
-
-            var equippedWeapon = Inventory.Instance.GetEquipmentByType(EquipmentType.Weapon);
-
-            if (equippedWeapon != null)
-                equippedWeapon.ExecuteItemEffect(targetStats.transform);
+            this.player.AnimationTrigger();
         }
-    }
 
-    private void ThrowSword()
-    {
-        SkillManager.Instance.SwordSkill.CreateSword();
+        private void AttackTrigger()
+        {
+            var colliders = Physics2D.OverlapCircleAll(player.AttackCheck.position, player.AttackCheckRadius)
+                .Where(hit => hit.GetComponent<Enemy.Enemy>() is not null);
+
+            foreach (var hit in colliders)
+            {
+                var targetStats = hit.GetComponent<EnemyStats>();
+
+                this.player.Stats.DoDamage(targetStats);
+
+                var equippedWeapon = Inventory.Inventory.Instance.GetEquipmentByType(EquipmentType.Weapon);
+
+                if (equippedWeapon != null)
+                    equippedWeapon.ExecuteItemEffect(targetStats.transform);
+            }
+        }
+
+        private void ThrowSword()
+        {
+            SkillManager.Instance.SwordSkill.CreateSword();
+        }
     }
 }

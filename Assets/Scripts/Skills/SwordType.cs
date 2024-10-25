@@ -1,7 +1,10 @@
-﻿public enum SwordType
+﻿namespace Skills
 {
-    Regular,
-    Bounce,
-    Pierce,
-    Spin
+    public enum SwordType
+    {
+        Regular,
+        Bounce,
+        Pierce,
+        Spin
+    }
 }

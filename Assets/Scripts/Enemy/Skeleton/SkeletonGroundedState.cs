@@ -1,32 +1,35 @@
 using UnityEngine;
 
-public class SkeletonGroundedState : EnemyState
+namespace Enemy.Skeleton
 {
-    protected EnemySkeleton Enemy;
-
-    protected Transform Player;
-    public SkeletonGroundedState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName, EnemySkeleton enemy) : base(enemyBase, stateMachine, animBoolName)
+    public class SkeletonGroundedState : EnemyState
     {
-        this.Enemy = enemy;
-    }
+        protected EnemySkeleton Enemy;
 
-    public override void Enter()
-    {
-        base.Enter();
+        protected Transform Player;
+        public SkeletonGroundedState(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName, EnemySkeleton enemy) : base(enemyBase, stateMachine, animBoolName)
+        {
+            this.Enemy = enemy;
+        }
 
-        this.Player = PlayerManager.Instance.Player.transform;
-    }
+        public override void Enter()
+        {
+            base.Enter();
 
-    public override void Exit()
-    {
-        base.Exit();
-    }
+            this.Player = PlayerManager.Instance.Player.transform;
+        }
 
-    public override void Update()
-    {
-        base.Update();
+        public override void Exit()
+        {
+            base.Exit();
+        }
 
-        if (this.Enemy.IsPlayerDetected() || Vector2.Distance(this.Enemy.transform.position, this.Player.position) < 2)
-            this.StateMachine.ChangeState(this.Enemy.BattleState);
+        public override void Update()
+        {
+            base.Update();
+
+            if (this.Enemy.IsPlayerDetected() || Vector2.Distance(this.Enemy.transform.position, this.Player.position) < 2)
+                this.StateMachine.ChangeState(this.Enemy.BattleState);
+        }
     }
 }

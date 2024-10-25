@@ -1,174 +1,178 @@
 using System.Collections;
+using Skills;
 using UnityEngine;
 
-public class Player : Entity
+namespace Player
 {
-
-    [Header("Attack Details")]
-    public float[] AttackMovement;
-    public bool IsBusy { get; private set; }
-    public float CounterAttackDuration = 0.2f;
-
-
-    [Header("Move Info")]
-    public float MoveSpeed = 12f;
-    public float JumpForce;
-    public float WallSlideDrag;
-    public float SwordReturnImpact;
-    private float _defaultMoveSpeed;
-    private float _defaultJumpForce;
-
-    [Header("dash info")]
-    public float DashSpeed;
-    public float DashDuration;
-    public float DashDirection;
-    private float _defaultDashSpeed;
-
-    public SkillManager SkillManager { get; private set; }
-    public GameObject Sword { get; private set; }
-
-    #region States
-    public PlayerStateMachine StateMachine { get; private set; }
-
-    public PlayerIdleState IdleState { get; private set; }
-
-    public PlayerMoveState MoveState { get; private set; }
-
-    public PlayerJumpState JumpState { get; private set; }
-
-    public PlayerAirState AirState { get; private set; }
-
-    public PlayerWallSlideState WallSlideState { get; private set; }
-
-    public PlayerDashState DashState { get; private set; }
-
-    public PlayerWallJumpState WallJumpState { get; private set; }
-
-    public PlayerPrimaryAttackState PrimaryAttackState { get; private set; }
-
-    public PlayerCounterAttackState CounterAttackState { get; private set; }
-
-    public PlayerAimSwordState PlayerAimSwordState { get; private set; }
-
-    public PlayerCatchSwordState PlayerCatchSwordState { get; private set; }
-
-    public PlayerBlackholeState PlayerBlackholeState { get; private set; }
-
-    public PlayerDeathState PlayerDeathState { get; private set; }
-
-    #endregion
-
-    protected override void Awake()
+    public class Player : Entity
     {
-        base.Awake();
 
-        this.StateMachine = new PlayerStateMachine();
+        [Header("Attack Details")]
+        public float[] AttackMovement;
+        public bool IsBusy { get; private set; }
+        public float CounterAttackDuration = 0.2f;
 
-        this.IdleState = new PlayerIdleState(this, this.StateMachine, "Idle");
 
-        this.MoveState = new PlayerMoveState(this, this.StateMachine, "Move");
+        [Header("Move Info")]
+        public float MoveSpeed = 12f;
+        public float JumpForce;
+        public float WallSlideDrag;
+        public float SwordReturnImpact;
+        private float _defaultMoveSpeed;
+        private float _defaultJumpForce;
 
-        this.JumpState = new PlayerJumpState(this, this.StateMachine, "Jump");
+        [Header("dash info")]
+        public float DashSpeed;
+        public float DashDuration;
+        public float DashDirection;
+        private float _defaultDashSpeed;
 
-        this.AirState = new PlayerAirState(this, this.StateMachine, "Jump");
+        public SkillManager SkillManager { get; private set; }
+        public GameObject Sword { get; private set; }
 
-        this.WallSlideState = new PlayerWallSlideState(this, this.StateMachine, "WallSlide");
+        #region States
+        public PlayerStateMachine StateMachine { get; private set; }
 
-        this.DashState = new PlayerDashState(this, this.StateMachine, "Dash");
+        public PlayerIdleState IdleState { get; private set; }
 
-        this.WallJumpState = new PlayerWallJumpState(this, this.StateMachine, "Jump");
+        public PlayerMoveState MoveState { get; private set; }
 
-        this.PrimaryAttackState = new PlayerPrimaryAttackState(this, this.StateMachine, "Attack");
+        public PlayerJumpState JumpState { get; private set; }
 
-        this.CounterAttackState = new PlayerCounterAttackState(this, this.StateMachine, "CounterAttack");
+        public PlayerAirState AirState { get; private set; }
 
-        this.PlayerAimSwordState = new PlayerAimSwordState(this, this.StateMachine, "AimSword");
+        public PlayerWallSlideState WallSlideState { get; private set; }
 
-        this.PlayerCatchSwordState = new PlayerCatchSwordState(this, this.StateMachine, "CatchSword");
+        public PlayerDashState DashState { get; private set; }
 
-        this.PlayerBlackholeState = new PlayerBlackholeState(this, this.StateMachine, "Float");
+        public PlayerWallJumpState WallJumpState { get; private set; }
 
-        this.PlayerDeathState = new PlayerDeathState(this, this.StateMachine, "Death");
-    }
+        public PlayerPrimaryAttackState PrimaryAttackState { get; private set; }
 
-    protected override void Start()
-    {
-        base.Start();
+        public PlayerCounterAttackState CounterAttackState { get; private set; }
 
-        this.StateMachine.Initialize(this.IdleState);
+        public PlayerAimSwordState PlayerAimSwordState { get; private set; }
 
-        this.SkillManager = SkillManager.Instance;
+        public PlayerCatchSwordState PlayerCatchSwordState { get; private set; }
 
-        this._defaultMoveSpeed = this.MoveSpeed;
-        this._defaultJumpForce = this.JumpForce;
-        this._defaultDashSpeed = this.DashSpeed;
-    }
+        public PlayerBlackholeState PlayerBlackholeState { get; private set; }
 
-    protected override void Update()
-    {
-        base.Update();
+        public PlayerDeathState PlayerDeathState { get; private set; }
 
-        this.StateMachine.CurrentState.Update();
+        #endregion
 
-        if (Input.GetKeyDown(KeyCode.F))
+        protected override void Awake()
         {
-            this.SkillManager.CrystalSkill.CanUseSkill();
+            base.Awake();
+
+            this.StateMachine = new PlayerStateMachine();
+
+            this.IdleState = new PlayerIdleState(this, this.StateMachine, "Idle");
+
+            this.MoveState = new PlayerMoveState(this, this.StateMachine, "Move");
+
+            this.JumpState = new PlayerJumpState(this, this.StateMachine, "Jump");
+
+            this.AirState = new PlayerAirState(this, this.StateMachine, "Jump");
+
+            this.WallSlideState = new PlayerWallSlideState(this, this.StateMachine, "WallSlide");
+
+            this.DashState = new PlayerDashState(this, this.StateMachine, "Dash");
+
+            this.WallJumpState = new PlayerWallJumpState(this, this.StateMachine, "Jump");
+
+            this.PrimaryAttackState = new PlayerPrimaryAttackState(this, this.StateMachine, "Attack");
+
+            this.CounterAttackState = new PlayerCounterAttackState(this, this.StateMachine, "CounterAttack");
+
+            this.PlayerAimSwordState = new PlayerAimSwordState(this, this.StateMachine, "AimSword");
+
+            this.PlayerCatchSwordState = new PlayerCatchSwordState(this, this.StateMachine, "CatchSword");
+
+            this.PlayerBlackholeState = new PlayerBlackholeState(this, this.StateMachine, "Float");
+
+            this.PlayerDeathState = new PlayerDeathState(this, this.StateMachine, "Death");
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        protected override void Start()
         {
-            Inventory.Instance.UseFlask();
+            base.Start();
+
+            this.StateMachine.Initialize(this.IdleState);
+
+            this.SkillManager = SkillManager.Instance;
+
+            this._defaultMoveSpeed = this.MoveSpeed;
+            this._defaultJumpForce = this.JumpForce;
+            this._defaultDashSpeed = this.DashSpeed;
         }
-    }
 
-    public override void SlowEntityBy(float slowPercentage, float slowDurantion)
-    {
-        this.MoveSpeed = this.MoveSpeed * (1 - slowPercentage);
-        this.JumpForce = this.JumpForce * (1 - slowPercentage);
-        this.DashSpeed = this.DashSpeed * (1 - slowPercentage);
+        protected override void Update()
+        {
+            base.Update();
 
-        this.Anim.speed = this.Anim.speed * (1 - slowPercentage);
+            this.StateMachine.CurrentState.Update();
 
-        Invoke(nameof(ReturnToDefaultSpeed), slowDurantion);
-    }
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                this.SkillManager.CrystalSkill.CanUseSkill();
+            }
 
-    protected override void ReturnToDefaultSpeed()
-    {
-        this.MoveSpeed = this._defaultMoveSpeed;
-        this.JumpForce = this._defaultJumpForce;
-        this.DashSpeed = this._defaultDashSpeed;
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                Inventory.Inventory.Instance.UseFlask();
+            }
+        }
 
-        base.ReturnToDefaultSpeed();
-    }
+        public override void SlowEntityBy(float slowPercentage, float slowDurantion)
+        {
+            this.MoveSpeed = this.MoveSpeed * (1 - slowPercentage);
+            this.JumpForce = this.JumpForce * (1 - slowPercentage);
+            this.DashSpeed = this.DashSpeed * (1 - slowPercentage);
+
+            this.Anim.speed = this.Anim.speed * (1 - slowPercentage);
+
+            Invoke(nameof(ReturnToDefaultSpeed), slowDurantion);
+        }
+
+        protected override void ReturnToDefaultSpeed()
+        {
+            this.MoveSpeed = this._defaultMoveSpeed;
+            this.JumpForce = this._defaultJumpForce;
+            this.DashSpeed = this._defaultDashSpeed;
+
+            base.ReturnToDefaultSpeed();
+        }
 
 
-    public void AnimationTrigger() => this.StateMachine.CurrentState.AnimationFinishTrigger();
+        public void AnimationTrigger() => this.StateMachine.CurrentState.AnimationFinishTrigger();
 
-    public IEnumerator BusyFor(float seconds)
-    {
-        this.IsBusy = true;
+        public IEnumerator BusyFor(float seconds)
+        {
+            this.IsBusy = true;
 
-        yield return new WaitForSeconds(seconds);
+            yield return new WaitForSeconds(seconds);
 
-        this.IsBusy = false;
-    }
+            this.IsBusy = false;
+        }
 
-    public void AssignNewSword(GameObject sword)
-    {
-        this.Sword = sword;
-    }
+        public void AssignNewSword(GameObject sword)
+        {
+            this.Sword = sword;
+        }
 
-    public void CatchTheSword()
-    {
-        this.StateMachine.ChangeState(PlayerCatchSwordState);
+        public void CatchTheSword()
+        {
+            this.StateMachine.ChangeState(PlayerCatchSwordState);
 
-        Destroy(this.Sword);
-    }
+            Destroy(this.Sword);
+        }
 
-    public override void Die()
-    {
-        base.Die();
+        public override void Die()
+        {
+            base.Die();
 
-        this.StateMachine.ChangeState(PlayerDeathState);
+            this.StateMachine.ChangeState(PlayerDeathState);
+        }
     }
 }

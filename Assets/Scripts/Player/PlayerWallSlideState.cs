@@ -1,39 +1,42 @@
 using UnityEngine;
 
-public class PlayerWallSlideState : PlayerState
+namespace Player
 {
-    public PlayerWallSlideState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
+    public class PlayerWallSlideState : PlayerState
     {
-    }
-
-    public override void Enter()
-    {
-        base.Enter();
-    }
-
-    public override void Exit()
-    {
-        base.Exit();
-    }
-
-    public override void Update()
-    {
-        base.Update();
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        public PlayerWallSlideState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
         {
-            this.StateMachine.ChangeState(this.Player.WallJumpState);
-            return;
         }
-        if (this.xInput != 0 && this.Player.FacingDirection != this.xInput)
-            this.StateMachine.ChangeState(this.Player.IdleState);
 
-        if (this.Player.IsGroundDetected())
-            this.StateMachine.ChangeState(this.Player.IdleState);
+        public override void Enter()
+        {
+            base.Enter();
+        }
 
-        if (this.yInput < 0)
-            this.Rb.velocity = new Vector2(0, Rb.velocity.y);
-        else
-            this.Rb.velocity = new Vector2(0, Rb.velocity.y * this.Player.WallSlideDrag);
+        public override void Exit()
+        {
+            base.Exit();
+        }
+
+        public override void Update()
+        {
+            base.Update();
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                this.StateMachine.ChangeState(this.Player.WallJumpState);
+                return;
+            }
+            if (this.xInput != 0 && this.Player.FacingDirection != this.xInput)
+                this.StateMachine.ChangeState(this.Player.IdleState);
+
+            if (this.Player.IsGroundDetected())
+                this.StateMachine.ChangeState(this.Player.IdleState);
+
+            if (this.yInput < 0)
+                this.Rb.velocity = new Vector2(0, Rb.velocity.y);
+            else
+                this.Rb.velocity = new Vector2(0, Rb.velocity.y * this.Player.WallSlideDrag);
+        }
     }
 }

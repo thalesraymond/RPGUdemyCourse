@@ -1,69 +1,73 @@
+using Inventory;
 using UnityEngine;
 
-public class EnemyStats : CharacterStats
+namespace Stats
 {
-    private Enemy _enemy;
-    private ItemDrop _itemDropSystem;
-
-    [Header("Level details")]
-    [SerializeField] private int _level = 1;
-    [Range(0f, 1f)][SerializeField] private float _percentageModifier = .4f;
-    protected override void Start()
+    public class EnemyStats : CharacterStats
     {
-        base.Start();
+        private Enemy.Enemy _enemy;
+        private ItemDrop _itemDropSystem;
 
-        _enemy = GetComponent<Enemy>();
-
-        _itemDropSystem = GetComponentInChildren<ItemDrop>();
-
-        ApplyLevelModifier();
-    }
-
-    private void ApplyLevelModifier()
-    {
-        Modify(this.MaxHealthPoints);
-        this.CurrentHealthPoints = this.MaxHealthPoints.GetValue();
-
-        // Do not modify strength, agility, intelligence, vitality for enemies
-        // Modify(this.Strength);
-        // Modify(this.Agility);
-        // Modify(this.Intelligence);
-        // Modify(this.Vitality);
-
-        Modify(this.Damage);
-        Modify(this.FireDamage);
-        Modify(this.IceDamage);
-        Modify(this.LightningDamage);
-
-        Modify(this.Armor);
-        Modify(this.Evasion);
-        Modify(this.MagicResistance);
-
-        Modify(this.CriticalHitChance);
-        Modify(this.CriticalHitPower);
-    }
-
-    private void Modify(Stat stat)
-    {
-        for (var i = 1; i < _level; i++)
+        [Header("Level details")]
+        [SerializeField] private int _level = 1;
+        [Range(0f, 1f)][SerializeField] private float _percentageModifier = .4f;
+        protected override void Start()
         {
-            var modifier = stat.GetValue() * _percentageModifier;
+            base.Start();
 
-            stat.AddModifier(Mathf.RoundToInt(modifier));
+            _enemy = GetComponent<Enemy.Enemy>();
+
+            _itemDropSystem = GetComponentInChildren<ItemDrop>();
+
+            ApplyLevelModifier();
         }
-    }
 
-    public override void TakeDamage(int damage)
-    {
-        base.TakeDamage(damage);
-    }
+        private void ApplyLevelModifier()
+        {
+            Modify(this.MaxHealthPoints);
+            this.CurrentHealthPoints = this.MaxHealthPoints.GetValue();
 
-    protected override void Die()
-    {
-        base.Die();
+            // Do not modify strength, agility, intelligence, vitality for enemies
+            // Modify(this.Strength);
+            // Modify(this.Agility);
+            // Modify(this.Intelligence);
+            // Modify(this.Vitality);
 
-        _enemy.Die();
+            Modify(this.Damage);
+            Modify(this.FireDamage);
+            Modify(this.IceDamage);
+            Modify(this.LightningDamage);
 
-        this._itemDropSystem.GenerateDrops();
+            Modify(this.Armor);
+            Modify(this.Evasion);
+            Modify(this.MagicResistance);
+
+            Modify(this.CriticalHitChance);
+            Modify(this.CriticalHitPower);
+        }
+
+        private void Modify(Stat stat)
+        {
+            for (var i = 1; i < _level; i++)
+            {
+                var modifier = stat.GetValue() * _percentageModifier;
+
+                stat.AddModifier(Mathf.RoundToInt(modifier));
+            }
+        }
+
+        public override void TakeDamage(int damage)
+        {
+            base.TakeDamage(damage);
+        }
+
+        protected override void Die()
+        {
+            base.Die();
+
+            _enemy.Die();
+
+            this._itemDropSystem.GenerateDrops();
+        }
     }
 }

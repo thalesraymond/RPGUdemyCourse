@@ -1,91 +1,91 @@
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEngine;
 using System.Linq;
-using System.IO;
+using UnityEngine;
 
-public class SaveManager : MonoBehaviour
+namespace SaveAndLoad
 {
-    public static SaveManager Instance { get; private set; }
-
-    private IList<ISaveManager> _saveManagers;
-    private FileDataHandler _fileDataHandler;
-
-    [SerializeField] private string _fileName;
-    [SerializeField] private bool _encryptData;
-
-    private void Awake()
+    public class SaveManager : MonoBehaviour
     {
-        if (Instance != null && Instance != this)
+        public static SaveManager Instance { get; private set; }
+
+        private IList<ISaveManager> _saveManagers;
+        private FileDataHandler _fileDataHandler;
+
+        [SerializeField] private string _fileName;
+        [SerializeField] private bool _encryptData;
+
+        private void Awake()
         {
-            Destroy(this);
-        }
-        else
-        {
-            Instance = this;
-        }
-    }
-
-    private GameData _gameData;
-
-    public void Start()
-    {
-        this._saveManagers = this.FindAllSaveManagers();
-
-        this._fileDataHandler = new FileDataHandler(Application.persistentDataPath, this._fileName, this._encryptData);
-
-        this.LoadGame();
-    }
-
-    [ContextMenu("Delete Save Data")]
-    private void DeleteSaveData()
-    {
-        this._fileDataHandler = new FileDataHandler(Application.persistentDataPath, this._fileName, this._encryptData);
-        this._fileDataHandler.Delete(); 
-    }
-
-    public void NewGame()
-    {
-        this._gameData = new GameData();
-    }
-
-    public void LoadGame()
-    {
-        this._gameData = this._fileDataHandler.Load();
-
-        if(this._gameData == null)
-        {
-            this.NewGame();
-
-            return;
+            if (Instance != null && Instance != this)
+            {
+                Destroy(this);
+            }
+            else
+            {
+                Instance = this;
+            }
         }
 
-        foreach (var saveManager in this._saveManagers)
-        {
-            saveManager.LoadData(this._gameData);
-        }
-    }
+        private GameData _gameData;
 
-    public void SaveGame()
-    {
-        foreach (var saveManager in this._saveManagers)
+        public void Start()
         {
-            saveManager.SaveData(ref this._gameData);
+            this._saveManagers = this.FindAllSaveManagers();
+
+            this._fileDataHandler = new FileDataHandler(Application.persistentDataPath, this._fileName, this._encryptData);
+
+            this.LoadGame();
         }
 
-        this._fileDataHandler.Save(this._gameData);
-    }
+        [ContextMenu("Delete Save Data")]
+        private void DeleteSaveData()
+        {
+            this._fileDataHandler = new FileDataHandler(Application.persistentDataPath, this._fileName, this._encryptData);
+            this._fileDataHandler.Delete(); 
+        }
 
-    private void OnApplicationQuit()
-    {
-        this.SaveGame();
-    }
+        public void NewGame()
+        {
+            this._gameData = new GameData();
+        }
 
-    private IList<ISaveManager> FindAllSaveManagers()
-    {
-        var saveManagers = FindObjectsOfType<MonoBehaviour>().OfType<ISaveManager>();
+        public void LoadGame()
+        {
+            this._gameData = this._fileDataHandler.Load();
 
-        return saveManagers.ToList();
+            if(this._gameData == null)
+            {
+                this.NewGame();
+
+                return;
+            }
+
+            foreach (var saveManager in this._saveManagers)
+            {
+                saveManager.LoadData(this._gameData);
+            }
+        }
+
+        public void SaveGame()
+        {
+            foreach (var saveManager in this._saveManagers)
+            {
+                saveManager.SaveData(ref this._gameData);
+            }
+
+            this._fileDataHandler.Save(this._gameData);
+        }
+
+        private void OnApplicationQuit()
+        {
+            this.SaveGame();
+        }
+
+        private IList<ISaveManager> FindAllSaveManagers()
+        {
+            var saveManagers = FindObjectsOfType<MonoBehaviour>().OfType<ISaveManager>();
+
+            return saveManagers.ToList();
+        }
     }
 }

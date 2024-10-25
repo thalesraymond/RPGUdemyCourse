@@ -1,28 +1,32 @@
 using System.Linq;
+using Stats;
 using UnityEngine;
 
-public class EnemySkeletonAnimationTriggers : MonoBehaviour
+namespace Enemy.Skeleton
 {
-    private EnemySkeleton enemy => GetComponentInParent<EnemySkeleton>();
-
-    private void AnimationTrigger()
+    public class EnemySkeletonAnimationTriggers : MonoBehaviour
     {
-        this.enemy.AnimationFinishTrigger();
-    }
+        private EnemySkeleton enemy => GetComponentInParent<EnemySkeleton>();
 
-    private void AttackTrigger()
-    {
-        var colliders = Physics2D.OverlapCircleAll(enemy.AttackCheck.position, enemy.AttackCheckRadius)
-            .Where(hit => hit.GetComponent<Player>() is not null);
-
-        foreach (var hit in colliders)
+        private void AnimationTrigger()
         {
-            this.enemy.Stats.DoDamage(hit.GetComponent<PlayerStats>());
+            this.enemy.AnimationFinishTrigger();
         }
 
+        private void AttackTrigger()
+        {
+            var colliders = Physics2D.OverlapCircleAll(enemy.AttackCheck.position, enemy.AttackCheckRadius)
+                .Where(hit => hit.GetComponent<Player.Player>() is not null);
+
+            foreach (var hit in colliders)
+            {
+                this.enemy.Stats.DoDamage(hit.GetComponent<PlayerStats>());
+            }
+
+        }
+
+        private void OpenCounterWindow() => enemy.OpenCounterAttackWindow();
+
+        private void CloseCounterWindow() => enemy.CloseCounterAttackWindow();
     }
-
-    private void OpenCounterWindow() => enemy.OpenCounterAttackWindow();
-
-    private void CloseCounterWindow() => enemy.CloseCounterAttackWindow();
 }

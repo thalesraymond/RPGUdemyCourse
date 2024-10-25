@@ -1,30 +1,33 @@
-public class PlayerAirState : PlayerState
+namespace Player
 {
-    public PlayerAirState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
+    public class PlayerAirState : PlayerState
     {
-    }
+        public PlayerAirState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
+        {
+        }
 
-    public override void Enter()
-    {
-        base.Enter();
-    }
+        public override void Enter()
+        {
+            base.Enter();
+        }
 
-    public override void Exit()
-    {
-        base.Exit();
-    }
+        public override void Exit()
+        {
+            base.Exit();
+        }
 
-    public override void Update()
-    {
-        base.Update();
+        public override void Update()
+        {
+            base.Update();
 
-        if (this.Player.IsWallDetected())
-            this.StateMachine.ChangeState(this.Player.WallSlideState);
+            if (this.Player.IsWallDetected())
+                this.StateMachine.ChangeState(this.Player.WallSlideState);
 
-        if (this.Player.IsGroundDetected())
-            this.StateMachine.ChangeState(this.Player.IdleState);
+            if (this.Player.IsGroundDetected())
+                this.StateMachine.ChangeState(this.Player.IdleState);
 
-        if (this.xInput != 0)
-            this.Player.SetVelocity(this.Player.MoveSpeed * .8f * this.xInput, this.Rb.velocity.y);
+            if (this.xInput != 0)
+                this.Player.SetVelocity(this.Player.MoveSpeed * .8f * this.xInput, this.Rb.velocity.y);
+        }
     }
 }

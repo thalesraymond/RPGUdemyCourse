@@ -1,38 +1,40 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>, ISerializationCallbackReceiver
+namespace SaveAndLoad
 {
-    [SerializeField] private List<TKey> _keys = new List<TKey>();
-    [SerializeField] private List<TValue> _values = new List<TValue>();
-
-    public void OnBeforeSerialize()
+    [System.Serializable]
+    public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>, ISerializationCallbackReceiver
     {
-        this._keys.Clear();
-        this._values.Clear();
+        [SerializeField] private List<TKey> _keys = new List<TKey>();
+        [SerializeField] private List<TValue> _values = new List<TValue>();
 
-        foreach (var item in this)
+        public void OnBeforeSerialize()
         {
-            this._keys.Add(item.Key);
-            this._values.Add(item.Value);
-        }
-    }
+            this._keys.Clear();
+            this._values.Clear();
 
-    public void OnAfterDeserialize()
-    {
-        this.Clear();
-
-        if(this._keys.Count != this._values.Count)
-        {
-            Debug.LogError("The number of keys and values does not match.");
-            return;
+            foreach (var item in this)
+            {
+                this._keys.Add(item.Key);
+                this._values.Add(item.Value);
+            }
         }
 
-        for (int i = 0; i < this._keys.Count; i++)
+        public void OnAfterDeserialize()
         {
-            this.Add(this._keys[i], this._values[i]);
+            this.Clear();
+
+            if(this._keys.Count != this._values.Count)
+            {
+                Debug.LogError("The number of keys and values does not match.");
+                return;
+            }
+
+            for (int i = 0; i < this._keys.Count; i++)
+            {
+                this.Add(this._keys[i], this._values[i]);
+            }
         }
     }
 }

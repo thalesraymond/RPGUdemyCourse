@@ -1,52 +1,56 @@
+using Inventory;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class CraftSlotUI : ItemSlotUI
+namespace UI
 {
-
-    protected override void Start()
+    public class CraftSlotUI : ItemSlotUI
     {
-        base.Start();
-    }
 
-    public void SetupCraftSlot(EquipmentItemData equipmentItemData)
-    {
-        if (this.Item == null)
+        protected override void Start()
         {
-            Debug.LogWarning("Null item");
-            return;
+            base.Start();
         }
 
-        this.Item.ItemData = equipmentItemData;
-
-        this.ItemImage.sprite = equipmentItemData.ItemIcon;
-
-        this.ItemText.text = equipmentItemData.ItemName;
-
-        if (this.ItemText.text.Length > 12)
+        public void SetupCraftSlot(EquipmentItemData equipmentItemData)
         {
-            this.ItemText.fontSize = this.ItemText.fontSize * .7f;
-        }
-        else
-        {
-            this.ItemText.fontSize = 24;
-        }
-    }
+            if (this.Item == null)
+            {
+                Debug.LogWarning("Null item");
+                return;
+            }
 
-    private void OnEnable()
-    {
-        UpdateSlot(this.Item);
-    }
-    public override void OnPointerDown(PointerEventData eventData)
-    {
-        var equipment = this.Item?.ItemData as EquipmentItemData;
+            this.Item.ItemData = equipmentItemData;
 
-        if (equipment == null)
-        {
-            Debug.LogWarning("Item is not an equipment item");
-            return;
+            this.ItemImage.sprite = equipmentItemData.ItemIcon;
+
+            this.ItemText.text = equipmentItemData.ItemName;
+
+            if (this.ItemText.text.Length > 12)
+            {
+                this.ItemText.fontSize = this.ItemText.fontSize * .7f;
+            }
+            else
+            {
+                this.ItemText.fontSize = 24;
+            }
         }
 
-        this.UI.CraftWindowUI.SetupCraftWindow(this.Item.ItemData as EquipmentItemData);
+        private void OnEnable()
+        {
+            UpdateSlot(this.Item);
+        }
+        public override void OnPointerDown(PointerEventData eventData)
+        {
+            var equipment = this.Item?.ItemData as EquipmentItemData;
+
+            if (equipment == null)
+            {
+                Debug.LogWarning("Item is not an equipment item");
+                return;
+            }
+
+            this.UI.CraftWindowUI.SetupCraftWindow(this.Item.ItemData as EquipmentItemData);
+        }
     }
 }

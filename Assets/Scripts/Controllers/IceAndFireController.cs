@@ -1,9 +1,12 @@
 using UnityEngine;
 
-public class IceAndFireController : ThunderStrikeController
+namespace Controllers
 {
-    protected override void OnTriggerEnter2D(Collider2D other)
+    public class IceAndFireController : ThunderStrikeController
     {
-        base.OnTriggerEnter2D(other);
+        protected override void OnTriggerEnter2D(Collider2D other)
+        {
+            base.OnTriggerEnter2D(other);
+        }
     }
 }

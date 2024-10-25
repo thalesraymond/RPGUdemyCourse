@@ -1,14 +1,17 @@
 using TMPro;
 using UnityEngine;
 
-public class StatToolTipUI : ToolTipUI
+namespace UI
 {
-    [SerializeField] private TextMeshProUGUI _statDescriptionText;
-
-    public void ShowTooltip(string text)
+    public class StatToolTipUI : ToolTipUI
     {
-        this._statDescriptionText.text = text;
+        [SerializeField] private TextMeshProUGUI _statDescriptionText;
 
-        this.PositionToolTip();
+        public void ShowTooltip(string text)
+        {
+            this._statDescriptionText.text = text;
+
+            this.PositionToolTip();
+        }
     }
 }

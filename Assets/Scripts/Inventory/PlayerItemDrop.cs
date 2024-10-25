@@ -1,36 +1,39 @@
 using System.Linq;
 using UnityEngine;
 
-public class PlayerItemDrop : ItemDrop
+namespace Inventory
 {
-    [Header("Player's Drops")]
-    [SerializeField][Range(0, 100)] private float _chanceToLooseItems;
-
-    [SerializeField][Range(0, 100)] private float _chanceToLooseMaterials;
-
-    public override void GenerateDrops()
+    public class PlayerItemDrop : ItemDrop
     {
-        var inventory = Inventory.Instance;
+        [Header("Player's Drops")]
+        [SerializeField][Range(0, 100)] private float _chanceToLooseItems;
 
-        var currentEquipment = inventory.GetEquimentList();
-        var currentStash = inventory.GetStashList();
+        [SerializeField][Range(0, 100)] private float _chanceToLooseMaterials;
 
-        var droppedItems = inventory.EquipmentItems.Where(item => Random.Range(0, 100) <= _chanceToLooseItems).ToList();
-
-        var droppedStashItems = currentStash.Where(item => Random.Range(0, 100) <= _chanceToLooseMaterials).ToList();
-
-        droppedItems.AddRange(droppedStashItems);
-
-        foreach (var item in droppedItems)
+        public override void GenerateDrops()
         {
-            inventory.RemoveItem(item.ItemData);
+            var inventory = Inventory.Instance;
 
-            if (item.ItemData is EquipmentItemData equipmentItemData)
-                inventory.UnequipItem(equipmentItemData);
+            var currentEquipment = inventory.GetEquimentList();
+            var currentStash = inventory.GetStashList();
 
-            DropItem(item.ItemData);
+            var droppedItems = inventory.EquipmentItems.Where(item => Random.Range(0, 100) <= _chanceToLooseItems).ToList();
+
+            var droppedStashItems = currentStash.Where(item => Random.Range(0, 100) <= _chanceToLooseMaterials).ToList();
+
+            droppedItems.AddRange(droppedStashItems);
+
+            foreach (var item in droppedItems)
+            {
+                inventory.RemoveItem(item.ItemData);
+
+                if (item.ItemData is EquipmentItemData equipmentItemData)
+                    inventory.UnequipItem(equipmentItemData);
+
+                DropItem(item.ItemData);
+            }
+
+            inventory.UpdateSlotAndStatsUI();
         }
-
-        inventory.UpdateSlotAndStatsUI();
     }
 }

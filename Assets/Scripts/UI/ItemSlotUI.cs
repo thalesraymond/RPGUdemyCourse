@@ -1,92 +1,96 @@
+using Inventory;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler
+namespace UI
 {
-    [SerializeField] protected Image ItemImage;
-    [SerializeField] protected TextMeshProUGUI ItemText;
-
-    protected UI UI;
-
-    public InventoryItem Item;
-
-    protected virtual void Start()
+    public class ItemSlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler
     {
-        this.UI = GetComponentInParent<UI>();
-    }
+        [SerializeField] protected Image ItemImage;
+        [SerializeField] protected TextMeshProUGUI ItemText;
 
-    public void UpdateSlot(InventoryItem newItem)
-    {
-        this.Item = newItem;
+        protected UI UI;
 
-        if (this.Item != null)
+        public InventoryItem Item;
+
+        protected virtual void Start()
         {
-            ItemImage.color = Color.white;
+            this.UI = GetComponentInParent<UI>();
+        }
 
-            ItemImage.sprite = this.Item.ItemData.ItemIcon;
+        public void UpdateSlot(InventoryItem newItem)
+        {
+            this.Item = newItem;
 
-            if (Item.StackSize > 1)
-                ItemText.text = Item.StackSize.ToString();
+            if (this.Item != null)
+            {
+                ItemImage.color = Color.white;
+
+                ItemImage.sprite = this.Item.ItemData.ItemIcon;
+
+                if (Item.StackSize > 1)
+                    ItemText.text = Item.StackSize.ToString();
+                else
+                    ItemText.text = string.Empty;
+            }
             else
-                ItemText.text = string.Empty;
+            {
+                this.ClearSlot();
+            }
         }
-        else
+
+        protected void ClearSlot()
         {
-            this.ClearSlot();
-        }
-    }
+            if (this.ItemImage == null || this.ItemText == null)
+            {
+                return;
+            }
 
-    protected void ClearSlot()
-    {
-        if (this.ItemImage == null || this.ItemText == null)
+            ItemImage.sprite = null;
+            ItemText.text = string.Empty;
+
+            ItemImage.color = Color.clear;
+        }
+
+        public virtual void OnPointerDown(PointerEventData eventData)
         {
-            return;
+            if (Input.GetKey(KeyCode.LeftControl) && this.Item != null)
+            {
+                Inventory.Inventory.Instance.RemoveItem(this.Item.ItemData);
+
+                return;
+            }
+
+            if (this.Item?.ItemData == null)
+                return;
+
+            if (this.Item.ItemData.ItemType != ItemType.Equipment)
+                return;
+
+            Inventory.Inventory.Instance.EquipItem(this.Item.ItemData);
         }
 
-        ItemImage.sprite = null;
-        ItemText.text = string.Empty;
-
-        ItemImage.color = Color.clear;
-    }
-
-    public virtual void OnPointerDown(PointerEventData eventData)
-    {
-        if (Input.GetKey(KeyCode.LeftControl) && this.Item != null)
+        public void OnPointerExit(PointerEventData eventData)
         {
-            Inventory.Instance.RemoveItem(this.Item.ItemData);
-
-            return;
+            this.UI.ItemToolTipUI.HideTooltip();
         }
 
-        if (this.Item?.ItemData == null)
-            return;
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            if (this.Item == null)
+                return;
 
-        if (this.Item.ItemData.ItemType != ItemType.Equipment)
-            return;
+            this.UI.ItemToolTipUI.ShowTooltip(this.Item.ItemData as EquipmentItemData);
+        }
 
-        Inventory.Instance.EquipItem(this.Item.ItemData);
-    }
+        public void OnPointerMove(PointerEventData eventData)
+        {
+            if (this.Item == null)
+                return;
 
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        this.UI.ItemToolTipUI.HideTooltip();
-    }
-
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-        if (this.Item == null)
-            return;
-
-        this.UI.ItemToolTipUI.ShowTooltip(this.Item.ItemData as EquipmentItemData);
-    }
-
-    public void OnPointerMove(PointerEventData eventData)
-    {
-        if (this.Item == null)
-            return;
-
-        this.UI.ItemToolTipUI.ShowTooltip(this.Item.ItemData as EquipmentItemData);
+            this.UI.ItemToolTipUI.ShowTooltip(this.Item.ItemData as EquipmentItemData);
+        }
     }
 }

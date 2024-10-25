@@ -1,25 +1,29 @@
+using Inventory;
 using UnityEngine.EventSystems;
 
-public class EquipmentSlotUI : ItemSlotUI
+namespace UI
 {
-    public EquipmentType SlotType;
-
-    private void OnValidate()
+    public class EquipmentSlotUI : ItemSlotUI
     {
-        gameObject.name = "Equipment Slot - " + SlotType.ToString();
-    }
+        public EquipmentType SlotType;
 
-    public override void OnPointerDown(PointerEventData eventData)
-    {
-        var equipment = this.Item?.ItemData as EquipmentItemData;
+        private void OnValidate()
+        {
+            gameObject.name = "Equipment Slot - " + SlotType.ToString();
+        }
 
-        if (equipment == null)
-            return;
+        public override void OnPointerDown(PointerEventData eventData)
+        {
+            var equipment = this.Item?.ItemData as EquipmentItemData;
 
-        Inventory.Instance.UnequipItem(equipment);
+            if (equipment == null)
+                return;
 
-        Inventory.Instance.AddItem(equipment);
+            Inventory.Inventory.Instance.UnequipItem(equipment);
 
-        this.ClearSlot();
+            Inventory.Inventory.Instance.AddItem(equipment);
+
+            this.ClearSlot();
+        }
     }
 }

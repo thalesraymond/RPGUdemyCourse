@@ -1,83 +1,87 @@
+using Skills;
 using UnityEngine;
 
-public class PlayerState
+namespace Player
 {
-    protected PlayerStateMachine StateMachine;
-
-    protected Player Player;
-
-    private string _animBoolName;
-
-    protected float xInput;
-
-    protected float yInput;
-
-    protected Rigidbody2D Rb;
-
-    protected float StateTimer;
-
-    protected bool TriggerCalled;
-
-    public PlayerState(Player player, PlayerStateMachine stateMachine, string animBoolName)
+    public class PlayerState
     {
-        this.Player = player;
+        protected PlayerStateMachine StateMachine;
 
-        this.StateMachine = stateMachine;
+        protected Player Player;
 
-        this._animBoolName = animBoolName;
+        private string _animBoolName;
 
-        this.TriggerCalled = false;
+        protected float xInput;
 
-    }
+        protected float yInput;
 
-    public virtual void Enter()
-    {
-        this.Player.Anim.SetBool(this._animBoolName, true);
+        protected Rigidbody2D Rb;
 
-        this.Rb = this.Player.Rb;
+        protected float StateTimer;
 
-        this.TriggerCalled = false;
-    }
+        protected bool TriggerCalled;
 
-    public virtual void Exit()
-    {
-        this.Player.Anim.SetBool(this._animBoolName, false);
-    }
-
-    public virtual void Update()
-    {
-        this.xInput = Input.GetAxisRaw("Horizontal");
-
-        this.yInput = Input.GetAxisRaw("Vertical");
-
-        this.Player.Anim.SetFloat("yVelocity", this.Rb.velocity.y);
-
-        this.StateTimer -= Time.deltaTime;
-
-        this.CheckForDashInput();
-    }
-
-    private void CheckForDashInput()
-    {
-        if (this.Player.IsWallDetected())
-            return;
-
-        if (!this.Player.SkillManager.DashSkill.DashUnlocked)
-            return;
-
-        if (Input.GetKeyDown(KeyCode.LeftShift) && SkillManager.Instance.DashSkill.CanUseSkill())
+        public PlayerState(Player player, PlayerStateMachine stateMachine, string animBoolName)
         {
-            this.Player.DashDirection = Input.GetAxisRaw("Horizontal");
+            this.Player = player;
 
-            if (this.Player.DashDirection == 0)
-                this.Player.DashDirection = this.Player.FacingDirection;
+            this.StateMachine = stateMachine;
 
-            this.StateMachine.ChangeState(this.Player.DashState);
+            this._animBoolName = animBoolName;
+
+            this.TriggerCalled = false;
+
         }
-    }
 
-    public virtual void AnimationFinishTrigger()
-    {
-        this.TriggerCalled = true;
+        public virtual void Enter()
+        {
+            this.Player.Anim.SetBool(this._animBoolName, true);
+
+            this.Rb = this.Player.Rb;
+
+            this.TriggerCalled = false;
+        }
+
+        public virtual void Exit()
+        {
+            this.Player.Anim.SetBool(this._animBoolName, false);
+        }
+
+        public virtual void Update()
+        {
+            this.xInput = Input.GetAxisRaw("Horizontal");
+
+            this.yInput = Input.GetAxisRaw("Vertical");
+
+            this.Player.Anim.SetFloat("yVelocity", this.Rb.velocity.y);
+
+            this.StateTimer -= Time.deltaTime;
+
+            this.CheckForDashInput();
+        }
+
+        private void CheckForDashInput()
+        {
+            if (this.Player.IsWallDetected())
+                return;
+
+            if (!this.Player.SkillManager.DashSkill.DashUnlocked)
+                return;
+
+            if (Input.GetKeyDown(KeyCode.LeftShift) && SkillManager.Instance.DashSkill.CanUseSkill())
+            {
+                this.Player.DashDirection = Input.GetAxisRaw("Horizontal");
+
+                if (this.Player.DashDirection == 0)
+                    this.Player.DashDirection = this.Player.FacingDirection;
+
+                this.StateMachine.ChangeState(this.Player.DashState);
+            }
+        }
+
+        public virtual void AnimationFinishTrigger()
+        {
+            this.TriggerCalled = true;
+        }
     }
 }

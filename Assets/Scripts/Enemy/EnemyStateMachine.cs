@@ -1,19 +1,22 @@
-public class EnemyStateMachine
+namespace Enemy
 {
-    public EnemyState CurrentState { get; private set; }
-
-    public void Initialize(EnemyState _startState)
+    public class EnemyStateMachine
     {
-        this.CurrentState = _startState;
-        this.CurrentState.Enter();
-    }
+        public EnemyState CurrentState { get; private set; }
 
-    public void ChangeState(EnemyState newState)
-    {
-        this.CurrentState.Exit();
+        public void Initialize(EnemyState _startState)
+        {
+            this.CurrentState = _startState;
+            this.CurrentState.Enter();
+        }
 
-        this.CurrentState = newState;
+        public void ChangeState(EnemyState newState)
+        {
+            this.CurrentState.Exit();
 
-        this.CurrentState.Enter();
+            this.CurrentState = newState;
+
+            this.CurrentState.Enter();
+        }
     }
 }

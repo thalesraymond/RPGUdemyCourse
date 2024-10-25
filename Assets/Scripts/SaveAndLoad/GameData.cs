@@ -1,22 +1,19 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEngine;
-
-[System.Serializable]
-public class GameData
+namespace SaveAndLoad
 {
-    public int Currency;
-    public SerializableDictionary<string, int> InventoryItems;
-    public SerializableDictionary<string, bool> SkillTree;
-
-    public GameData()
+    [System.Serializable]
+    public class GameData
     {
-        this.Currency = 0;
+        public int Currency;
+        public SerializableDictionary<string, int> InventoryItems;
+        public SerializableDictionary<string, bool> SkillTree;
 
-        this.InventoryItems = new SerializableDictionary<string, int>();
+        public GameData()
+        {
+            this.Currency = 0;
 
-        this.SkillTree = new SerializableDictionary<string, bool>();
+            this.InventoryItems = new SerializableDictionary<string, int>();
+
+            this.SkillTree = new SerializableDictionary<string, bool>();
+        }
     }
 }

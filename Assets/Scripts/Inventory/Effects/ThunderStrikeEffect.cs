@@ -1,13 +1,16 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "ThunderStrikeEffect", menuName = "Data/Item Effect/Thunder Strike")]
-public class ThunderStrikeEffect : ItemEffect
+namespace Inventory.Effects
 {
-    [SerializeField] private GameObject _thunderStrikePrefab;
-    public override void ExecuteEffect(Transform enemyPosition)
+    [CreateAssetMenu(fileName = "ThunderStrikeEffect", menuName = "Data/Item Effect/Thunder Strike")]
+    public class ThunderStrikeEffect : ItemEffect
     {
-        var newThunderstrike = Instantiate(_thunderStrikePrefab, enemyPosition.position, Quaternion.identity);
+        [SerializeField] private GameObject _thunderStrikePrefab;
+        public override void ExecuteEffect(Transform enemyPosition)
+        {
+            var newThunderstrike = Instantiate(_thunderStrikePrefab, enemyPosition.position, Quaternion.identity);
 
-        Destroy(newThunderstrike, 0.7f);
+            Destroy(newThunderstrike, 0.7f);
+        }
     }
 }

@@ -1,65 +1,68 @@
-using UnityEditor.Tilemaps;
+using Inventory;
 using UnityEngine;
 
-public class PlayerStats : CharacterStats
+namespace Stats
 {
-    private Player _player;
-    // Start is called before the first frame update
-    protected override void Start()
+    public class PlayerStats : CharacterStats
     {
-        base.Start();
+        private Player.Player _player;
+        // Start is called before the first frame update
+        protected override void Start()
+        {
+            base.Start();
 
-        _player = GetComponent<Player>();
-    }
+            _player = GetComponent<Player.Player>();
+        }
 
-    public override void TakeDamage(int damage)
-    {
-        base.TakeDamage(damage);
-    }
+        public override void TakeDamage(int damage)
+        {
+            base.TakeDamage(damage);
+        }
 
-    protected override void Die()
-    {
-        base.Die();
+        protected override void Die()
+        {
+            base.Die();
 
-        this._player.Die();
+            this._player.Die();
 
-        var playerDrops = GetComponent<PlayerItemDrop>();
+            var playerDrops = GetComponent<PlayerItemDrop>();
 
-        if (playerDrops != null)
-            playerDrops.GenerateDrops();
-    }
+            if (playerDrops != null)
+                playerDrops.GenerateDrops();
+        }
 
-    protected override void DecreaseHealthBy(int damage)
-    {
-        base.DecreaseHealthBy(damage);
+        protected override void DecreaseHealthBy(int damage)
+        {
+            base.DecreaseHealthBy(damage);
 
-        var currentArmor = Inventory.Instance.GetEquipmentByType(EquipmentType.Armor);
+            var currentArmor = Inventory.Inventory.Instance.GetEquipmentByType(EquipmentType.Armor);
 
-        if (currentArmor != null)
-            currentArmor.ExecuteItemEffect(this._player.transform);
-    }
+            if (currentArmor != null)
+                currentArmor.ExecuteItemEffect(this._player.transform);
+        }
 
-    public override void OnEvasion()
-    {
-        base.OnEvasion();
+        public override void OnEvasion()
+        {
+            base.OnEvasion();
 
-        this._player.SkillManager.DodgeSkill.CreateMirageOnDodge();
-    }
+            this._player.SkillManager.DodgeSkill.CreateMirageOnDodge();
+        }
 
-    public void CloneDoDamage(CharacterStats targetStats, float attackMultiplier)
-    {
-        if (this.TargetCanAvoidAttack(targetStats))
-            return;
+        public void CloneDoDamage(CharacterStats targetStats, float attackMultiplier)
+        {
+            if (this.TargetCanAvoidAttack(targetStats))
+                return;
 
-        var totalDamage = Damage.GetValue() + Strength.GetValue();
+            var totalDamage = Damage.GetValue() + Strength.GetValue();
 
-        totalDamage = this.CheckTargetArmor(targetStats, totalDamage);
+            totalDamage = this.CheckTargetArmor(targetStats, totalDamage);
         
-        if(attackMultiplier > 0)
-            totalDamage = Mathf.RoundToInt(totalDamage * attackMultiplier);
+            if(attackMultiplier > 0)
+                totalDamage = Mathf.RoundToInt(totalDamage * attackMultiplier);
 
-        targetStats.TakeDamage(totalDamage);
+            targetStats.TakeDamage(totalDamage);
 
-        this.DoMagicalDamage(targetStats);
+            this.DoMagicalDamage(targetStats);
+        }
     }
 }

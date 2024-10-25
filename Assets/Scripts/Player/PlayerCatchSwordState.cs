@@ -1,38 +1,41 @@
 using UnityEngine;
 
-public class PlayerCatchSwordState : PlayerState
+namespace Player
 {
-    private Transform swordTransform;
-    public PlayerCatchSwordState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
+    public class PlayerCatchSwordState : PlayerState
     {
-    }
+        private Transform swordTransform;
+        public PlayerCatchSwordState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
+        {
+        }
 
-    public override void Enter()
-    {
-        base.Enter();
+        public override void Enter()
+        {
+            base.Enter();
 
-        this.swordTransform = this.Player.Sword.transform;
+            this.swordTransform = this.Player.Sword.transform;
 
-        if (Player.transform.position.x > swordTransform.position.x && Player.FacingDirection == 1)
-            Player.Flip();
-        else if (Player.transform.position.x < swordTransform.position.x && Player.FacingDirection == -1)
-            Player.Flip();
+            if (Player.transform.position.x > swordTransform.position.x && Player.FacingDirection == 1)
+                Player.Flip();
+            else if (Player.transform.position.x < swordTransform.position.x && Player.FacingDirection == -1)
+                Player.Flip();
 
-        Rb.velocity = new Vector2(Player.SwordReturnImpact * -Player.FacingDirection, Rb.velocity.y);
-    }
+            Rb.velocity = new Vector2(Player.SwordReturnImpact * -Player.FacingDirection, Rb.velocity.y);
+        }
 
-    public override void Exit()
-    {
-        base.Exit();
+        public override void Exit()
+        {
+            base.Exit();
 
-        Player.StartCoroutine(Player.BusyFor(.1f));
-    }
+            Player.StartCoroutine(Player.BusyFor(.1f));
+        }
 
-    public override void Update()
-    {
-        base.Update();
+        public override void Update()
+        {
+            base.Update();
 
-        if (TriggerCalled)
-            this.StateMachine.ChangeState(this.Player.IdleState);
+            if (TriggerCalled)
+                this.StateMachine.ChangeState(this.Player.IdleState);
+        }
     }
 }

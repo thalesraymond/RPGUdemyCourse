@@ -1,4 +1,5 @@
 using System.Collections;
+using Stats;
 using UnityEngine;
 
 public class Entity : MonoBehaviour

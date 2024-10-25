@@ -1,21 +1,24 @@
-public class PlayerStateMachine
+namespace Player
 {
-    public PlayerState CurrentState { get; private set; }
-
-    public void Initialize(PlayerState startState)
+    public class PlayerStateMachine
     {
-        this.CurrentState = startState;
+        public PlayerState CurrentState { get; private set; }
 
-        this.CurrentState.Enter();
+        public void Initialize(PlayerState startState)
+        {
+            this.CurrentState = startState;
+
+            this.CurrentState.Enter();
+        }
+
+        public void ChangeState(PlayerState newState)
+        {
+            this.CurrentState.Exit();
+
+            this.CurrentState = newState;
+
+            this.CurrentState.Enter();
+        }
+
     }
-
-    public void ChangeState(PlayerState newState)
-    {
-        this.CurrentState.Exit();
-
-        this.CurrentState = newState;
-
-        this.CurrentState.Enter();
-    }
-
 }

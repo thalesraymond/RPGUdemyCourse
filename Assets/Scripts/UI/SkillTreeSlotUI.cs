@@ -1,132 +1,136 @@
+using SaveAndLoad;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class SkillTreeSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler, ISaveManager
+namespace UI
 {
-    public bool Unlocked;
-
-    [SerializeField] private SkillTreeSlotUI[] _shouldBeUnlocked;
-    [SerializeField] private SkillTreeSlotUI[] _shouldBeLocked;
-    [SerializeField] private Image _skillImage;
-    [SerializeField] private Button _unlockButton;
-
-    [SerializeField] private string _skillName;
-    [SerializeField][TextArea] private string _skillDescription;
-
-    [SerializeField] private Color _lockedSkillColor;
-    [SerializeField] private Color _unlockedSkillColor;
-
-    [SerializeField] private int _skillPrice;
-
-    protected UI UI;
-
-    private void OnValidate()
+    public class SkillTreeSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler, ISaveManager
     {
-        gameObject.name = "SkillTreeSlotUI - " + this._skillName;
-    }
+        public bool Unlocked;
 
-    public void Start()
-    {
-        this.GetComponents();
+        [SerializeField] private SkillTreeSlotUI[] _shouldBeUnlocked;
+        [SerializeField] private SkillTreeSlotUI[] _shouldBeLocked;
+        [SerializeField] private Image _skillImage;
+        [SerializeField] private Button _unlockButton;
 
-        this.SetupUnlockedStatus();
-    }
+        [SerializeField] private string _skillName;
+        [SerializeField][TextArea] private string _skillDescription;
 
-    private void SetupUnlockedStatus()
-    {
-        this.GetComponents();
+        [SerializeField] private Color _lockedSkillColor;
+        [SerializeField] private Color _unlockedSkillColor;
 
-        this._skillImage.color = this.Unlocked ? this._unlockedSkillColor : this._lockedSkillColor;
-    }
+        [SerializeField] private int _skillPrice;
 
-    private void GetComponents()
-    {
-        if (this._skillImage == null)
+        protected UI UI;
+
+        private void OnValidate()
         {
-            this._skillImage = this.GetComponent<Image>();
+            gameObject.name = "SkillTreeSlotUI - " + this._skillName;
         }
 
-        if (this.UI == null)
+        public void Start()
         {
-            this.UI = GetComponentInParent<UI>();
-        }
+            this.GetComponents();
 
-        if (this._unlockButton == null)
-        {
-            this._unlockButton = GetComponent<Button>();
-        }
-    }
-
-    private void Awake()
-    {
-        GetComponent<Button>().onClick.AddListener(UnlockSkillSlot);
-    }
-
-    public void UnlockSkillSlot()
-    {
-        foreach (SkillTreeSlotUI skillTreeSlot in this._shouldBeUnlocked)
-        {
-            if (!skillTreeSlot.Unlocked)
-            {
-                Debug.Log("Requirements not unlocked");
-                return;
-            }
-        }
-
-        foreach (SkillTreeSlotUI skillTreeSlot in this._shouldBeLocked)
-        {
-            if (skillTreeSlot.Unlocked)
-            {
-                Debug.Log("Incompatible skill already unlocked");
-                return;
-            }
-        }
-
-        if(!PlayerManager.Instance.HaveEnoughMoney(this._skillPrice))
-        {
-            Debug.Log("Not enough currency");
-            return;
-        }
-
-        this.Unlocked = true;
-        this._skillImage.color = this._unlockedSkillColor;
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        this.UI.SkillToolTipUI.HideTooltip();
-    }
-
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-        this.UI.SkillToolTipUI.ShowTooltip(this._skillName, this._skillDescription);
-    }
-
-    public void OnPointerMove(PointerEventData eventData)
-    {
-        this.UI.SkillToolTipUI.ShowTooltip(this._skillName, this._skillDescription);
-    }
-
-    public void LoadData(GameData data)
-    {
-        if(data.SkillTree.TryGetValue(this._skillName, out bool skillUnlocked))
-        {
-            this.Unlocked = skillUnlocked;
             this.SetupUnlockedStatus();
         }
-    }
 
-    public void SaveData(ref GameData data)
-    {
-        if (data.SkillTree.TryGetValue(this._skillName, out _))
+        private void SetupUnlockedStatus()
         {
-            data.SkillTree.Remove(this._skillName);
-            data.SkillTree.Add(this._skillName, this.Unlocked);
+            this.GetComponents();
+
+            this._skillImage.color = this.Unlocked ? this._unlockedSkillColor : this._lockedSkillColor;
         }
-        else
+
+        private void GetComponents()
         {
-            data.SkillTree.Add(this._skillName, this.Unlocked);
+            if (this._skillImage == null)
+            {
+                this._skillImage = this.GetComponent<Image>();
+            }
+
+            if (this.UI == null)
+            {
+                this.UI = GetComponentInParent<UI>();
+            }
+
+            if (this._unlockButton == null)
+            {
+                this._unlockButton = GetComponent<Button>();
+            }
+        }
+
+        private void Awake()
+        {
+            GetComponent<Button>().onClick.AddListener(UnlockSkillSlot);
+        }
+
+        public void UnlockSkillSlot()
+        {
+            foreach (SkillTreeSlotUI skillTreeSlot in this._shouldBeUnlocked)
+            {
+                if (!skillTreeSlot.Unlocked)
+                {
+                    Debug.Log("Requirements not unlocked");
+                    return;
+                }
+            }
+
+            foreach (SkillTreeSlotUI skillTreeSlot in this._shouldBeLocked)
+            {
+                if (skillTreeSlot.Unlocked)
+                {
+                    Debug.Log("Incompatible skill already unlocked");
+                    return;
+                }
+            }
+
+            if(!PlayerManager.Instance.HaveEnoughMoney(this._skillPrice))
+            {
+                Debug.Log("Not enough currency");
+                return;
+            }
+
+            this.Unlocked = true;
+            this._skillImage.color = this._unlockedSkillColor;
+        }
+
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            this.UI.SkillToolTipUI.HideTooltip();
+        }
+
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            this.UI.SkillToolTipUI.ShowTooltip(this._skillName, this._skillDescription);
+        }
+
+        public void OnPointerMove(PointerEventData eventData)
+        {
+            this.UI.SkillToolTipUI.ShowTooltip(this._skillName, this._skillDescription);
+        }
+
+        public void LoadData(GameData data)
+        {
+            if(data.SkillTree.TryGetValue(this._skillName, out bool skillUnlocked))
+            {
+                this.Unlocked = skillUnlocked;
+                this.SetupUnlockedStatus();
+            }
+        }
+
+        public void SaveData(ref GameData data)
+        {
+            if (data.SkillTree.TryGetValue(this._skillName, out _))
+            {
+                data.SkillTree.Remove(this._skillName);
+                data.SkillTree.Add(this._skillName, this.Unlocked);
+            }
+            else
+            {
+                data.SkillTree.Add(this._skillName, this.Unlocked);
+            }
         }
     }
 }

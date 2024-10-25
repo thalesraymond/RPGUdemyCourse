@@ -1,28 +1,31 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "IceAndFireEffect", menuName = "Data/Item Effect/Ice and Fire")]
-public class IceAndFireEffect : ItemEffect
+namespace Inventory.Effects
 {
-    [SerializeField] private GameObject _iceAndFirePrefab;
-    [SerializeField] private Vector2 _velocity;
-
-    [SerializeField] private float _maxTravelTime;
-
-    public override void ExecuteEffect(Transform respawnPosition)
+    [CreateAssetMenu(fileName = "IceAndFireEffect", menuName = "Data/Item Effect/Ice and Fire")]
+    public class IceAndFireEffect : ItemEffect
     {
-        var playerTransform = PlayerManager.Instance.Player.transform;
+        [SerializeField] private GameObject _iceAndFirePrefab;
+        [SerializeField] private Vector2 _velocity;
 
-        var comboCounter = PlayerManager.Instance.Player.PrimaryAttackState.ComboCounter;
+        [SerializeField] private float _maxTravelTime;
 
-        if (comboCounter < 2)
-            return;
+        public override void ExecuteEffect(Transform respawnPosition)
+        {
+            var playerTransform = PlayerManager.Instance.Player.transform;
 
-        var newIceAndFire = Instantiate(_iceAndFirePrefab, respawnPosition.position, playerTransform.rotation);
+            var comboCounter = PlayerManager.Instance.Player.PrimaryAttackState.ComboCounter;
 
-        newIceAndFire.GetComponent<Rigidbody2D>().velocity = _velocity * PlayerManager.Instance.Player.FacingDirection;
+            if (comboCounter < 2)
+                return;
 
-        // destroy when traveled a certain distance
+            var newIceAndFire = Instantiate(_iceAndFirePrefab, respawnPosition.position, playerTransform.rotation);
 
-        Destroy(newIceAndFire, _maxTravelTime);
+            newIceAndFire.GetComponent<Rigidbody2D>().velocity = _velocity * PlayerManager.Instance.Player.FacingDirection;
+
+            // destroy when traveled a certain distance
+
+            Destroy(newIceAndFire, _maxTravelTime);
+        }
     }
 }

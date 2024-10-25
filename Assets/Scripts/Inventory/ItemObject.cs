@@ -1,40 +1,43 @@
 using UnityEngine;
 
-public class ItemObject : MonoBehaviour
+namespace Inventory
 {
-    [SerializeField] private ItemData _itemData;
-    [SerializeField] private Rigidbody2D _rigidbody;
-
-    private void SetupVisuals()
+    public class ItemObject : MonoBehaviour
     {
-        if (this._itemData == null)
-            return;
+        [SerializeField] private ItemData _itemData;
+        [SerializeField] private Rigidbody2D _rigidbody;
 
-        GetComponent<SpriteRenderer>().sprite = _itemData.ItemIcon;
-
-        gameObject.name = "Item Object - " + _itemData.name;
-    }
-
-    public void PickUpItem()
-    {
-        if (!Inventory.Instance.CanAddEquipmentItem() && this._itemData.ItemType == ItemType.Equipment)
+        private void SetupVisuals()
         {
-            this._rigidbody.velocity = new Vector2(0, 7);
+            if (this._itemData == null)
+                return;
 
-            return;
+            GetComponent<SpriteRenderer>().sprite = _itemData.ItemIcon;
+
+            gameObject.name = "Item Object - " + _itemData.name;
         }
 
+        public void PickUpItem()
+        {
+            if (!Inventory.Instance.CanAddEquipmentItem() && this._itemData.ItemType == ItemType.Equipment)
+            {
+                this._rigidbody.velocity = new Vector2(0, 7);
 
-        Inventory.Instance.AddItem(this._itemData);
+                return;
+            }
 
-        Destroy(gameObject);
-    }
 
-    public void SetupItem(ItemData itemData, Vector2 velocity)
-    {
-        this._itemData = itemData;
-        this._rigidbody.velocity = velocity;
+            Inventory.Instance.AddItem(this._itemData);
 
-        this.SetupVisuals();
+            Destroy(gameObject);
+        }
+
+        public void SetupItem(ItemData itemData, Vector2 velocity)
+        {
+            this._itemData = itemData;
+            this._rigidbody.velocity = velocity;
+
+            this.SetupVisuals();
+        }
     }
 }

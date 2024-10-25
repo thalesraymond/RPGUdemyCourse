@@ -1,37 +1,40 @@
 using TMPro;
 using UnityEngine;
 
-public class BlackholeHotkeyController : SkillController
+namespace Controllers.SkillsControllers
 {
-    private SpriteRenderer spriteRenderer;
-    private KeyCode blackholeHotkey;
-    private TextMeshProUGUI hotKeyText;
-
-    private Transform enemy;
-    private BlackHoleSkillController blackHoleSkillController;
-
-    public void SetupHotKey(KeyCode hotkey, Transform enemy, BlackHoleSkillController blackHoleSkillController)
+    public class BlackholeHotkeyController : SkillController
     {
-        hotKeyText = GetComponentInChildren<TextMeshProUGUI>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        private SpriteRenderer spriteRenderer;
+        private KeyCode blackholeHotkey;
+        private TextMeshProUGUI hotKeyText;
 
-        this.enemy = enemy;
-        this.blackHoleSkillController = blackHoleSkillController;
+        private Transform enemy;
+        private BlackHoleSkillController blackHoleSkillController;
 
-        blackholeHotkey = hotkey;
-        hotKeyText.text = hotkey.ToString();
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(blackholeHotkey))
+        public void SetupHotKey(KeyCode hotkey, Transform enemy, BlackHoleSkillController blackHoleSkillController)
         {
-            blackHoleSkillController.AddEnemyToList(this.enemy);
+            hotKeyText = GetComponentInChildren<TextMeshProUGUI>();
+            spriteRenderer = GetComponent<SpriteRenderer>();
 
-            hotKeyText.color = Color.clear;
+            this.enemy = enemy;
+            this.blackHoleSkillController = blackHoleSkillController;
 
-            spriteRenderer.color = Color.clear;
+            blackholeHotkey = hotkey;
+            hotKeyText.text = hotkey.ToString();
         }
-    }
 
+        private void Update()
+        {
+            if (Input.GetKeyDown(blackholeHotkey))
+            {
+                blackHoleSkillController.AddEnemyToList(this.enemy);
+
+                hotKeyText.color = Color.clear;
+
+                spriteRenderer.color = Color.clear;
+            }
+        }
+
+    }
 }

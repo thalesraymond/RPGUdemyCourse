@@ -1,16 +1,20 @@
+using Stats;
 using UnityEngine;
 
-public class ItemObjectTrigger : MonoBehaviour
+namespace Inventory
 {
-    private ItemObject _itemObject => this.GetComponentInParent<ItemObject>();
-    private void OnTriggerEnter2D(Collider2D collision)
+    public class ItemObjectTrigger : MonoBehaviour
     {
-        if (collision.GetComponent<Player>() != null && !collision.GetComponent<CharacterStats>().IsDead)
+        private ItemObject _itemObject => this.GetComponentInParent<ItemObject>();
+        private void OnTriggerEnter2D(Collider2D collision)
         {
-            Debug.Log("Player picked up item");
+            if (collision.GetComponent<Player.Player>() != null && !collision.GetComponent<CharacterStats>().IsDead)
+            {
+                Debug.Log("Player picked up item");
 
-            this._itemObject.PickUpItem();
+                this._itemObject.PickUpItem();
+            }
+
         }
-
     }
 }

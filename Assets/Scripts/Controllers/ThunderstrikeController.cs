@@ -1,15 +1,19 @@
+using Stats;
 using UnityEngine;
 
-public class ThunderStrikeController : MonoBehaviour
+namespace Controllers
 {
-    protected virtual void OnTriggerEnter2D(Collider2D other)
+    public class ThunderStrikeController : MonoBehaviour
     {
-        if (other.GetComponent<Enemy>() == null) return;
+        protected virtual void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.GetComponent<Enemy.Enemy>() == null) return;
 
-        var playerStats = PlayerManager.Instance.Player.GetComponent<PlayerStats>();
+            var playerStats = PlayerManager.Instance.Player.GetComponent<PlayerStats>();
 
-        var enemy = other.GetComponent<Enemy>();
+            var enemy = other.GetComponent<Enemy.Enemy>();
 
-        playerStats.DoMagicalDamage(enemy.GetComponent<EnemyStats>());
+            playerStats.DoMagicalDamage(enemy.GetComponent<EnemyStats>());
+        }
     }
 }

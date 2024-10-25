@@ -1,85 +1,88 @@
 using UnityEngine;
 
-public class UI : MonoBehaviour
+namespace UI
 {
-    public ItemToolTipUI ItemToolTipUI;
-    public StatToolTipUI StatToolTipUI;
-    public CraftWindowUI CraftWindowUI;
-    public SkillToolTipUI SkillToolTipUI;
-
-    [SerializeField] private GameObject _characterUI;
-    [SerializeField] private GameObject _skillTreeUI;
-    [SerializeField] private GameObject _craftUI;
-    [SerializeField] private GameObject _optionsUI;
-    [SerializeField] private GameObject _inGameUI;
-
-    void Awake()
+    public class UI : MonoBehaviour
     {
-        SwitchTo(this._skillTreeUI); // We need this to fix the order of the assigned events
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        this.ItemToolTipUI = GetComponentInChildren<ItemToolTipUI>(true);
+        public ItemToolTipUI ItemToolTipUI;
+        public StatToolTipUI StatToolTipUI;
+        public CraftWindowUI CraftWindowUI;
+        public SkillToolTipUI SkillToolTipUI;
 
-        SwitchTo(null);
-        SwitchTo(this._inGameUI);
+        [SerializeField] private GameObject _characterUI;
+        [SerializeField] private GameObject _skillTreeUI;
+        [SerializeField] private GameObject _craftUI;
+        [SerializeField] private GameObject _optionsUI;
+        [SerializeField] private GameObject _inGameUI;
 
-        this.ItemToolTipUI.HideTooltip();
-
-        this.StatToolTipUI.HideTooltip();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.C))
+        void Awake()
         {
-            SwitchWithKeyTo(this._characterUI);
+            SwitchTo(this._skillTreeUI); // We need this to fix the order of the assigned events
         }
-
-        if (Input.GetKeyDown(KeyCode.B))
+        // Start is called before the first frame update
+        void Start()
         {
-            SwitchWithKeyTo(this._craftUI);
-        }
+            this.ItemToolTipUI = GetComponentInChildren<ItemToolTipUI>(true);
 
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            SwitchWithKeyTo(this._skillTreeUI);
-        }
-
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            SwitchWithKeyTo(this._optionsUI);
-        }
-    }
-
-    public void SwitchTo(GameObject menu)
-    {
-        for (int i = 0; i < transform.childCount; i++)
-        {
-            transform.GetChild(i).gameObject.SetActive(false);
-        }
-
-        if (menu == null)
-        {
+            SwitchTo(null);
             SwitchTo(this._inGameUI);
-            return;
+
+            this.ItemToolTipUI.HideTooltip();
+
+            this.StatToolTipUI.HideTooltip();
         }
 
-
-        menu.SetActive(true);
-    }
-
-    public void SwitchWithKeyTo(GameObject menu)
-    {
-        if (menu != null && menu.activeSelf)
+        // Update is called once per frame
+        void Update()
         {
-            menu.SetActive(false);
-            SwitchTo(this._inGameUI);
-            return;
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                SwitchWithKeyTo(this._characterUI);
+            }
+
+            if (Input.GetKeyDown(KeyCode.B))
+            {
+                SwitchWithKeyTo(this._craftUI);
+            }
+
+            if (Input.GetKeyDown(KeyCode.K))
+            {
+                SwitchWithKeyTo(this._skillTreeUI);
+            }
+
+            if (Input.GetKeyDown(KeyCode.O))
+            {
+                SwitchWithKeyTo(this._optionsUI);
+            }
         }
 
-        SwitchTo(menu);
+        public void SwitchTo(GameObject menu)
+        {
+            for (int i = 0; i < transform.childCount; i++)
+            {
+                transform.GetChild(i).gameObject.SetActive(false);
+            }
+
+            if (menu == null)
+            {
+                SwitchTo(this._inGameUI);
+                return;
+            }
+
+
+            menu.SetActive(true);
+        }
+
+        public void SwitchWithKeyTo(GameObject menu)
+        {
+            if (menu != null && menu.activeSelf)
+            {
+                menu.SetActive(false);
+                SwitchTo(this._inGameUI);
+                return;
+            }
+
+            SwitchTo(menu);
+        }
     }
 }

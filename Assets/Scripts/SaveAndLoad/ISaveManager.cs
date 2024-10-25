@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public interface ISaveManager
+namespace SaveAndLoad
 {
-    void LoadData(GameData data);
-    void SaveData(ref GameData data);
+    public interface ISaveManager
+    {
+        void LoadData(GameData data);
+        void SaveData(ref GameData data);
+    }
 }
