@@ -33,7 +33,7 @@ namespace Inventory
         private void OnValidate()
         {
 #if UNITY_EDITOR
-            string path = AssetDatabase.GetAssetPath(this);
+            var path = AssetDatabase.GetAssetPath(this);
             this.ItemId = AssetDatabase.AssetPathToGUID(path);
 #endif
         }

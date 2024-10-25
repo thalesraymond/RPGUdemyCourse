@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using Controllers.SkillsControllers;
-using UI;
+using GameUI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -185,7 +185,7 @@ namespace Skills
         {
             this._crystalLeft.Clear();
 
-            for (int i = 0; i < _amountOfStacks; i++)
+            for (var i = 0; i < _amountOfStacks; i++)
             {
                 this._crystalLeft.Add(this._crystalPrefab);
             }

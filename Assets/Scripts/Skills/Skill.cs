@@ -1,4 +1,6 @@
 using System.Linq;
+using Enemies;
+using PlayerStates;
 using UnityEngine;
 
 namespace Skills
@@ -7,7 +9,7 @@ namespace Skills
     {
         [SerializeField] public float Cooldown;
         protected float CooldownTimer;
-        protected Player.Player Player;
+        protected Player Player;
 
         protected virtual void Start()
         {
@@ -39,16 +41,11 @@ namespace Skills
         protected virtual Transform FindClosestEnemy(Transform checkTransform)
         {
             var closestEnemy = Physics2D.OverlapCircleAll(checkTransform.position, 25)
-                .Where(hit => hit.GetComponent<Enemy.Enemy>() is not null)
+                .Where(hit => hit.GetComponent<Enemy>() is not null)
                 .OrderBy(hit => Vector2.Distance(checkTransform.position, hit.transform.position))
                 .FirstOrDefault();
 
-            if (closestEnemy == null)
-            {
-                return this.Player.transform;
-            }
-
-            return closestEnemy.transform;
+            return !closestEnemy ? this.Player.transform : closestEnemy.transform;
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Linq;
+using Enemies;
 using Stats;
 using UnityEngine;
 
@@ -24,11 +25,11 @@ namespace Inventory.Effects
 
             var enemyColliders = Physics2D
                 .OverlapCircleAll(transform.position, 2)
-                .Where(hit => hit.GetComponent<Enemy.Enemy>() is not null);
+                .Where(hit => hit.GetComponent<Enemy>() is not null);
 
             foreach (var hit in enemyColliders)
             {
-                hit.GetComponent<Enemy.Enemy>().StartFreezeTimeForCoroutine(this._duration);
+                hit.GetComponent<Enemy>().StartFreezeTimeForCoroutine(this._duration);
             }
         }
     }

@@ -1,6 +1,6 @@
 using System.Collections;
 using Controllers.SkillsControllers;
-using UI;
+using GameUI;
 using UnityEngine;
 using UnityEngine.UI;
 

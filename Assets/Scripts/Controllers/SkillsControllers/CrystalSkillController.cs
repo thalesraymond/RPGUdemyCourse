@@ -1,4 +1,5 @@
 using System.Linq;
+using Enemies;
 using Inventory;
 using Skills;
 using Stats;
@@ -78,7 +79,7 @@ namespace Controllers.SkillsControllers
         {
             var enemyColliders = Physics2D
                 .OverlapCircleAll(transform.position, this._circleCollider2D.radius)
-                .Where(hit => hit.GetComponent<Enemy.Enemy>() is not null);
+                .Where(hit => hit.GetComponent<Enemy>() is not null);
 
             foreach (var hit in enemyColliders)
             {

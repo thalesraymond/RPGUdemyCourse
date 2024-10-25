@@ -1,4 +1,5 @@
 using System.Linq;
+using Enemies;
 using Skills;
 using Stats;
 using UnityEngine;
@@ -90,7 +91,7 @@ namespace Controllers.SkillsControllers
         private void AttackTrigger()
         {
             var colliders = Physics2D.OverlapCircleAll(AttackCheck.position, AttackCheckRadius)
-                .Where(hit => hit.GetComponent<Enemy.Enemy>() is not null);
+                .Where(hit => hit.GetComponent<Enemy>() is not null);
 
             foreach (var hit in colliders)
             {

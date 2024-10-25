@@ -128,7 +128,7 @@ namespace Inventory
             this.AddItemDescription(this.MagicResistance, "Magic Resistance");
             this.AddItemDescription(this.Health, "Health");
 
-            for (int i = 0; i < this.Effects.Length; i++)
+            for (var i = 0; i < this.Effects.Length; i++)
             {
                 if(this.Effects[i].EffectDescription.Length > 0)
                 {

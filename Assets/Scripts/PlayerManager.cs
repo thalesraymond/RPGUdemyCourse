@@ -1,10 +1,11 @@
+using PlayerStates;
 using SaveAndLoad;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour, ISaveManager
 {
     public static PlayerManager Instance;
-    public Player.Player Player;
+    public Player Player;
 
     public int Currency;
 

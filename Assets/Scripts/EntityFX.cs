@@ -7,7 +7,7 @@ public class EntityFX : MonoBehaviour
 
     [Header("FX")]
     [SerializeField] private Material hitMaterial;
-    private Material originalMaterial;
+    private Material _originalMaterial;
 
     [Header("Ailment colors")]
     [SerializeField] private Color _chillColor;
@@ -18,7 +18,7 @@ public class EntityFX : MonoBehaviour
     {
         _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
-        originalMaterial = _spriteRenderer.material;
+        _originalMaterial = _spriteRenderer.material;
     }
 
     private IEnumerator FlashFx()
@@ -31,7 +31,7 @@ public class EntityFX : MonoBehaviour
 
         yield return new WaitForSeconds(0.2f);
 
-        _spriteRenderer.material = originalMaterial;
+        _spriteRenderer.material = _originalMaterial;
         _spriteRenderer.color = currentColor;
     }
 

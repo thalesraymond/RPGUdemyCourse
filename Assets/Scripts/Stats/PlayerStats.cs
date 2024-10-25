@@ -1,17 +1,18 @@
 using Inventory;
+using PlayerStates;
 using UnityEngine;
 
 namespace Stats
 {
     public class PlayerStats : CharacterStats
     {
-        private Player.Player _player;
+        private Player _player;
         // Start is called before the first frame update
         protected override void Start()
         {
             base.Start();
 
-            _player = GetComponent<Player.Player>();
+            _player = GetComponent<Player>();
         }
 
         public override void TakeDamage(int damage)

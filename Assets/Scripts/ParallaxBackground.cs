@@ -2,36 +2,37 @@ using UnityEngine;
 
 public class ParallaxBackground : MonoBehaviour
 {
-    private GameObject mainCamera;
+    private GameObject _mainCamera;
 
     [SerializeField]
     private float parallaxEffect;
 
-    private float xPosition;
+    private float _xPosition;
 
-    private float length;
-    void Start()
+    private float _length;
+
+    private void Start()
     {
-        this.mainCamera = GameObject.Find("Main Camera");
+        this._mainCamera = GameObject.Find("Main Camera");
 
-        this.xPosition = transform.position.x;
+        this._xPosition = transform.position.x;
 
-        this.length = GetComponent<SpriteRenderer>().bounds.size.x;
+        this._length = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float distanceMoved = this.mainCamera.transform.position.x * (1 - this.parallaxEffect);
+        var distanceMoved = this._mainCamera.transform.position.x * (1 - this.parallaxEffect);
 
-        float distanceToMove = this.mainCamera.transform.position.x * this.parallaxEffect;
+        var distanceToMove = this._mainCamera.transform.position.x * this.parallaxEffect;
 
-        transform.position = new Vector3(this.xPosition + distanceToMove, transform.position.y, transform.position.z);
+        transform.position = new Vector3(this._xPosition + distanceToMove, transform.position.y, transform.position.z);
 
-        if (distanceMoved > this.xPosition + this.length)
-            xPosition = xPosition + length;
-        else if (distanceMoved < this.xPosition - this.length)
-            xPosition = xPosition - length;
+        if (distanceMoved > this._xPosition + this._length)
+            _xPosition = _xPosition + _length;
+        else if (distanceMoved < this._xPosition - this._length)
+            _xPosition = _xPosition - _length;
 
     }
 }

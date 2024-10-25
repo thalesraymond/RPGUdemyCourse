@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Enemies;
 using Inventory;
 using Stats;
 using UnityEngine;
@@ -144,10 +145,10 @@ namespace Controllers.SkillsControllers
 
                 foreach (var hit in colliders)
                 {
-                    if (hit.GetComponent<Enemy.Enemy>() == null)
+                    if (hit.GetComponent<Enemy>() == null)
                         continue;
 
-                    this.DamageAndFreeze(hit.GetComponent<Enemy.Enemy>());
+                    this.DamageAndFreeze(hit.GetComponent<Enemy>());
                 }
             }
         }
@@ -169,7 +170,7 @@ namespace Controllers.SkillsControllers
             if (Vector2.Distance(transform.position, enemyTargets[targetIndex].position) >= .2f)
                 return;
 
-            var enemy = enemyTargets[targetIndex].GetComponent<Enemy.Enemy>();
+            var enemy = enemyTargets[targetIndex].GetComponent<Enemy>();
 
             this.DamageAndFreeze(enemy);
 
@@ -193,9 +194,9 @@ namespace Controllers.SkillsControllers
             if (isReturning)
                 return;
 
-            if (collision.GetComponent<Enemy.Enemy>() != null)
+            if (collision.GetComponent<Enemy>() != null)
             {
-                var enemy = collision.GetComponent<Enemy.Enemy>();
+                var enemy = collision.GetComponent<Enemy>();
                 this.DamageAndFreeze(enemy);
             }
 
@@ -204,7 +205,7 @@ namespace Controllers.SkillsControllers
             StuckInto(collision);
         }
 
-        private void DamageAndFreeze(Enemy.Enemy enemy)
+        private void DamageAndFreeze(Enemy enemy)
         {
             var enemyStats = enemy.GetComponent<CharacterStats>();
 
@@ -230,7 +231,7 @@ namespace Controllers.SkillsControllers
                 return;
             }
 
-            if (pierceAmount > 0 && collision.GetComponent<Enemy.Enemy>() != null)
+            if (pierceAmount > 0 && collision.GetComponent<Enemy>() != null)
             {
                 pierceAmount--;
                 return;
@@ -254,7 +255,7 @@ namespace Controllers.SkillsControllers
 
         private void CheckRadiusForSwordEffect(Collider2D collision)
         {
-            var enemy = collision.GetComponent<Enemy.Enemy>();
+            var enemy = collision.GetComponent<Enemy>();
 
             if (enemy is null)
                 return;
@@ -266,7 +267,7 @@ namespace Controllers.SkillsControllers
 
             var colliders = Physics2D.OverlapCircleAll(transform.position, 10);
 
-            enemyTargets.AddRange(colliders.Where(hit => hit.GetComponent<Enemy.Enemy>() is not null).Select(hit => hit.transform));
+            enemyTargets.AddRange(colliders.Where(hit => hit.GetComponent<Enemy>() is not null).Select(hit => hit.transform));
         }
     }
 }

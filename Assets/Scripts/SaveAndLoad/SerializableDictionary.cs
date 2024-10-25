@@ -31,7 +31,7 @@ namespace SaveAndLoad
                 return;
             }
 
-            for (int i = 0; i < this._keys.Count; i++)
+            for (var i = 0; i < this._keys.Count; i++)
             {
                 this.Add(this._keys[i], this._values[i]);
             }

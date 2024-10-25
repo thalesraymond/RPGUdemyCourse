@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Controllers;
+using Enemies;
 using Inventory.Effects;
+using PlayerStates;
 using UnityEngine;
 
 namespace Stats
@@ -231,7 +233,7 @@ namespace Stats
                 return;
 
             // Count the number of true flags
-            int trueCount = (ignited ? 1 : 0) + (chilled ? 1 : 0) + (shocked ? 1 : 0);
+            var trueCount = (ignited ? 1 : 0) + (chilled ? 1 : 0) + (shocked ? 1 : 0);
 
             // If two or more flags are true, select a random one and set the others to false
             if (trueCount >= 2)
@@ -241,7 +243,7 @@ namespace Stats
 
                 // Create a list to store the indices of true flags
                 var trueIndices = new List<int>();
-                for (int i = 0; i < flags.Length; i++)
+                for (var i = 0; i < flags.Length; i++)
                 {
                     if (flags[i])
                     {
@@ -250,8 +252,8 @@ namespace Stats
                 }
 
                 // Select a random true flag
-                int randomIndex = Random.Range(0, trueIndices.Count);
-                int selectedFlagIndex = trueIndices[randomIndex];
+                var randomIndex = Random.Range(0, trueIndices.Count);
+                var selectedFlagIndex = trueIndices[randomIndex];
 
                 // Set the selected flag to true and others to false
                 this.IsIgnited = selectedFlagIndex == 0;
@@ -288,11 +290,11 @@ namespace Stats
             }
             else if (this.IsShocked)
             {
-                if (GetComponent<Player.Player>() != null)
+                if (GetComponent<Player>() != null)
                     return;
 
                 var closestEnemy = Physics2D.OverlapCircleAll(transform.position, 25)
-                    .Where(hit => hit.GetComponent<Enemy.Enemy>() is not null)
+                    .Where(hit => hit.GetComponent<Enemy>() is not null)
                     .OrderBy(hit => Vector2.Distance(transform.position, hit.transform.position))
                     .Skip(1)
                     .FirstOrDefault();

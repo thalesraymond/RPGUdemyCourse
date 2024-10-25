@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Enemies;
 using Skills;
 using UnityEngine;
 
@@ -153,9 +154,9 @@ namespace Controllers.SkillsControllers
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.GetComponent<Enemy.Enemy>() != null)
+            if (collision.GetComponent<Enemy>() != null)
             {
-                collision.GetComponent<Enemy.Enemy>().FreezeTime(true);
+                collision.GetComponent<Enemy>().FreezeTime(true);
 
                 CreateHotKey(collision);
             }
@@ -192,7 +193,7 @@ namespace Controllers.SkillsControllers
             if (this._createdHotkey.Count <= 0)
                 return;
 
-            for (int i = 0; i < this._createdHotkey.Count; i++)
+            for (var i = 0; i < this._createdHotkey.Count; i++)
             {
                 Destroy(this._createdHotkey[i]);
             }
@@ -200,10 +201,10 @@ namespace Controllers.SkillsControllers
 
         private void OnTriggerExit2D(Collider2D collision)
         {
-            if (collision.GetComponent<Enemy.Enemy>() == null)
+            if (collision.GetComponent<Enemy>() == null)
                 return;
 
-            collision.GetComponent<Enemy.Enemy>().FreezeTime(false);
+            collision.GetComponent<Enemy>().FreezeTime(false);
         }
     }
 }

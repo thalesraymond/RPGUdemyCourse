@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
+using GameUI;
 using SaveAndLoad;
-using UI;
 using UnityEditor;
 using UnityEngine;
 
@@ -82,7 +82,7 @@ namespace Inventory
             {
                 foreach (var item in this.LoadedItems)
                 {
-                    for (int i = 0; i < item.StackSize; i++)
+                    for (var i = 0; i < item.StackSize; i++)
                     {
                         this.AddItem(item.ItemData);
                     }
@@ -146,7 +146,7 @@ namespace Inventory
 
         private void UpdateSlots(ItemSlotUI[] slots, List<InventoryItem> items)
         {
-            for (int i = 0; i < slots.Length; i++)
+            for (var i = 0; i < slots.Length; i++)
             {
                 var itemToPut = i < items.Count ? items[i] : null;
 
@@ -240,7 +240,7 @@ namespace Inventory
         public bool CanCraftItem(EquipmentItemData itemToCraft, List<InventoryItem> requiredMaterials)
         {
             var materialsToRemove = new List<InventoryItem>();
-            foreach (InventoryItem v in requiredMaterials)
+            foreach (var v in requiredMaterials)
             {
                 if (this.StashDictionary.TryGetValue(v.ItemData, out var stashValue))
                 {
@@ -263,7 +263,7 @@ namespace Inventory
                 }
             }
 
-            foreach (InventoryItem v1 in materialsToRemove)
+            foreach (var v1 in materialsToRemove)
             {
                 this.RemoveItem(v1.ItemData);
             }

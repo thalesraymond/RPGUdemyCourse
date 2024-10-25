@@ -1,3 +1,4 @@
+using Enemies;
 using Inventory;
 using UnityEngine;
 
@@ -5,7 +6,7 @@ namespace Stats
 {
     public class EnemyStats : CharacterStats
     {
-        private Enemy.Enemy _enemy;
+        private Enemy _enemy;
         private ItemDrop _itemDropSystem;
 
         [Header("Level details")]
@@ -15,7 +16,7 @@ namespace Stats
         {
             base.Start();
 
-            _enemy = GetComponent<Enemy.Enemy>();
+            _enemy = GetComponent<Enemy>();
 
             _itemDropSystem = GetComponentInChildren<ItemDrop>();
 

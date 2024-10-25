@@ -1,5 +1,5 @@
 using Controllers.SkillsControllers;
-using UI;
+using GameUI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -106,7 +106,7 @@ namespace Skills
 
             if (Input.GetKey(KeyCode.Mouse1))
             {
-                for (int i = 0; i < this.dots.Length; i++)
+                for (var i = 0; i < this.dots.Length; i++)
                 {
                     dots[i].transform.position = this.DotsPosition(i * this.dotSpacing);
                 }
@@ -148,7 +148,7 @@ namespace Skills
 
         public void DotsActive(bool isActive)
         {
-            for (int i = 0; i < this.dots.Length; i++)
+            for (var i = 0; i < this.dots.Length; i++)
             {
                 dots[i].SetActive(isActive);
             }
@@ -158,7 +158,7 @@ namespace Skills
         {
             this.dots = new GameObject[this.numberOfDots];
 
-            for (int i = 0; i < numberOfDots; i++)
+            for (var i = 0; i < numberOfDots; i++)
             {
                 this.dots[i] = Instantiate(dotPrefab, this.Player.transform.position, Quaternion.identity, this.dotsParent);
 

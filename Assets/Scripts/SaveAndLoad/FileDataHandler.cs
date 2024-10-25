@@ -21,7 +21,7 @@ namespace SaveAndLoad
 
         public void Save(GameData data)
         {
-            string filePath = this._dataDirPath + "/" + this._dataFileName;
+            var filePath = this._dataDirPath + "/" + this._dataFileName;
 
             try
             {
@@ -39,7 +39,7 @@ namespace SaveAndLoad
 
         public GameData Load()
         {
-            string filePath = this._dataDirPath + "/" + this._dataFileName;
+            var filePath = this._dataDirPath + "/" + this._dataFileName;
 
             if (!File.Exists(filePath))
             {
@@ -48,7 +48,7 @@ namespace SaveAndLoad
 
             try
             {
-                string dataToLoad = this.DecryptString(File.ReadAllText(filePath), this._codeWord);
+                var dataToLoad = this.DecryptString(File.ReadAllText(filePath), this._codeWord);
 
                 return JsonUtility.FromJson<GameData>(dataToLoad);
             }
@@ -61,7 +61,7 @@ namespace SaveAndLoad
 
         public void Delete()
         {
-            string filePath = this._dataDirPath + "/" + this._dataFileName;
+            var filePath = this._dataDirPath + "/" + this._dataFileName;
             if (File.Exists(filePath))
             {
                 File.Delete(filePath);
