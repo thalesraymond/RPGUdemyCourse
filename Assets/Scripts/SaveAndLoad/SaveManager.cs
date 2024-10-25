@@ -38,7 +38,7 @@ namespace SaveAndLoad
         }
 
         [ContextMenu("Delete Save Data")]
-        private void DeleteSaveData()
+        public void DeleteSaveData()
         {
             this._fileDataHandler = new FileDataHandler(Application.persistentDataPath, this._fileName, this._encryptData);
             this._fileDataHandler.Delete(); 
@@ -74,6 +74,11 @@ namespace SaveAndLoad
             }
 
             this._fileDataHandler.Save(this._gameData);
+        }
+
+        public bool HasSaveData()
+        {            
+            return this._fileDataHandler.HasSaveData();
         }
 
         private void OnApplicationQuit()

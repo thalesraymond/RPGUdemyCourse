@@ -4,8 +4,7 @@ public class ParallaxBackground : MonoBehaviour
 {
     private GameObject _mainCamera;
 
-    [SerializeField]
-    private float parallaxEffect;
+    [SerializeField] private float parallaxEffect;
 
     private float _xPosition;
 
@@ -17,11 +16,11 @@ public class ParallaxBackground : MonoBehaviour
 
         this._xPosition = transform.position.x;
 
-        this._length = GetComponent<SpriteRenderer>().bounds.size.x;
+        this._length = GetComponent<SpriteRenderer>().bounds.size.x;    
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         var distanceMoved = this._mainCamera.transform.position.x * (1 - this.parallaxEffect);
 
@@ -33,6 +32,5 @@ public class ParallaxBackground : MonoBehaviour
             _xPosition = _xPosition + _length;
         else if (distanceMoved < this._xPosition - this._length)
             _xPosition = _xPosition - _length;
-
     }
 }

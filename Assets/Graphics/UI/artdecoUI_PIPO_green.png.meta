@@ -292,7 +292,7 @@ TextureImporter:
         height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 14, y: 14, z: 12, w: 12}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -446,6 +446,27 @@ TextureImporter:
       bones: []
       spriteID: 70bc691da83d49a4f83b3bf808adea0d
       internalID: 507719018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artdecoUI_PIPO_green_8
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 376
+        width: 65
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a0ac15b6e247a4180cd51ddb761d0e
+      internalID: 1990043730
       vertices: []
       indices: 
       edges: []

@@ -7,10 +7,10 @@ namespace SaveAndLoad
 {
     public class FileDataHandler
     {
-        private string _dataDirPath = "";
-        private string _dataFileName = "";
-        private bool _encrypted = false;
-        private string _codeWord = "thalesRaymond";
+        private readonly string _dataDirPath = "";
+        private readonly string _dataFileName = "";
+        private readonly bool _encrypted;
+        private const string CodeWord = "thalesRaymond";
 
         public FileDataHandler(string dataDirPath, string dataFileName, bool encrypted)
         {
@@ -27,7 +27,7 @@ namespace SaveAndLoad
             {
                 Directory.CreateDirectory(Path.GetDirectoryName(filePath));
 
-                var dataToStore = this.EncryptString(JsonUtility.ToJson(data, true), this._codeWord);
+                var dataToStore = this.EncryptString(JsonUtility.ToJson(data, true), CodeWord);
 
                 File.WriteAllText(filePath, dataToStore);
             }
@@ -37,18 +37,25 @@ namespace SaveAndLoad
             }
         }
 
+        public bool HasSaveData()
+        {
+            var filePath = this._dataDirPath + "/" + this._dataFileName;
+            
+            return File.Exists(filePath);
+        }
+
         public GameData Load()
         {
             var filePath = this._dataDirPath + "/" + this._dataFileName;
 
-            if (!File.Exists(filePath))
+            if (!this.HasSaveData())
             {
                 return null;
             }
 
             try
             {
-                var dataToLoad = this.DecryptString(File.ReadAllText(filePath), this._codeWord);
+                var dataToLoad = this.DecryptString(File.ReadAllText(filePath), CodeWord);
 
                 return JsonUtility.FromJson<GameData>(dataToLoad);
             }
