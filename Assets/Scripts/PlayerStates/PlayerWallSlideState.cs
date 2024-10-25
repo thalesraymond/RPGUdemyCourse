@@ -8,16 +8,6 @@ namespace PlayerStates
         {
         }
 
-        public override void Enter()
-        {
-            base.Enter();
-        }
-
-        public override void Exit()
-        {
-            base.Exit();
-        }
-
         public override void Update()
         {
             base.Update();
@@ -33,10 +23,7 @@ namespace PlayerStates
             if (this.Player.IsGroundDetected())
                 this.StateMachine.ChangeState(this.Player.IdleState);
 
-            if (this.yInput < 0)
-                this.Rb.velocity = new Vector2(0, Rb.velocity.y);
-            else
-                this.Rb.velocity = new Vector2(0, Rb.velocity.y * this.Player.WallSlideDrag);
+            this.Rb.velocity = this.yInput < 0 ? new Vector2(0, Rb.velocity.y) : new Vector2(0, Rb.velocity.y * this.Player.WallSlideDrag);
         }
     }
 }

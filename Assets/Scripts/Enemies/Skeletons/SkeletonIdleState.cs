@@ -13,11 +13,6 @@ namespace Enemies.Skeletons
             this.StateTimer = this.Enemy.IdleTime;
         }
 
-        public override void Exit()
-        {
-            base.Exit();
-        }
-
         public override void Update()
         {
             base.Update();

@@ -15,11 +15,6 @@ namespace PlayerStates
             this.Rb.velocity = new Vector2(this.Rb.velocity.x, this.Player.JumpForce);
         }
 
-        public override void Exit()
-        {
-            base.Exit();
-        }
-
         public override void Update()
         {
             base.Update();

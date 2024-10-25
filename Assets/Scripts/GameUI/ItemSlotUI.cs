@@ -30,10 +30,7 @@ namespace GameUI
 
                 ItemImage.sprite = this.Item.ItemData.ItemIcon;
 
-                if (Item.StackSize > 1)
-                    ItemText.text = Item.StackSize.ToString();
-                else
-                    ItemText.text = string.Empty;
+                ItemText.text = Item.StackSize > 1 ? Item.StackSize.ToString() : string.Empty;
             }
             else
             {

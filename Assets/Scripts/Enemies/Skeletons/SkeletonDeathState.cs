@@ -10,11 +10,6 @@ namespace Enemies.Skeletons
             this._enemy = enemy;
         }
 
-        public override void AnimationFinishTrigger()
-        {
-            base.AnimationFinishTrigger();
-        }
-
         public override void Enter()
         {
             base.Enter();
@@ -26,11 +21,6 @@ namespace Enemies.Skeletons
             this._enemy.CapsuleCollider.enabled = false;
 
             this.StateTimer = .15f;
-        }
-
-        public override void Exit()
-        {
-            base.Exit();
         }
 
         public override void Update()

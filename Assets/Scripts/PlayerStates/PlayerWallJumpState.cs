@@ -15,16 +15,6 @@ namespace PlayerStates
             this.Player.SetVelocity(5 * -this.Player.FacingDirection, this.Player.JumpForce);
         }
 
-        public override void Exit()
-        {
-            base.Exit();
-        }
-
-        public override string ToString()
-        {
-            return base.ToString();
-        }
-
         public override void Update()
         {
             base.Update();

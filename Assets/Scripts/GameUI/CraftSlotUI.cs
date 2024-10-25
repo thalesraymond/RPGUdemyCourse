@@ -6,12 +6,6 @@ namespace GameUI
 {
     public class CraftSlotUI : ItemSlotUI
     {
-
-        protected override void Start()
-        {
-            base.Start();
-        }
-
         public void SetupCraftSlot(EquipmentItemData equipmentItemData)
         {
             if (this.Item == null)

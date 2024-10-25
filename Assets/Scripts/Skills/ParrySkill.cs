@@ -31,13 +31,6 @@ namespace Skills
             this.UnlockParryRestore();
             this.UnlockParryWithMirage();
         }
-
-        public override bool CanUseSkill()
-        {
-            return base.CanUseSkill();
-        }
-
-
         private void UnlockParrySkill()
         {
             if (this._parrySlotUnlockButton.Unlocked)

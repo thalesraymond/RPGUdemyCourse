@@ -37,10 +37,7 @@ public class EntityFX : MonoBehaviour
 
     public void RedColorBlink()
     {
-        if (_spriteRenderer.color != Color.white)
-            _spriteRenderer.color = Color.white;
-        else
-            _spriteRenderer.color = Color.red;
+        _spriteRenderer.color = _spriteRenderer.color != Color.white ? Color.white : Color.red;
     }
 
     public void CancelColorChange()
@@ -73,10 +70,7 @@ public class EntityFX : MonoBehaviour
 
     private void IgniteColorFx()
     {
-        if (_spriteRenderer.color != _igniteColors[0])
-            _spriteRenderer.color = _igniteColors[0];
-        else
-            _spriteRenderer.color = _igniteColors[1];
+        _spriteRenderer.color = _spriteRenderer.color != _igniteColors[0] ? _igniteColors[0] : _igniteColors[1];
     }
 
     private void ChillColorFx()
@@ -86,10 +80,7 @@ public class EntityFX : MonoBehaviour
 
     private void ShockedColorFx()
     {
-        if (_spriteRenderer.color != _shockColors[0])
-            _spriteRenderer.color = _shockColors[0];
-        else
-            _spriteRenderer.color = _shockColors[1];
+        _spriteRenderer.color = _spriteRenderer.color != _shockColors[0] ? _shockColors[0] : _shockColors[1];
     }
 
     public void ToogleTransparent(bool transparent) => this._spriteRenderer.color = transparent ? Color.clear : Color.white;

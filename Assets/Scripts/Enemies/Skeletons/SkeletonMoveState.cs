@@ -6,21 +6,6 @@ namespace Enemies.Skeletons
         {
         }
 
-        public override void Enter()
-        {
-            base.Enter();
-        }
-
-        public override void Exit()
-        {
-            base.Exit();
-        }
-
-        public override string ToString()
-        {
-            return base.ToString();
-        }
-
         public override void Update()
         {
             base.Update();

@@ -36,11 +36,6 @@ namespace Skills
             }
         }
 
-        public override bool CanUseSkill()
-        {
-            return base.CanUseSkill();
-        }
-
         public override void UseSkill()
         {
             base.UseSkill();
@@ -50,12 +45,6 @@ namespace Skills
             this._currentBlackHoleController = newBlackHole.GetComponent<BlackHoleSkillController>();
 
             this._currentBlackHoleController.SetupBlackHole(_maxSize, _growSpeed, _shrinkSpeed, _amountOfAttacks, _cloneAttackCooldown, _blackHoleDuration);
-        }
-
-
-        protected override void Update()
-        {
-            base.Update();
         }
 
         public bool SkillCompleted()

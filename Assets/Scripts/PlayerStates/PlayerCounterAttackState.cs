@@ -22,11 +22,6 @@ namespace PlayerStates
             this._canCreateClone = true;
         }
 
-        public override void Exit()
-        {
-            base.Exit();
-        }
-
         public override void Update()
         {
             base.Update();

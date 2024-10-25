@@ -26,15 +26,6 @@ namespace Skills
             this.UnlockMirage();
         }
 
-        public override bool CanUseSkill()
-        {
-            return base.CanUseSkill();
-        }
-
-        public override void UseSkill()
-        {
-            base.UseSkill();
-        }
         private void UnlockDodge()
         {
             if(this._dodgeSkillUnlockButton.Unlocked)

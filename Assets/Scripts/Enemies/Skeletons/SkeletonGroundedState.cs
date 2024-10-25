@@ -19,11 +19,6 @@ namespace Enemies.Skeletons
             this.Player = PlayerManager.Instance.Player.transform;
         }
 
-        public override void Exit()
-        {
-            base.Exit();
-        }
-
         public override void Update()
         {
             base.Update();

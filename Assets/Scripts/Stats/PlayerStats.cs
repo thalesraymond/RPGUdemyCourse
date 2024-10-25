@@ -14,12 +14,7 @@ namespace Stats
 
             _player = GetComponent<Player>();
         }
-
-        public override void TakeDamage(int damage)
-        {
-            base.TakeDamage(damage);
-        }
-
+        
         protected override void Die()
         {
             base.Die();

@@ -32,11 +32,6 @@ namespace Skills
             this.UnlockCloneOnDashArrival();
         }
 
-        public override void UseSkill()
-        {
-            base.UseSkill();
-        }
-
         private void UnlockDash()
         {
             if (this._dashSlotUnlockButton.Unlocked)
