@@ -7,7 +7,7 @@ namespace GameUI
         public void HideTooltip() => gameObject.SetActive(false);
 
         // Use this for initialization
-        void Start()
+        private void Start()
         {
             Canvas.ForceUpdateCanvases();
         }

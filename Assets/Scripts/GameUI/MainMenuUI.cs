@@ -1,3 +1,4 @@
+using System.Collections;
 using SaveAndLoad;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,6 +10,7 @@ namespace GameUI
     {
         [SerializeField] private string sceneName = "MainScene";
         [SerializeField] private Button continueButton;
+        [SerializeField] private FadeScreenUI fadeScreenUI;
 
         private void Start()
         {
@@ -16,7 +18,7 @@ namespace GameUI
         }
         public void ContinueGame()
         {
-            SceneManager.LoadScene(sceneName);
+            StartCoroutine(LoadSceneWithFadeEffect(1.5f));
         }
 
         public void NewGame()
@@ -29,6 +31,15 @@ namespace GameUI
         public void ExitGame()
         {
             Application.Quit();
+        }
+
+        private IEnumerator LoadSceneWithFadeEffect(float delay)
+        {   
+            fadeScreenUI.FadeOut();
+            
+            yield return new WaitForSeconds(delay);
+            
+            SceneManager.LoadScene(sceneName);
         }
     }
 }

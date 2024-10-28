@@ -21,7 +21,7 @@ namespace GameUI
         private SkillManager _skillManager => SkillManager.Instance;
 
         // Start is called before the first frame update
-        void Start()
+        private void Start()
         {
             if (this._playerStats != null)
             {
@@ -30,7 +30,7 @@ namespace GameUI
         }
 
         // Update is called once per frame
-        void Update()
+        private void Update()
         {
             if (Input.GetKeyDown(KeyCode.LeftShift) && _skillManager.DashSkill.DashUnlocked)
                 SetCooldown(this._dashImage);

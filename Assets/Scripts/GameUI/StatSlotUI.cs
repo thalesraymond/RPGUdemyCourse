@@ -22,7 +22,8 @@ namespace GameUI
 
             _ui = GetComponentInParent<UI>();
         }
-        void OnValidate()
+
+        private void OnValidate()
         {
             gameObject.name = "Stat - " + _statName;
 

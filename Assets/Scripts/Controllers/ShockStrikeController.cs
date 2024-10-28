@@ -21,13 +21,13 @@ namespace Controllers
         }
 
         // Start is called before the first frame update
-        void Start()
+        private void Start()
         {
             this._animator = this.GetComponentInChildren<Animator>();
         }
 
         // Update is called once per frame
-        void Update()
+        private void Update()
         {
             if (_triggered)
                 return;

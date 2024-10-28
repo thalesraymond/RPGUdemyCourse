@@ -11,7 +11,7 @@ namespace GameUI
         [SerializeField] private GameObject _craftSlotPrefab;
         [SerializeField] private List<EquipmentItemData> _craftEquipments;
 
-        void OnEnable()
+        private void OnEnable()
         {
             transform.parent.GetChild(0).GetComponent<CraftListUI>().SetupCraftList();
 

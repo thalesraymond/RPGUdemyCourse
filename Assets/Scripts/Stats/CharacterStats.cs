@@ -319,7 +319,7 @@ namespace Stats
             StartCoroutine(IncreaseStatByCoroutine(modifier, duration, statToModify));
         }
 
-        IEnumerator IncreaseStatByCoroutine(int modifier, float duration, Stat statToModify)
+        private IEnumerator IncreaseStatByCoroutine(int modifier, float duration, Stat statToModify)
         {
             statToModify.AddModifier(modifier);
 
