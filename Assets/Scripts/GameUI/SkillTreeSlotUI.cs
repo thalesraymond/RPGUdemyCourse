@@ -1,3 +1,4 @@
+using Managers;
 using SaveAndLoad;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -5,7 +6,8 @@ using UnityEngine.UI;
 
 namespace GameUI
 {
-    public class SkillTreeSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler, ISaveManager
+    public class SkillTreeSlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler,
+        ISaveManager
     {
         public bool Unlocked;
 
@@ -15,7 +17,7 @@ namespace GameUI
         [SerializeField] private Button _unlockButton;
 
         [SerializeField] private string _skillName;
-        [SerializeField][TextArea] private string _skillDescription;
+        [SerializeField] [TextArea] private string _skillDescription;
 
         [SerializeField] private Color _lockedSkillColor;
         [SerializeField] private Color _unlockedSkillColor;
@@ -86,7 +88,7 @@ namespace GameUI
                 }
             }
 
-            if(!PlayerManager.Instance.HaveEnoughMoney(this._skillPrice))
+            if (!PlayerManager.Instance.HaveEnoughMoney(this._skillPrice))
             {
                 Debug.Log("Not enough currency");
                 return;
@@ -113,7 +115,7 @@ namespace GameUI
 
         public void LoadData(GameData data)
         {
-            if(data.SkillTree.TryGetValue(this._skillName, out var skillUnlocked))
+            if (data.SkillTree.TryGetValue(this._skillName, out var skillUnlocked))
             {
                 this.Unlocked = skillUnlocked;
                 this.SetupUnlockedStatus();

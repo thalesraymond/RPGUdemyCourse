@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Skills
 {
@@ -47,6 +48,17 @@ namespace Skills
             this.ParrySkill = GetComponent<ParrySkill>();
 
             this.DodgeSkill = GetComponent<DodgeSkill>();
+        }
+
+        public void ValidateUnlocks()
+        {
+            this.DashSkill.TryUnlockAll();
+            this.CloneSkill.TryUnlockAll();
+            this.SwordSkill.TryUnlockAll();
+            this.BlackholeSkill.TryUnlockAll();
+            this.CrystalSkill.TryUnlockAll();
+            this.ParrySkill.TryUnlockAll();
+            this.DodgeSkill.TryUnlockAll();
         }
     }
 }

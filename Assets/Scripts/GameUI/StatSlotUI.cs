@@ -1,4 +1,5 @@
 using Inventory.Effects;
+using Managers;
 using Stats;
 using TMPro;
 using UnityEngine;

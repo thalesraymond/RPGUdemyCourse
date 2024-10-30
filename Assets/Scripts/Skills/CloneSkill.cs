@@ -44,6 +44,11 @@ namespace Skills
             this._multipleClonesSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockMultipleClones);
             this._crystalInsteadOfCloneSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockCrystalInsteadOfClone);
 
+            TryUnlockAll();
+        }
+
+        public void TryUnlockAll()
+        {
             this.UnlockCloneAttack();
             this.UnlockAggressiveClone();
             this.UnlockMultipleClones();

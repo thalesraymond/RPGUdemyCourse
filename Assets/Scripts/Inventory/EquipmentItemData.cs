@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Inventory.Effects;
+using Managers;
 using Stats;
 using UnityEngine;
 

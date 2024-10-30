@@ -50,6 +50,11 @@ namespace Skills
             this._movingCrystalSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockMovingCrystal);
             this._multiStackingCrystalSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockMultiStackingCrystal);
 
+            TryUnlockAll();
+        }
+
+        public void TryUnlockAll()
+        {
             this.UnlockSimpleCrystal();
             this.UnlockCrystalMirage();
             this.UnlockExplosiveCrystal();

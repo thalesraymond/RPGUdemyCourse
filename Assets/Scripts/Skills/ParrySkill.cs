@@ -27,10 +27,16 @@ namespace Skills
             this._parrySlotRestoreUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockParryRestore);
             this._parrySlotWithMirageUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockParryWithMirage);
 
+            TryUnlockAll();
+        }
+
+        public void TryUnlockAll()
+        {
             this.UnlockParrySkill();
             this.UnlockParryRestore();
             this.UnlockParryWithMirage();
         }
+
         private void UnlockParrySkill()
         {
             if (this._parrySlotUnlockButton.Unlocked)

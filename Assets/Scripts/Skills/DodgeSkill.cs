@@ -22,6 +22,11 @@ namespace Skills
             this._dodgeSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockDodge);
             this._mirageDodgeSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockMirage);
 
+            TryUnlockAll();
+        }
+
+        public void TryUnlockAll()
+        {
             this.UnlockDodge();
             this.UnlockMirage();
         }

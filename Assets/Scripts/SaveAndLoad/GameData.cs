@@ -1,19 +1,17 @@
+// ReSharper disable InconsistentNaming
+// Unity doesn't serialize properties with get;set, DO NOT "FIX" this
 namespace SaveAndLoad
 {
     [System.Serializable]
     public class GameData
     {
-        public int Currency;
-        public SerializableDictionary<string, int> InventoryItems;
-        public SerializableDictionary<string, bool> SkillTree;
+        public int Currency = 0;
+        public SerializableDictionary<string, int> InventoryItems = new();
+        
+        public SerializableDictionary<string, bool> SkillTree = new();
 
-        public GameData()
-        {
-            this.Currency = 0;
+        public SerializableDictionary<string, bool> Checkpoints = new();
 
-            this.InventoryItems = new SerializableDictionary<string, int>();
-
-            this.SkillTree = new SerializableDictionary<string, bool>();
-        }
+        public string ClosestCheckpointId = string.Empty;
     }
 }

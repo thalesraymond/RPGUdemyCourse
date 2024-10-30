@@ -25,6 +25,11 @@ namespace Skills
 
             this._blackHoleSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockBlackHole);
 
+            TryUnlockAll();
+        }
+
+        public void TryUnlockAll()
+        {
             this.UnlockBlackHole();
         }
 

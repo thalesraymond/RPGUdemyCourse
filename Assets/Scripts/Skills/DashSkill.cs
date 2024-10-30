@@ -27,6 +27,11 @@ namespace Skills
             this._cloneOnDashSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockCloneOnDash);
             this._cloneOnDashArrivalSlotUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockCloneOnDashArrival);
 
+            TryUnlockAll();
+        }
+
+        public void TryUnlockAll()
+        {
             this.UnlockDash();
             this.UnlockCloneOnDash();
             this.UnlockCloneOnDashArrival();

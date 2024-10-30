@@ -1,6 +1,7 @@
 using Controllers.SkillsControllers;
 using GameUI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Skills
@@ -71,6 +72,11 @@ namespace Skills
             this._swordTimeStopSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockSwordTimeStop);
             this._vulnerableSkillUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockSwordVulnerable);
 
+            TryUnlockAll();
+        }
+
+        public void TryUnlockAll()
+        {
             this.UnlockSwordThrow();
             this.UnlockSwordBounce();
             this.UnlockSwordPierce();

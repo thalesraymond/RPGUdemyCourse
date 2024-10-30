@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Skills;
 using UnityEngine;
 
 namespace SaveAndLoad
@@ -64,6 +65,8 @@ namespace SaveAndLoad
             {
                 saveManager.LoadData(this._gameData);
             }
+            
+            SkillManager.Instance.ValidateUnlocks();
         }
 
         public void SaveGame()

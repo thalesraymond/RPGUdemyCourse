@@ -1,4 +1,6 @@
 using System.Collections;
+using Managers;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace GameUI
@@ -21,22 +23,30 @@ namespace GameUI
         [Header("End Screen")]
         [SerializeField] private FadeScreenUI fadeScreenUI;
         [SerializeField] private GameObject endText;
+        [SerializeField] private GameObject restartButton;
 
         private void Awake()
         {
             SwitchTo(this._skillTreeUI); // We need this to fix the order of the assigned events
+            
+            this.fadeScreenUI.gameObject.SetActive(true);
         }
         // Start is called before the first frame update
         private void Start()
         {
             this.ItemToolTipUI = GetComponentInChildren<ItemToolTipUI>(true);
 
-            SwitchTo(null);
-            SwitchTo(this._inGameUI);
+            Invoke(nameof(SwitchToInGameUI), 0f); // We need this delay to prevent bugs in SaveManager when loading the game
 
             this.ItemToolTipUI.HideTooltip();
 
             this.StatToolTipUI.HideTooltip();
+        }
+
+        private void SwitchToInGameUI()
+        {   
+            SwitchTo(null);
+            SwitchTo(this._inGameUI);
         }
 
         // Update is called once per frame
@@ -109,6 +119,12 @@ namespace GameUI
             yield return new WaitForSeconds(1f);
             
             endText.SetActive(true);
+            
+            yield return new WaitForSeconds(1f);
+            
+            restartButton.SetActive(true);
         }
+        
+        public void RestartGameAction() => GameManager.Instance.RestartScene();
     }
 }
