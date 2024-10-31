@@ -1,5 +1,6 @@
 using Enemies;
 using Inventory;
+using Managers;
 using UnityEngine;
 
 namespace Stats
@@ -12,15 +13,21 @@ namespace Stats
         [Header("Level details")]
         [SerializeField] private int _level = 1;
         [Range(0f, 1f)][SerializeField] private float _percentageModifier = .4f;
+        
+        [Header("Souls Info")]
+        [SerializeField] private Stat soulsDropAmount;
+        
         protected override void Start()
         {
-            base.Start();
+            this.soulsDropAmount.BaseValue = 100;
 
             _enemy = GetComponent<Enemy>();
 
             _itemDropSystem = GetComponentInChildren<ItemDrop>();
 
             ApplyLevelModifier();
+            
+            base.Start();
         }
 
         private void ApplyLevelModifier()
@@ -40,11 +47,14 @@ namespace Stats
             Modify(this.LightningDamage);
 
             Modify(this.Armor);
+            Modify(this.MaxHealthPoints);
             Modify(this.Evasion);
             Modify(this.MagicResistance);
 
             Modify(this.CriticalHitChance);
             Modify(this.CriticalHitPower);
+            
+            Modify(this.soulsDropAmount);
         }
 
         private void Modify(Stat stat)
@@ -62,6 +72,8 @@ namespace Stats
             base.Die();
 
             _enemy.Die();
+
+            PlayerManager.Instance.Currency += this.soulsDropAmount.GetValue();
 
             this._itemDropSystem.GenerateDrops();
         }

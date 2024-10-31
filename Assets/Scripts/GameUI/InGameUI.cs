@@ -2,6 +2,7 @@ using Managers;
 using Skills;
 using Stats;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,8 +18,13 @@ namespace GameUI
         [SerializeField] private Image _crystalImage;
         [SerializeField] private Image _swordImage;
         [SerializeField] private Image _blackHoleImage;
+        
+        [Header("Souls Info")]
         [SerializeField] private TextMeshProUGUI _currentSouls;
-    
+        [SerializeField] private float soulsAmount;
+        [SerializeField] private float increaseRate = 100;
+        
+        
         private SkillManager _skillManager => SkillManager.Instance;
 
         // Start is called before the first frame update
@@ -33,6 +39,8 @@ namespace GameUI
         // Update is called once per frame
         private void Update()
         {
+            this.UpdateSoulsUI();
+
             if (Input.GetKeyDown(KeyCode.LeftShift) && _skillManager.DashSkill.DashUnlocked)
                 SetCooldown(this._dashImage);
 
@@ -54,8 +62,20 @@ namespace GameUI
             CheckCooldownOf(this._crystalImage, this._skillManager.CrystalSkill.Cooldown);
             CheckCooldownOf(this._swordImage, this._skillManager.SwordSkill.Cooldown);
             CheckCooldownOf(this._blackHoleImage, this._skillManager.BlackholeSkill.Cooldown);
+        }
 
-            this._currentSouls.text = PlayerManager.Instance.GetCurrencyAmount().ToString("#,#");
+        private void UpdateSoulsUI()
+        {
+            if (this.soulsAmount < PlayerManager.Instance.GetCurrencyAmount())
+            {
+                this.soulsAmount += Time.deltaTime * this.increaseRate;
+            }
+            else
+            {
+                this.soulsAmount = PlayerManager.Instance.GetCurrencyAmount();
+            }
+
+            this._currentSouls.text = ((int)this.soulsAmount).ToString();
         }
 
         private void UpdateHealthUI()

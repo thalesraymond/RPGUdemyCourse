@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7012532493846912309}
   - component: {fileID: 6334906613232524736}
   - component: {fileID: 6010783284324560993}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Checkpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,3 +165,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5272c6308edc4c0d808318539d3eb5c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkpointId: 

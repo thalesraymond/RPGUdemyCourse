@@ -7,6 +7,12 @@ namespace Stats
     [System.Serializable]
     public class Stat
     {
+        public int BaseValue
+        {
+            get => _baseValue;
+            set => _baseValue = value;
+        }
+
         [SerializeField] private int _baseValue;
 
         public List<int> Modifiers;

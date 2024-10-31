@@ -46,7 +46,7 @@ namespace Managers
 
         public void SaveData(ref GameData data)
         {
-            data.Currency = this.Currency;
+            data.Currency = this.Player.IsDead ? 0 : this.Currency;
         }
     }
 }

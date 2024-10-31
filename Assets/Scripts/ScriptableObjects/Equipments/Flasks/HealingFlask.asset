@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fa689a73b2978547924f275adec9685, type: 3}
   m_Name: HealingFlask
   m_EditorClassIdentifier: 
+  ItemId: 0069991eac1269248b3e1b34abf15a11
   ItemType: 1
   ItemName: Healing Flask
   ItemIcon: {fileID: -410334530, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
-  DropChance: 7.2
+  DropChance: 30.9
   EquipmentType: 3
   Effects:
   - {fileID: 11400000, guid: f18bc3ee80d637246ade77c9c217a1fd, type: 2}
+  ItemEffectDescription: 
   StrengthModifier: 0
   AgilityModifier: 0
   IntelligenceModifier: 0

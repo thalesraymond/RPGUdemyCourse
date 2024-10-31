@@ -1,4 +1,5 @@
 using GameUI;
+using Managers;
 using UnityEngine;
 
 namespace PlayerStates
@@ -13,6 +14,8 @@ namespace PlayerStates
         {
             base.Enter();
 
+            this.Player.IsDead = true;
+            
             GameObject.Find("Canvas").GetComponent<UI>().SwitchOnEndScreen();
         }
 

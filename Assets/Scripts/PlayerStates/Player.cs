@@ -6,7 +6,6 @@ namespace PlayerStates
 {
     public class Player : Entity
     {
-
         [Header("Attack Details")]
         public float[] AttackMovement;
         public bool IsBusy { get; private set; }
@@ -58,6 +57,7 @@ namespace PlayerStates
         public PlayerBlackholeState PlayerBlackholeState { get; private set; }
 
         public PlayerDeathState PlayerDeathState { get; private set; }
+        public bool IsDead { get; set; }
 
         #endregion
 

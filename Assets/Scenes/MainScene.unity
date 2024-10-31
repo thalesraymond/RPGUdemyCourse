@@ -9394,8 +9394,11 @@ MonoBehaviour:
   CurrentHealthPoints: 0
   _thunderStrikePrefab: {fileID: 1124772325334426409, guid: 0392226d20e79b44a809b6d22eafd96e, type: 3}
   _shockDamage: 1
-  _level: 2
+  _level: 4
   _percentageModifier: 0.4
+  soulsDropAmount:
+    _baseValue: 0
+    Modifiers: 
 --- !u!114 &523745758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19513,7 +19516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1820392515}
-  Currency: 50000
+  Currency: 0
 --- !u!4 &819049788
 Transform:
   m_ObjectHideFlags: 0
@@ -21363,6 +21366,10 @@ PrefabInstance:
     - target: {fileID: 7167636826355858816, guid: db3af2e9941fde843aff46f8167c4208, type: 3}
       propertyPath: m_Name
       value: Checkpoint (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7167636826355858816, guid: db3af2e9941fde843aff46f8167c4208, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23760,6 +23767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkpoints: []
+  lostCurrencyPrefab: {fileID: 2147176354671399078, guid: 17988a22dfc1c434195e08ce10263e2d, type: 3}
 --- !u!4 &1077688196
 Transform:
   m_ObjectHideFlags: 0
@@ -25950,6 +25958,8 @@ MonoBehaviour:
   _swordImage: {fileID: 40396577}
   _blackHoleImage: {fileID: 1986872906}
   _currentSouls: {fileID: 1640820442}
+  soulsAmount: 0
+  increaseRate: 10000
 --- !u!114 &1304822387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26904,8 +26914,11 @@ MonoBehaviour:
   CurrentHealthPoints: 0
   _thunderStrikePrefab: {fileID: 1124772325334426409, guid: 0392226d20e79b44a809b6d22eafd96e, type: 3}
   _shockDamage: 1
-  _level: 2
+  _level: 1
   _percentageModifier: 0.4
+  soulsDropAmount:
+    _baseValue: 0
+    Modifiers: 
 --- !u!114 &1340300474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42227,8 +42240,11 @@ MonoBehaviour:
   CurrentHealthPoints: 0
   _thunderStrikePrefab: {fileID: 1124772325334426409, guid: 0392226d20e79b44a809b6d22eafd96e, type: 3}
   _shockDamage: 1
-  _level: 2
+  _level: 3
   _percentageModifier: 0.4
+  soulsDropAmount:
+    _baseValue: 0
+    Modifiers: 
 --- !u!114 &1638647727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47279,6 +47295,9 @@ MonoBehaviour:
   _shockDamage: 1
   _level: 2
   _percentageModifier: 0.4
+  soulsDropAmount:
+    _baseValue: 0
+    Modifiers: 
 --- !u!70 &1892579685
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

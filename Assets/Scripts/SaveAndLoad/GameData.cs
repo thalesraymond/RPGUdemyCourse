@@ -1,8 +1,11 @@
 // ReSharper disable InconsistentNaming
 // Unity doesn't serialize properties with get;set, DO NOT "FIX" this
+
+using System;
+
 namespace SaveAndLoad
 {
-    [System.Serializable]
+    [Serializable]
     public class GameData
     {
         public int Currency = 0;
@@ -13,5 +16,10 @@ namespace SaveAndLoad
         public SerializableDictionary<string, bool> Checkpoints = new();
 
         public string ClosestCheckpointId = string.Empty;
+
+        public float bodyLocationX;
+        public float bodyLocationY;
+        public int lostCurrency;
+
     }
 }

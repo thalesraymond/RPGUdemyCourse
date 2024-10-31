@@ -13,11 +13,17 @@ namespace Managers
     public class GameManager : MonoBehaviour, ISaveManager
     {
         public static GameManager Instance { get; private set; }
-        
+
         [SerializeField] private Checkpoint[] checkpoints;
 
+        [Header("Lost Currency")] [SerializeField]
+        private GameObject lostCurrencyPrefab;
+        // public int lostCurrencyAmount;
+        // [SerializeField] private float bodyLocationX;   
+        // [SerializeField] private float bodyLocationY;
+
         private GameData _data;
-        
+
         private void Awake()
         {
             if (Instance == null)
@@ -34,47 +40,84 @@ namespace Managers
         {
             this.checkpoints = FindObjectsByType<Checkpoint>(FindObjectsSortMode.None);
         }
-        
+
         public void RestartScene()
         {
             SaveManager.Instance.SaveGame();
-            
+
             var scene = SceneManager.GetActiveScene();
-            
+
             SceneManager.LoadScene(scene.name);
+        }
+        
+        public void SaveData(ref GameData data)
+        {
+            data.Checkpoints.Clear();
+
+            foreach (var checkpoint in this.checkpoints)
+            {
+                data.Checkpoints.Add(checkpoint.checkpointId, checkpoint.IsActive);
+
+                data.ClosestCheckpointId = this.FindClosestCheckpoint()?.checkpointId;
+            }
+
+            SaveLostCurrency(data);
         }
 
         public void LoadData(GameData data)
         {
             this._data = data;
-            
-            Invoke(nameof(LoadCheckpointData), 0.1f); // We need this delay, otherwise the checkpoint array is null and the game crashes
+
+            // We need this delay, otherwise the checkpoint array is null and the game crashes
+            Invoke(nameof(LoadCheckpointData), 0.1f); 
+
+            LoadLostCurrency(data);
+        }
+
+        private void LoadLostCurrency(GameData data)
+        {
+            if (data.bodyLocationX == 0 || data.bodyLocationY == 0) return;
+
+            var bodyLocation = new Vector3(data.bodyLocationX, data.bodyLocationY - 0.5f, 0);
+
+            var playerBody = Instantiate(this.lostCurrencyPrefab, bodyLocation, Quaternion.identity);
+
+            playerBody.GetComponent<LostCurrencyController>().currencyAmount = data.lostCurrency;
         }
 
         private void LoadCheckpointData()
         {
+            
             foreach (var pair in this._data.Checkpoints)
             {
                 var checkpoint = this.checkpoints.First(checkpoint => checkpoint.checkpointId == pair.Key);
 
                 if (pair.Value) checkpoint.ActivateCheckpoint();
             }
-            
-            var respawnPoint = this.checkpoints.FirstOrDefault(checkpoint => checkpoint.checkpointId == this._data.ClosestCheckpointId);
+
+            var respawnPoint =
+                this.checkpoints.FirstOrDefault(checkpoint =>
+                    checkpoint.checkpointId == this._data.ClosestCheckpointId);
 
             if (respawnPoint == null) return;
-             
-            PlayerManager.Instance.Player.transform.position = new Vector3(respawnPoint.transform.position.x + Random.Range(-3, 3), respawnPoint.transform.position.y, 0);
+
+            PlayerManager.Instance.Player.transform.position = new Vector3(
+                respawnPoint.transform.position.x + Random.Range(-3, 3), respawnPoint.transform.position.y, 0);
         }
 
-        public void SaveData(ref GameData data)
+        private void SaveLostCurrency(GameData data)
         {
-            data.Checkpoints.Clear();
-            
-            foreach (var checkpoint in this.checkpoints)
+            if (PlayerManager.Instance.Player.IsDead)
             {
-                data.Checkpoints.Add(checkpoint.checkpointId, checkpoint.IsActive);
-                data.ClosestCheckpointId = this.FindClosestCheckpoint().checkpointId;
+                data.bodyLocationX = PlayerManager.Instance.Player.transform.position.x;
+                data.bodyLocationY = PlayerManager.Instance.Player.transform.position.y;
+                data.lostCurrency = PlayerManager.Instance.GetCurrencyAmount();
+            }
+            else
+            {
+                data.bodyLocationX = 0;
+                data.bodyLocationY = 0;
+                data.lostCurrency = 0;
             }
         }
 
@@ -85,7 +128,7 @@ namespace Managers
             var closestCheckpoint = this.checkpoints
                 .Where(checkpoint => checkpoint.IsActive)
                 .OrderBy(checkpoint => Vector2.Distance(checkpoint.transform.position, playerPosition))
-                .First();
+                .FirstOrDefault();
 
             return closestCheckpoint;
         }
