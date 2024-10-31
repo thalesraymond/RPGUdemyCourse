@@ -52,6 +52,11 @@ namespace Skills
 
         public void ValidateUnlocks()
         {
+            Invoke(nameof(ValidateAllUnlocks), 0.1f); // invoke with delay to prevent race conditions
+        }
+
+        private void ValidateAllUnlocks()
+        {
             this.DashSkill.TryUnlockAll();
             this.CloneSkill.TryUnlockAll();
             this.SwordSkill.TryUnlockAll();
