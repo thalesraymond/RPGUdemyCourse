@@ -1,11 +1,12 @@
 ﻿using System;
+using Managers;
 using PlayerStates;
 using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    private static readonly int ActiveTriggerName = Animator.StringToHash("Active");
-    
+    private const string ActiveTriggerName = "Active";
+
     private Animator _animator;
 
     public  string checkpointId;
@@ -30,6 +31,8 @@ public class Checkpoint : MonoBehaviour
     public void ActivateCheckpoint()
     {
         this._animator.SetBool(ActiveTriggerName, true);
+        
+        AudioManager.Instance.PlaySoundEffect(SoundEffect.Checkpoint, this.transform);
     }
 
     private void GenerateId()

@@ -1,3 +1,4 @@
+using Managers;
 using UnityEngine;
 
 namespace Inventory
@@ -28,6 +29,8 @@ namespace Inventory
 
 
             Inventory.Instance.AddItem(this._itemData);
+            
+            AudioManager.Instance.PlaySoundEffect(SoundEffect.ItemPickUp, this.transform, true);
 
             Destroy(gameObject);
         }

@@ -49,32 +49,33 @@ namespace Managers
         /// <see cref="soundEffectMinimumDistance"/>, the sound effect will not
         /// be played. If the source is null, the sound effect will always be
         /// played.</param>
-        public void PlaySoundEffect(SoundEffect effect, Transform source = null)
+        public void PlaySoundEffect(SoundEffect effect, Transform source = null, bool overlap = false)
         {
-            if (this.soundEffects[(int)effect].isPlaying) return;
+            if (this.soundEffects[(int)effect].isPlaying && !overlap) return;
             
-            if (effect >= (SoundEffect)this.soundEffects.Length) return;
+            if ((int)effect >= this.soundEffects.Length) return;
 
             var playerPosition = PlayerManager.Instance.Player.transform.position;
             if(source && Vector2.Distance(playerPosition, source.position) > this.soundEffectMinimumDistance) return;
             
             this.soundEffects[(int)effect].pitch = UnityEngine.Random.Range(0.8f, 1.1f);
-
+            
             this.soundEffects[(int)effect].Play();
         }
 
-        /// <summary>
-        /// Stops the sound effect at the specified index.
-        /// </summary>
-        /// <param name="index">The index of the sound effect to stop.</param>
-        /// <remarks>
-        /// If the index is out of range, this method does nothing.
-        /// </remarks>
-        public void StopSoundEffect(int index)
-        {
-            if (index >= this.soundEffects.Length) return;
 
-            this.soundEffects[index].Stop();
+        /// <summary>
+        /// Stops the specified sound effect if it is playing.
+        /// </summary>
+        /// <param name="effect">The sound effect to stop.</param>
+        /// <remarks>
+        /// If the sound effect is not playing, this method does nothing.
+        /// </remarks>
+        public void StopSoundEffect(SoundEffect effect)
+        {
+            if ((int)effect >= this.soundEffects.Length) return;
+
+            this.soundEffects[(int)effect].Stop();
         }
 
         /// <summary>

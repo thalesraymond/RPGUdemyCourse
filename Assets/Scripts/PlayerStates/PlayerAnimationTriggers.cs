@@ -23,11 +23,11 @@ namespace PlayerStates
                 .Where(hit => hit.GetComponent<Enemy>() is not null).ToArray();
             
             if(!colliders.Any())
-                AudioManager.Instance.PlaySoundEffect(SoundEffect.NoHitAttack);
+                AudioManager.Instance.PlaySoundEffect(SoundEffect.NoHitAttack, null, true);
 
             foreach (var hit in colliders)
             {
-                AudioManager.Instance.PlaySoundEffect(SoundEffect.EnemyHit);
+                AudioManager.Instance.PlaySoundEffect(SoundEffect.EnemyHit, null, true);
                 
                 var targetStats = hit.GetComponent<EnemyStats>();
 

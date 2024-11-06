@@ -1,5 +1,6 @@
 using Controllers.SkillsControllers;
 using GameUI;
+using Managers;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -50,6 +51,9 @@ namespace Skills
             this._currentBlackHoleController = newBlackHole.GetComponent<BlackHoleSkillController>();
 
             this._currentBlackHoleController.SetupBlackHole(_maxSize, _growSpeed, _shrinkSpeed, _amountOfAttacks, _cloneAttackCooldown, _blackHoleDuration);
+            
+            AudioManager.Instance.PlaySoundEffect(SoundEffect.Chronosphere);
+            AudioManager.Instance.PlaySoundEffect(SoundEffect.Bankay);
         }
 
         public bool SkillCompleted()

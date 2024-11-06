@@ -1,9 +1,26 @@
+using Managers;
+using UnityEngine;
+
 namespace PlayerStates
 {
     public class PlayerMoveState : PlayerGroundedState
     {
         public PlayerMoveState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
         {
+        }
+
+        public override void Enter()
+        {
+            base.Enter();
+            
+            AudioManager.Instance.PlaySoundEffect(SoundEffect.Footsteps);
+        }
+
+        public override void Exit()
+        {
+            base.Exit();
+            
+            AudioManager.Instance.StopSoundEffect(SoundEffect.Footsteps);
         }
 
         public override void Update()
