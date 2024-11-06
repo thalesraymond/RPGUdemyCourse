@@ -1,3 +1,5 @@
+using Managers;
+
 namespace Enemies.Skeletons
 {
     public class SkeletonIdleState : SkeletonGroundedState
@@ -11,6 +13,13 @@ namespace Enemies.Skeletons
             base.Enter();
 
             this.StateTimer = this.Enemy.IdleTime;
+        }
+
+        public override void Exit()
+        {
+            base.Exit();
+            
+            AudioManager.Instance.PlaySoundEffect(SoundEffect.SkeletonBones, this.Enemy.transform);
         }
 
         public override void Update()

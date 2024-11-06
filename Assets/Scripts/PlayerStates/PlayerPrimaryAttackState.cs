@@ -1,3 +1,4 @@
+using Managers;
 using UnityEngine;
 
 namespace PlayerStates
@@ -10,8 +11,8 @@ namespace PlayerStates
 
         public int ComboCounter { get; private set; }
 
-        private float timeSinceLastAttack;
-        private float comboWindow = 2;
+        private float _timeSinceLastAttack;
+        private const float ComboWindow = 2;
 
         public override void Enter()
         {
@@ -19,7 +20,7 @@ namespace PlayerStates
 
             this.xInput = 0;
 
-            if (ComboCounter > 2 || Time.time >= timeSinceLastAttack + comboWindow)
+            if (ComboCounter > 2 || Time.time >= _timeSinceLastAttack + ComboWindow)
                 ComboCounter = 0;
 
             this.Player.SetVelocity(this.Player.AttackMovement[ComboCounter] * this.GetAttackDirection(), this.Rb.velocity.y);
@@ -45,7 +46,7 @@ namespace PlayerStates
 
             ComboCounter++;
 
-            timeSinceLastAttack = Time.time;
+            _timeSinceLastAttack = Time.time;
         }
 
         public override void Update()
