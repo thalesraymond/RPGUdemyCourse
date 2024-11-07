@@ -1,11 +1,13 @@
+using System;
 using System.Collections;
 using Managers;
+using SaveAndLoad;
 using Unity.VisualScripting;
 using UnityEngine;
 
 namespace GameUI
 {
-    public class UI : MonoBehaviour
+    public class UI : MonoBehaviour, ISaveManager
     {
         public ItemToolTipUI ItemToolTipUI;
         public StatToolTipUI StatToolTipUI;
@@ -24,6 +26,10 @@ namespace GameUI
         [SerializeField] private FadeScreenUI fadeScreenUI;
         [SerializeField] private GameObject endText;
         [SerializeField] private GameObject restartButton;
+        
+        [Space]
+        [Header("Settings")]
+        [SerializeField] private VolumeSliderUI[] volumeSettings;
 
         private void Awake()
         {
@@ -90,6 +96,8 @@ namespace GameUI
                 return;
             }
             
+            AudioManager.Instance?.PlaySoundEffect(SoundEffect.Click);
+            
             menu.SetActive(true);
         }
 
@@ -126,5 +134,25 @@ namespace GameUI
         }
         
         public void RestartGameAction() => GameManager.Instance.RestartScene();
+        
+        
+
+        public void LoadData(GameData data)
+        {
+            foreach (var dataVolumeSetting in data.VolumeSettings)
+            {
+                foreach (var volumeSetting in this.volumeSettings)
+                    if (volumeSetting.parameter == dataVolumeSetting.Key)
+                        volumeSetting.LoadSlider(dataVolumeSetting.Value);
+            }
+        }
+
+        public void SaveData(ref GameData data)
+        {
+            data.VolumeSettings.Clear();
+
+            foreach (var volumeSetting in this.volumeSettings) 
+                data.VolumeSettings.Add(volumeSetting.parameter, volumeSetting.slider.value);
+        }
     }
 }

@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -18,12 +20,16 @@ namespace Managers
         
         [SerializeField] private int currentBackgroundMusicIndex = 0;
 
+        private bool _canPlaySoundEffects = false;
+
         private void Awake()
         {
             if (Instance != null && Instance != this)
                 Destroy(Instance.gameObject);
             else
                 Instance = this;
+            
+            Invoke(nameof(this.AllowSoundEffects), 1f);
         }
 
         private void Update()
@@ -51,6 +57,8 @@ namespace Managers
         /// played.</param>
         public void PlaySoundEffect(SoundEffect effect, Transform source = null, bool overlap = false)
         {
+            if (!this._canPlaySoundEffects) return;
+            
             if (this.soundEffects[(int)effect].isPlaying && !overlap) return;
             
             if ((int)effect >= this.soundEffects.Length) return;
@@ -76,6 +84,28 @@ namespace Managers
             if ((int)effect >= this.soundEffects.Length) return;
 
             this.soundEffects[(int)effect].Stop();
+        }
+
+        public void GraduallyStopSoundEffect(SoundEffect effect)
+        {   
+            if ((int)effect >= this.soundEffects.Length) return;
+            
+            StartCoroutine(DecreaseVolumeCoroutine(this.soundEffects[(int)effect]));
+        }
+
+        IEnumerator DecreaseVolumeCoroutine(AudioSource audio)
+        {
+            var defaultVolume = audio.volume;
+
+            while (audio.volume > .1f)
+            {
+                audio.volume -= audio.volume * .2f;
+                
+                yield return new WaitForSeconds(.25f);
+            }
+            
+            audio.Stop();
+            audio.volume = defaultVolume;
         }
 
         /// <summary>
@@ -123,5 +153,13 @@ namespace Managers
             
             this.PlayBackgroundMusic(this.currentBackgroundMusicIndex);
         }
+        
+        /// <summary>
+        /// Allows sound effects to be played.
+        /// </summary>
+        /// <remarks>
+        /// This method is used by the <see cref="AudioManager"/> to control whether sound effects are allowed to be played.
+        /// </remarks>
+        private void AllowSoundEffects() => this._canPlaySoundEffects = true;
     }
 }

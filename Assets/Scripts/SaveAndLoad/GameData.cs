@@ -21,5 +21,7 @@ namespace SaveAndLoad
         public float bodyLocationY;
         public int lostCurrency;
 
+        public SerializableDictionary<string, float> VolumeSettings = new();
+
     }
 }
