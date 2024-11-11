@@ -17,6 +17,10 @@ namespace PlayerStates
                 this.StateMachine.ChangeState(this.Player.WallJumpState);
                 return;
             }
+            
+            if(!this.Player.IsWallDetected())
+                this.StateMachine.ChangeState(this.Player.AirState);
+            
             if (this.xInput != 0 && this.Player.FacingDirection != this.xInput)
                 this.StateMachine.ChangeState(this.Player.IdleState);
 

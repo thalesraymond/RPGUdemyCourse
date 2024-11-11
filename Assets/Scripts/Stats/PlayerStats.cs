@@ -1,4 +1,5 @@
 using Inventory;
+using Managers;
 using PlayerStates;
 using UnityEngine;
 
@@ -7,6 +8,11 @@ namespace Stats
     public class PlayerStats : CharacterStats
     {
         private Player _player;
+
+        private const float MinPlayerHealthPercentageToKnockback = .3f;
+        
+        private int MinPlayerHealthToKnockback => Mathf.RoundToInt(this.GetMaxHealthValue() * MinPlayerHealthPercentageToKnockback);
+        
         // Start is called before the first frame update
         protected override void Start()
         {
@@ -14,6 +20,7 @@ namespace Stats
 
             _player = GetComponent<Player>();
         }
+        
         
         protected override void Die()
         {
@@ -30,6 +37,16 @@ namespace Stats
         protected override void DecreaseHealthBy(int damage)
         {
             base.DecreaseHealthBy(damage);
+            
+            if (this.CurrentHealthPoints > 0 && this.CurrentHealthPoints <= this.MinPlayerHealthToKnockback)
+            {
+                this._player.SetupKnockbackPower(new Vector2(10,15));
+                AudioManager.Instance.PlaySoundEffect(SoundEffect.PainScream01);
+            }
+            else
+            {
+                this._player.SetupKnockbackPower(Vector2.zero);
+            }
 
             var currentArmor = Inventory.Inventory.Instance.GetEquipmentByType(EquipmentType.Armor);
 
@@ -59,6 +76,13 @@ namespace Stats
             targetStats.TakeDamage(totalDamage);
 
             this.DoMagicalDamage(targetStats);
+        }
+
+        public override void OnApplyModifier()
+        {
+            base.OnApplyModifier();
+            
+            Inventory.Inventory.Instance.UpdateSlotAndStatsUI();
         }
     }
 }

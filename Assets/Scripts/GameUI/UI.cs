@@ -99,6 +99,9 @@ namespace GameUI
             AudioManager.Instance?.PlaySoundEffect(SoundEffect.Click);
             
             menu.SetActive(true);
+
+            if (GameManager.Instance) 
+                GameManager.Instance.PauseOrUnpauseGame(menu != _inGameUI);
         }
 
         public void SwitchWithKeyTo(GameObject menu)

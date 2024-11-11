@@ -1,11 +1,13 @@
 using System.Collections;
 using Stats;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Entity : MonoBehaviour
 {
+
     [Header("Knockback info")]
-    [SerializeField] protected Vector2 KnockbackDirection;
+    [SerializeField][FormerlySerializedAs("KnockbackDirection")] protected Vector2 knockbackPower;
     [SerializeField] protected float KnockbackDuration;
     protected bool IsKnockback;
 
@@ -17,7 +19,9 @@ public class Entity : MonoBehaviour
     [SerializeField] protected Transform wallCheck;
     [SerializeField] protected float wallCheckDistance;
     [SerializeField] protected LayerMask whatIsGround;
-
+    
+    public int KnockbackDirection { get; private set; }
+    
     public CharacterStats Stats { get; private set; }
 
     public int FacingDirection { get; private set; } = 1;
@@ -76,21 +80,35 @@ public class Entity : MonoBehaviour
 
     public virtual void DamageImpact() => StartCoroutine(HitKnockback());
 
+    public virtual void SetupKnockbackDirection(Transform damageDirection) => KnockbackDirection = damageDirection.position.x > transform.position.x ? -1 : 1;
+
     protected virtual IEnumerator HitKnockback()
     {
         this.IsKnockback = true;
 
-        Rb.velocity = new Vector2(KnockbackDirection.x * -FacingDirection, KnockbackDirection.y);
+        Rb.velocity = new Vector2(knockbackPower.x * KnockbackDirection, knockbackPower.y);
 
         yield return new WaitForSeconds(KnockbackDuration);
 
         this.IsKnockback = false;
+        
+        this.SetupZeroKnockbackPower();
+    }
+
+    public void SetupKnockbackPower(Vector2 newKnockBackPower) => this.knockbackPower = newKnockBackPower;
+
+    protected virtual void SetupZeroKnockbackPower()
+    {
+        
     }
 
     #region Collisions
     public virtual bool IsGroundDetected() => Physics2D.Raycast(this.groundCheck.position, Vector2.down, groundCheckDistance, this.whatIsGround);
 
-    public virtual bool IsWallDetected() => Physics2D.Raycast(this.wallCheck.position, Vector2.right * this.FacingDirection, wallCheckDistance, this.whatIsGround);
+    public virtual bool IsWallDetected()
+    {
+        return Physics2D.Raycast(this.wallCheck.position, Vector2.right * this.FacingDirection, wallCheckDistance,this.whatIsGround);
+    }
 
     protected virtual void OnDrawGizmos()
     {

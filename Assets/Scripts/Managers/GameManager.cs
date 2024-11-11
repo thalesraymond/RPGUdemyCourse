@@ -132,5 +132,7 @@ namespace Managers
 
             return closestCheckpoint;
         }
+        
+        public void PauseOrUnpauseGame(bool pause) => Time.timeScale = pause ? 0 : 1;
     }
 }

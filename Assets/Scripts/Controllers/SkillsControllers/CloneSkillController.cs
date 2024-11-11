@@ -95,8 +95,10 @@ namespace Controllers.SkillsControllers
 
             foreach (var hit in colliders)
             {
-                //this.Player.Stats.DoDamage(hit.GetComponent<CharacterStats>());
+                hit.GetComponent<Entity>().SetupKnockbackDirection(transform);
+                
                 var playerStats = this.Player.GetComponent<PlayerStats>();
+                
                 var enemyStats = hit.GetComponent<EnemyStats>();
 
                 playerStats.CloneDoDamage(enemyStats, this._attackMultipler);

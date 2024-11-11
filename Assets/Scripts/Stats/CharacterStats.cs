@@ -69,6 +69,11 @@ namespace Stats
             _entityFX = GetComponent<EntityFX>();
         }
 
+        public virtual void OnApplyModifier()
+        {
+            
+        }
+
         protected virtual void Update()
         {
             this._igniteDamageTimer -= Time.deltaTime;
@@ -105,6 +110,8 @@ namespace Stats
         {
             if (this.TargetCanAvoidAttack(targetStats))
                 return;
+            
+            targetStats.GetComponent<Entity>().SetupKnockbackDirection(transform);
 
             var totalDamage = Damage.GetValue() + Strength.GetValue();
 
@@ -162,6 +169,8 @@ namespace Stats
             GetComponent<Entity>().DamageImpact();
 
             this._entityFX.StartCoroutine("FlashFx");
+            
+            
 
         }
 

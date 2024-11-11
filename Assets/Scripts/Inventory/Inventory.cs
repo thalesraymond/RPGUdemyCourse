@@ -146,6 +146,12 @@ namespace Inventory
 
         private void UpdateSlots(ItemSlotUI[] slots, List<InventoryItem> items)
         {
+            if (slots == null || items == null)
+            {
+                Debug.Log("No slots or items");
+                return;
+            }
+            
             for (var i = 0; i < slots.Length; i++)
             {
                 var itemToPut = i < items.Count ? items[i] : null;
@@ -159,6 +165,12 @@ namespace Inventory
         {
             UpdateSlots(this._inventoryItemsSlots, this.InventoryItems);
             UpdateSlots(this._stashItemsSlots, this.StashItems);
+
+            if (this._equipmentItemsSlots == null || this._statsSlots == null)
+            {
+                Debug.Log("No slots");
+                return;
+            }
 
             foreach (var slot in this._equipmentItemsSlots)
             {

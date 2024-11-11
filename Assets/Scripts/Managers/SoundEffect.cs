@@ -12,6 +12,8 @@
         Chronosphere = 6,
         Bankay = 3,
         Click = 7,
-        WindSounds = 30
+        WindSounds = 30,
+        PainScream01 = 35,
+        PainScream02 = 34
     }
 }

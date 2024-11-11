@@ -16,6 +16,8 @@ namespace Enemies
         [Header("AttackInfo")]
         public float AttackDistance;
         public float AttackCooldown;
+        public float minAttackCooldown;
+        public float maxAttackCooldown;
         public float LastTimeAttack;
 
         [Header("Stunned Info")]
@@ -117,6 +119,13 @@ namespace Enemies
             this.CloseCounterAttackWindow();
 
             return true;
+        }
+
+        public override void Die()
+        {
+            base.Die();
+            
+            Destroy(this.gameObject, 5f);
         }
 
         public virtual void AssignLastAnimationName(string name) => this.LastAnimationName = name;

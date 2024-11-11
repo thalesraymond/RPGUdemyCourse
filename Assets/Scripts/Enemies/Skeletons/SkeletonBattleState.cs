@@ -17,6 +17,9 @@ namespace Enemies.Skeletons
             base.Enter();
 
             this._player = PlayerManager.Instance.Player.transform;
+            
+            if(PlayerManager.Instance.Player.IsDead)
+                this.StateMachine.ChangeState(this.Enemy.MoveState);
         }
 
         public override void Update()
@@ -36,9 +39,11 @@ namespace Enemies.Skeletons
             }
 
             this._moveDirection = this.IsPlayerToTheRight() ? 1 : -1;
-
+            
             this.Enemy.SetVelocity(this._moveDirection * this.Enemy.MoveSpeed, this.Enemy.Rb.velocity.y);
         }
+
+
 
         private bool IsPlayerToTheRight()
         {
@@ -51,6 +56,8 @@ namespace Enemies.Skeletons
         {
             if (Time.time >= this.Enemy.LastTimeAttack + this.Enemy.AttackCooldown && this.Enemy.IsPlayerDetected().distance < this.Enemy.AttackDistance)
             {
+                this.Enemy.AttackCooldown = Random.Range(this.Enemy.minAttackCooldown, this.Enemy.maxAttackCooldown);
+                
                 this.Enemy.LastTimeAttack = Time.time;
 
                 return true;

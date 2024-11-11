@@ -17,6 +17,8 @@ namespace PlayerStates
             this.Player.IsDead = true;
             
             GameObject.Find("Canvas").GetComponent<UI>().SwitchOnEndScreen();
+            
+            AudioManager.Instance.PlaySoundEffect(SoundEffect.PainScream02);
         }
 
         public override void Update()

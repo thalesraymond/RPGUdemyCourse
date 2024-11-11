@@ -84,6 +84,8 @@ namespace Controllers.SkillsControllers
             foreach (var hit in enemyColliders)
             {
                 this.Player.Stats.DoMagicalDamage(hit.GetComponent<CharacterStats>());
+                
+                hit.GetComponent<Entity>().SetupKnockbackDirection(transform);
 
                 var equipmentAmulet = Inventory.Inventory.Instance.GetEquipmentByType(EquipmentType.Amulet);
 

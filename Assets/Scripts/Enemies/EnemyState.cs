@@ -1,3 +1,4 @@
+using Managers;
 using UnityEngine;
 
 namespace Enemies
@@ -46,6 +47,13 @@ namespace Enemies
         public virtual void AnimationFinishTrigger()
         {
             triggerCalled = true;
+        }
+        
+        protected bool IsPlayerTooClose()
+        {
+            var distanceToPlayer = Vector2.Distance(PlayerManager.Instance.transform.position, this.EnemyBase.transform.position);
+
+            return distanceToPlayer < 1;
         }
 
     }

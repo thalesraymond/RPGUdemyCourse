@@ -109,6 +109,9 @@ namespace PlayerStates
 
         protected override void Update()
         {
+            if (Time.timeScale == 0)
+                return;
+            
             base.Update();
 
             this.StateMachine.CurrentState.Update();
@@ -173,6 +176,13 @@ namespace PlayerStates
             base.Die();
 
             this.StateMachine.ChangeState(PlayerDeathState);
+        }
+
+        protected override void SetupZeroKnockbackPower()
+        {
+            base.SetupZeroKnockbackPower();
+
+            this.knockbackPower = Vector2.zero;
         }
     }
 }
