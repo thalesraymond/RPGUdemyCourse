@@ -9,6 +9,8 @@ namespace PlayerStates
         public override void Enter()
         {
             base.Enter();
+            
+            this.Player.Stats.MakeInvulnerable(true);
 
             this.StateTimer = this.Player.DashDuration;
 
@@ -18,6 +20,8 @@ namespace PlayerStates
         public override void Exit()
         {
             base.Exit();
+            
+            this.Player.Stats.MakeInvulnerable(false);
 
             this.Player.SetVelocity(0, this.Rb.velocity.y);
 

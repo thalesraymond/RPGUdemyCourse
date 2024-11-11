@@ -59,6 +59,8 @@ namespace Stats
 
         public bool IsDead { get; private set; }
 
+        public bool IsInvulnerable { get; private set; }
+
         private bool _isVulnerable;
 
         // Start is called before the first frame update
@@ -164,6 +166,9 @@ namespace Stats
 
         public virtual void TakeDamage(int damage)
         {
+            if (this.IsInvulnerable)
+                return;
+            
             this.DecreaseHealthBy(damage);
 
             GetComponent<Entity>().DamageImpact();
@@ -384,5 +389,7 @@ namespace Stats
 
             this._isVulnerable = false;
         }
+        
+        public void MakeInvulnerable(bool isInvulnerable) => this.IsInvulnerable = isInvulnerable;
     }
 }
