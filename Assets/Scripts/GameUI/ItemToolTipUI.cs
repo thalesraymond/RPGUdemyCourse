@@ -24,7 +24,7 @@ namespace GameUI
             _itemTypeText.text = item.ItemType.ToString();
             _itemDescriptionText.text = item.GetDescription();
 
-            this.PositionToolTip();
+            this.PositionToolTip(10);
         }
     }
 }
