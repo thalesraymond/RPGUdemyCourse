@@ -18,6 +18,10 @@ public class EntityFX : MonoBehaviour
     [SerializeField] private ParticleSystem igniteParticleFX;
     [SerializeField] private ParticleSystem shockParticleFX;
     [SerializeField] private ParticleSystem chillParticleFX;
+    
+    [Header("Hit FX")]
+    [SerializeField] private GameObject hitFX;
+    [SerializeField] private GameObject criticalHitFX;
 
     private void Start()
     {
@@ -96,6 +100,36 @@ public class EntityFX : MonoBehaviour
     private void ShockedColorFx()
     {
         _spriteRenderer.color = _spriteRenderer.color != _shockColors[0] ? _shockColors[0] : _shockColors[1];
+    }
+
+    public void CreateHitFX(Transform target, bool isCriticalHit)
+    {
+        var randomZRotation = Random.Range(-90, 90);
+        var randomXPosition = Random.Range(-0.3f, 0.3f);
+        var randomYPosition = Random.Range(-0.3f, 0.3f);
+        
+        var hitFXRotation = new Vector3(0, 0, randomZRotation);
+        
+        
+        var newHitFX = Instantiate(isCriticalHit ? criticalHitFX : hitFX, target.position + new Vector3(randomXPosition, randomYPosition), Quaternion.identity);
+        
+        if (isCriticalHit)
+        {
+            var yRotation = 0f;
+
+            var facingDirection = GetComponent<Entity>().FacingDirection;
+
+            randomZRotation = Random.Range(-45, 45);
+
+            if (facingDirection == -1)
+                yRotation = 180f;
+
+            hitFXRotation = new Vector3(0, yRotation, randomZRotation);
+        }
+        
+        newHitFX.transform.Rotate(hitFXRotation);
+
+        Destroy(newHitFX, 0.5f);
     }
 
     public void ToogleTransparent(bool transparent) => this._spriteRenderer.color = transparent ? Color.clear : Color.white;

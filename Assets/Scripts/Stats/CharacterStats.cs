@@ -110,6 +110,8 @@ namespace Stats
 
         public virtual void DoDamage(CharacterStats targetStats)
         {
+            var criticalStrike = false;
+            
             if (this.TargetCanAvoidAttack(targetStats))
                 return;
             
@@ -117,11 +119,34 @@ namespace Stats
 
             var totalDamage = Damage.GetValue() + Strength.GetValue();
 
+            if (this.CanCritical())
+            {
+                totalDamage = CalculateCriticalDamage(totalDamage);
+                criticalStrike = true;
+            }
+
             totalDamage = this.CheckTargetArmor(targetStats, totalDamage);
+            
+            _entityFX.CreateHitFX(targetStats.transform, criticalStrike);
 
             targetStats.TakeDamage(totalDamage);
 
             this.DoMagicalDamage(targetStats);
+        }
+
+        private bool CanCritical()
+        {
+            var totalCriticalChance = this.CriticalHitChance.GetValue() + this.Agility.GetValue();
+
+            return Random.Range(0, 100) <= totalCriticalChance;
+        }
+
+        private int CalculateCriticalDamage(int damage)
+        {
+            var totalCritPower = (this.CriticalHitPower.GetValue() + this.Strength.GetValue()) * .01f;
+            var critDamage = damage * totalCritPower;
+
+            return Mathf.RoundToInt(critDamage);
         }
 
         protected int CheckTargetArmor(CharacterStats targetStats, int totalDamage)
