@@ -1,10 +1,19 @@
 using System.Collections;
+using Managers;
+using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class EntityFX : MonoBehaviour
 {
     private SpriteRenderer _spriteRenderer;
 
+    [Header("After Image FX")] 
+    [SerializeField] private GameObject afterImagePrefab;
+    [SerializeField] private float colorLooseRate;
+    [SerializeField] private float afterImageCooldown;
+    [SerializeField] private float afterImageTimer;
+    
     [Header("FX")]
     [SerializeField] private Material hitMaterial;
     private Material _originalMaterial;
@@ -23,11 +32,20 @@ public class EntityFX : MonoBehaviour
     [SerializeField] private GameObject hitFX;
     [SerializeField] private GameObject criticalHitFX;
 
+    [Space]
+    
+    [SerializeField] private ParticleSystem dustFX;
+
     private void Start()
     {
         _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
         _originalMaterial = _spriteRenderer.material;
+    }
+
+    private void Update()
+    {
+        afterImageTimer -= Time.deltaTime;
     }
 
     private IEnumerator FlashFx()
@@ -133,4 +151,26 @@ public class EntityFX : MonoBehaviour
     }
 
     public void ToogleTransparent(bool transparent) => this._spriteRenderer.color = transparent ? Color.clear : Color.white;
+
+    public void PlayDustFX()
+    {
+        if (this.dustFX == null)
+            return;
+        
+        this.dustFX.Play();
+    }
+
+    public void CreateAfterImage()
+    {
+        if (!(afterImageTimer < 0)) return;
+        
+        afterImageTimer = afterImageCooldown;
+            
+        var newAfterImage = Instantiate(this.afterImagePrefab, transform.position, quaternion.identity);
+        
+        if(PlayerManager.Instance.Player.FacingDirection == -1)
+            newAfterImage.transform.Rotate(0, 180, 0);
+
+        newAfterImage.GetComponent<AfterImageFX>().SetupAfterImage(this.colorLooseRate, _spriteRenderer.sprite);
+    }
 }

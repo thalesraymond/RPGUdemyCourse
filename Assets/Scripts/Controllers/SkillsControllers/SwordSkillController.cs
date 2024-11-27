@@ -230,6 +230,8 @@ namespace Controllers.SkillsControllers
                 this.StopWhenSpinning();
                 return;
             }
+            
+            GetComponentInChildren<ParticleSystem>().Play();
 
             if (pierceAmount > 0 && collision.GetComponent<Enemy>() != null)
             {

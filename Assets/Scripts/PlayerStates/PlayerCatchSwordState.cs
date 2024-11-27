@@ -12,6 +12,8 @@ namespace PlayerStates
         public override void Enter()
         {
             base.Enter();
+            
+            this.Player.FX.PlayDustFX();
 
             this.swordTransform = this.Player.Sword.transform;
 
