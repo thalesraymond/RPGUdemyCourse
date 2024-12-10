@@ -32,7 +32,7 @@ namespace PlayerStates
 
             Player.Rb.gravityScale = this._defaultGravityScale;
 
-            this.Player.FX.ToogleTransparent(false);
+            this.Player.PlayerFX.ToogleTransparent(false);
         }
 
         public override void Update()

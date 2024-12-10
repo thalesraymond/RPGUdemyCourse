@@ -31,7 +31,7 @@ namespace Skills
                 return true;
             }
             
-            this.Player.FX.CreatePopUpText("Cooldown");
+            this.Player.PlayerFX.CreatePopUpText("Cooldown");
             
             return false;
         }

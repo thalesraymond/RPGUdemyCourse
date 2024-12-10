@@ -99,7 +99,7 @@ namespace Controllers.SkillsControllers
 
             if (this._playerCanDissapear)
             {
-                PlayerManager.Instance.Player.FX.ToogleTransparent(true);
+                PlayerManager.Instance.Player.PlayerFX.ToogleTransparent(true);
                 this._playerCanDissapear = false;
             }
 

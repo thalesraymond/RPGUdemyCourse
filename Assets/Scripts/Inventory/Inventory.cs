@@ -2,8 +2,11 @@ using System.Collections.Generic;
 using System.Linq;
 using GameUI;
 using SaveAndLoad;
-using UnityEditor;
 using UnityEngine;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace Inventory
 {
@@ -42,6 +45,8 @@ namespace Inventory
 
         [Header("Database")]
         public List<InventoryItem> LoadedItems;
+
+        public List<ItemData> ItemDatabase;
 
         private void Awake()
         {
@@ -366,7 +371,7 @@ namespace Inventory
         {
             foreach(var inventoryDictItem in data.InventoryItems)
             {
-                foreach(var databaseItem in this.GetItemDatabase())
+                foreach(var databaseItem in this.ItemDatabase)
                 {
                     if(databaseItem == null || databaseItem.ItemId != inventoryDictItem.Key) continue;
 
@@ -389,7 +394,9 @@ namespace Inventory
             }
         }
 
-
+        #if UNITY_EDITOR
+        [ContextMenu("Fill up item data base")]
+        private void FillItemDatabase() => this.ItemDatabase = new List<ItemData>(this.GetItemDatabase());
         private List<ItemData> GetItemDatabase()
         {
             var itemDatabase = new List<ItemData>();
@@ -406,5 +413,6 @@ namespace Inventory
 
             return itemDatabase;
         }
+        #endif
     }
 }

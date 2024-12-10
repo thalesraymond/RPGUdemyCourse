@@ -13,8 +13,8 @@ namespace PlayerStates
         {
             base.Enter();
             
-            this.Player.FX.PlayDustFX();
-            this.Player.FX.ScreenShake(this.Player.FX.shakeSwordImpact);
+            this.Player.PlayerFX.PlayDustFX();
+            this.Player.PlayerFX.ScreenShake(this.Player.PlayerFX.shakeSwordImpact);
 
             this.swordTransform = this.Player.Sword.transform;
 

@@ -30,7 +30,7 @@ namespace PlayerStates
         public SkillManager SkillManager { get; private set; }
         public GameObject Sword { get; private set; }
         
-        public new PlayerFX FX { get; private set; }
+        public PlayerFX PlayerFX { get; private set; }
 
         #region States
         public PlayerStateMachine StateMachine { get; private set; }
@@ -109,7 +109,7 @@ namespace PlayerStates
             this._defaultJumpForce = this.JumpForce;
             this._defaultDashSpeed = this.DashSpeed;
             
-            this.FX = GetComponent<PlayerFX>();
+            this.PlayerFX = GetComponent<PlayerFX>();
         }
 
         protected override void Update()

@@ -42,7 +42,7 @@ namespace PlayerStates
                 this.StateMachine.ChangeState(this.Player.IdleState);
             }
             
-            this.Player.FX.CreateAfterImage();
+            this.Player.PlayerFX.CreateAfterImage();
         }
     }
 }

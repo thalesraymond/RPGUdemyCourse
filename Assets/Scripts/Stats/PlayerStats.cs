@@ -42,7 +42,7 @@ namespace Stats
             {
                 this._player.SetupKnockbackPower(new Vector2(10,15));
                 AudioManager.Instance.PlaySoundEffect(SoundEffect.PainScream01);
-                this._player.FX.ScreenShake(this._player.FX.shakeHighDamage);
+                this._player.PlayerFX.ScreenShake(this._player.PlayerFX.shakeHighDamage);
             }
             else
             {
