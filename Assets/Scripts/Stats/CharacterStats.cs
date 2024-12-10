@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Controllers;
+using Effects;
 using Enemies;
 using Inventory.Effects;
 using PlayerStates;
@@ -199,15 +200,15 @@ namespace Stats
             GetComponent<Entity>().DamageImpact();
 
             this._entityFX.StartCoroutine("FlashFx");
-            
-            
-
         }
 
         protected virtual void DecreaseHealthBy(int damage)
         {
             if(this._isVulnerable)
                 damage = Mathf.RoundToInt(damage * 1.1f);
+            
+            if(damage > 0)
+                _entityFX.CreatePopUpText(damage.ToString(), Color.red);
             
             CurrentHealthPoints -= damage;
 

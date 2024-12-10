@@ -1,4 +1,5 @@
 using System.Collections;
+using Effects;
 using Skills;
 using UnityEngine;
 
@@ -28,6 +29,8 @@ namespace PlayerStates
 
         public SkillManager SkillManager { get; private set; }
         public GameObject Sword { get; private set; }
+        
+        public new PlayerFX FX { get; private set; }
 
         #region States
         public PlayerStateMachine StateMachine { get; private set; }
@@ -105,6 +108,8 @@ namespace PlayerStates
             this._defaultMoveSpeed = this.MoveSpeed;
             this._defaultJumpForce = this.JumpForce;
             this._defaultDashSpeed = this.DashSpeed;
+            
+            this.FX = GetComponent<PlayerFX>();
         }
 
         protected override void Update()

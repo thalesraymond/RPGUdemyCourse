@@ -1,4 +1,5 @@
 using System.Collections;
+using Effects;
 using Stats;
 using UnityEngine;
 using UnityEngine.Serialization;

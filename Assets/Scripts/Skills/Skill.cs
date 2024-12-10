@@ -30,7 +30,9 @@ namespace Skills
                 CooldownTimer = Cooldown;
                 return true;
             }
-
+            
+            this.Player.FX.CreatePopUpText("Cooldown");
+            
             return false;
         }
 
