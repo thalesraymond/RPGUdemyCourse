@@ -1,7 +1,9 @@
 using System.Collections;
+using Cinemachine;
 using Managers;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 public class EntityFX : MonoBehaviour
@@ -35,17 +37,33 @@ public class EntityFX : MonoBehaviour
     [Space]
     
     [SerializeField] private ParticleSystem dustFX;
+    
+    [Header("Camera Shake")]
+    [SerializeField] private CinemachineImpulseSource screenShake;
+    [SerializeField] private float shakeMultiplier;
+    [SerializeField] public Vector3 shakeSwordImpact;
+    [SerializeField] public Vector3 shakeHighDamage;
 
     private void Start()
     {
         _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
         _originalMaterial = _spriteRenderer.material;
+                
+        screenShake = GetComponent<CinemachineImpulseSource>();
+        
     }
 
     private void Update()
     {
         afterImageTimer -= Time.deltaTime;
+    }
+
+    public void ScreenShake(Vector3 shakePower)
+    {   
+        screenShake.m_DefaultVelocity = new Vector3(shakePower.x * PlayerManager.Instance.Player.FacingDirection, shakePower.y) * shakeMultiplier;
+        
+        screenShake.GenerateImpulse();
     }
 
     private IEnumerator FlashFx()
