@@ -55,7 +55,6 @@ namespace Stats
                 currentArmor.ExecuteItemEffect(this._player.transform);
         }
 
-        
         public override void OnEvasion()
         {
             base.OnEvasion();
