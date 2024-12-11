@@ -22,7 +22,7 @@ namespace Inventory
         {
             if (!Inventory.Instance.CanAddEquipmentItem() && this._itemData.ItemType == ItemType.Equipment)
             {
-                this._rigidbody.velocity = new Vector2(0, 7);
+                this._rigidbody.linearVelocity = new Vector2(0, 7);
                 PlayerManager.Instance.Player.PlayerFX.CreatePopUpText("Inventory Full");
                 return;
             }
@@ -38,7 +38,7 @@ namespace Inventory
         public void SetupItem(ItemData itemData, Vector2 velocity)
         {
             this._itemData = itemData;
-            this._rigidbody.velocity = velocity;
+            this._rigidbody.linearVelocity = velocity;
 
             this.SetupVisuals();
         }

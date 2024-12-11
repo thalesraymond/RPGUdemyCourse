@@ -18,7 +18,7 @@ namespace Enemies.Skeletons
 
             this.StateTimer = enemy.StunDuration;
 
-            this.enemy.Rb.velocity = new Vector2(-enemy.FacingDirection * enemy.StunDirection.x, enemy.StunDirection.y);
+            this.enemy.Rb.linearVelocity = new Vector2(-enemy.FacingDirection * enemy.StunDirection.x, enemy.StunDirection.y);
         }
 
         public override void Exit()

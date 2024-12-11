@@ -49,7 +49,7 @@ namespace Controllers.SkillsControllers
 
         public void SetupSword(Vector2 direction, float gravityScale, float freezeTimeDurantion, float returnSpeed)
         {
-            rb.velocity = direction;
+            rb.linearVelocity = direction;
             rb.gravityScale = gravityScale;
 
             this.returnSpeed = returnSpeed;
@@ -101,7 +101,7 @@ namespace Controllers.SkillsControllers
         private void Update()
         {
             if (canRotate)
-                transform.right = rb.velocity;
+                transform.right = rb.linearVelocity;
 
             if (isReturning)
             {

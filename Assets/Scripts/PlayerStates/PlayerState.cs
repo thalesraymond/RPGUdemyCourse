@@ -53,7 +53,7 @@ namespace PlayerStates
 
             this.yInput = Input.GetAxisRaw("Vertical");
 
-            this.Player.Anim.SetFloat("yVelocity", this.Rb.velocity.y);
+            this.Player.Anim.SetFloat("yVelocity", this.Rb.linearVelocity.y);
 
             this.StateTimer -= Time.deltaTime;
 

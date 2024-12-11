@@ -12,14 +12,14 @@ namespace PlayerStates
         {
             base.Enter();
 
-            this.Rb.velocity = new Vector2(this.Rb.velocity.x, this.Player.JumpForce);
+            this.Rb.linearVelocity = new Vector2(this.Rb.linearVelocity.x, this.Player.JumpForce);
         }
 
         public override void Update()
         {
             base.Update();
 
-            if (this.Rb.velocity.y < 0)
+            if (this.Rb.linearVelocity.y < 0)
                 this.StateMachine.ChangeState(Player.AirState);
         }
     }

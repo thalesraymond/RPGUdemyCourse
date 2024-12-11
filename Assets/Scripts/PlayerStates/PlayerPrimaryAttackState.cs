@@ -23,7 +23,7 @@ namespace PlayerStates
             if (ComboCounter > 2 || Time.time >= _timeSinceLastAttack + ComboWindow)
                 ComboCounter = 0;
 
-            this.Player.SetVelocity(this.Player.AttackMovement[ComboCounter] * this.GetAttackDirection(), this.Rb.velocity.y);
+            this.Player.SetVelocity(this.Player.AttackMovement[ComboCounter] * this.GetAttackDirection(), this.Rb.linearVelocity.y);
 
             this.Player.Anim.SetInteger("ComboCounter", ComboCounter);
 

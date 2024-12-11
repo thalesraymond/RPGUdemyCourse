@@ -27,7 +27,7 @@ namespace PlayerStates
             if (this.Player.IsGroundDetected())
                 this.StateMachine.ChangeState(this.Player.IdleState);
 
-            this.Rb.velocity = this.yInput < 0 ? new Vector2(0, Rb.velocity.y) : new Vector2(0, Rb.velocity.y * this.Player.WallSlideDrag);
+            this.Rb.linearVelocity = this.yInput < 0 ? new Vector2(0, Rb.linearVelocity.y) : new Vector2(0, Rb.linearVelocity.y * this.Player.WallSlideDrag);
         }
     }
 }

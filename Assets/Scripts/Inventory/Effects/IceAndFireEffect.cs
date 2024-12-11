@@ -22,7 +22,7 @@ namespace Inventory.Effects
 
             var newIceAndFire = Instantiate(_iceAndFirePrefab, respawnPosition.position, playerTransform.rotation);
 
-            newIceAndFire.GetComponent<Rigidbody2D>().velocity = _velocity * PlayerManager.Instance.Player.FacingDirection;
+            newIceAndFire.GetComponent<Rigidbody2D>().linearVelocity = _velocity * PlayerManager.Instance.Player.FacingDirection;
 
             // destroy when traveled a certain distance
 

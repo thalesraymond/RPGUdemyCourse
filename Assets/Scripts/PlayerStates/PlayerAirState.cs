@@ -17,7 +17,7 @@ namespace PlayerStates
                 this.StateMachine.ChangeState(this.Player.IdleState);
 
             if (this.xInput != 0)
-                this.Player.SetVelocity(this.Player.MoveSpeed * .8f * this.xInput, this.Rb.velocity.y);
+                this.Player.SetVelocity(this.Player.MoveSpeed * .8f * this.xInput, this.Rb.linearVelocity.y);
         }
     }
 }

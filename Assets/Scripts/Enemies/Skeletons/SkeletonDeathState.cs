@@ -29,7 +29,7 @@ namespace Enemies.Skeletons
 
             if (StateTimer > 0)
             {
-                Rb.velocity = new Vector2(0, 10);
+                Rb.linearVelocity = new Vector2(0, 10);
             }
         }
     }

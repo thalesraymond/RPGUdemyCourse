@@ -23,7 +23,7 @@ namespace PlayerStates
             else if (Player.transform.position.x < swordTransform.position.x && Player.FacingDirection == -1)
                 Player.Flip();
 
-            Rb.velocity = new Vector2(Player.SwordReturnImpact * -Player.FacingDirection, Rb.velocity.y);
+            Rb.linearVelocity = new Vector2(Player.SwordReturnImpact * -Player.FacingDirection, Rb.linearVelocity.y);
         }
 
         public override void Exit()

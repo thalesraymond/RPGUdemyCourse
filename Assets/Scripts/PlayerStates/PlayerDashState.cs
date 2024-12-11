@@ -23,7 +23,7 @@ namespace PlayerStates
             
             this.Player.Stats.MakeInvulnerable(false);
 
-            this.Player.SetVelocity(0, this.Rb.velocity.y);
+            this.Player.SetVelocity(0, this.Rb.linearVelocity.y);
 
             Player.SkillManager.DashSkill.CreateCloneOnDashArrival();
         }

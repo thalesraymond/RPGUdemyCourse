@@ -30,7 +30,7 @@ namespace PlayerStates
             if (this.Player.IsWallDetected())
                 this.StateMachine.ChangeState(this.Player.IdleState);
 
-            this.Player.SetVelocity(xInput * this.Player.MoveSpeed, this.Rb.velocity.y);
+            this.Player.SetVelocity(xInput * this.Player.MoveSpeed, this.Rb.linearVelocity.y);
 
             if (this.xInput == 0)
                 this.StateMachine.ChangeState(this.Player.IdleState);

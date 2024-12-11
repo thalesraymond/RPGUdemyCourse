@@ -10,7 +10,7 @@ namespace Enemies.Skeletons
         {
             base.Update();
 
-            this.Enemy.SetVelocity(this.Enemy.MoveSpeed * this.Enemy.FacingDirection, this.Enemy.Rb.velocity.y);
+            this.Enemy.SetVelocity(this.Enemy.MoveSpeed * this.Enemy.FacingDirection, this.Enemy.Rb.linearVelocity.y);
 
             if (this.Enemy.IsWallDetected() || !Enemy.IsGroundDetected())
             {

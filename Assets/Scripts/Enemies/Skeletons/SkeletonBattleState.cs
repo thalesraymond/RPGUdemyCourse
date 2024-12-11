@@ -40,7 +40,7 @@ namespace Enemies.Skeletons
 
             this._moveDirection = this.IsPlayerToTheRight() ? 1 : -1;
             
-            this.Enemy.SetVelocity(this._moveDirection * this.Enemy.MoveSpeed, this.Enemy.Rb.velocity.y);
+            this.Enemy.SetVelocity(this._moveDirection * this.Enemy.MoveSpeed, this.Enemy.Rb.linearVelocity.y);
         }
 
 

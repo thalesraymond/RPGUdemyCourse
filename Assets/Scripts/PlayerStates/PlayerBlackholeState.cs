@@ -40,11 +40,11 @@ namespace PlayerStates
             base.Update();
 
             if (StateTimer > 0)
-                Rb.velocity = new Vector2(0, 15);
+                Rb.linearVelocity = new Vector2(0, 15);
 
             if (StateTimer < 0)
             {
-                this.Rb.velocity = new Vector2(0, -.1f);
+                this.Rb.linearVelocity = new Vector2(0, -.1f);
 
                 if (!_skillUsed)
                 {

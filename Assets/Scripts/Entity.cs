@@ -87,7 +87,7 @@ public class Entity : MonoBehaviour
     {
         this.IsKnockback = true;
 
-        Rb.velocity = new Vector2(knockbackPower.x * KnockbackDirection, knockbackPower.y);
+        Rb.linearVelocity = new Vector2(knockbackPower.x * KnockbackDirection, knockbackPower.y);
 
         yield return new WaitForSeconds(KnockbackDuration);
 
@@ -157,7 +157,7 @@ public class Entity : MonoBehaviour
     {
         if (IsKnockback) return;
 
-        this.Rb.velocity = new Vector2(xVelocity, yVelocity);
+        this.Rb.linearVelocity = new Vector2(xVelocity, yVelocity);
 
         this.FlipController(xVelocity);
     }
@@ -166,7 +166,7 @@ public class Entity : MonoBehaviour
     {
         if (this.IsKnockback) return;
 
-        this.Rb.velocity = Vector2.zero;
+        this.Rb.linearVelocity = Vector2.zero;
     }
 
     #endregion
