@@ -48,7 +48,7 @@ namespace PlayerStateMachine
         private void Update()
         {
             // Update the current state
-            this.StateMachine.CurrentState.Update();
+            this.StateMachine.UpdateActiveState();
         }
     }
 }
