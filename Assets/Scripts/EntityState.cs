@@ -1,12 +1,15 @@
+using PlayerStateMachine;
 using UnityEngine;
 
-public class EntityState
-{
+public abstract class EntityState
+{   
+    protected Player Player;
     protected StateMachine StateMachine;
-    protected string StateName;
+    protected readonly string StateName;
 
-    public EntityState(StateMachine stateMachine, string stateName)
+    public EntityState(Player player, StateMachine stateMachine, string stateName)
     {
+        this.Player = player;
         this.StateMachine = stateMachine;
         this.StateName = stateName;
     }
