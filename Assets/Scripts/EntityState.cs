@@ -5,27 +5,29 @@ public abstract class EntityState
 {   
     protected Player Player;
     protected StateMachine StateMachine;
-    protected readonly string StateName;
+    protected readonly string AnimationBoolName;
 
-    public EntityState(Player player, StateMachine stateMachine, string stateName)
+    protected Animator Animator => this.Player.Animator;
+
+    public EntityState(Player player, StateMachine stateMachine, string animationBoolName)
     {
         this.Player = player;
         this.StateMachine = stateMachine;
-        this.StateName = stateName;
+        this.AnimationBoolName = animationBoolName;
     }
     
     public virtual void Enter()
     {
-        Debug.Log("Entering " + this.StateName);
+        Debug.Log("Entering " + this.AnimationBoolName);
     }
     
     public virtual void Update()
     {   
-        Debug.Log("Updating " + this.StateName);
+        Debug.Log("Updating " + this.AnimationBoolName);
     }
     
     public virtual void Exit()
     {
-        Debug.Log("Exiting " + this.StateName);
+        Debug.Log("Exiting " + this.AnimationBoolName);
     }
 }

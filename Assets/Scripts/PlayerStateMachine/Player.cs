@@ -5,6 +5,7 @@ namespace PlayerStateMachine
 {
     public class Player : MonoBehaviour
     {
+        public Animator Animator { get; private set; }
         private PlayerInputSet _input;
         private StateMachine StateMachine { get; set; }
         
@@ -32,11 +33,13 @@ namespace PlayerStateMachine
 
         private void Awake()
         {
+            this.Animator = this.GetComponentInChildren<Animator>();
+            
             this.StateMachine = new StateMachine();
             this._input = new PlayerInputSet();
         
-            this.IdleState = new PlayerIdleState(this, this.StateMachine, "Idle");
-            this.MoveState = new PlayerMoveState(this, this.StateMachine, "Move");
+            this.IdleState = new PlayerIdleState(this, this.StateMachine, "idle");
+            this.MoveState = new PlayerMoveState(this, this.StateMachine, "move");
         }
 
         private void Start()

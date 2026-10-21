@@ -4,8 +4,15 @@ namespace PlayerStateMachine
 {
     public class PlayerIdleState : EntityState
     {
-        public PlayerIdleState(Player player, StateMachine stateMachine, string stateName) : base(player, stateMachine, stateName)
+        public PlayerIdleState(Player player, StateMachine stateMachine, string animationBoolName) : base(player, stateMachine, animationBoolName)
         {
+        }
+
+        public override void Enter()
+        {
+            base.Enter();
+            
+            this.Animator.SetBool(this.AnimationBoolName, true);
         }
 
         public override void Update()
@@ -16,6 +23,13 @@ namespace PlayerStateMachine
             {
                 this.StateMachine.ChangeState(this.Player.MoveState);
             }
+        }
+        
+        public override void Exit()
+        {
+            base.Exit();
+            
+            this.Animator.SetBool(this.AnimationBoolName, false);
         }
     }
 }
