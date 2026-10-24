@@ -17,6 +17,11 @@ namespace PlayerStateMachine
                 this.Player.MovementInput.x * this.Player.MoveSpeed * this.Player.InAirMoveMultiplier, 
                 this.Player.RigidBody2D.linearVelocity.y)
             );
+            
+            if (this.Player.IsTouchingWall && this.Player.MovementInput.x != 0 && !this.Player.IsGrounded)
+            {
+                this.StateMachine.ChangeState(this.Player.WallSlideState);
+            }
         }
     }
 }

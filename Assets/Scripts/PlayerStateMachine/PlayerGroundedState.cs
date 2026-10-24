@@ -13,7 +13,7 @@ namespace PlayerStateMachine
             
             // Avoid player falling (without jump input) in the wrong state
             // this changes to fall state if the player is falling (e.g. after walking off a ledge)
-            if (this.RigidBody2D.linearVelocity.y < 0)
+            if (this.RigidBody2D.linearVelocity.y < 0 && !this.Player.IsGrounded)
                 this.StateMachine.ChangeState(this.Player.FallState);
         }
     }
