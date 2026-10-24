@@ -2,13 +2,16 @@ using PlayerStateMachine;
 using UnityEngine;
 
 public abstract class EntityState
-{   
-    protected Player Player;
-    protected StateMachine StateMachine;
+{
+    private static readonly int YVelocity = Animator.StringToHash("yVelocity");
+    protected readonly Player Player;
+    protected readonly StateMachine StateMachine;
     protected readonly string AnimationBoolName;
 
     protected Animator Animator => this.Player.Animator;
     protected Rigidbody2D RigidBody2D => this.Player.RigidBody2D;
+    
+    protected PlayerInputSet PlayerInputSet => this.Player.Input;
 
     public EntityState(Player player, StateMachine stateMachine, string animationBoolName)
     {
@@ -24,7 +27,7 @@ public abstract class EntityState
     
     public virtual void Update()
     {   
-        Debug.Log("Updating " + this.AnimationBoolName);
+        this.Animator.SetFloat(YVelocity, this.RigidBody2D.linearVelocity.y);
     }
     
     public virtual void Exit()

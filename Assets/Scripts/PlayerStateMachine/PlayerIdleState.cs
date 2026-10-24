@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace PlayerStateMachine
 {
-    public class PlayerIdleState : EntityState
+    public class PlayerIdleState : PlayerGroundedState
     {
         public PlayerIdleState(Player player, StateMachine stateMachine, string animationBoolName) : base(player, stateMachine, animationBoolName)
         {

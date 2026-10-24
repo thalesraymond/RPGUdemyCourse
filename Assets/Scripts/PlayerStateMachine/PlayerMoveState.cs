@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace PlayerStateMachine
 {
-    public class PlayerMoveState : EntityState
+    public class PlayerMoveState : PlayerGroundedState
     {
         private bool _isLeft => this.Player.MovementInput.x < 0;
         

@@ -8,17 +8,27 @@ namespace PlayerStateMachine
         [Header("Movement Settings")]
         [SerializeField] private float moveSpeed = 5f;
         public float MoveSpeed => this.moveSpeed;
+        [SerializeField] public float jumpForce = 10f;
+        public bool IsGrounded { get; private set; }
+        
+        
+        [Header("Ground Detection")]
+        [SerializeField] private Transform groundCheck;
+        [SerializeField] private float groundCheckDistance = 0.1f;
+        [SerializeField] private LayerMask groundLayer;
         
         public Rigidbody2D RigidBody2D { get; private set; }
 
         public Animator Animator { get; private set; }
-        private PlayerInputSet _input;
+        public PlayerInputSet Input { get; private set; }
         private StateMachine StateMachine { get; set; }
         
         #region Player States
         
         public PlayerIdleState IdleState { get; private set; }
         public PlayerMoveState MoveState { get; private set; }
+        public PlayerJumpState JumpState { get; private set; }
+        public PlayerFallState FallState { get; private set; }
         
         #endregion
 
@@ -26,15 +36,15 @@ namespace PlayerStateMachine
 
         private void OnEnable()
         {
-            this._input.Enable();
+            this.Input.Enable();
             
-            this._input.Player.Movement.performed += ctx => this.MovementInput = ctx.ReadValue<Vector2>(); 
-            this._input.Player.Movement.canceled += _ => this.MovementInput = Vector2.zero;
+            this.Input.Player.Movement.performed += ctx => this.MovementInput = ctx.ReadValue<Vector2>(); 
+            this.Input.Player.Movement.canceled += _ => this.MovementInput = Vector2.zero;
         }
         
         private void OnDisable()
         {
-            this._input.Disable();
+            this.Input.Disable();
         }
 
         private void Awake()
@@ -43,10 +53,12 @@ namespace PlayerStateMachine
             this.RigidBody2D = this.GetComponent<Rigidbody2D>();
             
             this.StateMachine = new StateMachine();
-            this._input = new PlayerInputSet();
+            this.Input = new PlayerInputSet();
         
             this.IdleState = new PlayerIdleState(this, this.StateMachine, "idle");
             this.MoveState = new PlayerMoveState(this, this.StateMachine, "move");
+            this.JumpState = new PlayerJumpState(this, this.StateMachine, "jumpFall");
+            this.FallState = new PlayerFallState(this, this.StateMachine, "jumpFall");
         }
 
         private void Start()
@@ -57,8 +69,20 @@ namespace PlayerStateMachine
 
         private void Update()
         {
+            this.SetIsGrounded();
+            
             // Update the current state
             this.StateMachine.UpdateActiveState();
+        }
+
+        private void SetIsGrounded()
+        {
+            var hit = Physics2D.Raycast(this.groundCheck.position, 
+                                        Vector2.down, 
+                                        this.groundCheckDistance, 
+                                        this.groundLayer);
+            
+            this.IsGrounded = hit.collider != null;
         }
 
         public void SetVelocity(Vector2 velocity)
@@ -74,6 +98,20 @@ namespace PlayerStateMachine
                 this.transform.localScale = new Vector3(-1, 1, 1);
             else if (direction.x > 0) 
                 this.transform.localScale = new Vector3(1, 1, 1);
+        }
+        
+        private void OnDrawGizmosSelected()
+        {
+            if (this.groundCheck == null)
+                return;
+
+            Gizmos.color = Color.green;
+            Gizmos.DrawSphere(this.groundCheck.position, 0.01f);
+            Gizmos.DrawLine(
+                this.groundCheck.position,
+                this.groundCheck.position
+                + Vector3.down * this.groundCheckDistance
+            );
         }
 
     }
