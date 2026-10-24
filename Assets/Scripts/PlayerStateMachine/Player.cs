@@ -7,8 +7,10 @@ namespace PlayerStateMachine
     {
         [Header("Movement Settings")]
         [SerializeField] private float moveSpeed = 5f;
-        public float MoveSpeed => this.moveSpeed;
+        [SerializeField] private float inAirMoveMultiplier = 0.5f;
         [SerializeField] public float jumpForce = 10f;
+        public float MoveSpeed => this.moveSpeed;
+        public float InAirMoveMultiplier => this.inAirMoveMultiplier;
         public bool IsGrounded { get; private set; }
         
         

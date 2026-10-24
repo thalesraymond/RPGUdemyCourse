@@ -1,6 +1,6 @@
 namespace PlayerStateMachine
 {
-    public class PlayerFallState : EntityState
+    public class PlayerFallState : PlayerAirState
     {
         public PlayerFallState(Player player, StateMachine stateMachine, string animationBoolName) : base(player, stateMachine, animationBoolName)
         {

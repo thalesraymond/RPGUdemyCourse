@@ -13,6 +13,8 @@ namespace PlayerStateMachine
             base.Enter();
             
             this.Animator.SetBool(this.AnimationBoolName, true);
+            
+            this.Player.SetVelocity(new Vector2(0, this.Player.RigidBody2D.linearVelocity.y));
         }
 
         public override void Update()

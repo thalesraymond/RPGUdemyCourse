@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace PlayerStateMachine
 {
-    public class PlayerJumpState : PlayerGroundedState
+    public class PlayerJumpState : PlayerAirState
     {
         public PlayerJumpState(Player player, StateMachine stateMachine, string animationBoolName) : base(player, stateMachine, animationBoolName)
         {
