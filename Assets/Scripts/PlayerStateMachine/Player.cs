@@ -82,7 +82,7 @@ namespace PlayerStateMachine
                                         this.groundCheckDistance, 
                                         this.groundLayer);
             
-            this.IsGrounded = hit.collider != null;
+            this.IsGrounded = hit.collider is not null;
         }
 
         public void SetVelocity(Vector2 velocity)
