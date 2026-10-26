@@ -7,6 +7,7 @@ public abstract class EntityState
     protected readonly Player Player;
     protected readonly StateMachine StateMachine;
     protected readonly string AnimationBoolName;
+    protected float StateTimer;
 
     protected Animator Animator => this.Player.Animator;
     protected Rigidbody2D RigidBody2D => this.Player.RigidBody2D;
@@ -29,12 +30,11 @@ public abstract class EntityState
     
     public virtual void Update()
     {   
+        this.StateTimer -= Time.deltaTime;
         this.Animator.SetFloat(YVelocity, this.RigidBody2D.linearVelocity.y);
 
-        if (this.PlayerInputSet.Player.Dash.WasPressedThisFrame())
-        {
+        if (this.PlayerInputSet.Player.Dash.WasPressedThisFrame() && this.CanDash()) 
             this.StateMachine.ChangeState(this.Player.DashState);
-        }
     }
     
     public virtual void Exit()
@@ -54,5 +54,10 @@ public abstract class EntityState
         {
             this.StateMachine.ChangeState(this.Player.FallState);
         }
+    }
+
+    private bool CanDash()
+    {
+        return this.StateMachine.CurrentState != this.Player.DashState && !this.Player.IsTouchingWall;
     }
 }

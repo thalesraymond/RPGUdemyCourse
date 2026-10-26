@@ -14,6 +14,9 @@ namespace PlayerStateMachine
         [SerializeField] public float jumpForce = 10f;
         [SerializeField, Range(0f,1f)] private float wallSlideMultiplier = 0.5f;
         [SerializeField] public Vector2 wallJumpDirection;
+        [SerializeField] public float dashDuration = 0.25f;
+        [SerializeField] public float dashSpeed = 20f;
+        
         public float MoveSpeed => this.moveSpeed;
         public float InAirMoveMultiplier => this.inAirMoveMultiplier;
         public float WallSlideMultiplier => this.wallSlideMultiplier;

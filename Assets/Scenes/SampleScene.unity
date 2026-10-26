@@ -672,8 +672,8 @@ Transform:
   m_GameObject: {fileID: 1514678838}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.3, y: 0.4991, z: 0}
-  m_LocalScale: {x: 3.3736756, y: 6.905675, z: 1}
+  m_LocalPosition: {x: 4.3, y: -2.3516, z: 0}
+  m_LocalScale: {x: 3.3736756, y: 1.2043498, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -714,6 +714,8 @@ MonoBehaviour:
   jumpForce: 13
   wallSlideMultiplier: 0.7
   wallJumpDirection: {x: 6, y: 12}
+  dashDuration: 0.25
+  dashSpeed: 20
   groundCheck: {fileID: 1045932430}
   groundCheckDistance: 0.05
   groundLayer:
