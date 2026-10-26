@@ -12,6 +12,7 @@ public abstract class EntityState
     protected Rigidbody2D RigidBody2D => this.Player.RigidBody2D;
     
     protected PlayerInputSet PlayerInputSet => this.Player.Input;
+    protected bool IsCurrentState => this.StateMachine.CurrentState == this;
 
     protected EntityState(Player player, StateMachine stateMachine, string animationBoolName)
     {
@@ -23,6 +24,7 @@ public abstract class EntityState
     public virtual void Enter()
     {
         Debug.Log("Entering " + this.AnimationBoolName);
+        this.Animator.SetBool(this.AnimationBoolName, true);
     }
     
     public virtual void Update()
@@ -38,5 +40,19 @@ public abstract class EntityState
     public virtual void Exit()
     {
         Debug.Log("Exiting " + this.AnimationBoolName);
+        this.Animator.SetBool(this.AnimationBoolName, false);
+    }
+
+    protected void SetHorizontalVelocity(float velocity)
+    {
+        this.Player.SetVelocity(new Vector2(velocity, this.RigidBody2D.linearVelocity.y));
+    }
+
+    protected void TransitionToFallIfDescending()
+    {
+        if (this.RigidBody2D.linearVelocity.y < 0)
+        {
+            this.StateMachine.ChangeState(this.Player.FallState);
+        }
     }
 }

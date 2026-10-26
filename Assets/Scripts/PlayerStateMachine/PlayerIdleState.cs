@@ -11,27 +11,19 @@ namespace PlayerStateMachine
         public override void Enter()
         {
             base.Enter();
-            
-            this.Animator.SetBool(this.AnimationBoolName, true);
-            
-            this.Player.SetVelocity(new Vector2(0, this.Player.RigidBody2D.linearVelocity.y));
+
+            this.SetHorizontalVelocity(0);
         }
 
         public override void Update()
         {
             base.Update();
-            
+            if (!this.IsCurrentState) return;
+
             if (this.Player.MovementInput != Vector2.zero)
             {
                 this.StateMachine.ChangeState(this.Player.MoveState);
             }
-        }
-        
-        public override void Exit()
-        {
-            base.Exit();
-            
-            this.Animator.SetBool(this.AnimationBoolName, false);
         }
     }
 }

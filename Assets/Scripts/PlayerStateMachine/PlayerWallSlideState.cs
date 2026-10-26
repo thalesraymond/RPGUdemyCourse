@@ -8,46 +8,35 @@ namespace PlayerStateMachine
         {
         }
 
-        public override void Enter()
-        {
-            base.Enter();
-            
-            this.Animator.SetBool(this.AnimationBoolName, true);
-        }
-
         public override void Update()
         {
             base.Update();
-            
+            if (!this.IsCurrentState) return;
 
             if (this.Player.IsGrounded)
             {
                 this.StateMachine.ChangeState(this.Player.IdleState);
                 this.Player.Flip();
+                return;
             }
 
-            if (!this.Player.IsTouchingWall) 
+            if (!this.Player.IsTouchingWall)
+            {
                 this.StateMachine.ChangeState(this.Player.FallState);
-
+                return;
+            }
 
             this.HandleWallSlide();
             this.HandleWallJump();
         }
 
-        public override void Exit()
-        {
-            base.Exit();
-            
-            this.Animator.SetBool(this.AnimationBoolName, false);
-        }
-
         private void HandleWallJump()
         {
             if (!this.PlayerInputSet.Player.Jump.WasPressedThisFrame()) return;
-            
+
             this.StateMachine.ChangeState(this.Player.WallJumpState);
         }
-        
+
         private void HandleWallSlide()
         {
             if (this.Player.MovementInput.y < 0) 

@@ -1,5 +1,3 @@
-using UnityEngine;
-
 namespace PlayerStateMachine
 {
     public class PlayerAirState : EntityState
@@ -11,13 +9,12 @@ namespace PlayerStateMachine
         public override void Update()
         {
             base.Update();
-            
+            if (!this.IsCurrentState) return;
+
             // make movement possible while on air
-            this.Player.SetVelocity(new Vector2(
-                this.Player.MovementInput.x * this.Player.MoveSpeed * this.Player.InAirMoveMultiplier, 
-                this.Player.RigidBody2D.linearVelocity.y)
-            );
-            
+            this.SetHorizontalVelocity(
+                this.Player.MovementInput.x * this.Player.MoveSpeed * this.Player.InAirMoveMultiplier);
+
             if (this.Player.IsTouchingWall && this.Player.MovementInput.x != 0 && !this.Player.IsGrounded)
             {
                 this.StateMachine.ChangeState(this.Player.WallSlideState);
