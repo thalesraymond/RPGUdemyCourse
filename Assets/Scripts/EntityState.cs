@@ -13,7 +13,7 @@ public abstract class EntityState
     
     protected PlayerInputSet PlayerInputSet => this.Player.Input;
 
-    public EntityState(Player player, StateMachine stateMachine, string animationBoolName)
+    protected EntityState(Player player, StateMachine stateMachine, string animationBoolName)
     {
         this.Player = player;
         this.StateMachine = stateMachine;
@@ -28,6 +28,11 @@ public abstract class EntityState
     public virtual void Update()
     {   
         this.Animator.SetFloat(YVelocity, this.RigidBody2D.linearVelocity.y);
+
+        if (this.PlayerInputSet.Player.Dash.WasPressedThisFrame())
+        {
+            this.StateMachine.ChangeState(this.Player.DashState);
+        }
     }
     
     public virtual void Exit()

@@ -45,6 +45,7 @@ namespace PlayerStateMachine
         public PlayerFallState FallState { get; private set; }
         public PlayerWallSlideState WallSlideState { get; private set; }
         public PlayerWallJumpState WallJumpState { get; private set; }
+        public PlayerDashState DashState { get; private set; }
         
         #endregion
 
@@ -77,6 +78,7 @@ namespace PlayerStateMachine
             this.FallState = new PlayerFallState(this, this.StateMachine, "jumpFall");
             this.WallSlideState = new PlayerWallSlideState(this, this.StateMachine, "wallSlide");
             this.WallJumpState = new PlayerWallJumpState(this, this.StateMachine, "jumpFall");
+            this.DashState = new PlayerDashState(this, this.StateMachine, "dash");
         }
 
         private void Start()

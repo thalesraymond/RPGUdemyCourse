@@ -6,8 +6,17 @@ namespace PlayerStateMachine
         {
         }
 
+        public override void Enter()
+        {
+            base.Enter();
+            
+            
+        }
+
         public override void Update()
         {
+            base.Update();
+            
             if (this.PlayerInputSet.Player.Jump.WasPerformedThisFrame()) 
                 this.StateMachine.ChangeState(this.Player.JumpState);
             
