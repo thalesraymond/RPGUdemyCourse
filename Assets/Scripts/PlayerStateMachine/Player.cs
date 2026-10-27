@@ -49,6 +49,7 @@ namespace PlayerStateMachine
         public PlayerWallSlideState WallSlideState { get; private set; }
         public PlayerWallJumpState WallJumpState { get; private set; }
         public PlayerDashState DashState { get; private set; }
+        public PlayerBasicAttackState BasicAttackState { get; private set; }
         
         #endregion
 
@@ -82,6 +83,7 @@ namespace PlayerStateMachine
             this.WallSlideState = new PlayerWallSlideState(this, this.StateMachine, "wallSlide");
             this.WallJumpState = new PlayerWallJumpState(this, this.StateMachine, "jumpFall");
             this.DashState = new PlayerDashState(this, this.StateMachine, "dash");
+            this.BasicAttackState = new PlayerBasicAttackState(this, this.StateMachine, "basicAttack");
         }
 
         private void Start()
@@ -165,5 +167,9 @@ namespace PlayerStateMachine
             );
         }
 
+        public void AttackOverTriggered()
+        {
+            this.StateMachine.CurrentState.CallAnimationTrigger();
+        }
     }
 }

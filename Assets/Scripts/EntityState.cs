@@ -14,6 +14,8 @@ public abstract class EntityState
     
     protected PlayerInputSet PlayerInputSet => this.Player.Input;
     protected bool IsCurrentState => this.StateMachine.CurrentState == this;
+    
+    protected bool TriggerCalled { get; private set; }
 
     protected EntityState(Player player, StateMachine stateMachine, string animationBoolName)
     {
@@ -26,6 +28,7 @@ public abstract class EntityState
     {
         Debug.Log("Entering " + this.AnimationBoolName);
         this.Animator.SetBool(this.AnimationBoolName, true);
+        this.TriggerCalled = false;
     }
     
     public virtual void Update()
@@ -41,6 +44,11 @@ public abstract class EntityState
     {
         Debug.Log("Exiting " + this.AnimationBoolName);
         this.Animator.SetBool(this.AnimationBoolName, false);
+    }
+
+    public void CallAnimationTrigger()
+    {
+        this.TriggerCalled = true;
     }
 
     protected void SetHorizontalVelocity(float velocity)

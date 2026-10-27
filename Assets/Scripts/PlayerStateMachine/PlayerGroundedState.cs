@@ -21,6 +21,11 @@ namespace PlayerStateMachine
             // this changes to fall state if the player is falling (e.g. after walking off a ledge)
             if (this.RigidBody2D.linearVelocity.y < 0 && !this.Player.IsGrounded)
                 this.StateMachine.ChangeState(this.Player.FallState);
+            
+            if(this.PlayerInputSet.Player.Attack.WasPerformedThisFrame())
+            {
+                this.StateMachine.ChangeState(this.Player.BasicAttackState);
+            }
         }
     }
 }
