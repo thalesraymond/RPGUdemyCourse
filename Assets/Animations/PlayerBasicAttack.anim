@@ -98,7 +98,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.64285713
-    functionName: AttackOver
+    functionName: CurrentStateTrigger
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

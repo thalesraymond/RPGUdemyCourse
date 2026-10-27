@@ -11,7 +11,7 @@ public class PlayerAnimationTriggers : MonoBehaviour
         this._player = this.GetComponentInParent<Player>();
     }
 
-    public void AttackOver()
+    private void CurrentStateTrigger()
     {
         if (this._player != null) this._player.CallAnimationTrigger();
     }
