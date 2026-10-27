@@ -22,7 +22,7 @@ namespace PlayerStateMachine
             if (this.RigidBody2D.linearVelocity.y < 0 && !this.Player.IsGrounded)
                 this.StateMachine.ChangeState(this.Player.FallState);
             
-            if(this.PlayerInputSet.Player.Attack.WasPerformedThisFrame())
+            if(this.PlayerInputSet.Player.Attack.WasPerformedThisFrame() && this.StateMachine.CurrentState != this.Player.BasicAttackState)
             {
                 this.StateMachine.ChangeState(this.Player.BasicAttackState);
             }

@@ -716,6 +716,8 @@ MonoBehaviour:
   wallJumpDirection: {x: 6, y: 12}
   dashDuration: 0.25
   dashSpeed: 20
+  attackVelocity: {x: 3, y: 1.5}
+  attackVelocityDuration: 0.1
   groundCheck: {fileID: 1045932430}
   groundCheckDistance: 0.05
   groundLayer:

@@ -17,6 +17,10 @@ namespace PlayerStateMachine
         [SerializeField] public float dashDuration = 0.25f;
         [SerializeField] public float dashSpeed = 20f;
         
+        [Header("Attack Settings")]
+        public Vector2 attackVelocity;
+        public float attackVelocityDuration;
+        
         public float MoveSpeed => this.moveSpeed;
         public float InAirMoveMultiplier => this.inAirMoveMultiplier;
         public float WallSlideMultiplier => this.wallSlideMultiplier;
