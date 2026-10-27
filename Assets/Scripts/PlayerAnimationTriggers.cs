@@ -9,7 +9,7 @@ public class PlayerAnimationTriggers : MonoBehaviour
         
         if (player != null)
         {
-            player.AttackOverTriggered();
+            player.CallAnimationTrigger();
         }
     }
 }

@@ -167,7 +167,7 @@ namespace PlayerStateMachine
             );
         }
 
-        public void AttackOverTriggered()
+        public void CallAnimationTrigger()
         {
             this.StateMachine.CurrentState.CallAnimationTrigger();
         }
