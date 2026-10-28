@@ -4,11 +4,12 @@ namespace PlayerStateMachine
 {
     public class PlayerBasicAttackState : PlayerGroundedState
     {
+        private const int FirstComboIndex = 1;
+        private const int ComboLimit = 3;
+        
         private static readonly int BasicAttackIndex = Animator.StringToHash("basicAttackIndex");
         private float _attackVelocityTimer;
-        private const int FirstComboIndex = 1;
         private int _comboIndex = FirstComboIndex;
-        private readonly int _comboLimit = 3;
         private float _lastAttackTime;
         public PlayerBasicAttackState(Player player, StateMachine stateMachine, string animationBoolName) : base(player, stateMachine, animationBoolName)
         {
@@ -66,7 +67,7 @@ namespace PlayerStateMachine
         private void ResetComboIndexIfNeeded()
         {
 
-            if (this._comboIndex > this._comboLimit) this._comboIndex = FirstComboIndex;
+            if (this._comboIndex > ComboLimit) this._comboIndex = FirstComboIndex;
             if (Time.time > this._lastAttackTime + this.Player.comboResetTime)
                 this._comboIndex = FirstComboIndex;
 
