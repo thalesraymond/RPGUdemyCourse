@@ -57,7 +57,10 @@ namespace PlayerStateMachine
         {
             this._attackVelocityTimer = this.Player.attackVelocityDuration;
             
-            this.Player.SetVelocity(this.Player.FacingDirection * this.Player.attackVelocity);
+            this.Player.SetVelocity(new Vector2(
+                this.Player.FacingDirection * this.Player.attackVelocity[this._comboIndex - 1].x,
+                this.RigidBody2D.linearVelocity.y)
+            );
         }
         
         private void ResetComboIndexIfNeeded()

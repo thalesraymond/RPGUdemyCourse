@@ -18,7 +18,7 @@ namespace PlayerStateMachine
         [SerializeField] public float dashSpeed = 20f;
         
         [Header("Attack Settings")]
-        public Vector2 attackVelocity;
+        public Vector2[] attackVelocity;
         public float attackVelocityDuration;
         public float comboResetTime = 1;
         
