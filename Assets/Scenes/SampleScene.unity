@@ -718,6 +718,7 @@ MonoBehaviour:
   dashSpeed: 20
   attackVelocity: {x: 3, y: 1.5}
   attackVelocityDuration: 0.1
+  comboResetTime: 1.2
   groundCheck: {fileID: 1045932430}
   groundCheckDistance: 0.05
   groundLayer:

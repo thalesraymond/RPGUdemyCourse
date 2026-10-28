@@ -20,6 +20,7 @@ namespace PlayerStateMachine
         [Header("Attack Settings")]
         public Vector2 attackVelocity;
         public float attackVelocityDuration;
+        public float comboResetTime = 1;
         
         public float MoveSpeed => this.moveSpeed;
         public float InAirMoveMultiplier => this.inAirMoveMultiplier;
