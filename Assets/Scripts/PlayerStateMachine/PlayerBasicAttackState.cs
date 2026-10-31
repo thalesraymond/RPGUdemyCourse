@@ -23,11 +23,10 @@ namespace PlayerStateMachine
         public override void Enter()
         {
             base.Enter();
-            
-            if(this.Player.MovementInput.x != 0)
-                this._attackDirection = (int)this.Player.MovementInput.x;
-            else
-                this._attackDirection = this.Player.FacingDirection;
+
+            this._attackDirection = this.Player.MovementInput.x != 0
+                ? (int)this.Player.MovementInput.x
+                : this.Player.FacingDirection;
 
             this._comboAttackQueue = false;       
             this.ResetComboIndexIfNeeded();
