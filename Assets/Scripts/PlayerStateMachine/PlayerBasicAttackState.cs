@@ -48,13 +48,7 @@ namespace PlayerStateMachine
 
             if (!this.TriggerCalled) return;
 
-            if (!this._isNextAttackQueued)
-            {
-                this.StateMachine.ChangeState(this.Player.IdleState);
-                return;
-            }
-
-            this.ScheduleNextAttack();
+            this.HandleStateExit();
         }
 
         public override void Exit()
@@ -65,6 +59,17 @@ namespace PlayerStateMachine
             this._comboIndex++;
 
             this._lastAttackTime = Time.time;
+        }
+        
+        private void HandleStateExit()
+        {
+            if (!this._isNextAttackQueued)
+            {
+                this.StateMachine.ChangeState(this.Player.IdleState);
+                return;
+            }
+
+            this.ScheduleNextAttack();
         }
 
         private void QueueNextAttack()
