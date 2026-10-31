@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace PlayerStateMachine
@@ -11,6 +12,10 @@ namespace PlayerStateMachine
         private float _attackVelocityTimer;
         private int _comboIndex = FirstComboIndex;
         private float _lastAttackTime;
+        private bool _comboAttackQueue;
+        private Coroutine _chainComboCoroutine;
+        private int _attackDirection;
+        
         public PlayerBasicAttackState(Player player, StateMachine stateMachine, string animationBoolName) : base(player, stateMachine, animationBoolName)
         {
         }
@@ -19,6 +24,12 @@ namespace PlayerStateMachine
         {
             base.Enter();
             
+            if(this.Player.MovementInput.x != 0)
+                this._attackDirection = (int)this.Player.MovementInput.x;
+            else
+                this._attackDirection = this.Player.FacingDirection;
+
+            this._comboAttackQueue = false;       
             this.ResetComboIndexIfNeeded();
             this.ApplyAttackVelocity();
         }
@@ -29,9 +40,20 @@ namespace PlayerStateMachine
             
             this.HandleAttackVelocity();
 
+            if (this.PlayerInputSet.Player.Attack.WasPressedThisFrame()) 
+                this.QueueNextAttack();
+
             if (this.TriggerCalled)
             {
-                this.StateMachine.ChangeState(this.Player.IdleState);
+                if (this._comboAttackQueue)
+                {
+                    this.Animator.SetBool(this.AnimationBoolName, false);
+                    this.EnterAttackStateWithDelay();
+                }
+                else
+                {
+                    this.StateMachine.ChangeState(this.Player.IdleState);   
+                }
             }
         }
 
@@ -42,6 +64,28 @@ namespace PlayerStateMachine
             this._comboIndex++;
             
             this._lastAttackTime = Time.time;
+        }
+
+        private void QueueNextAttack()
+        {
+            if (this._comboIndex < ComboLimit)
+            {
+                this._comboAttackQueue = true;
+            }
+        }
+
+        private void EnterAttackStateWithDelay()
+        {
+            if (this._chainComboCoroutine != null)
+                this.Player.StopCoroutine(this._chainComboCoroutine);
+            
+            this._chainComboCoroutine = this.Player.StartCoroutine(this.EnterAttackStateWithDelayCoroutine());
+        }
+
+        private IEnumerator EnterAttackStateWithDelayCoroutine()
+        {
+            yield return new WaitForEndOfFrame();
+            this.StateMachine.ChangeState(this.Player.BasicAttackState);
         }
 
         private void HandleAttackVelocity()
@@ -59,14 +103,13 @@ namespace PlayerStateMachine
             this._attackVelocityTimer = this.Player.attackVelocityDuration;
             
             this.Player.SetVelocity(new Vector2(
-                this.Player.FacingDirection * this.Player.attackVelocity[this._comboIndex - 1].x,
+                this._attackDirection * this.Player.attackVelocity[this._comboIndex - 1].x,
                 this.RigidBody2D.linearVelocity.y)
             );
         }
         
         private void ResetComboIndexIfNeeded()
         {
-
             if (this._comboIndex > ComboLimit) this._comboIndex = FirstComboIndex;
             if (Time.time > this._lastAttackTime + this.Player.comboResetTime)
                 this._comboIndex = FirstComboIndex;
