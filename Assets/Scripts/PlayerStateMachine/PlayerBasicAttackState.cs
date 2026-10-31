@@ -25,6 +25,7 @@ namespace PlayerStateMachine
         {
             base.Enter();
 
+            // Define attack direction based of player movement input
             this._attackDirection = this.Player.MovementInput.x != 0
                 ? (int)Mathf.Sign(this.Player.MovementInput.x)
                 : this.Player.FacingDirection;
