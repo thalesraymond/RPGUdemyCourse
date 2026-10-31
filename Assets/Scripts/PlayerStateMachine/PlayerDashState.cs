@@ -1,4 +1,5 @@
 using System.Numerics;
+using UnityEngine;
 using Vector2 = UnityEngine.Vector2;
 
 namespace PlayerStateMachine
@@ -6,6 +7,8 @@ namespace PlayerStateMachine
     public class PlayerDashState : EntityState
     {
         private float _originalGravityScale;
+        private int _dashDirection;
+
         public PlayerDashState(Player player, StateMachine stateMachine, string animationBoolName) : base(player, stateMachine, animationBoolName)
         {
         }
@@ -13,6 +16,11 @@ namespace PlayerStateMachine
         public override void Enter()
         {
             base.Enter();
+            
+            // Define attack direction based of player movement input
+            this._dashDirection = this.Player.MovementInput.x != 0
+                ? (int)Mathf.Sign(this.Player.MovementInput.x)
+                : this.Player.FacingDirection;
 
             this._originalGravityScale = this.RigidBody2D.gravityScale;
             
@@ -27,7 +35,7 @@ namespace PlayerStateMachine
             
             this.CancelDashWhenHitWall();
             
-            this.Player.SetVelocity(new Vector2(this.Player.FacingDirection * this.Player.dashSpeed, 0));
+            this.Player.SetVelocity(new Vector2(this._dashDirection * this.Player.dashSpeed, 0));
             
             if (this.StateTimer >= 0) return;
             
