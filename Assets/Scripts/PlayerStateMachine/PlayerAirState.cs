@@ -13,12 +13,14 @@ namespace PlayerStateMachine
 
             // make movement possible while on air
             this.SetHorizontalVelocity(
-                this.Player.MovementInput.x * this.Player.MoveSpeed * this.Player.InAirMoveMultiplier);
+                this.Player.MovementInput.x * this.Player.MoveSpeed * this.Player.InAirMoveMultiplier
+            );
 
-            if (this.Player.IsTouchingWall && this.Player.MovementInput.x != 0 && !this.Player.IsGrounded)
-            {
+            if (this.Player.IsTouchingWall && this.Player.MovementInput.x != 0 && !this.Player.IsGrounded) 
                 this.StateMachine.ChangeState(this.Player.WallSlideState);
-            }
+            
+            if (this.PlayerInputSet.Player.Attack.WasPressedThisFrame())
+                this.StateMachine.ChangeState(this.Player.JumpAttackState);
         }
     }
 }

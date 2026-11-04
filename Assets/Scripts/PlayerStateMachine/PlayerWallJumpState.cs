@@ -25,6 +25,11 @@ namespace PlayerStateMachine
             base.Update();
             if (!this.IsCurrentState) return;
 
+            if (this.PlayerInputSet.Player.Attack.WasPressedThisFrame())
+            {
+                this.StateMachine.ChangeState(this.Player.JumpAttackState);
+            }
+
             this.TransitionToFallIfDescending();
         }
     }

@@ -58,7 +58,7 @@ public abstract class EntityState
 
     protected void TransitionToFallIfDescending()
     {
-        if (this.RigidBody2D.linearVelocity.y < 0)
+        if (this.RigidBody2D.linearVelocity.y < 0 && this.IsCurrentState)
         {
             this.StateMachine.ChangeState(this.Player.FallState);
         }

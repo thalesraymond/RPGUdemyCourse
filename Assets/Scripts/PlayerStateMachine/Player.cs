@@ -21,6 +21,7 @@ namespace PlayerStateMachine
         public Vector2[] attackVelocity;
         public float attackVelocityDuration;
         public float comboResetTime = 1;
+        public Vector2 jumpAttackVelocity;
         
         public float MoveSpeed => this.moveSpeed;
         public float InAirMoveMultiplier => this.inAirMoveMultiplier;
@@ -55,6 +56,7 @@ namespace PlayerStateMachine
         public PlayerWallJumpState WallJumpState { get; private set; }
         public PlayerDashState DashState { get; private set; }
         public PlayerBasicAttackState BasicAttackState { get; private set; }
+        public PlayerJumpAttackState JumpAttackState { get; private set; }
         
         #endregion
 
@@ -89,6 +91,7 @@ namespace PlayerStateMachine
             this.WallJumpState = new PlayerWallJumpState(this, this.StateMachine, "jumpFall");
             this.DashState = new PlayerDashState(this, this.StateMachine, "dash");
             this.BasicAttackState = new PlayerBasicAttackState(this, this.StateMachine, "basicAttack");
+            this.JumpAttackState = new PlayerJumpAttackState(this, this.StateMachine, "jumpAttack");
         }
 
         private void Start()
@@ -113,7 +116,7 @@ namespace PlayerStateMachine
                                         this.groundCheckDistance, 
                                         this.groundLayer);
             
-            this.IsGrounded = hit.collider is not null;
+            this.IsGrounded = hit.collider != null;
         }
         
         private void SetIsTouchingWall()
