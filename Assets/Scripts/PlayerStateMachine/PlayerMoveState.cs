@@ -15,11 +15,13 @@ namespace PlayerStateMachine
             base.Update();
             if (!this.IsCurrentState) return;
 
-            if (this.Player.MovementInput == Vector2.zero)
+            if (Mathf.Approximately(this.Player.MovementInput.x, this.Player.FacingDirection)
+                && this.Player.IsTouchingWall || this.Player.MovementInput == Vector2.zero)
             {
                 this.StateMachine.ChangeState(this.Player.IdleState);
                 return;
             }
+
 
             this.SetHorizontalVelocity(this.Player.MovementInput.x * this.Player.MoveSpeed);
         }

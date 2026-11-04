@@ -37,8 +37,10 @@ namespace PlayerStateMachine
         
         [Header("Wall Detection")]
         [SerializeField] private float wallCheckDistance = 0.1f;
-        [SerializeField] private Transform wallCheck;
+        [SerializeField] private Transform primaryWallCheck;
+        [SerializeField] private Transform secondaryWallCheck;
         public bool IsTouchingWall { get; private set; }
+        public bool IsBodyFullyTouchingWall { get; private set; }
         
         public Rigidbody2D RigidBody2D { get; private set; }
 
@@ -122,12 +124,20 @@ namespace PlayerStateMachine
         private void SetIsTouchingWall()
         {
             var direction = this.FacingDirection > 0 ? Vector2.right : Vector2.left;
-            var hit = Physics2D.Raycast(this.wallCheck.position, 
+            
+            var hit = Physics2D.Raycast(this.primaryWallCheck.position, 
                                         direction * this.wallCheckDistance, 
                                         this.wallCheckDistance, 
                                         this.groundLayer);
             
-            this.IsTouchingWall = hit.collider is not null;
+            var hitSecondary = Physics2D.Raycast(this.secondaryWallCheck.position, 
+                direction * this.wallCheckDistance, 
+                this.wallCheckDistance, 
+                this.groundLayer);
+            
+            this.IsTouchingWall = hit.collider is not null || hitSecondary.collider is not null;
+            
+            this.IsBodyFullyTouchingWall = hit.collider is not null && hitSecondary.collider is not null;
         }
 
         public void SetVelocity(Vector2 velocity)
@@ -163,14 +173,22 @@ namespace PlayerStateMachine
                 + Vector3.down * this.groundCheckDistance
             );
             
-            if (this.wallCheck == null)
+            if (this.primaryWallCheck == null || this.secondaryWallCheck == null)
                 return;
 
             Gizmos.color = Color.red;
-            Gizmos.DrawSphere(this.wallCheck.position, 0.01f);
+            Gizmos.DrawSphere(this.primaryWallCheck.position, 0.01f);
             Gizmos.DrawLine(
-                this.wallCheck.position,
-                this.wallCheck.position
+                this.primaryWallCheck.position,
+                this.primaryWallCheck.position
+                + Vector3.right * this.wallCheckDistance
+            );
+            
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(this.secondaryWallCheck.position, 0.01f);
+            Gizmos.DrawLine(
+                this.secondaryWallCheck.position,
+                this.secondaryWallCheck.position
                 + Vector3.right * this.wallCheckDistance
             );
         }

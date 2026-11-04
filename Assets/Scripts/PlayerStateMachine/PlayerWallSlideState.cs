@@ -20,7 +20,7 @@ namespace PlayerStateMachine
                 return;
             }
 
-            if (!this.Player.IsTouchingWall)
+            if (!this.Player.IsBodyFullyTouchingWall)
             {
                 this.StateMachine.ChangeState(this.Player.FallState);
                 return;

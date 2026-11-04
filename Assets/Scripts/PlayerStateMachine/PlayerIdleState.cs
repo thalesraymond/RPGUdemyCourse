@@ -19,11 +19,17 @@ namespace PlayerStateMachine
         {
             base.Update();
             if (!this.IsCurrentState) return;
+            
+            if (Mathf.Approximately(this.Player.MovementInput.x, this.Player.FacingDirection)
+                && this.Player.IsTouchingWall)
+                return;
 
             if (this.Player.MovementInput != Vector2.zero)
             {
                 this.StateMachine.ChangeState(this.Player.MoveState);
             }
+
+
         }
     }
 }
