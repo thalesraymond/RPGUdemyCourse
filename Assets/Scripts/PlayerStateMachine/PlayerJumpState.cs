@@ -15,12 +15,12 @@ namespace PlayerStateMachine
             this.Player.SetVelocity(new Vector2(this.Player.RigidBody2D.linearVelocity.x, this.Player.jumpForce));
         }
 
-        public override void Update()
+        public override EntityState Update()
         {
-            base.Update();
-            if (!this.IsCurrentState) return;
+            var nextState = base.Update();
+            if (nextState != null) return nextState;
 
-            this.TransitionToFallIfDescending();
+            return this.RigidBody2D.linearVelocity.y < 0 ? this.Player.FallState : null;
         }
     }
 }

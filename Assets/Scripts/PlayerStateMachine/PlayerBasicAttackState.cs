@@ -36,20 +36,19 @@ namespace PlayerStateMachine
             this.ApplyAttackVelocity();
         }
 
-        public override void Update()
+        public override EntityState Update()
         {
-            base.Update();
-
-            if (!this.IsCurrentState) return;
+            var nextState = base.Update();
+            if (nextState != null) return nextState;
 
             this.HandleAttackVelocity();
 
             if (this.PlayerInputSet.Player.Attack.WasPressedThisFrame())
                 this.QueueNextAttack();
 
-            if (!this.TriggerCalled) return;
+            if (!this.TriggerCalled) return null;
 
-            this.HandleStateExit();
+            return this.HandleStateExit();
         }
 
         public override void Exit()
@@ -62,15 +61,15 @@ namespace PlayerStateMachine
             this._lastAttackTime = Time.time;
         }
         
-        private void HandleStateExit()
+        private EntityState HandleStateExit()
         {
             if (!this._isNextAttackQueued)
             {
-                this.StateMachine.ChangeState(this.Player.IdleState);
-                return;
+                return this.Player.IdleState;
             }
 
             this.ScheduleNextAttack();
+            return null;
         }
 
         private void QueueNextAttack()
@@ -95,9 +94,7 @@ namespace PlayerStateMachine
             yield return new WaitForEndOfFrame();
 
             this._chainComboCoroutine = null;
-            if (!this.IsCurrentState) yield break;
-
-            this.StateMachine.ChangeState(this.Player.BasicAttackState);
+            this.StateMachine.RestartCurrentState(this);
         }
 
         private void CancelPendingAttack()

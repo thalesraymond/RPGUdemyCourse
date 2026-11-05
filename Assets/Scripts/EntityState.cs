@@ -13,7 +13,6 @@ public abstract class EntityState
     protected Rigidbody2D RigidBody2D => this.Player.RigidBody2D;
     
     protected PlayerInputSet PlayerInputSet => this.Player.Input;
-    protected bool IsCurrentState => this.StateMachine.CurrentState == this;
     
     protected bool TriggerCalled { get; private set; }
 
@@ -31,13 +30,16 @@ public abstract class EntityState
         this.TriggerCalled = false;
     }
     
-    public virtual void Update()
+    // Return null to stay active, or return the first eligible next state immediately.
+    public virtual EntityState Update()
     {   
         this.StateTimer -= Time.deltaTime;
         this.Animator.SetFloat(YVelocity, this.RigidBody2D.linearVelocity.y);
 
         if (this.PlayerInputSet.Player.Dash.WasPressedThisFrame() && this.CanDash()) 
-            this.StateMachine.ChangeState(this.Player.DashState);
+            return this.Player.DashState;
+
+        return null;
     }
     
     public virtual void Exit()
@@ -54,14 +56,6 @@ public abstract class EntityState
     protected void SetHorizontalVelocity(float velocity)
     {
         this.Player.SetVelocity(new Vector2(velocity, this.RigidBody2D.linearVelocity.y));
-    }
-
-    protected void TransitionToFallIfDescending()
-    {
-        if (this.RigidBody2D.linearVelocity.y < 0 && this.IsCurrentState)
-        {
-            this.StateMachine.ChangeState(this.Player.FallState);
-        }
     }
 
     private bool CanDash()

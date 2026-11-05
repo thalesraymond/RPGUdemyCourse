@@ -29,21 +29,20 @@ namespace PlayerStateMachine
             this.StateTimer = this.Player.dashDuration;
         }
         
-        public override void Update()
+        public override EntityState Update()
         {
-            base.Update();
-            
-            this.CancelDashWhenHitWall();
-            
-            this.Player.SetVelocity(new Vector2(this._dashDirection * this.Player.dashSpeed, 0));
-            
-            if (this.StateTimer >= 0) return;
-            
-            if (this.Player.IsGrounded)
-                this.StateMachine.ChangeState(this.Player.IdleState);
-            else
-                this.StateMachine.ChangeState(this.Player.FallState);
+            var nextState = base.Update();
+            if (nextState != null) return nextState;
 
+            if (this.Player.IsTouchingWall)
+                return this.Player.IsGrounded ? this.Player.IdleState : this.Player.WallSlideState;
+
+            this.Player.SetVelocity(new Vector2(this._dashDirection * this.Player.dashSpeed, 0));
+
+            if (this.StateTimer < 0)
+                return this.Player.IsGrounded ? this.Player.IdleState : this.Player.FallState;
+
+            return null;
         }
 
         public override void Exit()
@@ -52,16 +51,6 @@ namespace PlayerStateMachine
             
             this.Player.SetVelocity(Vector2.zero);
             this.RigidBody2D.gravityScale = this._originalGravityScale;
-        }
-        
-        private void CancelDashWhenHitWall()
-        {
-            if (!this.Player.IsTouchingWall) return;
-            
-            if(this.Player.IsGrounded)
-                this.StateMachine.ChangeState(this.Player.IdleState);
-            else
-                this.StateMachine.ChangeState(this.Player.WallSlideState);
         }
     }
 }

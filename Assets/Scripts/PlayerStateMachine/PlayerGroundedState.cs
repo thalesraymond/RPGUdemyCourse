@@ -6,26 +6,27 @@ namespace PlayerStateMachine
         {
         }
 
-        public override void Update()
+        public override EntityState Update()
         {
-            base.Update();
-            if (!this.IsCurrentState) return;
+            var nextState = base.Update();
+            if (nextState != null) return nextState;
 
             if (this.PlayerInputSet.Player.Jump.WasPerformedThisFrame())
             {
-                this.StateMachine.ChangeState(this.Player.JumpState);
-                return;
+                return this.Player.JumpState;
             }
 
             // Avoid player falling (without jump input) in the wrong state
             // this changes to fall state if the player is falling (e.g. after walking off a ledge)
             if (this.RigidBody2D.linearVelocity.y < 0 && !this.Player.IsGrounded)
-                this.StateMachine.ChangeState(this.Player.FallState);
+                return this.Player.FallState;
             
             if(this.PlayerInputSet.Player.Attack.WasPerformedThisFrame() && this.StateMachine.CurrentState != this.Player.BasicAttackState)
             {
-                this.StateMachine.ChangeState(this.Player.BasicAttackState);
+                return this.Player.BasicAttackState;
             }
+
+            return null;
         }
     }
 }

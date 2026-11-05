@@ -10,20 +10,21 @@ namespace PlayerStateMachine
         {
         }
 
-        public override void Update()
+        public override EntityState Update()
         {
-            base.Update();
-            if (!this.IsCurrentState) return;
+            var nextState = base.Update();
+            if (nextState != null) return nextState;
 
             if (Mathf.Approximately(this.Player.MovementInput.x, this.Player.FacingDirection)
                 && this.Player.IsTouchingWall || this.Player.MovementInput == Vector2.zero)
             {
-                this.StateMachine.ChangeState(this.Player.IdleState);
-                return;
+                return this.Player.IdleState;
             }
 
 
             this.SetHorizontalVelocity(this.Player.MovementInput.x * this.Player.MoveSpeed);
+
+            return null;
         }
     }
 }

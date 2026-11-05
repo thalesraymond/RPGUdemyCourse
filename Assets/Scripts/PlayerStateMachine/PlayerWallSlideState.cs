@@ -8,33 +8,26 @@ namespace PlayerStateMachine
         {
         }
 
-        public override void Update()
+        public override EntityState Update()
         {
-            base.Update();
-            if (!this.IsCurrentState) return;
+            var nextState = base.Update();
+            if (nextState != null) return nextState;
 
             if (this.Player.IsGrounded)
             {
-                this.StateMachine.ChangeState(this.Player.IdleState);
                 this.Player.Flip();
-                return;
+                return this.Player.IdleState;
             }
 
             if (!this.Player.IsBodyFullyTouchingWall)
             {
-                this.StateMachine.ChangeState(this.Player.FallState);
-                return;
+                return this.Player.FallState;
             }
 
             this.HandleWallSlide();
-            this.HandleWallJump();
-        }
-
-        private void HandleWallJump()
-        {
-            if (!this.PlayerInputSet.Player.Jump.WasPressedThisFrame()) return;
-
-            this.StateMachine.ChangeState(this.Player.WallJumpState);
+            return this.PlayerInputSet.Player.Jump.WasPressedThisFrame()
+                ? this.Player.WallJumpState
+                : null;
         }
 
         private void HandleWallSlide()

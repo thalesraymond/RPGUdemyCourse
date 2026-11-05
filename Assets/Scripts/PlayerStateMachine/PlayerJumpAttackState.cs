@@ -21,12 +21,10 @@ namespace PlayerStateMachine
             this.Player.SetVelocity(new Vector2(x, this.Player.jumpAttackVelocity.y));
         }
 
-        public override void Update()
+        public override EntityState Update()
         {
-            base.Update();
-
-            if (!this.IsCurrentState)
-                return;
+            var nextState = base.Update();
+            if (nextState != null) return nextState;
 
             if (this.Player.IsGrounded && !this._touchedGround)
             {
@@ -37,8 +35,10 @@ namespace PlayerStateMachine
 
             if (this.TriggerCalled)
             {
-                this.StateMachine.ChangeState(this.Player.IdleState);
+                return this.Player.IdleState;
             }
+
+            return null;
         }
     }
 }

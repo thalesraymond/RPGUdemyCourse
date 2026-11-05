@@ -6,10 +6,10 @@ namespace PlayerStateMachine
         {
         }
 
-        public override void Update()
+        public override EntityState Update()
         {
-            base.Update();
-            if (!this.IsCurrentState) return;
+            var nextState = base.Update();
+            if (nextState != null) return nextState;
 
             // make movement possible while on air
             this.SetHorizontalVelocity(
@@ -17,10 +17,12 @@ namespace PlayerStateMachine
             );
 
             if (this.Player.IsTouchingWall && this.Player.MovementInput.x != 0 && !this.Player.IsGrounded) 
-                this.StateMachine.ChangeState(this.Player.WallSlideState);
+                return this.Player.WallSlideState;
             
             if (this.PlayerInputSet.Player.Attack.WasPressedThisFrame())
-                this.StateMachine.ChangeState(this.Player.JumpAttackState);
+                return this.Player.JumpAttackState;
+
+            return null;
         }
     }
 }

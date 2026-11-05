@@ -20,17 +20,17 @@ namespace PlayerStateMachine
             );
         }
 
-        public override void Update()
+        public override EntityState Update()
         {
-            base.Update();
-            if (!this.IsCurrentState) return;
+            var nextState = base.Update();
+            if (nextState != null) return nextState;
 
             if (this.PlayerInputSet.Player.Attack.WasPressedThisFrame())
             {
-                this.StateMachine.ChangeState(this.Player.JumpAttackState);
+                return this.Player.JumpAttackState;
             }
 
-            this.TransitionToFallIfDescending();
+            return this.RigidBody2D.linearVelocity.y < 0 ? this.Player.FallState : null;
         }
     }
 }

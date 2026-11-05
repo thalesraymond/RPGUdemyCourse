@@ -1,4 +1,3 @@
-
 public class StateMachine
 {
     public EntityState CurrentState { get; private set; }
@@ -9,15 +8,24 @@ public class StateMachine
         this.CurrentState.Enter();
     }
     
-    public void ChangeState(EntityState newState)
+    private void ChangeState(EntityState newState)
     {
         this.CurrentState.Exit();
         this.CurrentState = newState;
         this.CurrentState.Enter();
     }
 
+    public void RestartCurrentState(EntityState expectedState)
+    {
+        if (this.CurrentState == expectedState)
+            this.ChangeState(expectedState);
+    }
+
     public void UpdateActiveState()
     {
-        this.CurrentState?.Update();
+        // States return their first eligible transition; only this module applies it.
+        var nextState = this.CurrentState?.Update();
+        if (nextState != null)
+            this.ChangeState(nextState);
     }
 }

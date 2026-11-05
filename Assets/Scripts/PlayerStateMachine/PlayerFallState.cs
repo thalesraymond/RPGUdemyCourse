@@ -6,15 +6,17 @@ namespace PlayerStateMachine
         {
         }
 
-        public override void Update()
+        public override EntityState Update()
         {
-            base.Update();
-            if (!this.IsCurrentState) return;
+            var nextState = base.Update();
+            if (nextState != null) return nextState;
 
             if (this.Player.IsGrounded)
             {
-                this.StateMachine.ChangeState(this.Player.IdleState);
+                return this.Player.IdleState;
             }
+
+            return null;
         }
 
         public override void Exit()
