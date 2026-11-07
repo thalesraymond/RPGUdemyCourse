@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: 05aea25beaabd65658745406ab787a14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7346859366008664074
+    second: Purple Panties and Bra_0
+  - first:
+      213: 891978713645094207
+    second: Purple Panties and Bra_1
+  - first:
+      213: -4233936611570658030
+    second: Purple Panties and Bra_2
+  - first:
+      213: -5443424324814360703
+    second: Purple Panties and Bra_3
+  - first:
+      213: 8502133940761038096
+    second: Purple Panties and Bra_4
+  - first:
+      213: 1111124510562247998
+    second: Purple Panties and Bra_5
+  - first:
+      213: 5478628182069884894
+    second: Purple Panties and Bra_6
+  - first:
+      213: -5934487178943130318
+    second: Purple Panties and Bra_7
+  - first:
+      213: -6236800995149806319
+    second: Purple Panties and Bra_8
+  - first:
+      213: -6624009846348418606
+    second: Purple Panties and Bra_9
+  - first:
+      213: -7071491535402171969
+    second: Purple Panties and Bra_10
+  - first:
+      213: 5654118030987116832
+    second: Purple Panties and Bra_11
+  - first:
+      213: 3425599663220682997
+    second: Purple Panties and Bra_12
+  - first:
+      213: -2534466040322652601
+    second: Purple Panties and Bra_13
+  - first:
+      213: -7189324878884034653
+    second: Purple Panties and Bra_14
+  - first:
+      213: 3407809553416345122
+    second: Purple Panties and Bra_15
+  - first:
+      213: -3666068564126591707
+    second: Purple Panties and Bra_16
+  - first:
+      213: 3703338504314158500
+    second: Purple Panties and Bra_17
+  - first:
+      213: 3478648188717600030
+    second: Purple Panties and Bra_18
+  - first:
+      213: -1837098115437253977
+    second: Purple Panties and Bra_19
+  - first:
+      213: -2143459502946730930
+    second: Purple Panties and Bra_20
+  - first:
+      213: 8750854974947712218
+    second: Purple Panties and Bra_21
+  - first:
+      213: -1808650734620746033
+    second: Purple Panties and Bra_22
+  - first:
+      213: 8250600950234763645
+    second: Purple Panties and Bra_23
+  - first:
+      213: -8120635119287649852
+    second: Purple Panties and Bra_24
+  - first:
+      213: 7760223381940107246
+    second: Purple Panties and Bra_25
+  - first:
+      213: 4325702567901675981
+    second: Purple Panties and Bra_26
+  - first:
+      213: 3358865752783793817
+    second: Purple Panties and Bra_27
+  - first:
+      213: 8262837537591137649
+    second: Purple Panties and Bra_28
+  - first:
+      213: -4407822566949797702
+    second: Purple Panties and Bra_29
+  - first:
+      213: 7292057224848878135
+    second: Purple Panties and Bra_30
+  - first:
+      213: 2910236377704713573
+    second: Purple Panties and Bra_31
+  - first:
+      213: 7646142003599174614
+    second: Purple Panties and Bra_32
+  - first:
+      213: -2554751909467258310
+    second: Purple Panties and Bra_33
+  - first:
+      213: 7477520067759350100
+    second: Purple Panties and Bra_34
+  - first:
+      213: 3724499492197414125
+    second: Purple Panties and Bra_35
+  - first:
+      213: -2393729627685817070
+    second: Purple Panties and Bra_36
+  - first:
+      213: -511175812763333762
+    second: Purple Panties and Bra_37
+  - first:
+      213: 8598471917927055552
+    second: Purple Panties and Bra_38
+  - first:
+      213: 6770903057215094177
+    second: Purple Panties and Bra_39
+  - first:
+      213: -278562308177023537
+    second: Purple Panties and Bra_40
+  - first:
+      213: 7537611235904466687
+    second: Purple Panties and Bra_41
+  - first:
+      213: -4230902489690962328
+    second: Purple Panties and Bra_42
+  - first:
+      213: 832275322465494695
+    second: Purple Panties and Bra_43
+  - first:
+      213: 7004829124211081348
+    second: Purple Panties and Bra_44
+  - first:
+      213: -5259552756604089109
+    second: Purple Panties and Bra_45
+  - first:
+      213: -2011353043892811962
+    second: Purple Panties and Bra_46
+  - first:
+      213: 8432668573819254208
+    second: Purple Panties and Bra_47
+  - first:
+      213: -4010507164776998790
+    second: Purple Panties and Bra_48
+  - first:
+      213: 9160398383460118436
+    second: Purple Panties and Bra_49
+  - first:
+      213: 1478965866466354063
+    second: Purple Panties and Bra_50
+  - first:
+      213: -993574800244611200
+    second: Purple Panties and Bra_51
+  - first:
+      213: 9196120992012852401
+    second: Purple Panties and Bra_52
+  - first:
+      213: 2067014059328994099
+    second: Purple Panties and Bra_53
+  - first:
+      213: -2793923062308058833
+    second: Purple Panties and Bra_54
+  - first:
+      213: 2739131676789403860
+    second: Purple Panties and Bra_55
+  - first:
+      213: 6538595727182727309
+    second: Purple Panties and Bra_56
+  - first:
+      213: 3209565603306599681
+    second: Purple Panties and Bra_57
+  - first:
+      213: -6780488984000040056
+    second: Purple Panties and Bra_58
+  - first:
+      213: 4824252460457812513
+    second: Purple Panties and Bra_59
+  - first:
+      213: 5662687471116391392
+    second: Purple Panties and Bra_60
+  - first:
+      213: -2436723157673738896
+    second: Purple Panties and Bra_61
+  - first:
+      213: 3069626055189985852
+    second: Purple Panties and Bra_62
+  - first:
+      213: -4448140421179212235
+    second: Purple Panties and Bra_63
+  - first:
+      213: 4718692291822108127
+    second: Purple Panties and Bra_64
+  - first:
+      213: 1570946873182092419
+    second: Purple Panties and Bra_65
+  - first:
+      213: -8757969430907666145
+    second: Purple Panties and Bra_66
+  - first:
+      213: -1931795394599380369
+    second: Purple Panties and Bra_67
+  - first:
+      213: 4588255098657099990
+    second: Purple Panties and Bra_68
+  - first:
+      213: -7661166445124456877
+    second: Purple Panties and Bra_69
+  - first:
+      213: 7046143846861767932
+    second: Purple Panties and Bra_70
+  - first:
+      213: 5414448714083312196
+    second: Purple Panties and Bra_71
+  - first:
+      213: -8777760529118688517
+    second: Purple Panties and Bra_72
+  - first:
+      213: -962686496567369772
+    second: Purple Panties and Bra_73
+  - first:
+      213: -8238128977937581225
+    second: Purple Panties and Bra_74
+  - first:
+      213: 4562750675595223853
+    second: Purple Panties and Bra_75
+  - first:
+      213: -2797601987585470901
+    second: Purple Panties and Bra_76
+  - first:
+      213: -1842982806177795990
+    second: Purple Panties and Bra_77
+  - first:
+      213: -977433486812885948
+    second: Purple Panties and Bra_78
+  - first:
+      213: 3852236388588282477
+    second: Purple Panties and Bra_79
+  - first:
+      213: -7098959435427090098
+    second: Purple Panties and Bra_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Purple Panties and Bra_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 406
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff4d4af456ba0a90800000000000000
+      internalID: -7346859366008664074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 406
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3596060ae1f06c00800000000000000
+      internalID: 891978713645094207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2155fc985190e35c0800000000000000
+      internalID: -4233936611570658030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f28b5ca621574b0800000000000000
+      internalID: -5443424324814360703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d8adbd5c5adf570800000000000000
+      internalID: 8502133940761038096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35ea49fad18b6f00800000000000000
+      internalID: 1111124510562247998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed738b8fd4ff70c40800000000000000
+      internalID: 5478628182069884894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2351cfe5a5774ada0800000000000000
+      internalID: -5934487178943130318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1150b45f98e6279a0800000000000000
+      internalID: -6236800995149806319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_9
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d176b7e32ac214a0800000000000000
+      internalID: -6624009846348418606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 334
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb10c283ae30ddd90800000000000000
+      internalID: -7071491535402171969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 334
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0214e137466777e40800000000000000
+      internalID: 5654118030987116832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_12
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f077fc7ebc2a8f20800000000000000
+      internalID: 3425599663220682997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_13
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 343
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74607438094c3dcd0800000000000000
+      internalID: -2534466040322652601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a72d330d136a3c90800000000000000
+      internalID: -7189324878884034653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2265095cbb8fa4f20800000000000000
+      internalID: 3407809553416345122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525120980128f1dc0800000000000000
+      internalID: -3666068564126591707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_17
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 343
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adfba0afb6e46330800000000000000
+      internalID: 3703338504314158500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d8113d814a64030800000000000000
+      internalID: 3478648188717600030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_19
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaa2d35ff05186e0800000000000000
+      internalID: -1837098115437253977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_20
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 334
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cbc6840f6e042e0800000000000000
+      internalID: -2143459502946730930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 334
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcd7b65c38417970800000000000000
+      internalID: 8750854974947712218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_22
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce5e205db166e6e0800000000000000
+      internalID: -1808650734620746033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_23
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d715e36c9d5008270800000000000000
+      internalID: 8250600950234763645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c93c4c4265bd4f80800000000000000
+      internalID: -8120635119287649852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7783aec0ad1bb60800000000000000
+      internalID: 7760223381940107246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 273
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc146c3219bf70c30800000000000000
+      internalID: 4325702567901675981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 271
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e27ea2b961d9e20800000000000000
+      internalID: 3358865752783793817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17512e846fe7ba270800000000000000
+      internalID: 8262837537591137649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_29
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0c100aab444d2c0800000000000000
+      internalID: -4407822566949797702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_30
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a20f83967923560800000000000000
+      internalID: 7292057224848878135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_31
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d4281019c336820800000000000000
+      internalID: 2910236377704713573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_32
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 278
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbe8ba24ad8c1a60800000000000000
+      internalID: 7646142003599174614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_33
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 270
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3204fa8ca2bb8cd0800000000000000
+      internalID: -2554751909467258310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 271
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451a6af42ec75c760800000000000000
+      internalID: 7477520067759350100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_35
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 272
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4bc8e0e8410b330800000000000000
+      internalID: 3724499492197414125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215757d0693c7ced0800000000000000
+      internalID: -2393729627685817070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b487e7e40f7e8f0800000000000000
+      internalID: -511175812763333762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0c63717a8e35770800000000000000
+      internalID: 8598471917927055552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_39
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad79ede47417fd50800000000000000
+      internalID: 6770903057215094177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdab4d7e09522cf0800000000000000
+      internalID: -278562308177023537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe241bab79fa9860800000000000000
+      internalID: 7537611235904466687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86687a61a90d845c0800000000000000
+      internalID: -4230902489690962328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_43
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a621e60ff5dc8b00800000000000000
+      internalID: 832275322465494695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_44
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48089eca9f6263160800000000000000
+      internalID: 7004829124211081348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beccf2952a05207b0800000000000000
+      internalID: -5259552756604089109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_46
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6474edc201d3614e0800000000000000
+      internalID: -2011353043892811962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_47
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5b813c36bd60570800000000000000
+      internalID: 8432668573819254208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78de427bf0d758c0800000000000000
+      internalID: -4010507164776998790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_49
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afe33fbbc5402f70800000000000000
+      internalID: 9160398383460118436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83a7a1ae97568410800000000000000
+      internalID: 1478965866466354063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_51
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087e3adbbfc1632f0800000000000000
+      internalID: -993574800244611200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_52
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 86
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc5070b15f2f9f70800000000000000
+      internalID: 9196120992012852401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 86
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bfa00e5528fac10800000000000000
+      internalID: 2067014059328994099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_54
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 87
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f294b5517cdf939d0800000000000000
+      internalID: -2793923062308058833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_55
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 87
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d07d0c5fb9530620800000000000000
+      internalID: 2739131676789403860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_56
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 78
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d880d90cb22cdba50800000000000000
+      internalID: 6538595727182727309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 86
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105f66449eaaa8c20800000000000000
+      internalID: 3209565603306599681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_58
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8837a31913dd6e1a0800000000000000
+      internalID: -6780488984000040056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_59
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12264648d0033f240800000000000000
+      internalID: 4824252460457812513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_60
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 79
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e392f5b048e59e40800000000000000
+      internalID: 5662687471116391392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_61
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 79
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d73eac2350f2ed0800000000000000
+      internalID: -2436723157673738896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_62
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3af1e432a0899a20800000000000000
+      internalID: 3069626055189985852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_63
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 22
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e7e8caad70542c0800000000000000
+      internalID: -4448140421179212235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_64
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 20
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd3e6283a92c7140800000000000000
+      internalID: 4718692291822108127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_65
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 14
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c7701abdf1dc510800000000000000
+      internalID: 1570946873182092419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_66
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 12
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11c40d4431757680800000000000000
+      internalID: -8757969430907666145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_67
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 14
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a1b2ed252e035e0800000000000000
+      internalID: -1931795394599380369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_68
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 12
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0d45ed3b1ccaf30800000000000000
+      internalID: 4588255098657099990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_69
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 14
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ee63175b11ea590800000000000000
+      internalID: -7661166445124456877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_70
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 13
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf400842f7ee8c160800000000000000
+      internalID: 7046143846861767932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_71
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 13
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442a1812b6cf32b40800000000000000
+      internalID: 5414448714083312196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_72
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 6
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa8f6a2e412f2680800000000000000
+      internalID: -8777760529118688517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_73
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df590e5bb9d3a2f0800000000000000
+      internalID: -962686496567369772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_74
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 6
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bbd2097594cad80800000000000000
+      internalID: -8238128977937581225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_75
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23e681a095225f30800000000000000
+      internalID: 4562750675595223853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_76
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e8a0b80dbec29d0800000000000000
+      internalID: -2797601987585470901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_77
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60be9ef6e86c66e0800000000000000
+      internalID: -1842982806177795990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_78
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c42f22c657f62f0800000000000000
+      internalID: -977433486812885948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_79
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6263acd594e57530800000000000000
+      internalID: 3852236388588282477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Panties and Bra_80
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41f570610e6b7d90800000000000000
+      internalID: -7098959435427090098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Purple Panties and Bra_0: -7346859366008664074
+      Purple Panties and Bra_1: 891978713645094207
+      Purple Panties and Bra_10: -7071491535402171969
+      Purple Panties and Bra_11: 5654118030987116832
+      Purple Panties and Bra_12: 3425599663220682997
+      Purple Panties and Bra_13: -2534466040322652601
+      Purple Panties and Bra_14: -7189324878884034653
+      Purple Panties and Bra_15: 3407809553416345122
+      Purple Panties and Bra_16: -3666068564126591707
+      Purple Panties and Bra_17: 3703338504314158500
+      Purple Panties and Bra_18: 3478648188717600030
+      Purple Panties and Bra_19: -1837098115437253977
+      Purple Panties and Bra_2: -4233936611570658030
+      Purple Panties and Bra_20: -2143459502946730930
+      Purple Panties and Bra_21: 8750854974947712218
+      Purple Panties and Bra_22: -1808650734620746033
+      Purple Panties and Bra_23: 8250600950234763645
+      Purple Panties and Bra_24: -8120635119287649852
+      Purple Panties and Bra_25: 7760223381940107246
+      Purple Panties and Bra_26: 4325702567901675981
+      Purple Panties and Bra_27: 3358865752783793817
+      Purple Panties and Bra_28: 8262837537591137649
+      Purple Panties and Bra_29: -4407822566949797702
+      Purple Panties and Bra_3: -5443424324814360703
+      Purple Panties and Bra_30: 7292057224848878135
+      Purple Panties and Bra_31: 2910236377704713573
+      Purple Panties and Bra_32: 7646142003599174614
+      Purple Panties and Bra_33: -2554751909467258310
+      Purple Panties and Bra_34: 7477520067759350100
+      Purple Panties and Bra_35: 3724499492197414125
+      Purple Panties and Bra_36: -2393729627685817070
+      Purple Panties and Bra_37: -511175812763333762
+      Purple Panties and Bra_38: 8598471917927055552
+      Purple Panties and Bra_39: 6770903057215094177
+      Purple Panties and Bra_4: 8502133940761038096
+      Purple Panties and Bra_40: -278562308177023537
+      Purple Panties and Bra_41: 7537611235904466687
+      Purple Panties and Bra_42: -4230902489690962328
+      Purple Panties and Bra_43: 832275322465494695
+      Purple Panties and Bra_44: 7004829124211081348
+      Purple Panties and Bra_45: -5259552756604089109
+      Purple Panties and Bra_46: -2011353043892811962
+      Purple Panties and Bra_47: 8432668573819254208
+      Purple Panties and Bra_48: -4010507164776998790
+      Purple Panties and Bra_49: 9160398383460118436
+      Purple Panties and Bra_5: 1111124510562247998
+      Purple Panties and Bra_50: 1478965866466354063
+      Purple Panties and Bra_51: -993574800244611200
+      Purple Panties and Bra_52: 9196120992012852401
+      Purple Panties and Bra_53: 2067014059328994099
+      Purple Panties and Bra_54: -2793923062308058833
+      Purple Panties and Bra_55: 2739131676789403860
+      Purple Panties and Bra_56: 6538595727182727309
+      Purple Panties and Bra_57: 3209565603306599681
+      Purple Panties and Bra_58: -6780488984000040056
+      Purple Panties and Bra_59: 4824252460457812513
+      Purple Panties and Bra_6: 5478628182069884894
+      Purple Panties and Bra_60: 5662687471116391392
+      Purple Panties and Bra_61: -2436723157673738896
+      Purple Panties and Bra_62: 3069626055189985852
+      Purple Panties and Bra_63: -4448140421179212235
+      Purple Panties and Bra_64: 4718692291822108127
+      Purple Panties and Bra_65: 1570946873182092419
+      Purple Panties and Bra_66: -8757969430907666145
+      Purple Panties and Bra_67: -1931795394599380369
+      Purple Panties and Bra_68: 4588255098657099990
+      Purple Panties and Bra_69: -7661166445124456877
+      Purple Panties and Bra_7: -5934487178943130318
+      Purple Panties and Bra_70: 7046143846861767932
+      Purple Panties and Bra_71: 5414448714083312196
+      Purple Panties and Bra_72: -8777760529118688517
+      Purple Panties and Bra_73: -962686496567369772
+      Purple Panties and Bra_74: -8238128977937581225
+      Purple Panties and Bra_75: 4562750675595223853
+      Purple Panties and Bra_76: -2797601987585470901
+      Purple Panties and Bra_77: -1842982806177795990
+      Purple Panties and Bra_78: -977433486812885948
+      Purple Panties and Bra_79: 3852236388588282477
+      Purple Panties and Bra_8: -6236800995149806319
+      Purple Panties and Bra_80: -7098959435427090098
+      Purple Panties and Bra_9: -6624009846348418606
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

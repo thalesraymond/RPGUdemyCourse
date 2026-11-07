@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: ab7e2d2292c8e6e8f86158191453538a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1599954107936286118
+    second: Skyblue Socks_0
+  - first:
+      213: 6730640662420174381
+    second: Skyblue Socks_1
+  - first:
+      213: -2631579247856239518
+    second: Skyblue Socks_2
+  - first:
+      213: -4162995041943944249
+    second: Skyblue Socks_3
+  - first:
+      213: -8555404167275920508
+    second: Skyblue Socks_4
+  - first:
+      213: -2643210321832277417
+    second: Skyblue Socks_5
+  - first:
+      213: 1093883189074076135
+    second: Skyblue Socks_6
+  - first:
+      213: -5040559405275729744
+    second: Skyblue Socks_7
+  - first:
+      213: -8169262628700508173
+    second: Skyblue Socks_8
+  - first:
+      213: -4396301265467123369
+    second: Skyblue Socks_9
+  - first:
+      213: 2287910350168755073
+    second: Skyblue Socks_10
+  - first:
+      213: -8004543802817418689
+    second: Skyblue Socks_11
+  - first:
+      213: -3634798293945307520
+    second: Skyblue Socks_12
+  - first:
+      213: 1217406098795852243
+    second: Skyblue Socks_13
+  - first:
+      213: 4288623534289006344
+    second: Skyblue Socks_14
+  - first:
+      213: -4792769443897115118
+    second: Skyblue Socks_15
+  - first:
+      213: 8747938779670028773
+    second: Skyblue Socks_16
+  - first:
+      213: 2501696524526109900
+    second: Skyblue Socks_17
+  - first:
+      213: 6491011909674417017
+    second: Skyblue Socks_18
+  - first:
+      213: 4091687956495183212
+    second: Skyblue Socks_19
+  - first:
+      213: 220871524257283838
+    second: Skyblue Socks_20
+  - first:
+      213: 5275571891004207519
+    second: Skyblue Socks_21
+  - first:
+      213: -8803230953424641752
+    second: Skyblue Socks_22
+  - first:
+      213: 6264772445922810397
+    second: Skyblue Socks_23
+  - first:
+      213: -8236336403957691590
+    second: Skyblue Socks_24
+  - first:
+      213: -3945772677075919039
+    second: Skyblue Socks_25
+  - first:
+      213: -7867762954705820050
+    second: Skyblue Socks_26
+  - first:
+      213: 6650138098966062591
+    second: Skyblue Socks_27
+  - first:
+      213: 8476095109570031757
+    second: Skyblue Socks_28
+  - first:
+      213: 2926980390869058403
+    second: Skyblue Socks_29
+  - first:
+      213: -759851741746868033
+    second: Skyblue Socks_30
+  - first:
+      213: -539852337321385964
+    second: Skyblue Socks_31
+  - first:
+      213: 1116938009497005262
+    second: Skyblue Socks_32
+  - first:
+      213: 9216649527577937567
+    second: Skyblue Socks_33
+  - first:
+      213: 3626119557664071824
+    second: Skyblue Socks_34
+  - first:
+      213: -9005381512993647188
+    second: Skyblue Socks_35
+  - first:
+      213: 7209278937190255238
+    second: Skyblue Socks_36
+  - first:
+      213: -6459349142508290453
+    second: Skyblue Socks_37
+  - first:
+      213: 152835548338664572
+    second: Skyblue Socks_38
+  - first:
+      213: 3192488693020854594
+    second: Skyblue Socks_39
+  - first:
+      213: 3008798949006646991
+    second: Skyblue Socks_40
+  - first:
+      213: 3384152154574044341
+    second: Skyblue Socks_41
+  - first:
+      213: -2920600042668559522
+    second: Skyblue Socks_42
+  - first:
+      213: -1175804326533773980
+    second: Skyblue Socks_43
+  - first:
+      213: -7900103530335394914
+    second: Skyblue Socks_44
+  - first:
+      213: -3608271492835630202
+    second: Skyblue Socks_45
+  - first:
+      213: -6957756982098382924
+    second: Skyblue Socks_46
+  - first:
+      213: -4826870475084168151
+    second: Skyblue Socks_47
+  - first:
+      213: 405456682694652799
+    second: Skyblue Socks_48
+  - first:
+      213: 250932633395992144
+    second: Skyblue Socks_49
+  - first:
+      213: -3090671362890972683
+    second: Skyblue Socks_50
+  - first:
+      213: 5266902828671758488
+    second: Skyblue Socks_51
+  - first:
+      213: -6658021982749457757
+    second: Skyblue Socks_52
+  - first:
+      213: -1658320669723597126
+    second: Skyblue Socks_53
+  - first:
+      213: -6846900380727701191
+    second: Skyblue Socks_54
+  - first:
+      213: 7545343928206377047
+    second: Skyblue Socks_55
+  - first:
+      213: 2201884452604584908
+    second: Skyblue Socks_56
+  - first:
+      213: 5453211520450182390
+    second: Skyblue Socks_57
+  - first:
+      213: 4909639969646958153
+    second: Skyblue Socks_58
+  - first:
+      213: 3773908333294339503
+    second: Skyblue Socks_59
+  - first:
+      213: -6126180051562254543
+    second: Skyblue Socks_60
+  - first:
+      213: -9198789121792521082
+    second: Skyblue Socks_61
+  - first:
+      213: 7592072996735614456
+    second: Skyblue Socks_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skyblue Socks_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a52874c8cd243610800000000000000
+      internalID: 1599954107936286118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26ba52a50a086d50800000000000000
+      internalID: 6730640662420174381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c3d35ed90ca7bd0800000000000000
+      internalID: -2631579247856239518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3083bd0121a36c0800000000000000
+      internalID: -4162995041943944249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4834f930d39154980800000000000000
+      internalID: -8555404167275920508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a8a84773e615bd0800000000000000
+      internalID: -2643210321832277417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1288ef6f04e2f00800000000000000
+      internalID: 1093883189074076135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0394b4de55c0ab0800000000000000
+      internalID: -5040559405275729744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_8
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffae6bfbe2f0ae80800000000000000
+      internalID: -8169262628700508173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7595b3aaa433df2c0800000000000000
+      internalID: -4396301265467123369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 322
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b8fb3775a40cf10800000000000000
+      internalID: 2287910350168755073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 319
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a630c32d52ae090800000000000000
+      internalID: -8004543802817418689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 319
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ea13ba53a9e8dc0800000000000000
+      internalID: -3634798293945307520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 319
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1fe12956815e010800000000000000
+      internalID: 1217406098795852243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 319
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f2da0e160448b30800000000000000
+      internalID: 4288623534289006344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 323
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e7a2e7599ac7db0800000000000000
+      internalID: -4792769443897115118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 319
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1a817b8fbe66970800000000000000
+      internalID: 8747938779670028773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_17
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 319
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc445380cbfc7b220800000000000000
+      internalID: 2501696524526109900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_18
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 319
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b39f4e0f4b41a50800000000000000
+      internalID: 6491011909674417017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_19
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 319
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6da3aa848898c830800000000000000
+      internalID: 4091687956495183212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_20
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 324
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efeba582b71b01300800000000000000
+      internalID: 220871524257283838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_21
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 319
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9177560fa8963940800000000000000
+      internalID: 5275571891004207519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_22
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 319
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821a661e614a4d580800000000000000
+      internalID: -8803230953424641752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 259
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a52ede851f0f650800000000000000
+      internalID: 6264772445922810397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 255
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bcb77bda7a2bd80800000000000000
+      internalID: -8236336403957691590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 255
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f9272e7accd39c0800000000000000
+      internalID: -3945772677075919039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 258
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6628c3274710d290800000000000000
+      internalID: -7867762954705820050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_27
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 255
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5e928fd590a4c50800000000000000
+      internalID: 6650138098966062591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 259
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80f858089321a570800000000000000
+      internalID: 8476095109570031757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_29
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 255
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363c84e5829be9820800000000000000
+      internalID: 2926980390869058403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 259
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb05733edd67475f0800000000000000
+      internalID: -759851741746868033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_31
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 255
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4106bc2d82f0288f0800000000000000
+      internalID: -539852337321385964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_32
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 255
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc633ca339208f00800000000000000
+      internalID: 1116938009497005262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_33
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 260
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f960e86d9ed18ef70800000000000000
+      internalID: 9216649527577937567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_34
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 255
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090e9a39680925230800000000000000
+      internalID: 3626119557664071824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_35
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 250
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5d42bf935760380800000000000000
+      internalID: -9005381512993647188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_36
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 195
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a4ee93ff08c0460800000000000000
+      internalID: 7209278937190255238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_37
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 195
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6eb1909d28cb56a0800000000000000
+      internalID: -6459349142508290453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_38
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 195
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7437c71f1bfe1200800000000000000
+      internalID: 152835548338664572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_39
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 195
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24985f04d8ffd4c20800000000000000
+      internalID: 3192488693020854594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_40
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 128
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce1c1ce3b661c920800000000000000
+      internalID: 3008798949006646991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_41
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 136
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc324f547ce6fe20800000000000000
+      internalID: 3384152154574044341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_42
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 128
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53ffb53cb1f777d0800000000000000
+      internalID: -2920600042668559522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_43
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 136
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4654697d134beafe0800000000000000
+      internalID: -1175804326533773980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_44
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 128
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93ac8912b13d5290800000000000000
+      internalID: -7900103530335394914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_45
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 136
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6832d58d138dcedc0800000000000000
+      internalID: -3608271492835630202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_46
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 128
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf288873e4117f90800000000000000
+      internalID: -6957756982098382924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_47
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 136
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92489c370e2830db0800000000000000
+      internalID: -4826870475084168151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_48
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73b2d764b870a500800000000000000
+      internalID: 405456682694652799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0561f1c86ed7b7300800000000000000
+      internalID: 250932633395992144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_50
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1496145cabb15d0800000000000000
+      internalID: -3090671362890972683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_51
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890fa79a73cc71940800000000000000
+      internalID: 5266902828671758488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_52
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a20a7b4844f993a0800000000000000
+      internalID: -6658021982749457757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_53
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 12
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6ef6513267cf8e0800000000000000
+      internalID: -1658320669723597126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_54
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9311d32516ceaf0a0800000000000000
+      internalID: -6846900380727701191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_55
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 12
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75044e4635276b860800000000000000
+      internalID: 7545343928206377047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_56
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3a3f95e3aae8e10800000000000000
+      internalID: 2201884452604584908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_57
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 11
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc30894cf2bdab40800000000000000
+      internalID: 5453211520450182390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_58
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 17
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946dddd3a8b822440800000000000000
+      internalID: 4909639969646958153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_59
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa545e452ad9f5430800000000000000
+      internalID: 3773908333294339503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_60
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f2c8473bf6bfaa0800000000000000
+      internalID: -6126180051562254543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c44dfe706575080800000000000000
+      internalID: -9198789121792521082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Socks_62
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdf24f7a267c5960800000000000000
+      internalID: 7592072996735614456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skyblue Socks_0: 1599954107936286118
+      Skyblue Socks_1: 6730640662420174381
+      Skyblue Socks_10: 2287910350168755073
+      Skyblue Socks_11: -8004543802817418689
+      Skyblue Socks_12: -3634798293945307520
+      Skyblue Socks_13: 1217406098795852243
+      Skyblue Socks_14: 4288623534289006344
+      Skyblue Socks_15: -4792769443897115118
+      Skyblue Socks_16: 8747938779670028773
+      Skyblue Socks_17: 2501696524526109900
+      Skyblue Socks_18: 6491011909674417017
+      Skyblue Socks_19: 4091687956495183212
+      Skyblue Socks_2: -2631579247856239518
+      Skyblue Socks_20: 220871524257283838
+      Skyblue Socks_21: 5275571891004207519
+      Skyblue Socks_22: -8803230953424641752
+      Skyblue Socks_23: 6264772445922810397
+      Skyblue Socks_24: -8236336403957691590
+      Skyblue Socks_25: -3945772677075919039
+      Skyblue Socks_26: -7867762954705820050
+      Skyblue Socks_27: 6650138098966062591
+      Skyblue Socks_28: 8476095109570031757
+      Skyblue Socks_29: 2926980390869058403
+      Skyblue Socks_3: -4162995041943944249
+      Skyblue Socks_30: -759851741746868033
+      Skyblue Socks_31: -539852337321385964
+      Skyblue Socks_32: 1116938009497005262
+      Skyblue Socks_33: 9216649527577937567
+      Skyblue Socks_34: 3626119557664071824
+      Skyblue Socks_35: -9005381512993647188
+      Skyblue Socks_36: 7209278937190255238
+      Skyblue Socks_37: -6459349142508290453
+      Skyblue Socks_38: 152835548338664572
+      Skyblue Socks_39: 3192488693020854594
+      Skyblue Socks_4: -8555404167275920508
+      Skyblue Socks_40: 3008798949006646991
+      Skyblue Socks_41: 3384152154574044341
+      Skyblue Socks_42: -2920600042668559522
+      Skyblue Socks_43: -1175804326533773980
+      Skyblue Socks_44: -7900103530335394914
+      Skyblue Socks_45: -3608271492835630202
+      Skyblue Socks_46: -6957756982098382924
+      Skyblue Socks_47: -4826870475084168151
+      Skyblue Socks_48: 405456682694652799
+      Skyblue Socks_49: 250932633395992144
+      Skyblue Socks_5: -2643210321832277417
+      Skyblue Socks_50: -3090671362890972683
+      Skyblue Socks_51: 5266902828671758488
+      Skyblue Socks_52: -6658021982749457757
+      Skyblue Socks_53: -1658320669723597126
+      Skyblue Socks_54: -6846900380727701191
+      Skyblue Socks_55: 7545343928206377047
+      Skyblue Socks_56: 2201884452604584908
+      Skyblue Socks_57: 5453211520450182390
+      Skyblue Socks_58: 4909639969646958153
+      Skyblue Socks_59: 3773908333294339503
+      Skyblue Socks_6: 1093883189074076135
+      Skyblue Socks_60: -6126180051562254543
+      Skyblue Socks_61: -9198789121792521082
+      Skyblue Socks_62: 7592072996735614456
+      Skyblue Socks_7: -5040559405275729744
+      Skyblue Socks_8: -8169262628700508173
+      Skyblue Socks_9: -4396301265467123369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

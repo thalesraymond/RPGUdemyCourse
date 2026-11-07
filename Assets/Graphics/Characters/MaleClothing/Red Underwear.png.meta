@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: d51dd50f53ab97400992a9d4aede8210
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7952952215746493512
+    second: Red Underwear_0
+  - first:
+      213: -3243610389179899780
+    second: Red Underwear_1
+  - first:
+      213: -4782761151340091741
+    second: Red Underwear_2
+  - first:
+      213: 6932687065524833223
+    second: Red Underwear_3
+  - first:
+      213: -8340345925565715274
+    second: Red Underwear_4
+  - first:
+      213: 4338031456257353906
+    second: Red Underwear_5
+  - first:
+      213: 8956573750060096479
+    second: Red Underwear_6
+  - first:
+      213: -3540082032816435817
+    second: Red Underwear_7
+  - first:
+      213: -5456657547670385593
+    second: Red Underwear_8
+  - first:
+      213: 3812479496067545462
+    second: Red Underwear_9
+  - first:
+      213: 4369849135901721013
+    second: Red Underwear_10
+  - first:
+      213: -7921679313720512438
+    second: Red Underwear_11
+  - first:
+      213: -1719763164977851549
+    second: Red Underwear_12
+  - first:
+      213: 6754471666065625840
+    second: Red Underwear_13
+  - first:
+      213: -2615686963461114162
+    second: Red Underwear_14
+  - first:
+      213: -2083401841841303316
+    second: Red Underwear_15
+  - first:
+      213: 1660629988562991280
+    second: Red Underwear_16
+  - first:
+      213: -5722579772081924552
+    second: Red Underwear_17
+  - first:
+      213: -2848425962957457395
+    second: Red Underwear_18
+  - first:
+      213: -8420573659109480299
+    second: Red Underwear_19
+  - first:
+      213: -6981502632770492397
+    second: Red Underwear_20
+  - first:
+      213: -5398077047865472264
+    second: Red Underwear_21
+  - first:
+      213: -6747177608973533600
+    second: Red Underwear_22
+  - first:
+      213: -9215774250758089787
+    second: Red Underwear_23
+  - first:
+      213: 3505613451287871324
+    second: Red Underwear_24
+  - first:
+      213: -3214347553343404434
+    second: Red Underwear_25
+  - first:
+      213: 6744256679238105789
+    second: Red Underwear_26
+  - first:
+      213: -7981613109861881966
+    second: Red Underwear_27
+  - first:
+      213: 936195993347070964
+    second: Red Underwear_28
+  - first:
+      213: 6918534947420647780
+    second: Red Underwear_29
+  - first:
+      213: 5706653297829875275
+    second: Red Underwear_30
+  - first:
+      213: 1895537404320758207
+    second: Red Underwear_31
+  - first:
+      213: 1090276269842739473
+    second: Red Underwear_32
+  - first:
+      213: -8154333030376296326
+    second: Red Underwear_33
+  - first:
+      213: 3693044538460905945
+    second: Red Underwear_34
+  - first:
+      213: 8063555696970693401
+    second: Red Underwear_35
+  - first:
+      213: -6361441664080215064
+    second: Red Underwear_36
+  - first:
+      213: 7313873565151168629
+    second: Red Underwear_37
+  - first:
+      213: -8537878700217961179
+    second: Red Underwear_38
+  - first:
+      213: -9002324424366066036
+    second: Red Underwear_39
+  - first:
+      213: 5983814119482020405
+    second: Red Underwear_40
+  - first:
+      213: 8640964968093711557
+    second: Red Underwear_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red Underwear_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cb93757ef8e5e60800000000000000
+      internalID: 7952952215746493512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c706a2359816cf2d0800000000000000
+      internalID: -3243610389179899780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6e5d0b21830adb0800000000000000
+      internalID: -4782761151340091741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb8d87b72ad53060800000000000000
+      internalID: 6932687065524833223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc67cad193214c80800000000000000
+      internalID: -8340345925565715274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 332
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8a0b620a8c33c30800000000000000
+      internalID: 4338031456257353906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 332
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb9be82f542c4c70800000000000000
+      internalID: 8956573750060096479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 333
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79dcb36b52a1fdec0800000000000000
+      internalID: -3540082032816435817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 333
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c072afede0644b0800000000000000
+      internalID: -5456657547670385593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 332
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679f09cf6e5a8e430800000000000000
+      internalID: 3812479496067545462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 332
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1487bf2a2d4ac30800000000000000
+      internalID: 4369849135901721013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_11
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 333
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40f02192aa801290800000000000000
+      internalID: -7921679313720512438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_12
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 333
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36391bd538c2228e0800000000000000
+      internalID: -1719763164977851549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 269
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2584d8134bcbd50800000000000000
+      internalID: 6754471666065625840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 268
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6b743b09633bbd0800000000000000
+      internalID: -2615686963461114162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 270
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce097ac20154613e0800000000000000
+      internalID: -2083401841841303316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_16
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 271
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b878ab1d2ebb0710800000000000000
+      internalID: 1660629988562991280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_17
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 270
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836983e44005590b0800000000000000
+      internalID: -5722579772081924552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_18
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 268
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08bbe4adab5878d0800000000000000
+      internalID: -2848425962957457395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_19
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 269
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598a4c30fdc142b80800000000000000
+      internalID: -8420573659109480299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_20
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 269
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318a2475858bc1f90800000000000000
+      internalID: -6981502632770492397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa0ac3768d2615b0800000000000000
+      internalID: -5398077047865472264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06eb9a476b53d52a0800000000000000
+      internalID: -6747177608973533600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_23
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c35f5d652efa1080800000000000000
+      internalID: -9215774250758089787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_24
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f38d34cd076a030800000000000000
+      internalID: 3505613451287871324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66025a3ee75463d0800000000000000
+      internalID: -3214347553343404434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbafa0897b9689d50800000000000000
+      internalID: 6744256679238105789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297e41c3a2d9b3190800000000000000
+      internalID: -7981613109861881966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb9897bb490efc00800000000000000
+      internalID: 936195993347070964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 76
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4613223f0e2930060800000000000000
+      internalID: 6918534947420647780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 76
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e067170fa123f40800000000000000
+      internalID: 5706653297829875275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 77
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9310be93d4e4a10800000000000000
+      internalID: 1895537404320758207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 77
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111b30bad70712f00800000000000000
+      internalID: 1090276269842739473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_33
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 76
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70bf28ff4df5de80800000000000000
+      internalID: -8154333030376296326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_34
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 76
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1a8aee074504330800000000000000
+      internalID: 3693044538460905945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 12
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bf3801f2187ef60800000000000000
+      internalID: 8063555696970693401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 10
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e30129c28e97b7a0800000000000000
+      internalID: -6361441664080215064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_37
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57884f6c149108560800000000000000
+      internalID: 7313873565151168629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_38
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 5
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525722ace8c538980800000000000000
+      internalID: -8537878700217961179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_39
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 4
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8676d4e1a1511380800000000000000
+      internalID: -9002324424366066036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_40
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 250
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53251b1fc37ca0350800000000000000
+      internalID: 5983814119482020405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Underwear_41
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccf1df4bdfdae770800000000000000
+      internalID: 8640964968093711557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Red Underwear_0: 7952952215746493512
+      Red Underwear_1: -3243610389179899780
+      Red Underwear_10: 4369849135901721013
+      Red Underwear_11: -7921679313720512438
+      Red Underwear_12: -1719763164977851549
+      Red Underwear_13: 6754471666065625840
+      Red Underwear_14: -2615686963461114162
+      Red Underwear_15: -2083401841841303316
+      Red Underwear_16: 1660629988562991280
+      Red Underwear_17: -5722579772081924552
+      Red Underwear_18: -2848425962957457395
+      Red Underwear_19: -8420573659109480299
+      Red Underwear_2: -4782761151340091741
+      Red Underwear_20: -6981502632770492397
+      Red Underwear_21: -5398077047865472264
+      Red Underwear_22: -6747177608973533600
+      Red Underwear_23: -9215774250758089787
+      Red Underwear_24: 3505613451287871324
+      Red Underwear_25: -3214347553343404434
+      Red Underwear_26: 6744256679238105789
+      Red Underwear_27: -7981613109861881966
+      Red Underwear_28: 936195993347070964
+      Red Underwear_29: 6918534947420647780
+      Red Underwear_3: 6932687065524833223
+      Red Underwear_30: 5706653297829875275
+      Red Underwear_31: 1895537404320758207
+      Red Underwear_32: 1090276269842739473
+      Red Underwear_33: -8154333030376296326
+      Red Underwear_34: 3693044538460905945
+      Red Underwear_35: 8063555696970693401
+      Red Underwear_36: -6361441664080215064
+      Red Underwear_37: 7313873565151168629
+      Red Underwear_38: -8537878700217961179
+      Red Underwear_39: -9002324424366066036
+      Red Underwear_4: -8340345925565715274
+      Red Underwear_40: 5983814119482020405
+      Red Underwear_41: 8640964968093711557
+      Red Underwear_5: 4338031456257353906
+      Red Underwear_6: 8956573750060096479
+      Red Underwear_7: -3540082032816435817
+      Red Underwear_8: -5456657547670385593
+      Red Underwear_9: 3812479496067545462
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

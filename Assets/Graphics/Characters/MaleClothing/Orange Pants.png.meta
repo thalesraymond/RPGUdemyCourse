@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 29896af6c259f2f39b684b1d648b4d5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5886813736929272372
+    second: Orange Pants_0
+  - first:
+      213: -4887874702908297511
+    second: Orange Pants_1
+  - first:
+      213: -1698921044744409503
+    second: Orange Pants_2
+  - first:
+      213: -4514851746513818016
+    second: Orange Pants_3
+  - first:
+      213: -6674262140755508741
+    second: Orange Pants_4
+  - first:
+      213: 7636050939948954499
+    second: Orange Pants_5
+  - first:
+      213: 1577625408947896535
+    second: Orange Pants_6
+  - first:
+      213: -6230859338219457489
+    second: Orange Pants_7
+  - first:
+      213: 711979201553817064
+    second: Orange Pants_8
+  - first:
+      213: 7763767963630662036
+    second: Orange Pants_9
+  - first:
+      213: -2136294400940555299
+    second: Orange Pants_10
+  - first:
+      213: 7806494810511399864
+    second: Orange Pants_11
+  - first:
+      213: 4456767131912907548
+    second: Orange Pants_12
+  - first:
+      213: -7861229750751354163
+    second: Orange Pants_13
+  - first:
+      213: 1742436045535123759
+    second: Orange Pants_14
+  - first:
+      213: 8895422981842279220
+    second: Orange Pants_15
+  - first:
+      213: 6832263099200118217
+    second: Orange Pants_16
+  - first:
+      213: -8537281869723888304
+    second: Orange Pants_17
+  - first:
+      213: 5455196110743932905
+    second: Orange Pants_18
+  - first:
+      213: -3211758403036722513
+    second: Orange Pants_19
+  - first:
+      213: 7876028832687549809
+    second: Orange Pants_20
+  - first:
+      213: 5558424083099160195
+    second: Orange Pants_21
+  - first:
+      213: -8193711933054253502
+    second: Orange Pants_22
+  - first:
+      213: -2222293475910225317
+    second: Orange Pants_23
+  - first:
+      213: 4615193314426321264
+    second: Orange Pants_24
+  - first:
+      213: 1390502797951741294
+    second: Orange Pants_25
+  - first:
+      213: -1115326625832294907
+    second: Orange Pants_26
+  - first:
+      213: 3850113180452118918
+    second: Orange Pants_27
+  - first:
+      213: -7786008099107041926
+    second: Orange Pants_28
+  - first:
+      213: 2735175646562683017
+    second: Orange Pants_29
+  - first:
+      213: -3870030470702624998
+    second: Orange Pants_30
+  - first:
+      213: -5995476133270764104
+    second: Orange Pants_31
+  - first:
+      213: -3215362950039438620
+    second: Orange Pants_32
+  - first:
+      213: 3622072697446217350
+    second: Orange Pants_33
+  - first:
+      213: -1895045948008731019
+    second: Orange Pants_34
+  - first:
+      213: 80247624321680596
+    second: Orange Pants_35
+  - first:
+      213: -1022336772250273135
+    second: Orange Pants_36
+  - first:
+      213: 2701416894400831791
+    second: Orange Pants_37
+  - first:
+      213: 6629589720354837773
+    second: Orange Pants_38
+  - first:
+      213: 5394979683868530233
+    second: Orange Pants_39
+  - first:
+      213: 6285645343464090671
+    second: Orange Pants_40
+  - first:
+      213: 5997475071848020620
+    second: Orange Pants_41
+  - first:
+      213: -1422284124277158754
+    second: Orange Pants_42
+  - first:
+      213: 8576859691033910952
+    second: Orange Pants_43
+  - first:
+      213: -5019935720630777511
+    second: Orange Pants_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Orange Pants_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4322f8077e922b150800000000000000
+      internalID: 5886813736929272372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de6882dad7ca2cb0800000000000000
+      internalID: -4887874702908297511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ee292af483c68e0800000000000000
+      internalID: -1698921044744409503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06eed7bd1460851c0800000000000000
+      internalID: -4514851746513818016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf10e6ad1f14063a0800000000000000
+      internalID: -6674262140755508741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 321
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383f1725fd3b8f960800000000000000
+      internalID: 7636050939948954499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 321
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d048f863f9d4e510800000000000000
+      internalID: 1577625408947896535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 321
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24f004c17a8789a0800000000000000
+      internalID: -6230859338219457489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 322
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edd414cf4571e900800000000000000
+      internalID: 711979201553817064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 321
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49173c624d17ebb60800000000000000
+      internalID: 7763767963630662036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 321
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd348489f8b5a52e0800000000000000
+      internalID: -2136294400940555299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 321
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb56796bad365c60800000000000000
+      internalID: 7806494810511399864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 321
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b2e40f71e99dd30800000000000000
+      internalID: 4456767131912907548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 258
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2abb8313d47e290800000000000000
+      internalID: -7861229750751354163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 257
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2915f10a506e2810800000000000000
+      internalID: 1742436045535123759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 257
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b1e8f6214e27b70800000000000000
+      internalID: 8895422981842279220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 257
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd15dff61311de50800000000000000
+      internalID: 6832263099200118217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 257
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05599b73f5b758980800000000000000
+      internalID: -8537281869723888304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 257
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef0cf8b5ffb4bb40800000000000000
+      internalID: 5455196110743932905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_19
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 257
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faace92cfba8d63d0800000000000000
+      internalID: -3211758403036722513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_20
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 260
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d631d8e764d4d60800000000000000
+      internalID: 7876028832687549809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 197
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e0a18f04d732d40800000000000000
+      internalID: 5558424083099160195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 197
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2460c66b8661a4e80800000000000000
+      internalID: -8193711933054253502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_23
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 197
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52f3bd9bd3d821e0800000000000000
+      internalID: -2222293475910225317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 196
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079732cfdd57c0040800000000000000
+      internalID: 4615193314426321264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6da9137dee0c4310800000000000000
+      internalID: 1390502797951741294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_26
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5062bb2d7509580f0800000000000000
+      internalID: -1115326625832294907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_27
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681e5e1f9895e6530800000000000000
+      internalID: 3850113180452118918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d096ac2ea82f390800000000000000
+      internalID: -7786008099107041926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 65
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9880bab42cb45f520800000000000000
+      internalID: 2735175646562683017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 65
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f05db8ac3ea4ac0800000000000000
+      internalID: -3870030470702624998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 65
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b54011e83acbcca0800000000000000
+      internalID: -5995476133270764104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 65
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea72f2ce6cb063d0800000000000000
+      internalID: -3215362950039438620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_33
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 65
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6863ce18def244230800000000000000
+      internalID: 3622072697446217350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_34
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 65
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e65eb20c173b5e0800000000000000
+      internalID: -1895045948008731019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d443c50ac81d1100800000000000000
+      internalID: 80247624321680596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19af3394f1eefc1f0800000000000000
+      internalID: -1022336772250273135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_37
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21200d4a5c5d7520800000000000000
+      internalID: 2701416894400831791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_38
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05d450c9b8010c50800000000000000
+      internalID: 6629589720354837773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_39
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936de6b4071deda40800000000000000
+      internalID: 5394979683868530233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_40
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ce34913291b3750800000000000000
+      internalID: 6285645343464090671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_41
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8af2c64dcf4b3350800000000000000
+      internalID: 5997475071848020620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_42
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 0
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c48c2ef18034ce0800000000000000
+      internalID: -1422284124277158754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_43
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 0
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae51746270270770800000000000000
+      internalID: 8576859691033910952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Pants_44
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 0
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95902801f0b955ab0800000000000000
+      internalID: -5019935720630777511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Orange Pants_0: 5886813736929272372
+      Orange Pants_1: -4887874702908297511
+      Orange Pants_10: -2136294400940555299
+      Orange Pants_11: 7806494810511399864
+      Orange Pants_12: 4456767131912907548
+      Orange Pants_13: -7861229750751354163
+      Orange Pants_14: 1742436045535123759
+      Orange Pants_15: 8895422981842279220
+      Orange Pants_16: 6832263099200118217
+      Orange Pants_17: -8537281869723888304
+      Orange Pants_18: 5455196110743932905
+      Orange Pants_19: -3211758403036722513
+      Orange Pants_2: -1698921044744409503
+      Orange Pants_20: 7876028832687549809
+      Orange Pants_21: 5558424083099160195
+      Orange Pants_22: -8193711933054253502
+      Orange Pants_23: -2222293475910225317
+      Orange Pants_24: 4615193314426321264
+      Orange Pants_25: 1390502797951741294
+      Orange Pants_26: -1115326625832294907
+      Orange Pants_27: 3850113180452118918
+      Orange Pants_28: -7786008099107041926
+      Orange Pants_29: 2735175646562683017
+      Orange Pants_3: -4514851746513818016
+      Orange Pants_30: -3870030470702624998
+      Orange Pants_31: -5995476133270764104
+      Orange Pants_32: -3215362950039438620
+      Orange Pants_33: 3622072697446217350
+      Orange Pants_34: -1895045948008731019
+      Orange Pants_35: 80247624321680596
+      Orange Pants_36: -1022336772250273135
+      Orange Pants_37: 2701416894400831791
+      Orange Pants_38: 6629589720354837773
+      Orange Pants_39: 5394979683868530233
+      Orange Pants_4: -6674262140755508741
+      Orange Pants_40: 6285645343464090671
+      Orange Pants_41: 5997475071848020620
+      Orange Pants_42: -1422284124277158754
+      Orange Pants_43: 8576859691033910952
+      Orange Pants_44: -5019935720630777511
+      Orange Pants_5: 7636050939948954499
+      Orange Pants_6: 1577625408947896535
+      Orange Pants_7: -6230859338219457489
+      Orange Pants_8: 711979201553817064
+      Orange Pants_9: 7763767963630662036
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

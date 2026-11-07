@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: e15f19c06c59e700391a4ac6a33e7e37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -374777143637931741
+    second: Purple Underwear_0
+  - first:
+      213: -3605336919252636712
+    second: Purple Underwear_1
+  - first:
+      213: -3946865283587508070
+    second: Purple Underwear_2
+  - first:
+      213: 884181679793549097
+    second: Purple Underwear_3
+  - first:
+      213: 4287927411968745064
+    second: Purple Underwear_4
+  - first:
+      213: -7191469311373900485
+    second: Purple Underwear_5
+  - first:
+      213: 6692376317269459135
+    second: Purple Underwear_6
+  - first:
+      213: -6210879552774078568
+    second: Purple Underwear_7
+  - first:
+      213: 1873670978710698104
+    second: Purple Underwear_8
+  - first:
+      213: -7683596771708622883
+    second: Purple Underwear_9
+  - first:
+      213: 6150276009457996424
+    second: Purple Underwear_10
+  - first:
+      213: 5360709268807744495
+    second: Purple Underwear_11
+  - first:
+      213: -333920914231349718
+    second: Purple Underwear_12
+  - first:
+      213: -7297027705457189875
+    second: Purple Underwear_13
+  - first:
+      213: -5273926414670002351
+    second: Purple Underwear_14
+  - first:
+      213: -8117148106322897104
+    second: Purple Underwear_15
+  - first:
+      213: 1997678177620116523
+    second: Purple Underwear_16
+  - first:
+      213: -6678179045744935448
+    second: Purple Underwear_17
+  - first:
+      213: -7654564079004967928
+    second: Purple Underwear_18
+  - first:
+      213: 9131810351835883330
+    second: Purple Underwear_19
+  - first:
+      213: -9150175471495808902
+    second: Purple Underwear_20
+  - first:
+      213: -5184951885180479617
+    second: Purple Underwear_21
+  - first:
+      213: 1997141101411448297
+    second: Purple Underwear_22
+  - first:
+      213: 6865650024348601313
+    second: Purple Underwear_23
+  - first:
+      213: 1039622429104182368
+    second: Purple Underwear_24
+  - first:
+      213: -4716452011803986768
+    second: Purple Underwear_25
+  - first:
+      213: 5588400144899629819
+    second: Purple Underwear_26
+  - first:
+      213: 936015513878788943
+    second: Purple Underwear_27
+  - first:
+      213: 968093644371330559
+    second: Purple Underwear_28
+  - first:
+      213: -8328341758988409080
+    second: Purple Underwear_29
+  - first:
+      213: 2590884217724062311
+    second: Purple Underwear_30
+  - first:
+      213: 8266607381694351571
+    second: Purple Underwear_31
+  - first:
+      213: -691724894880055546
+    second: Purple Underwear_32
+  - first:
+      213: 828057066702191163
+    second: Purple Underwear_33
+  - first:
+      213: -3789506676294681365
+    second: Purple Underwear_34
+  - first:
+      213: 7182807478470396102
+    second: Purple Underwear_35
+  - first:
+      213: 5342386013097222540
+    second: Purple Underwear_36
+  - first:
+      213: 2319958238368312444
+    second: Purple Underwear_37
+  - first:
+      213: 2386838791127983318
+    second: Purple Underwear_38
+  - first:
+      213: 3635128197633597114
+    second: Purple Underwear_39
+  - first:
+      213: 6226961214073917857
+    second: Purple Underwear_40
+  - first:
+      213: 7515600219875544669
+    second: Purple Underwear_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Purple Underwear_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329868b6c268ccaf0800000000000000
+      internalID: -374777143637931741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db68508c2547fdc0800000000000000
+      internalID: -3605336919252636712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98f17b9feae939c0800000000000000
+      internalID: -3946865283587508070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fa00d9d8e354c00800000000000000
+      internalID: 884181679793549097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e9e054347c18b30800000000000000
+      internalID: 4287927411968745064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 332
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b358f6a63c4c23c90800000000000000
+      internalID: -7191469311373900485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 332
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb045168dc810ec50800000000000000
+      internalID: 6692376317269459135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 333
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ff92214f58ec9a0800000000000000
+      internalID: -6210879552774078568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 333
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8787208f3dd900a10800000000000000
+      internalID: 1873670978710698104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 332
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd728f012716e5590800000000000000
+      internalID: -7683596771708622883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 332
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882d95ee17b2a5550800000000000000
+      internalID: 6150276009457996424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_11
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 333
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febfd6f7da0156a40800000000000000
+      internalID: 5360709268807744495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_12
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 333
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2eaa2c92bcad5bf0800000000000000
+      internalID: -333920914231349718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 269
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c5a0496ffbbba90800000000000000
+      internalID: -7297027705457189875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 268
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1578b0a4edf3fc6b0800000000000000
+      internalID: -5273926414670002351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 270
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0379365cdc81a5f80800000000000000
+      internalID: -8117148106322897104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_16
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 271
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24c898e7bd29bb10800000000000000
+      internalID: 1997678177620116523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_17
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 270
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed7ae75a875253a0800000000000000
+      internalID: -6678179045744935448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_18
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 268
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c9178968685c590800000000000000
+      internalID: -7654564079004967928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_19
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 269
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247a961f125babe70800000000000000
+      internalID: 9131810351835883330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_20
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 269
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78fffc63eb040180800000000000000
+      internalID: -9150175471495808902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7753524bb95b08b0800000000000000
+      internalID: -5184951885180479617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e536fb104547bb10800000000000000
+      internalID: 1997141101411448297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_23
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb43754250b74f50800000000000000
+      internalID: 6865650024348601313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_24
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0649843571b7d6e00800000000000000
+      internalID: 1039622429104182368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b43f3452ebcb8eb0800000000000000
+      internalID: -4716452011803986768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2eb7bb25cfd8d40800000000000000
+      internalID: 5588400144899629819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bfff096256dfc00800000000000000
+      internalID: 936015513878788943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff501165a0c5f6d00800000000000000
+      internalID: 968093644371330559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 76
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807a17fab49cb6c80800000000000000
+      internalID: -8328341758988409080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 76
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76acb9b087ba4f320800000000000000
+      internalID: 2590884217724062311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 77
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d883838d93e8b270800000000000000
+      internalID: 8266607381694351571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 77
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f316e7fdf7666f0800000000000000
+      internalID: -691724894880055546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_33
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 76
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a3982d389dd7b00800000000000000
+      internalID: 828057066702191163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_34
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 76
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becfb7d61c7f86bc0800000000000000
+      internalID: -3789506676294681365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 12
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c84f3478557ea360800000000000000
+      internalID: 7182807478470396102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 10
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81eca316c7f32a40800000000000000
+      internalID: 5342386013097222540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_37
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c2fa3e9b5223020800000000000000
+      internalID: 2319958238368312444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_38
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 5
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d46e490c31cf1120800000000000000
+      internalID: 2386838791127983318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_39
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 4
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abed4f406d1927230800000000000000
+      internalID: 3635128197633597114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_40
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 250
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1d20b7b3c9a6650800000000000000
+      internalID: 6226961214073917857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Underwear_41
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e8783a496cc4860800000000000000
+      internalID: 7515600219875544669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Purple Underwear_0: -374777143637931741
+      Purple Underwear_1: -3605336919252636712
+      Purple Underwear_10: 6150276009457996424
+      Purple Underwear_11: 5360709268807744495
+      Purple Underwear_12: -333920914231349718
+      Purple Underwear_13: -7297027705457189875
+      Purple Underwear_14: -5273926414670002351
+      Purple Underwear_15: -8117148106322897104
+      Purple Underwear_16: 1997678177620116523
+      Purple Underwear_17: -6678179045744935448
+      Purple Underwear_18: -7654564079004967928
+      Purple Underwear_19: 9131810351835883330
+      Purple Underwear_2: -3946865283587508070
+      Purple Underwear_20: -9150175471495808902
+      Purple Underwear_21: -5184951885180479617
+      Purple Underwear_22: 1997141101411448297
+      Purple Underwear_23: 6865650024348601313
+      Purple Underwear_24: 1039622429104182368
+      Purple Underwear_25: -4716452011803986768
+      Purple Underwear_26: 5588400144899629819
+      Purple Underwear_27: 936015513878788943
+      Purple Underwear_28: 968093644371330559
+      Purple Underwear_29: -8328341758988409080
+      Purple Underwear_3: 884181679793549097
+      Purple Underwear_30: 2590884217724062311
+      Purple Underwear_31: 8266607381694351571
+      Purple Underwear_32: -691724894880055546
+      Purple Underwear_33: 828057066702191163
+      Purple Underwear_34: -3789506676294681365
+      Purple Underwear_35: 7182807478470396102
+      Purple Underwear_36: 5342386013097222540
+      Purple Underwear_37: 2319958238368312444
+      Purple Underwear_38: 2386838791127983318
+      Purple Underwear_39: 3635128197633597114
+      Purple Underwear_4: 4287927411968745064
+      Purple Underwear_40: 6226961214073917857
+      Purple Underwear_41: 7515600219875544669
+      Purple Underwear_5: -7191469311373900485
+      Purple Underwear_6: 6692376317269459135
+      Purple Underwear_7: -6210879552774078568
+      Purple Underwear_8: 1873670978710698104
+      Purple Underwear_9: -7683596771708622883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

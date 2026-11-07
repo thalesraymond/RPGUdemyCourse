@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 88c6b82fd453cd73c861e1ca2a5e2f2f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1976466997711170374
+    second: Socks_0
+  - first:
+      213: -135480847317891785
+    second: Socks_1
+  - first:
+      213: -4456364586627623690
+    second: Socks_2
+  - first:
+      213: 4000972300213897279
+    second: Socks_3
+  - first:
+      213: 5787677758340280868
+    second: Socks_4
+  - first:
+      213: 4228996551476201157
+    second: Socks_5
+  - first:
+      213: 1342611684929741035
+    second: Socks_6
+  - first:
+      213: 9128597515892969436
+    second: Socks_7
+  - first:
+      213: -5905937309448472558
+    second: Socks_8
+  - first:
+      213: 5961446022838074809
+    second: Socks_9
+  - first:
+      213: 7332636435764655947
+    second: Socks_10
+  - first:
+      213: 3114361022274480774
+    second: Socks_11
+  - first:
+      213: -313745511773245834
+    second: Socks_12
+  - first:
+      213: 8369544125133613135
+    second: Socks_13
+  - first:
+      213: 5769341460129339328
+    second: Socks_14
+  - first:
+      213: -7523752090697763357
+    second: Socks_15
+  - first:
+      213: -4151432679633990811
+    second: Socks_16
+  - first:
+      213: 2825788020896290292
+    second: Socks_17
+  - first:
+      213: -8616767873098508480
+    second: Socks_18
+  - first:
+      213: -8346521134983618714
+    second: Socks_19
+  - first:
+      213: -7186557948742838609
+    second: Socks_20
+  - first:
+      213: -6738936210803157462
+    second: Socks_21
+  - first:
+      213: 4018687129966410966
+    second: Socks_22
+  - first:
+      213: -6534933330691983660
+    second: Socks_23
+  - first:
+      213: -2903711708487345576
+    second: Socks_24
+  - first:
+      213: 6200176140770803735
+    second: Socks_25
+  - first:
+      213: 2979369608271043297
+    second: Socks_26
+  - first:
+      213: 3142638462501314971
+    second: Socks_27
+  - first:
+      213: -4550923603598711317
+    second: Socks_28
+  - first:
+      213: 1245542544119147809
+    second: Socks_29
+  - first:
+      213: 6345896478920768083
+    second: Socks_30
+  - first:
+      213: 6525390934619125467
+    second: Socks_31
+  - first:
+      213: 896416805746543444
+    second: Socks_32
+  - first:
+      213: 6658159795530388420
+    second: Socks_33
+  - first:
+      213: -7166646404553758000
+    second: Socks_34
+  - first:
+      213: 4371665911769990564
+    second: Socks_35
+  - first:
+      213: 4554978152915275128
+    second: Socks_36
+  - first:
+      213: -8997281075758052724
+    second: Socks_37
+  - first:
+      213: 7599256436643379231
+    second: Socks_38
+  - first:
+      213: -660239654688386497
+    second: Socks_39
+  - first:
+      213: -7253773599190767977
+    second: Socks_40
+  - first:
+      213: 7227305516179713951
+    second: Socks_41
+  - first:
+      213: -5627840375533051540
+    second: Socks_42
+  - first:
+      213: -2791595870430783774
+    second: Socks_43
+  - first:
+      213: 4488740467334215971
+    second: Socks_44
+  - first:
+      213: -4128042043256043412
+    second: Socks_45
+  - first:
+      213: 6110211761538690883
+    second: Socks_46
+  - first:
+      213: 4068082869711192795
+    second: Socks_47
+  - first:
+      213: -3365613571701658162
+    second: Socks_48
+  - first:
+      213: 7755521826341698108
+    second: Socks_49
+  - first:
+      213: 8405504074237064400
+    second: Socks_50
+  - first:
+      213: -8745529038682134741
+    second: Socks_51
+  - first:
+      213: 1307090210704642530
+    second: Socks_52
+  - first:
+      213: 6372533551249181474
+    second: Socks_53
+  - first:
+      213: 461480365412721916
+    second: Socks_54
+  - first:
+      213: -354183802778216589
+    second: Socks_55
+  - first:
+      213: -4281569816727170191
+    second: Socks_56
+  - first:
+      213: -3433634114800448029
+    second: Socks_57
+  - first:
+      213: 5851010606254955275
+    second: Socks_58
+  - first:
+      213: -707139853566211474
+    second: Socks_59
+  - first:
+      213: 1090452296407067839
+    second: Socks_60
+  - first:
+      213: -4914903526454299333
+    second: Socks_61
+  - first:
+      213: -6605721569174679161
+    second: Socks_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Socks_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab49423ccbd2294e0800000000000000
+      internalID: -1976466997711170374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7358fbd13ecae1ef0800000000000000
+      internalID: -135480847317891785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f41e60f400d722c0800000000000000
+      internalID: -4456364586627623690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f384d66eb1f468730800000000000000
+      internalID: 4000972300213897279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4223d4cb146f15050800000000000000
+      internalID: 5787677758340280868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6471715f960ba30800000000000000
+      internalID: 4228996551476201157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0a687c63ae1a210800000000000000
+      internalID: 1342611684929741035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf4058431b4fae70800000000000000
+      internalID: 9128597515892969436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_8
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218f89cde45e90ea0800000000000000
+      internalID: -5905937309448472558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdbdea929f4bb250800000000000000
+      internalID: 5961446022838074809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 322
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47b6d40df1c2c560800000000000000
+      internalID: 7332636435764655947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 319
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a2ef269de683b20800000000000000
+      internalID: 3114361022274480774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 319
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ee1ec8e1a55abf0800000000000000
+      internalID: -313745511773245834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 319
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48eb8eb908962470800000000000000
+      internalID: 8369544125133613135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 319
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c751fe9d71d01050800000000000000
+      internalID: 5769341460129339328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 323
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e57bd70653469790800000000000000
+      internalID: -7523752090697763357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 319
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bc77d19f52366c0800000000000000
+      internalID: -4151432679633990811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_17
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 319
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5d31cbb37373720800000000000000
+      internalID: 2825788020896290292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_18
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 319
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04717f3e5471b6880800000000000000
+      internalID: -8616767873098508480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_19
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 319
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fd20fdf333b2c80800000000000000
+      internalID: -8346521134983618714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_20
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 324
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa65c632f97344c90800000000000000
+      internalID: -7186557948742838609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_21
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 319
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a269f0f783d7a72a0800000000000000
+      internalID: -6738936210803157462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_22
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 319
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcf41d17ae35c730800000000000000
+      internalID: 4018687129966410966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 259
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d67e3162c04f45a0800000000000000
+      internalID: -6534933330691983660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 255
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a187de591f3b7d0800000000000000
+      internalID: -2903711708487345576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 255
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7100f7f99537b0650800000000000000
+      internalID: 6200176140770803735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 258
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea17939fd8d85920800000000000000
+      internalID: 2979369608271043297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_27
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 255
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91eedef705ec9b20800000000000000
+      internalID: 3142638462501314971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 259
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5ee87281fd7d0c0800000000000000
+      internalID: -4550923603598711317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_29
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 255
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dabde385e094110800000000000000
+      internalID: 1245542544119147809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 259
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a797fb937211850800000000000000
+      internalID: 6345896478920768083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_31
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 255
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6f6866b78de8a50800000000000000
+      internalID: 6525390934619125467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_32
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 255
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b863dd556b07c00800000000000000
+      internalID: 896416805746543444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_33
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 260
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3506ebe09866c50800000000000000
+      internalID: 6658159795530388420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_34
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 255
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da2eb9c015fa8c90800000000000000
+      internalID: -7166646404553758000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_35
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 250
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a50cb31cf64bac30800000000000000
+      internalID: 4371665911769990564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_36
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 195
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d0e2c2f78863f30800000000000000
+      internalID: 4554978152915275128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_37
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 195
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ac81ff78c332380800000000000000
+      internalID: -8997281075758052724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_38
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 195
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18ba3f677bf57960800000000000000
+      internalID: 7599256436643379231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_39
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 195
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f321cab388b56d6f0800000000000000
+      internalID: -660239654688386497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_40
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 128
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796a02bf75b655b90800000000000000
+      internalID: -7253773599190767977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_41
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 136
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fec17331c8c4460800000000000000
+      internalID: 7227305516179713951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_42
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 128
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6160cbfef4e5e1b0800000000000000
+      internalID: -5627840375533051540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_43
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 136
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6968aa8524249d0800000000000000
+      internalID: -2791595870430783774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_44
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 128
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32970643ca53b4e30800000000000000
+      internalID: 4488740467334215971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_45
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 136
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6888d902af36b6c0800000000000000
+      internalID: -4128042043256043412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_46
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 128
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f6dec4935dbc450800000000000000
+      internalID: 6110211761538690883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_47
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 136
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2ccfdf0dbb47830800000000000000
+      internalID: 4068082869711192795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_48
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd2d7fc940fa41d0800000000000000
+      internalID: -3365613571701658162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ab2e2b20621ab60800000000000000
+      internalID: 7755521826341698108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_50
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4bff6db6956a470800000000000000
+      internalID: 8405504074237064400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_51
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27ec74dca3a1a680800000000000000
+      internalID: -8745529038682134741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_52
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1d0721f97b32210800000000000000
+      internalID: 1307090210704642530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_53
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 12
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b47717089cf6850800000000000000
+      internalID: 6372533551249181474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_54
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf42e3382f1876600800000000000000
+      internalID: 461480365412721916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_55
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 12
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377153a35bfa51bf0800000000000000
+      internalID: -354183802778216589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_56
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17351f8bfeec494c0800000000000000
+      internalID: -4281569816727170191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_57
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 11
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed08aaf6f74950d0800000000000000
+      internalID: -3433634114800448029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_58
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 17
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b9eda7527f23150800000000000000
+      internalID: 5851010606254955275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_59
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a0aadbc0cbf26f0800000000000000
+      internalID: -707139853566211474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_60
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc2adb0690122f00800000000000000
+      internalID: 1090452296407067839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3570607841cacbb0800000000000000
+      internalID: -4914903526454299333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Socks_62
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78115304b33c354a0800000000000000
+      internalID: -6605721569174679161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Socks_0: -1976466997711170374
+      Socks_1: -135480847317891785
+      Socks_10: 7332636435764655947
+      Socks_11: 3114361022274480774
+      Socks_12: -313745511773245834
+      Socks_13: 8369544125133613135
+      Socks_14: 5769341460129339328
+      Socks_15: -7523752090697763357
+      Socks_16: -4151432679633990811
+      Socks_17: 2825788020896290292
+      Socks_18: -8616767873098508480
+      Socks_19: -8346521134983618714
+      Socks_2: -4456364586627623690
+      Socks_20: -7186557948742838609
+      Socks_21: -6738936210803157462
+      Socks_22: 4018687129966410966
+      Socks_23: -6534933330691983660
+      Socks_24: -2903711708487345576
+      Socks_25: 6200176140770803735
+      Socks_26: 2979369608271043297
+      Socks_27: 3142638462501314971
+      Socks_28: -4550923603598711317
+      Socks_29: 1245542544119147809
+      Socks_3: 4000972300213897279
+      Socks_30: 6345896478920768083
+      Socks_31: 6525390934619125467
+      Socks_32: 896416805746543444
+      Socks_33: 6658159795530388420
+      Socks_34: -7166646404553758000
+      Socks_35: 4371665911769990564
+      Socks_36: 4554978152915275128
+      Socks_37: -8997281075758052724
+      Socks_38: 7599256436643379231
+      Socks_39: -660239654688386497
+      Socks_4: 5787677758340280868
+      Socks_40: -7253773599190767977
+      Socks_41: 7227305516179713951
+      Socks_42: -5627840375533051540
+      Socks_43: -2791595870430783774
+      Socks_44: 4488740467334215971
+      Socks_45: -4128042043256043412
+      Socks_46: 6110211761538690883
+      Socks_47: 4068082869711192795
+      Socks_48: -3365613571701658162
+      Socks_49: 7755521826341698108
+      Socks_5: 4228996551476201157
+      Socks_50: 8405504074237064400
+      Socks_51: -8745529038682134741
+      Socks_52: 1307090210704642530
+      Socks_53: 6372533551249181474
+      Socks_54: 461480365412721916
+      Socks_55: -354183802778216589
+      Socks_56: -4281569816727170191
+      Socks_57: -3433634114800448029
+      Socks_58: 5851010606254955275
+      Socks_59: -707139853566211474
+      Socks_6: 1342611684929741035
+      Socks_60: 1090452296407067839
+      Socks_61: -4914903526454299333
+      Socks_62: -6605721569174679161
+      Socks_7: 9128597515892969436
+      Socks_8: -5905937309448472558
+      Socks_9: 5961446022838074809
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

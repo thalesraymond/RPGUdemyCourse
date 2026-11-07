@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: bd6be18993ca97c139d338e370fd3f71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2393055571251104065
+    second: Male Hair2_0
+  - first:
+      213: 2377513008546374517
+    second: Male Hair2_1
+  - first:
+      213: -2861401233688831439
+    second: Male Hair2_2
+  - first:
+      213: 2317617862712005534
+    second: Male Hair2_3
+  - first:
+      213: 281077437528390566
+    second: Male Hair2_4
+  - first:
+      213: 8433829911384798004
+    second: Male Hair2_5
+  - first:
+      213: -2905339293457061140
+    second: Male Hair2_6
+  - first:
+      213: 4658287478886508865
+    second: Male Hair2_7
+  - first:
+      213: -533806552318900766
+    second: Male Hair2_8
+  - first:
+      213: -6626571071521399134
+    second: Male Hair2_9
+  - first:
+      213: 8450296253872073440
+    second: Male Hair2_10
+  - first:
+      213: -3068918211014714913
+    second: Male Hair2_11
+  - first:
+      213: -3455550820999078088
+    second: Male Hair2_12
+  - first:
+      213: 5990111939000115221
+    second: Male Hair2_13
+  - first:
+      213: 2549362297724074326
+    second: Male Hair2_14
+  - first:
+      213: 1225775195401428615
+    second: Male Hair2_15
+  - first:
+      213: -3949261714820407407
+    second: Male Hair2_16
+  - first:
+      213: 5440632043521106220
+    second: Male Hair2_17
+  - first:
+      213: 6950557850419149100
+    second: Male Hair2_18
+  - first:
+      213: -4875775818370389665
+    second: Male Hair2_19
+  - first:
+      213: -3927593166617797269
+    second: Male Hair2_20
+  - first:
+      213: -6851633253782987248
+    second: Male Hair2_21
+  - first:
+      213: 8905979384287172333
+    second: Male Hair2_22
+  - first:
+      213: 8685455950029725170
+    second: Male Hair2_23
+  - first:
+      213: 8416731443275651769
+    second: Male Hair2_24
+  - first:
+      213: 3931952861540331790
+    second: Male Hair2_25
+  - first:
+      213: -6072299200536449386
+    second: Male Hair2_26
+  - first:
+      213: 3424375858450544131
+    second: Male Hair2_27
+  - first:
+      213: -1502965810843234318
+    second: Male Hair2_28
+  - first:
+      213: 644939659519271184
+    second: Male Hair2_29
+  - first:
+      213: 4009212810505730743
+    second: Male Hair2_30
+  - first:
+      213: -3583857224178713796
+    second: Male Hair2_31
+  - first:
+      213: 6763683808572190859
+    second: Male Hair2_32
+  - first:
+      213: 3335835938893441234
+    second: Male Hair2_33
+  - first:
+      213: -200009114330290131
+    second: Male Hair2_34
+  - first:
+      213: -1353690695258383266
+    second: Male Hair2_35
+  - first:
+      213: 7601715591248803145
+    second: Male Hair2_36
+  - first:
+      213: 9180237669025993511
+    second: Male Hair2_37
+  - first:
+      213: 2007768018399606289
+    second: Male Hair2_38
+  - first:
+      213: -7497341037037002074
+    second: Male Hair2_39
+  - first:
+      213: -5372691631251745646
+    second: Male Hair2_40
+  - first:
+      213: -3474654083603854462
+    second: Male Hair2_41
+  - first:
+      213: -8742388588733267107
+    second: Male Hair2_42
+  - first:
+      213: 4060927391318870048
+    second: Male Hair2_43
+  - first:
+      213: 1747272997998163822
+    second: Male Hair2_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Male Hair2_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 417
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1490134fc57d53120800000000000000
+      internalID: 2393055571251104065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 417
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573e6431c7f9ef020800000000000000
+      internalID: 2377513008546374517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 418
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13adc120db24a48d0800000000000000
+      internalID: -2861401233688831439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 418
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e939c08ba25d92020800000000000000
+      internalID: 2317617862712005534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 418
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abb142b07696e300800000000000000
+      internalID: 281077437528390566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 353
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433b72cbe9bfa0570800000000000000
+      internalID: 8433829911384798004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 353
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceae1854e492ea7d0800000000000000
+      internalID: -2905339293457061140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 354
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1492ea808cf85a040800000000000000
+      internalID: 4658287478886508865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 354
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e58146d4c98798f0800000000000000
+      internalID: -533806552318900766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 353
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae561338b0b904a0800000000000000
+      internalID: -6626571071521399134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_10
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 353
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eaebdadbab754570800000000000000
+      internalID: 8450296253872073440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_11
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 354
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd99dbb95230965d0800000000000000
+      internalID: -3068918211014714913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_12
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 354
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f5a0b26da6b00d0800000000000000
+      internalID: -3455550820999078088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 290
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510ade05217212350800000000000000
+      internalID: 5990111939000115221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 289
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659fd9fa087216320800000000000000
+      internalID: 2549362297724074326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 290
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e1368bb04d20110800000000000000
+      internalID: 1225775195401428615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_16
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 290
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f541bf4676139c0800000000000000
+      internalID: -3949261714820407407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_17
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 290
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21eea39402018b40800000000000000
+      internalID: 5440632043521106220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_18
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 289
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2939011a87557060800000000000000
+      internalID: 6950557850419149100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_19
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 290
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59e795e9b3c55cb0800000000000000
+      internalID: -4875775818370389665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_20
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 290
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d9e7103d26e79c0800000000000000
+      internalID: -3927593166617797269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 229
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ed2017bdb1ae0a0800000000000000
+      internalID: -6851633253782987248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_22
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 229
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de693696015689b70800000000000000
+      internalID: 8905979384287172333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_23
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 229
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd13d54b20f88870800000000000000
+      internalID: 8685455950029725170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_24
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 229
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba5e4667ac3ec470800000000000000
+      internalID: 8416731443275651769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 163
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0131b19b4a119630800000000000000
+      internalID: 3931952861540331790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 163
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ee22eac0cdabba0800000000000000
+      internalID: -6072299200536449386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 163
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3063e5c33b3d58f20800000000000000
+      internalID: 3424375858450544131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 163
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffc12fde84642be0800000000000000
+      internalID: -1502965810843234318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 97
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011253b043943f800800000000000000
+      internalID: 644939659519271184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 97
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bab3273fc593a730800000000000000
+      internalID: 4009212810505730743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 98
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b3c1bb7d4934ec0800000000000000
+      internalID: -3583857224178713796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_32
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 98
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80b10f969e6ddd50800000000000000
+      internalID: 6763683808572190859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 95
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8a9b6cc154b4e20800000000000000
+      internalID: 3335835938893441234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_34
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 97
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28a08c25cc693df0800000000000000
+      internalID: -200009114330290131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_35
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c5f5d1c79b63de0800000000000000
+      internalID: -1353690695258383266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_36
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 31
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945feebfd08be7960800000000000000
+      internalID: 7601715591248803145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_37
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 26
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72354ff5581c66f70800000000000000
+      internalID: 9180237669025993511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_38
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 25
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116391800660ddb10800000000000000
+      internalID: 2007768018399606289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_39
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 26
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a26377ac0814f790800000000000000
+      internalID: -7497341037037002074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_40
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 25
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29496875d6d5075b0800000000000000
+      internalID: -5372691631251745646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_41
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 25
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b8e6d358c87cfc0800000000000000
+      internalID: -3474654083603854462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_42
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 0
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d530020d5ebcca680800000000000000
+      internalID: -8742388588733267107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_43
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028073a52ff4b5830800000000000000
+      internalID: 4060927391318870048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Hair2_44
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67ff43c88f8f3810800000000000000
+      internalID: 1747272997998163822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Male Hair2_0: 2393055571251104065
+      Male Hair2_1: 2377513008546374517
+      Male Hair2_10: 8450296253872073440
+      Male Hair2_11: -3068918211014714913
+      Male Hair2_12: -3455550820999078088
+      Male Hair2_13: 5990111939000115221
+      Male Hair2_14: 2549362297724074326
+      Male Hair2_15: 1225775195401428615
+      Male Hair2_16: -3949261714820407407
+      Male Hair2_17: 5440632043521106220
+      Male Hair2_18: 6950557850419149100
+      Male Hair2_19: -4875775818370389665
+      Male Hair2_2: -2861401233688831439
+      Male Hair2_20: -3927593166617797269
+      Male Hair2_21: -6851633253782987248
+      Male Hair2_22: 8905979384287172333
+      Male Hair2_23: 8685455950029725170
+      Male Hair2_24: 8416731443275651769
+      Male Hair2_25: 3931952861540331790
+      Male Hair2_26: -6072299200536449386
+      Male Hair2_27: 3424375858450544131
+      Male Hair2_28: -1502965810843234318
+      Male Hair2_29: 644939659519271184
+      Male Hair2_3: 2317617862712005534
+      Male Hair2_30: 4009212810505730743
+      Male Hair2_31: -3583857224178713796
+      Male Hair2_32: 6763683808572190859
+      Male Hair2_33: 3335835938893441234
+      Male Hair2_34: -200009114330290131
+      Male Hair2_35: -1353690695258383266
+      Male Hair2_36: 7601715591248803145
+      Male Hair2_37: 9180237669025993511
+      Male Hair2_38: 2007768018399606289
+      Male Hair2_39: -7497341037037002074
+      Male Hair2_4: 281077437528390566
+      Male Hair2_40: -5372691631251745646
+      Male Hair2_41: -3474654083603854462
+      Male Hair2_42: -8742388588733267107
+      Male Hair2_43: 4060927391318870048
+      Male Hair2_44: 1747272997998163822
+      Male Hair2_5: 8433829911384798004
+      Male Hair2_6: -2905339293457061140
+      Male Hair2_7: 4658287478886508865
+      Male Hair2_8: -533806552318900766
+      Male Hair2_9: -6626571071521399134
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

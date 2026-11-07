@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: f2d0c15e58ba1fcaaa0c1f547a3aa1fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7614985774063316234
+    second: Blue Pants_0
+  - first:
+      213: 2278060538575626239
+    second: Blue Pants_1
+  - first:
+      213: 3631248197499522323
+    second: Blue Pants_2
+  - first:
+      213: -907339794413838836
+    second: Blue Pants_3
+  - first:
+      213: 3693587604915104731
+    second: Blue Pants_4
+  - first:
+      213: 5400072073761802736
+    second: Blue Pants_5
+  - first:
+      213: 3648958779013790992
+    second: Blue Pants_6
+  - first:
+      213: 8936197156134961889
+    second: Blue Pants_7
+  - first:
+      213: -9195446416878355981
+    second: Blue Pants_8
+  - first:
+      213: -5400481426365939966
+    second: Blue Pants_9
+  - first:
+      213: 8970486256784133743
+    second: Blue Pants_10
+  - first:
+      213: -5621572469999560223
+    second: Blue Pants_11
+  - first:
+      213: -4826669719545388205
+    second: Blue Pants_12
+  - first:
+      213: 7800013799006727023
+    second: Blue Pants_13
+  - first:
+      213: -1759257688503716557
+    second: Blue Pants_14
+  - first:
+      213: -8266342523279147814
+    second: Blue Pants_15
+  - first:
+      213: 3333237985962427737
+    second: Blue Pants_16
+  - first:
+      213: 4744415900334703888
+    second: Blue Pants_17
+  - first:
+      213: 6189680414591293696
+    second: Blue Pants_18
+  - first:
+      213: 8439287224504598778
+    second: Blue Pants_19
+  - first:
+      213: -4191063544550111045
+    second: Blue Pants_20
+  - first:
+      213: 4351101157356204133
+    second: Blue Pants_21
+  - first:
+      213: 5403403893548699924
+    second: Blue Pants_22
+  - first:
+      213: 6085689529523550534
+    second: Blue Pants_23
+  - first:
+      213: -2423712891347762173
+    second: Blue Pants_24
+  - first:
+      213: -4700804214991314319
+    second: Blue Pants_25
+  - first:
+      213: -9189390705795246442
+    second: Blue Pants_26
+  - first:
+      213: 6712784539667908636
+    second: Blue Pants_27
+  - first:
+      213: -2680831903650777586
+    second: Blue Pants_28
+  - first:
+      213: -2046345364438306693
+    second: Blue Pants_29
+  - first:
+      213: -119239156100498617
+    second: Blue Pants_30
+  - first:
+      213: 7827514925412373888
+    second: Blue Pants_31
+  - first:
+      213: -863856428816251577
+    second: Blue Pants_32
+  - first:
+      213: 1932354634518020186
+    second: Blue Pants_33
+  - first:
+      213: -8001358447294518527
+    second: Blue Pants_34
+  - first:
+      213: -2414583495183246650
+    second: Blue Pants_35
+  - first:
+      213: 2103816619784608903
+    second: Blue Pants_36
+  - first:
+      213: 4669615018390472266
+    second: Blue Pants_37
+  - first:
+      213: 6035104887810801632
+    second: Blue Pants_38
+  - first:
+      213: 7744029184241036055
+    second: Blue Pants_39
+  - first:
+      213: -8770030708208382316
+    second: Blue Pants_40
+  - first:
+      213: -4460136239006954368
+    second: Blue Pants_41
+  - first:
+      213: -7950473718377627990
+    second: Blue Pants_42
+  - first:
+      213: 6574939869036278369
+    second: Blue Pants_43
+  - first:
+      213: -2218686826755235259
+    second: Blue Pants_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue Pants_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d62b0373ddda960800000000000000
+      internalID: 7614985774063316234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff92aa7dfb4d9f10800000000000000
+      internalID: 2278060538575626239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d8c371ff8c46230800000000000000
+      internalID: 3631248197499522323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e1367a34b7863f0800000000000000
+      internalID: -907339794413838836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb20c17b52424330800000000000000
+      internalID: 3693587604915104731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 321
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f94416b0f8e0fa40800000000000000
+      internalID: 5400072073761802736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 321
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01df82f2da4b3a230800000000000000
+      internalID: 3648958779013790992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 321
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2c74ea7ffb30c70800000000000000
+      internalID: 8936197156134961889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 322
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9b3d21436336080800000000000000
+      internalID: -9195446416878355981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 321
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ffc5571c2ad05b0800000000000000
+      internalID: -5400481426365939966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 321
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e442e09b19d7c70800000000000000
+      internalID: 8970486256784133743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 321
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e99f867f992cf1b0800000000000000
+      internalID: -5621572469999560223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 321
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353ec5e7679340db0800000000000000
+      internalID: -4826669719545388205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 258
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6be0f459373f3c60800000000000000
+      internalID: 7800013799006727023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 257
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3357c58047cd597e0800000000000000
+      internalID: -1759257688503716557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 257
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc7d34a54d084d80800000000000000
+      internalID: -8266342523279147814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 257
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9550129b94a024e20800000000000000
+      internalID: 3333237985962427737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 257
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0154a26df1d87d140800000000000000
+      internalID: 4744415900334703888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 257
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00918e0fa8926e550800000000000000
+      internalID: 6189680414591293696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_19
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 257
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0c616740f5e1570800000000000000
+      internalID: 8439287224504598778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_20
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 260
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8400459e956d5c0800000000000000
+      internalID: -4191063544550111045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 197
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560f1021377326c30800000000000000
+      internalID: 4351101157356204133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 197
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411dee4763fbcfa40800000000000000
+      internalID: 5403403893548699924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_23
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 197
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649b09c3266b47450800000000000000
+      internalID: 6085689529523550534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 196
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3048ea977fd3d5ed0800000000000000
+      internalID: -2423712891347762173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172a8cee87363ceb0800000000000000
+      internalID: -4700804214991314319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_26
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6965cce27d9b87080800000000000000
+      internalID: -9189390705795246442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_27
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18c3a419f9982d50800000000000000
+      internalID: 6712784539667908636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e067c585695cbcad0800000000000000
+      internalID: -2680831903650777586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 65
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7033e8abbbe993e0800000000000000
+      internalID: -2046345364438306693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 65
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bff498e90685ef0800000000000000
+      internalID: -119239156100498617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 65
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085d54b4a5be0ac60800000000000000
+      internalID: 7827514925412373888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 65
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7454877a727f204f0800000000000000
+      internalID: -863856428816251577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_33
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 65
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50c6825d4a11da10800000000000000
+      internalID: 1932354634518020186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_34
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 65
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b607c92e675f090800000000000000
+      internalID: -8001358447294518527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cad419aa1dad7ed0800000000000000
+      internalID: -2414583495183246650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c13d6b112423d10800000000000000
+      internalID: 2103816619784608903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_37
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a464ef85e1ecdc040800000000000000
+      internalID: 4669615018390472266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_38
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efbf2c8beff0c350800000000000000
+      internalID: 6035104887810801632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_39
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71be1f07381587b60800000000000000
+      internalID: 7744029184241036055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_40
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ec8f759879a4680800000000000000
+      internalID: -8770030708208382316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_41
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cc420b8b96a12c0800000000000000
+      internalID: -4460136239006954368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_42
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 0
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaeb50cc64e3aa190800000000000000
+      internalID: -7950473718377627990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_43
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 0
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162f571b9f0ee3b50800000000000000
+      internalID: 6574939869036278369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Pants_44
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 0
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5426a6f0614a531e0800000000000000
+      internalID: -2218686826755235259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Blue Pants_0: 7614985774063316234
+      Blue Pants_1: 2278060538575626239
+      Blue Pants_10: 8970486256784133743
+      Blue Pants_11: -5621572469999560223
+      Blue Pants_12: -4826669719545388205
+      Blue Pants_13: 7800013799006727023
+      Blue Pants_14: -1759257688503716557
+      Blue Pants_15: -8266342523279147814
+      Blue Pants_16: 3333237985962427737
+      Blue Pants_17: 4744415900334703888
+      Blue Pants_18: 6189680414591293696
+      Blue Pants_19: 8439287224504598778
+      Blue Pants_2: 3631248197499522323
+      Blue Pants_20: -4191063544550111045
+      Blue Pants_21: 4351101157356204133
+      Blue Pants_22: 5403403893548699924
+      Blue Pants_23: 6085689529523550534
+      Blue Pants_24: -2423712891347762173
+      Blue Pants_25: -4700804214991314319
+      Blue Pants_26: -9189390705795246442
+      Blue Pants_27: 6712784539667908636
+      Blue Pants_28: -2680831903650777586
+      Blue Pants_29: -2046345364438306693
+      Blue Pants_3: -907339794413838836
+      Blue Pants_30: -119239156100498617
+      Blue Pants_31: 7827514925412373888
+      Blue Pants_32: -863856428816251577
+      Blue Pants_33: 1932354634518020186
+      Blue Pants_34: -8001358447294518527
+      Blue Pants_35: -2414583495183246650
+      Blue Pants_36: 2103816619784608903
+      Blue Pants_37: 4669615018390472266
+      Blue Pants_38: 6035104887810801632
+      Blue Pants_39: 7744029184241036055
+      Blue Pants_4: 3693587604915104731
+      Blue Pants_40: -8770030708208382316
+      Blue Pants_41: -4460136239006954368
+      Blue Pants_42: -7950473718377627990
+      Blue Pants_43: 6574939869036278369
+      Blue Pants_44: -2218686826755235259
+      Blue Pants_5: 5400072073761802736
+      Blue Pants_6: 3648958779013790992
+      Blue Pants_7: 8936197156134961889
+      Blue Pants_8: -9195446416878355981
+      Blue Pants_9: -5400481426365939966
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

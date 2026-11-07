@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: d0dc3d89b1d1baf4f8acf78635648b0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3543743279219223362
+    second: Red Panties and Bra_0
+  - first:
+      213: -236136059555790576
+    second: Red Panties and Bra_1
+  - first:
+      213: 8160241199730798618
+    second: Red Panties and Bra_2
+  - first:
+      213: -658769572488823687
+    second: Red Panties and Bra_3
+  - first:
+      213: 5441878158322820836
+    second: Red Panties and Bra_4
+  - first:
+      213: -4351231892188897631
+    second: Red Panties and Bra_5
+  - first:
+      213: 2021634700655567284
+    second: Red Panties and Bra_6
+  - first:
+      213: -3673482456999294550
+    second: Red Panties and Bra_7
+  - first:
+      213: -1831605609365727952
+    second: Red Panties and Bra_8
+  - first:
+      213: 6980523217875424285
+    second: Red Panties and Bra_9
+  - first:
+      213: 4543583580852624773
+    second: Red Panties and Bra_10
+  - first:
+      213: 2240945760927035053
+    second: Red Panties and Bra_11
+  - first:
+      213: -3422190336438337620
+    second: Red Panties and Bra_12
+  - first:
+      213: -5251266178746770217
+    second: Red Panties and Bra_13
+  - first:
+      213: -4057395131219503594
+    second: Red Panties and Bra_14
+  - first:
+      213: -8112948534413712402
+    second: Red Panties and Bra_15
+  - first:
+      213: 5778778558068688719
+    second: Red Panties and Bra_16
+  - first:
+      213: -3897124578506450456
+    second: Red Panties and Bra_17
+  - first:
+      213: -519733689213843996
+    second: Red Panties and Bra_18
+  - first:
+      213: -4903368909868909261
+    second: Red Panties and Bra_19
+  - first:
+      213: 5058050448448326392
+    second: Red Panties and Bra_20
+  - first:
+      213: 3402166420441260089
+    second: Red Panties and Bra_21
+  - first:
+      213: 7346317399653913492
+    second: Red Panties and Bra_22
+  - first:
+      213: 8156349951705031717
+    second: Red Panties and Bra_23
+  - first:
+      213: 5257678310231658798
+    second: Red Panties and Bra_24
+  - first:
+      213: -5360991148128508942
+    second: Red Panties and Bra_25
+  - first:
+      213: 2029831728375589269
+    second: Red Panties and Bra_26
+  - first:
+      213: -5787352149612381887
+    second: Red Panties and Bra_27
+  - first:
+      213: 8763114148850330213
+    second: Red Panties and Bra_28
+  - first:
+      213: 4431723299156704250
+    second: Red Panties and Bra_29
+  - first:
+      213: 1020957360955556149
+    second: Red Panties and Bra_30
+  - first:
+      213: -1454502304851722077
+    second: Red Panties and Bra_31
+  - first:
+      213: -5098496072915196910
+    second: Red Panties and Bra_32
+  - first:
+      213: 6499990369338688139
+    second: Red Panties and Bra_33
+  - first:
+      213: 4697213946003748930
+    second: Red Panties and Bra_34
+  - first:
+      213: -402927482536694450
+    second: Red Panties and Bra_35
+  - first:
+      213: 7481314626780140060
+    second: Red Panties and Bra_36
+  - first:
+      213: -4703508773480521060
+    second: Red Panties and Bra_37
+  - first:
+      213: 7794075031931621239
+    second: Red Panties and Bra_38
+  - first:
+      213: 3331391521314866107
+    second: Red Panties and Bra_39
+  - first:
+      213: -3987751702700171446
+    second: Red Panties and Bra_40
+  - first:
+      213: 1105595100553960530
+    second: Red Panties and Bra_41
+  - first:
+      213: 8080418401652216227
+    second: Red Panties and Bra_42
+  - first:
+      213: -7152953069545080541
+    second: Red Panties and Bra_43
+  - first:
+      213: 7892280814399544008
+    second: Red Panties and Bra_44
+  - first:
+      213: -9052745398800936577
+    second: Red Panties and Bra_45
+  - first:
+      213: -8651231429928175562
+    second: Red Panties and Bra_46
+  - first:
+      213: -1161419221068226585
+    second: Red Panties and Bra_47
+  - first:
+      213: 2712913423047250441
+    second: Red Panties and Bra_48
+  - first:
+      213: 2734426139328724010
+    second: Red Panties and Bra_49
+  - first:
+      213: 3149795687106634890
+    second: Red Panties and Bra_50
+  - first:
+      213: 2149699229177961558
+    second: Red Panties and Bra_51
+  - first:
+      213: 4868696493708132127
+    second: Red Panties and Bra_52
+  - first:
+      213: 8350637128344430275
+    second: Red Panties and Bra_53
+  - first:
+      213: -5513906911324172046
+    second: Red Panties and Bra_54
+  - first:
+      213: -6625409735573711416
+    second: Red Panties and Bra_55
+  - first:
+      213: -6770882731647362817
+    second: Red Panties and Bra_56
+  - first:
+      213: -8523544975314712697
+    second: Red Panties and Bra_57
+  - first:
+      213: 7264499342875829441
+    second: Red Panties and Bra_58
+  - first:
+      213: 5014157464621534949
+    second: Red Panties and Bra_59
+  - first:
+      213: -5696929347157768002
+    second: Red Panties and Bra_60
+  - first:
+      213: 4855384769269848866
+    second: Red Panties and Bra_61
+  - first:
+      213: 4983037132213143769
+    second: Red Panties and Bra_62
+  - first:
+      213: -4422481002743508660
+    second: Red Panties and Bra_63
+  - first:
+      213: -376399183451491004
+    second: Red Panties and Bra_64
+  - first:
+      213: -3007038809095687924
+    second: Red Panties and Bra_65
+  - first:
+      213: 1342971343429170792
+    second: Red Panties and Bra_66
+  - first:
+      213: 2273236076757810904
+    second: Red Panties and Bra_67
+  - first:
+      213: 2229716875650326995
+    second: Red Panties and Bra_68
+  - first:
+      213: -5169170798568750078
+    second: Red Panties and Bra_69
+  - first:
+      213: 1342092540885347385
+    second: Red Panties and Bra_70
+  - first:
+      213: 6106412313379145415
+    second: Red Panties and Bra_71
+  - first:
+      213: 5828891394322031206
+    second: Red Panties and Bra_72
+  - first:
+      213: -5966899110993322244
+    second: Red Panties and Bra_73
+  - first:
+      213: 5193979923541713306
+    second: Red Panties and Bra_74
+  - first:
+      213: 1069076406450731027
+    second: Red Panties and Bra_75
+  - first:
+      213: -3864862648751979234
+    second: Red Panties and Bra_76
+  - first:
+      213: -5007657758525224681
+    second: Red Panties and Bra_77
+  - first:
+      213: 8933132610983209536
+    second: Red Panties and Bra_78
+  - first:
+      213: -3751918198934107087
+    second: Red Panties and Bra_79
+  - first:
+      213: -3969957276666125003
+    second: Red Panties and Bra_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red Panties and Bra_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 406
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4d5fa534812dec0800000000000000
+      internalID: -3543743279219223362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 406
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0114483418319bcf0800000000000000
+      internalID: -236136059555790576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a103677e2200f3170800000000000000
+      internalID: 8160241199730798618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cb7fa60949bd6f0800000000000000
+      internalID: -658769572488823687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6e9c94a5f658b40800000000000000
+      internalID: 5441878158322820836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aedabad5a15d93c0800000000000000
+      internalID: -4351231892188897631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1ad269c0a4e0c10800000000000000
+      internalID: 2021634700655567284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa98de51b2b250dc0800000000000000
+      internalID: -3673482456999294550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035942d0764d496e0800000000000000
+      internalID: -1831605609365727952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_9
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14d4dbd1eccfd060800000000000000
+      internalID: 6980523217875424285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 334
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d9400a13d0e0f30800000000000000
+      internalID: 4543583580852624773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 334
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae29f8eb40791f10800000000000000
+      internalID: 2240945760927035053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_12
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf71d24500f180d0800000000000000
+      internalID: -3422190336438337620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_13
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 343
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc96ca9b31cf17b0800000000000000
+      internalID: -5251266178746770217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616134a00ac31b7c0800000000000000
+      internalID: -4057395131219503594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3ae3dca44096f80800000000000000
+      internalID: -8112948534413712402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4704553b78523050800000000000000
+      internalID: 5778778558068688719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_17
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 343
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9ddacf7d1aae9c0800000000000000
+      internalID: -3897124578506450456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e50b9c96f889c8f0800000000000000
+      internalID: -519733689213843996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_19
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33db194a4fbb3fbb0800000000000000
+      internalID: -4903368909868909261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_20
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 334
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa84cb851ec13640800000000000000
+      internalID: 5058050448448326392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 334
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930e92d755ce63f20800000000000000
+      internalID: 3402166420441260089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_22
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49394a5a0cc53f560800000000000000
+      internalID: 7346317399653913492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_23
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524272f111d213170800000000000000
+      internalID: 8156349951705031717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2152a8119607f840800000000000000
+      internalID: 5257678310231658798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f369cb54fee995b0800000000000000
+      internalID: -5360991148128508942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 273
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599e4a3d3396b2c10800000000000000
+      internalID: 2029831728375589269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 271
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149b244f1e13fafa0800000000000000
+      internalID: -5787352149612381887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a6c60b3e5dc9970800000000000000
+      internalID: 8763114148850330213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_29
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbbe0d3cd4a08d30800000000000000
+      internalID: 4431723299156704250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_30
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531839e7f4b2b2e00800000000000000
+      internalID: 1020957360955556149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_31
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0835a2cd190dbe0800000000000000
+      internalID: -1454502304851722077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_32
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 278
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2146a2da5d08e39b0800000000000000
+      internalID: -5098496072915196910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_33
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 270
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8284ef6dca943a50800000000000000
+      internalID: 6499990369338688139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 271
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248709d623bdf2140800000000000000
+      internalID: 4697213946003748930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_35
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 272
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d6825e693886af0800000000000000
+      internalID: -402927482536694450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c121a2ee308f2d760800000000000000
+      internalID: 7481314626780140060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92a2c6d0b7c9beb0800000000000000
+      internalID: -4703508773480521060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f860f52fd1a2c60800000000000000
+      internalID: 7794075031931621239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_39
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb388bb20fa7b3e20800000000000000
+      internalID: 3331391521314866107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fd81454f8a8a8c0800000000000000
+      internalID: -3987751702700171446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c5ee1e2ecd75f00800000000000000
+      internalID: 1105595100553960530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1920379b9632070800000000000000
+      internalID: 8080418401652216227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_43
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329b9bac41b9bbc90800000000000000
+      internalID: -7152953069545080541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_44
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca5ae9e593078d60800000000000000
+      internalID: 7892280814399544008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f711b66f5003e5280800000000000000
+      internalID: -9052745398800936577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_46
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638bf65c9d6a0f780800000000000000
+      internalID: -8651231429928175562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_47
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efdae43f5fc1efe0800000000000000
+      internalID: -1161419221068226585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902de17726436a520800000000000000
+      internalID: 2712913423047250441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_49
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c3b3b0612a2f520800000000000000
+      internalID: 2734426139328724010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a846c053d7256bb20800000000000000
+      internalID: 3149795687106634890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_51
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c55113f0445dd10800000000000000
+      internalID: 2149699229177961558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_52
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 86
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fb9a26aa5119340800000000000000
+      internalID: 4868696493708132127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 86
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c66823893c63e370800000000000000
+      internalID: 8350637128344430275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_54
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 87
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f093f9c0eaaa73b0800000000000000
+      internalID: -5513906911324172046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_55
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 87
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5d6bbc2f0dd04a0800000000000000
+      internalID: -6625409735573711416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_56
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 78
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8155c770ef802a0800000000000000
+      internalID: -6770882731647362817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 86
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7870d4f210946b980800000000000000
+      internalID: -8523544975314712697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_58
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c42c23d9afa0d460800000000000000
+      internalID: 7264499342875829441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_59
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eec3aed5add59540800000000000000
+      internalID: 5014157464621534949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_60
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 79
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8c92041f070f0b0800000000000000
+      internalID: -5696929347157768002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_61
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 79
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bdb2409bac16340800000000000000
+      internalID: 4855384769269848866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_62
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d84528dedd472540800000000000000
+      internalID: 4983037132213143769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_63
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 22
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c415f8595f030a2c0800000000000000
+      internalID: -4422481002743508660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_64
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 20
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44570a8dfe2c6caf0800000000000000
+      internalID: -376399183451491004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_65
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 14
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01b906922ad446d0800000000000000
+      internalID: -3007038809095687924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_66
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 12
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866ff9c425133a210800000000000000
+      internalID: 1342971343429170792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_67
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 14
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de70cdea282c8f10800000000000000
+      internalID: 2273236076757810904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_68
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 12
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1e4d25fab81fe10800000000000000
+      internalID: 2229716875650326995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_69
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 14
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204ccffcb8a6348b0800000000000000
+      internalID: -5169170798568750078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_70
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 13
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c2c232e0210a210800000000000000
+      internalID: 1342092540885347385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_71
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 13
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6090755a55eb450800000000000000
+      internalID: 6106412313379145415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_72
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 6
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66265e027d164e050800000000000000
+      internalID: 5828891394322031206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_73
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe16ae5fd0513da0800000000000000
+      internalID: -5966899110993322244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_74
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 6
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91e639b839b41840800000000000000
+      internalID: 5193979923541713306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_75
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3183f34d35f16de00800000000000000
+      internalID: 1069076406450731027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_76
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15867bd5ef3d5ac0800000000000000
+      internalID: -3864862648751979234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_77
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7190062ecc9318ab0800000000000000
+      internalID: -5007657758525224681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_78
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04aac19a7ccd8fb70800000000000000
+      internalID: 8933132610983209536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_79
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c853ec6428eebc0800000000000000
+      internalID: -3751918198934107087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Panties and Bra_80
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535a6def3e0e7e8c0800000000000000
+      internalID: -3969957276666125003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Red Panties and Bra_0: -3543743279219223362
+      Red Panties and Bra_1: -236136059555790576
+      Red Panties and Bra_10: 4543583580852624773
+      Red Panties and Bra_11: 2240945760927035053
+      Red Panties and Bra_12: -3422190336438337620
+      Red Panties and Bra_13: -5251266178746770217
+      Red Panties and Bra_14: -4057395131219503594
+      Red Panties and Bra_15: -8112948534413712402
+      Red Panties and Bra_16: 5778778558068688719
+      Red Panties and Bra_17: -3897124578506450456
+      Red Panties and Bra_18: -519733689213843996
+      Red Panties and Bra_19: -4903368909868909261
+      Red Panties and Bra_2: 8160241199730798618
+      Red Panties and Bra_20: 5058050448448326392
+      Red Panties and Bra_21: 3402166420441260089
+      Red Panties and Bra_22: 7346317399653913492
+      Red Panties and Bra_23: 8156349951705031717
+      Red Panties and Bra_24: 5257678310231658798
+      Red Panties and Bra_25: -5360991148128508942
+      Red Panties and Bra_26: 2029831728375589269
+      Red Panties and Bra_27: -5787352149612381887
+      Red Panties and Bra_28: 8763114148850330213
+      Red Panties and Bra_29: 4431723299156704250
+      Red Panties and Bra_3: -658769572488823687
+      Red Panties and Bra_30: 1020957360955556149
+      Red Panties and Bra_31: -1454502304851722077
+      Red Panties and Bra_32: -5098496072915196910
+      Red Panties and Bra_33: 6499990369338688139
+      Red Panties and Bra_34: 4697213946003748930
+      Red Panties and Bra_35: -402927482536694450
+      Red Panties and Bra_36: 7481314626780140060
+      Red Panties and Bra_37: -4703508773480521060
+      Red Panties and Bra_38: 7794075031931621239
+      Red Panties and Bra_39: 3331391521314866107
+      Red Panties and Bra_4: 5441878158322820836
+      Red Panties and Bra_40: -3987751702700171446
+      Red Panties and Bra_41: 1105595100553960530
+      Red Panties and Bra_42: 8080418401652216227
+      Red Panties and Bra_43: -7152953069545080541
+      Red Panties and Bra_44: 7892280814399544008
+      Red Panties and Bra_45: -9052745398800936577
+      Red Panties and Bra_46: -8651231429928175562
+      Red Panties and Bra_47: -1161419221068226585
+      Red Panties and Bra_48: 2712913423047250441
+      Red Panties and Bra_49: 2734426139328724010
+      Red Panties and Bra_5: -4351231892188897631
+      Red Panties and Bra_50: 3149795687106634890
+      Red Panties and Bra_51: 2149699229177961558
+      Red Panties and Bra_52: 4868696493708132127
+      Red Panties and Bra_53: 8350637128344430275
+      Red Panties and Bra_54: -5513906911324172046
+      Red Panties and Bra_55: -6625409735573711416
+      Red Panties and Bra_56: -6770882731647362817
+      Red Panties and Bra_57: -8523544975314712697
+      Red Panties and Bra_58: 7264499342875829441
+      Red Panties and Bra_59: 5014157464621534949
+      Red Panties and Bra_6: 2021634700655567284
+      Red Panties and Bra_60: -5696929347157768002
+      Red Panties and Bra_61: 4855384769269848866
+      Red Panties and Bra_62: 4983037132213143769
+      Red Panties and Bra_63: -4422481002743508660
+      Red Panties and Bra_64: -376399183451491004
+      Red Panties and Bra_65: -3007038809095687924
+      Red Panties and Bra_66: 1342971343429170792
+      Red Panties and Bra_67: 2273236076757810904
+      Red Panties and Bra_68: 2229716875650326995
+      Red Panties and Bra_69: -5169170798568750078
+      Red Panties and Bra_7: -3673482456999294550
+      Red Panties and Bra_70: 1342092540885347385
+      Red Panties and Bra_71: 6106412313379145415
+      Red Panties and Bra_72: 5828891394322031206
+      Red Panties and Bra_73: -5966899110993322244
+      Red Panties and Bra_74: 5193979923541713306
+      Red Panties and Bra_75: 1069076406450731027
+      Red Panties and Bra_76: -3864862648751979234
+      Red Panties and Bra_77: -5007657758525224681
+      Red Panties and Bra_78: 8933132610983209536
+      Red Panties and Bra_79: -3751918198934107087
+      Red Panties and Bra_8: -1831605609365727952
+      Red Panties and Bra_80: -3969957276666125003
+      Red Panties and Bra_9: 6980523217875424285
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

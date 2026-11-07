@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: 87df5b8e6bfcd62c49fdc0976488bc56
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7732376999203155836
+    second: Skyblue Panties and Bra_0
+  - first:
+      213: 7717723291168660849
+    second: Skyblue Panties and Bra_1
+  - first:
+      213: -4878569332143377614
+    second: Skyblue Panties and Bra_2
+  - first:
+      213: -4489876855800306321
+    second: Skyblue Panties and Bra_3
+  - first:
+      213: -2219135137620394926
+    second: Skyblue Panties and Bra_4
+  - first:
+      213: -5435549231007815808
+    second: Skyblue Panties and Bra_5
+  - first:
+      213: 5168040879799399991
+    second: Skyblue Panties and Bra_6
+  - first:
+      213: 4153820498597603758
+    second: Skyblue Panties and Bra_7
+  - first:
+      213: 8660271289427842068
+    second: Skyblue Panties and Bra_8
+  - first:
+      213: 3261811338166901913
+    second: Skyblue Panties and Bra_9
+  - first:
+      213: 4924132311246752952
+    second: Skyblue Panties and Bra_10
+  - first:
+      213: 4463906036397904387
+    second: Skyblue Panties and Bra_11
+  - first:
+      213: -8544163230012902652
+    second: Skyblue Panties and Bra_12
+  - first:
+      213: -4616747592658111197
+    second: Skyblue Panties and Bra_13
+  - first:
+      213: 7388191917584508347
+    second: Skyblue Panties and Bra_14
+  - first:
+      213: -6489783936984561478
+    second: Skyblue Panties and Bra_15
+  - first:
+      213: 1523292157182548610
+    second: Skyblue Panties and Bra_16
+  - first:
+      213: -5888216345726267926
+    second: Skyblue Panties and Bra_17
+  - first:
+      213: -8621065734099363788
+    second: Skyblue Panties and Bra_18
+  - first:
+      213: -9087883009316752738
+    second: Skyblue Panties and Bra_19
+  - first:
+      213: -1046158421552411462
+    second: Skyblue Panties and Bra_20
+  - first:
+      213: -3778163406448348480
+    second: Skyblue Panties and Bra_21
+  - first:
+      213: 4109213403235883989
+    second: Skyblue Panties and Bra_22
+  - first:
+      213: 5431315041997970500
+    second: Skyblue Panties and Bra_23
+  - first:
+      213: 5458823171372795085
+    second: Skyblue Panties and Bra_24
+  - first:
+      213: 7539041096354654890
+    second: Skyblue Panties and Bra_25
+  - first:
+      213: 4286560859601433922
+    second: Skyblue Panties and Bra_26
+  - first:
+      213: 7484348107313993261
+    second: Skyblue Panties and Bra_27
+  - first:
+      213: 2610085711497245653
+    second: Skyblue Panties and Bra_28
+  - first:
+      213: -9063274009849939664
+    second: Skyblue Panties and Bra_29
+  - first:
+      213: -7199730489641480968
+    second: Skyblue Panties and Bra_30
+  - first:
+      213: -3317063543234763929
+    second: Skyblue Panties and Bra_31
+  - first:
+      213: -3540996860419446111
+    second: Skyblue Panties and Bra_32
+  - first:
+      213: -119104257543330247
+    second: Skyblue Panties and Bra_33
+  - first:
+      213: 2908914444077173145
+    second: Skyblue Panties and Bra_34
+  - first:
+      213: -2247457151773052872
+    second: Skyblue Panties and Bra_35
+  - first:
+      213: -3564176381900767938
+    second: Skyblue Panties and Bra_36
+  - first:
+      213: 2567972306567107783
+    second: Skyblue Panties and Bra_37
+  - first:
+      213: 8650401889540301720
+    second: Skyblue Panties and Bra_38
+  - first:
+      213: 2234777001286182109
+    second: Skyblue Panties and Bra_39
+  - first:
+      213: 1872444421609185162
+    second: Skyblue Panties and Bra_40
+  - first:
+      213: 7428668733376541267
+    second: Skyblue Panties and Bra_41
+  - first:
+      213: -3783083785302104660
+    second: Skyblue Panties and Bra_42
+  - first:
+      213: 7478373946583628180
+    second: Skyblue Panties and Bra_43
+  - first:
+      213: -581421311603178445
+    second: Skyblue Panties and Bra_44
+  - first:
+      213: -8759630876121529122
+    second: Skyblue Panties and Bra_45
+  - first:
+      213: -2924231121377746152
+    second: Skyblue Panties and Bra_46
+  - first:
+      213: 6032927644624407569
+    second: Skyblue Panties and Bra_47
+  - first:
+      213: 3272792904295448093
+    second: Skyblue Panties and Bra_48
+  - first:
+      213: -4335874897472372455
+    second: Skyblue Panties and Bra_49
+  - first:
+      213: -6353737150176976193
+    second: Skyblue Panties and Bra_50
+  - first:
+      213: 5501675949598453147
+    second: Skyblue Panties and Bra_51
+  - first:
+      213: -1437507342726132943
+    second: Skyblue Panties and Bra_52
+  - first:
+      213: 4144669496337447880
+    second: Skyblue Panties and Bra_53
+  - first:
+      213: -4110665521099553072
+    second: Skyblue Panties and Bra_54
+  - first:
+      213: -4403218824701457365
+    second: Skyblue Panties and Bra_55
+  - first:
+      213: 2006541630702944380
+    second: Skyblue Panties and Bra_56
+  - first:
+      213: 8498816711800607038
+    second: Skyblue Panties and Bra_57
+  - first:
+      213: 3217455145224543084
+    second: Skyblue Panties and Bra_58
+  - first:
+      213: -2748808043892904545
+    second: Skyblue Panties and Bra_59
+  - first:
+      213: 6301056630197279715
+    second: Skyblue Panties and Bra_60
+  - first:
+      213: -1810615564592550031
+    second: Skyblue Panties and Bra_61
+  - first:
+      213: -6482348514606606040
+    second: Skyblue Panties and Bra_62
+  - first:
+      213: -6916746275849029137
+    second: Skyblue Panties and Bra_63
+  - first:
+      213: 7898507820258986669
+    second: Skyblue Panties and Bra_64
+  - first:
+      213: -4723536162488266475
+    second: Skyblue Panties and Bra_65
+  - first:
+      213: 779582876624295340
+    second: Skyblue Panties and Bra_66
+  - first:
+      213: -7382127302947050242
+    second: Skyblue Panties and Bra_67
+  - first:
+      213: 1234300733949648541
+    second: Skyblue Panties and Bra_68
+  - first:
+      213: -6175290863831942588
+    second: Skyblue Panties and Bra_69
+  - first:
+      213: -4041282358713338583
+    second: Skyblue Panties and Bra_70
+  - first:
+      213: 4788776972722802657
+    second: Skyblue Panties and Bra_71
+  - first:
+      213: -7331001729752341886
+    second: Skyblue Panties and Bra_72
+  - first:
+      213: 92342051411493274
+    second: Skyblue Panties and Bra_73
+  - first:
+      213: 5246794536109140741
+    second: Skyblue Panties and Bra_74
+  - first:
+      213: 3735378134666828558
+    second: Skyblue Panties and Bra_75
+  - first:
+      213: -6162940121132964206
+    second: Skyblue Panties and Bra_76
+  - first:
+      213: -7841495271309542968
+    second: Skyblue Panties and Bra_77
+  - first:
+      213: -5145224643013519365
+    second: Skyblue Panties and Bra_78
+  - first:
+      213: 2840889678056141028
+    second: Skyblue Panties and Bra_79
+  - first:
+      213: 150999134613406022
+    second: Skyblue Panties and Bra_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 406
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480581d461411b490800000000000000
+      internalID: -7732376999203155836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 406
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ddddc617cda1b60800000000000000
+      internalID: 7717723291168660849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233ba794a07db4cb0800000000000000
+      internalID: -4878569332143377614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6566ccb9c0c0b1c0800000000000000
+      internalID: -4489876855800306321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c7c8d895c0431e0800000000000000
+      internalID: -2219135137620394926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087a1aee5cc0194b0800000000000000
+      internalID: -5435549231007815808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736f3297cc198b740800000000000000
+      internalID: 5168040879799399991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea965af4cb555a930800000000000000
+      internalID: 4153820498597603758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4145cd88ad67f2870800000000000000
+      internalID: 8660271289427842068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_9
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c97c75128444d20800000000000000
+      internalID: 3261811338166901913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 334
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcc2e67f38065440800000000000000
+      internalID: 4924132311246752952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 334
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302183aa3eaf2fd30800000000000000
+      internalID: 4463906036397904387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_12
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403702cafc80d6980800000000000000
+      internalID: -8544163230012902652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_13
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 343
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32539f966840eefb0800000000000000
+      internalID: -4616747592658111197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5690c9761288660800000000000000
+      internalID: 7388191917584508347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8cff6c4e7afe5a0800000000000000
+      internalID: -6489783936984561478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a110e6522d32510800000000000000
+      internalID: 1523292157182548610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_17
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 343
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed46504e6ad84ea0800000000000000
+      internalID: -5888216345726267926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43817b52462db5880800000000000000
+      internalID: -8621065734099363788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_19
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92fd5d7d8a51e180800000000000000
+      internalID: -9087883009316752738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_20
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 334
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcc598557c4b71f0800000000000000
+      internalID: -1046158421552411462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 334
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2344f3664419bc0800000000000000
+      internalID: -3778163406448348480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_22
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db162691dbd60930800000000000000
+      internalID: 4109213403235883989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_23
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c568d1148ef5b40800000000000000
+      internalID: 5431315041997970500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4c85590c2a1cb40800000000000000
+      internalID: 5458823171372795085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa6a4ffeed00a860800000000000000
+      internalID: 7539041096354654890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 273
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245f2a0046cec7b30800000000000000
+      internalID: 4286560859601433922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 271
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2651d723febdd760800000000000000
+      internalID: 7484348107313993261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3bd133023e83420800000000000000
+      internalID: 2610085711497245653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_29
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0393ddcae48c83280800000000000000
+      internalID: -9063274009849939664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_30
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcce56f34b651c90800000000000000
+      internalID: -7199730489641480968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_31
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763e710384c67f1d0800000000000000
+      internalID: -3317063543234763929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_32
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 278
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aaecefcd1adbdec0800000000000000
+      internalID: -3540996860419446111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_33
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 270
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936a4ed0f4bd85ef0800000000000000
+      internalID: -119104257543330247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 271
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9990939564a8e5820800000000000000
+      internalID: 2908914444077173145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_35
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 272
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830f7a4c0ad6fc0e0800000000000000
+      internalID: -2247457151773052872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3db7f7e670898ec0800000000000000
+      internalID: -3564176381900767938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c419f5053543a320800000000000000
+      internalID: 2567972306567107783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893ea6ecfa66c0870800000000000000
+      internalID: 8650401889540301720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_39
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd420e1a7d5830f10800000000000000
+      internalID: 2234777001286182109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f5da3e7424cf910800000000000000
+      internalID: 1872444421609185162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352b5feaadee71760800000000000000
+      internalID: 7428668733376541267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca527854759cf7bc0800000000000000
+      internalID: -3783083785302104660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_43
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49937a77b7588c760800000000000000
+      internalID: 7478373946583628180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_44
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3340d09c5606ee7f0800000000000000
+      internalID: -581421311603178445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed48b31f02a8f6680800000000000000
+      internalID: -8759630876121529122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_46
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8132321d94b0b67d0800000000000000
+      internalID: -2924231121377746152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_47
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cc87d9ab349b350800000000000000
+      internalID: 6032927644624407569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ef2f37ecb4b6d20800000000000000
+      internalID: 3272792904295448093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_49
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91140a1d0c0e3d3c0800000000000000
+      internalID: -4335874897472372455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2af77b9bdf2d7a0800000000000000
+      internalID: -6353737150176976193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_51
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d20258021e95c40800000000000000
+      internalID: 5501675949598453147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_52
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 86
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b0bc220b2fc0ce0800000000000000
+      internalID: -1437507342726132943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 86
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb379092f2d48930800000000000000
+      internalID: 4144669496337447880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_54
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 87
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d64a60ec7bf3f6c0800000000000000
+      internalID: -4110665521099553072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_55
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 87
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c4b55eecf94e2c0800000000000000
+      internalID: -4403218824701457365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_56
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 78
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7005156bfaa8db10800000000000000
+      internalID: 2006541630702944380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 86
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31570e45ccd1f570800000000000000
+      internalID: 8498816711800607038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_58
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b9cd36862b6ac20800000000000000
+      internalID: 3217455145224543084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_59
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9de60cd5a54ad9d0800000000000000
+      internalID: -2748808043892904545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_60
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 79
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb5788ee99d17750800000000000000
+      internalID: 6301056630197279715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_61
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 79
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17feaafacb66fd6e0800000000000000
+      internalID: -1810615564592550031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_62
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8299794fe521a06a0800000000000000
+      internalID: -6482348514606606040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_63
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 22
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9338a98e7c200a0800000000000000
+      internalID: -6916746275849029137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_64
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 20
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa8e22b3032d9d60800000000000000
+      internalID: 7898507820258986669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_65
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 14
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511dc27f2e0a27eb0800000000000000
+      internalID: -4723536162488266475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_66
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 12
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca51b22fe72a1da00800000000000000
+      internalID: 779582876624295340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_67
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 14
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efce025845a6d8990800000000000000
+      internalID: -7382127302947050242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_68
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 12
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e92195afd112110800000000000000
+      internalID: 1234300733949648541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_69
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 14
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44af49c6da5fc4aa0800000000000000
+      internalID: -6175290863831942588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_70
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 13
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925b6db3b1b7ae7c0800000000000000
+      internalID: -4041282358713338583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_71
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 13
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef86bfd847257240800000000000000
+      internalID: 4788776972722802657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_72
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 6
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2826652a4cc034a90800000000000000
+      internalID: -7331001729752341886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_73
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9186344b90184100800000000000000
+      internalID: 92342051411493274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_74
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 6
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bee36f4db50d840800000000000000
+      internalID: 5246794536109140741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_75
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bd3926f9ab6d330800000000000000
+      internalID: 3735378134666828558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_76
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296eddbcc96d87aa0800000000000000
+      internalID: -6162940121132964206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_77
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c970b5c8996d2390800000000000000
+      internalID: -7841495271309542968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_78
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7d79f927d7898b0800000000000000
+      internalID: -5145224643013519365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_79
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e03c9a4c1edc6720800000000000000
+      internalID: 2840889678056141028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Panties and Bra_80
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6410604b9e4781200800000000000000
+      internalID: 150999134613406022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skyblue Panties and Bra_0: -7732376999203155836
+      Skyblue Panties and Bra_1: 7717723291168660849
+      Skyblue Panties and Bra_10: 4924132311246752952
+      Skyblue Panties and Bra_11: 4463906036397904387
+      Skyblue Panties and Bra_12: -8544163230012902652
+      Skyblue Panties and Bra_13: -4616747592658111197
+      Skyblue Panties and Bra_14: 7388191917584508347
+      Skyblue Panties and Bra_15: -6489783936984561478
+      Skyblue Panties and Bra_16: 1523292157182548610
+      Skyblue Panties and Bra_17: -5888216345726267926
+      Skyblue Panties and Bra_18: -8621065734099363788
+      Skyblue Panties and Bra_19: -9087883009316752738
+      Skyblue Panties and Bra_2: -4878569332143377614
+      Skyblue Panties and Bra_20: -1046158421552411462
+      Skyblue Panties and Bra_21: -3778163406448348480
+      Skyblue Panties and Bra_22: 4109213403235883989
+      Skyblue Panties and Bra_23: 5431315041997970500
+      Skyblue Panties and Bra_24: 5458823171372795085
+      Skyblue Panties and Bra_25: 7539041096354654890
+      Skyblue Panties and Bra_26: 4286560859601433922
+      Skyblue Panties and Bra_27: 7484348107313993261
+      Skyblue Panties and Bra_28: 2610085711497245653
+      Skyblue Panties and Bra_29: -9063274009849939664
+      Skyblue Panties and Bra_3: -4489876855800306321
+      Skyblue Panties and Bra_30: -7199730489641480968
+      Skyblue Panties and Bra_31: -3317063543234763929
+      Skyblue Panties and Bra_32: -3540996860419446111
+      Skyblue Panties and Bra_33: -119104257543330247
+      Skyblue Panties and Bra_34: 2908914444077173145
+      Skyblue Panties and Bra_35: -2247457151773052872
+      Skyblue Panties and Bra_36: -3564176381900767938
+      Skyblue Panties and Bra_37: 2567972306567107783
+      Skyblue Panties and Bra_38: 8650401889540301720
+      Skyblue Panties and Bra_39: 2234777001286182109
+      Skyblue Panties and Bra_4: -2219135137620394926
+      Skyblue Panties and Bra_40: 1872444421609185162
+      Skyblue Panties and Bra_41: 7428668733376541267
+      Skyblue Panties and Bra_42: -3783083785302104660
+      Skyblue Panties and Bra_43: 7478373946583628180
+      Skyblue Panties and Bra_44: -581421311603178445
+      Skyblue Panties and Bra_45: -8759630876121529122
+      Skyblue Panties and Bra_46: -2924231121377746152
+      Skyblue Panties and Bra_47: 6032927644624407569
+      Skyblue Panties and Bra_48: 3272792904295448093
+      Skyblue Panties and Bra_49: -4335874897472372455
+      Skyblue Panties and Bra_5: -5435549231007815808
+      Skyblue Panties and Bra_50: -6353737150176976193
+      Skyblue Panties and Bra_51: 5501675949598453147
+      Skyblue Panties and Bra_52: -1437507342726132943
+      Skyblue Panties and Bra_53: 4144669496337447880
+      Skyblue Panties and Bra_54: -4110665521099553072
+      Skyblue Panties and Bra_55: -4403218824701457365
+      Skyblue Panties and Bra_56: 2006541630702944380
+      Skyblue Panties and Bra_57: 8498816711800607038
+      Skyblue Panties and Bra_58: 3217455145224543084
+      Skyblue Panties and Bra_59: -2748808043892904545
+      Skyblue Panties and Bra_6: 5168040879799399991
+      Skyblue Panties and Bra_60: 6301056630197279715
+      Skyblue Panties and Bra_61: -1810615564592550031
+      Skyblue Panties and Bra_62: -6482348514606606040
+      Skyblue Panties and Bra_63: -6916746275849029137
+      Skyblue Panties and Bra_64: 7898507820258986669
+      Skyblue Panties and Bra_65: -4723536162488266475
+      Skyblue Panties and Bra_66: 779582876624295340
+      Skyblue Panties and Bra_67: -7382127302947050242
+      Skyblue Panties and Bra_68: 1234300733949648541
+      Skyblue Panties and Bra_69: -6175290863831942588
+      Skyblue Panties and Bra_7: 4153820498597603758
+      Skyblue Panties and Bra_70: -4041282358713338583
+      Skyblue Panties and Bra_71: 4788776972722802657
+      Skyblue Panties and Bra_72: -7331001729752341886
+      Skyblue Panties and Bra_73: 92342051411493274
+      Skyblue Panties and Bra_74: 5246794536109140741
+      Skyblue Panties and Bra_75: 3735378134666828558
+      Skyblue Panties and Bra_76: -6162940121132964206
+      Skyblue Panties and Bra_77: -7841495271309542968
+      Skyblue Panties and Bra_78: -5145224643013519365
+      Skyblue Panties and Bra_79: 2840889678056141028
+      Skyblue Panties and Bra_8: 8660271289427842068
+      Skyblue Panties and Bra_80: 150999134613406022
+      Skyblue Panties and Bra_9: 3261811338166901913
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: 8f78f605c0d001d6aabd923a605c85fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8759697785899122677
+    second: Green Panties and Bra_0
+  - first:
+      213: -5413809133187296339
+    second: Green Panties and Bra_1
+  - first:
+      213: -7472368024000522254
+    second: Green Panties and Bra_2
+  - first:
+      213: 4842416868562194391
+    second: Green Panties and Bra_3
+  - first:
+      213: -1816298683882849135
+    second: Green Panties and Bra_4
+  - first:
+      213: 6179421863478406877
+    second: Green Panties and Bra_5
+  - first:
+      213: -45207883442900499
+    second: Green Panties and Bra_6
+  - first:
+      213: -6360206977018149289
+    second: Green Panties and Bra_7
+  - first:
+      213: -337731121206609573
+    second: Green Panties and Bra_8
+  - first:
+      213: -9182107759632440098
+    second: Green Panties and Bra_9
+  - first:
+      213: 9120389267638758979
+    second: Green Panties and Bra_10
+  - first:
+      213: -1079560581846567102
+    second: Green Panties and Bra_11
+  - first:
+      213: 8551753353499465542
+    second: Green Panties and Bra_12
+  - first:
+      213: 8167997908112018118
+    second: Green Panties and Bra_13
+  - first:
+      213: 2440826829942197373
+    second: Green Panties and Bra_14
+  - first:
+      213: 621423603750771105
+    second: Green Panties and Bra_15
+  - first:
+      213: -3295583731926090513
+    second: Green Panties and Bra_16
+  - first:
+      213: 473660379211874630
+    second: Green Panties and Bra_17
+  - first:
+      213: -8779606786738306933
+    second: Green Panties and Bra_18
+  - first:
+      213: -1357585374864373096
+    second: Green Panties and Bra_19
+  - first:
+      213: 5976358246684231625
+    second: Green Panties and Bra_20
+  - first:
+      213: 1321049241308276522
+    second: Green Panties and Bra_21
+  - first:
+      213: -2425366711383636869
+    second: Green Panties and Bra_22
+  - first:
+      213: -923235061222082872
+    second: Green Panties and Bra_23
+  - first:
+      213: 3619775074662770804
+    second: Green Panties and Bra_24
+  - first:
+      213: -9044689946321031640
+    second: Green Panties and Bra_25
+  - first:
+      213: -213151095752356647
+    second: Green Panties and Bra_26
+  - first:
+      213: 7535876806190661432
+    second: Green Panties and Bra_27
+  - first:
+      213: 481711015652602663
+    second: Green Panties and Bra_28
+  - first:
+      213: 561975244963562594
+    second: Green Panties and Bra_29
+  - first:
+      213: -8777868756889017339
+    second: Green Panties and Bra_30
+  - first:
+      213: -509874930014480904
+    second: Green Panties and Bra_31
+  - first:
+      213: -6291034342432021269
+    second: Green Panties and Bra_32
+  - first:
+      213: 7797758700256104059
+    second: Green Panties and Bra_33
+  - first:
+      213: 3271245776838166171
+    second: Green Panties and Bra_34
+  - first:
+      213: -7304542072312330954
+    second: Green Panties and Bra_35
+  - first:
+      213: -8658640373639041068
+    second: Green Panties and Bra_36
+  - first:
+      213: -761887400075299230
+    second: Green Panties and Bra_37
+  - first:
+      213: -2529987848636744074
+    second: Green Panties and Bra_38
+  - first:
+      213: 8280016747825035323
+    second: Green Panties and Bra_39
+  - first:
+      213: -4555593284405345196
+    second: Green Panties and Bra_40
+  - first:
+      213: 4203609728555437236
+    second: Green Panties and Bra_41
+  - first:
+      213: -2945946512071979725
+    second: Green Panties and Bra_42
+  - first:
+      213: 4044495566984500300
+    second: Green Panties and Bra_43
+  - first:
+      213: -5838457465827947151
+    second: Green Panties and Bra_44
+  - first:
+      213: -7883636936932499403
+    second: Green Panties and Bra_45
+  - first:
+      213: -4449856115760080783
+    second: Green Panties and Bra_46
+  - first:
+      213: -2515899736677409807
+    second: Green Panties and Bra_47
+  - first:
+      213: -1676941219036780803
+    second: Green Panties and Bra_48
+  - first:
+      213: 7277256681533637393
+    second: Green Panties and Bra_49
+  - first:
+      213: -8182280516321157605
+    second: Green Panties and Bra_50
+  - first:
+      213: -3588962915485133467
+    second: Green Panties and Bra_51
+  - first:
+      213: 22017295646882211
+    second: Green Panties and Bra_52
+  - first:
+      213: 163878973533851206
+    second: Green Panties and Bra_53
+  - first:
+      213: -6292879642436213093
+    second: Green Panties and Bra_54
+  - first:
+      213: -5847053547217507939
+    second: Green Panties and Bra_55
+  - first:
+      213: -8302609982526510155
+    second: Green Panties and Bra_56
+  - first:
+      213: -1386950614247315484
+    second: Green Panties and Bra_57
+  - first:
+      213: 3665611958028009396
+    second: Green Panties and Bra_58
+  - first:
+      213: -9216241086255588956
+    second: Green Panties and Bra_59
+  - first:
+      213: -3463173093850031728
+    second: Green Panties and Bra_60
+  - first:
+      213: -3721475276360609208
+    second: Green Panties and Bra_61
+  - first:
+      213: 2257997747980886531
+    second: Green Panties and Bra_62
+  - first:
+      213: 5100930466006466307
+    second: Green Panties and Bra_63
+  - first:
+      213: 8687350701880656493
+    second: Green Panties and Bra_64
+  - first:
+      213: 1263383407187368655
+    second: Green Panties and Bra_65
+  - first:
+      213: -7158477551249454543
+    second: Green Panties and Bra_66
+  - first:
+      213: 5894876322178582635
+    second: Green Panties and Bra_67
+  - first:
+      213: 6957074373064039572
+    second: Green Panties and Bra_68
+  - first:
+      213: 2684485553566449588
+    second: Green Panties and Bra_69
+  - first:
+      213: -3668871624575969564
+    second: Green Panties and Bra_70
+  - first:
+      213: -5078114380892670751
+    second: Green Panties and Bra_71
+  - first:
+      213: -2948177647294859507
+    second: Green Panties and Bra_72
+  - first:
+      213: 7389301142620498164
+    second: Green Panties and Bra_73
+  - first:
+      213: 9066125451275658777
+    second: Green Panties and Bra_74
+  - first:
+      213: -6543136551991611746
+    second: Green Panties and Bra_75
+  - first:
+      213: -7730842711678592795
+    second: Green Panties and Bra_76
+  - first:
+      213: 2556758451293892146
+    second: Green Panties and Bra_77
+  - first:
+      213: 794324204121491813
+    second: Green Panties and Bra_78
+  - first:
+      213: 3487467188321948704
+    second: Green Panties and Bra_79
+  - first:
+      213: 5650164510314722141
+    second: Green Panties and Bra_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Green Panties and Bra_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 406
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0005bb464d4f6680800000000000000
+      internalID: -8759697785899122677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 406
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da31b96e6494ed4b0800000000000000
+      internalID: -5413809133187296339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7167a5fd0dc4890800000000000000
+      internalID: -7472368024000522254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df42095c78b33340800000000000000
+      internalID: 4842416868562194391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 407
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c372d58f53bc6e0800000000000000
+      internalID: -1816298683882849135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddea9e1e177b1c550800000000000000
+      internalID: 6179421863478406877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1b6566ba36f5ff0800000000000000
+      internalID: -45207883442900499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7564fd4c3710cb7a0800000000000000
+      internalID: -6360206977018149289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59b2eaa553205bf0800000000000000
+      internalID: -337731121206609573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_9
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 398
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed420c934a9929080800000000000000
+      internalID: -9182107759632440098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 334
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ea4ee87b1229e70800000000000000
+      internalID: 9120389267638758979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 334
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247758dde51a401f0800000000000000
+      internalID: -1079560581846567102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_12
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647571aad5eeda670800000000000000
+      internalID: 8551753353499465542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_13
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 343
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca862f42de8a5170800000000000000
+      internalID: 8167997908112018118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c82fcd11f8fd120800000000000000
+      internalID: 2440826829942197373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a99b94a97dbf9800800000000000000
+      internalID: 621423603750771105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 342
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec3dfa7e0cb342d0800000000000000
+      internalID: -3295583731926090513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_17
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 343
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641c917fa97c29600800000000000000
+      internalID: 473660379211874630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80cad0d422982680800000000000000
+      internalID: -8779606786738306933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_19
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a81fa5b43e82de0800000000000000
+      internalID: -1357585374864373096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_20
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 334
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c70718492a40f250800000000000000
+      internalID: 5976358246684231625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 334
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27aaf6294f455210800000000000000
+      internalID: 1321049241308276522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_22
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74cbed73dd575ed0800000000000000
+      internalID: -2425366711383636869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_23
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 335
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6fba37a920033f0800000000000000
+      internalID: -923235061222082872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478661480460c3230800000000000000
+      internalID: 3619775074662770804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82eecf52a6eca7280800000000000000
+      internalID: -9044689946321031640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 273
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc023e253cba0df0800000000000000
+      internalID: -213151095752356647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 271
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f79184700d49860800000000000000
+      internalID: 7535876806190661432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723bd54dd916fa600800000000000000
+      internalID: 481711015652602663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_29
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264cd9002898cc700800000000000000
+      internalID: 561975244963562594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_30
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50461ac6fdebe2680800000000000000
+      internalID: -8777868756889017339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_31
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 271
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f51c9cd37f8ce8f0800000000000000
+      internalID: -509874930014480904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_32
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 278
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be46e8dc891c1b8a0800000000000000
+      internalID: -6291034342432021269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_33
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 270
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e0afc3934373c60800000000000000
+      internalID: 7797758700256104059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 271
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b968f65c3bcc56d20800000000000000
+      internalID: 3271245776838166171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_35
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 272
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6358de4bfad01aa90800000000000000
+      internalID: -7304542072312330954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfa363a47456d780800000000000000
+      internalID: -8658640373639041068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2667aaf327b3d65f0800000000000000
+      internalID: -761887400075299230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67eb3f3c47da3ecd0800000000000000
+      internalID: -2529987848636744074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_39
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38756cdc5788e270800000000000000
+      internalID: 8280016747825035323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4544ddd5b0847c0c0800000000000000
+      internalID: -4555593284405345196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc4ce4c6c8365a30800000000000000
+      internalID: 4203609728555437236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d06ac6145ed17d0800000000000000
+      internalID: -2945946512071979725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_43
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44d0cd1a4fe02830800000000000000
+      internalID: 4044495566984500300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_44
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d09194ed1a9fea0800000000000000
+      internalID: -5838457465827947151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5306df3a9f1b79290800000000000000
+      internalID: -7883636936932499403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_46
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1785586607fee32c0800000000000000
+      internalID: -4449856115760080783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_47
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 152
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb18d0f48ab51dd0800000000000000
+      internalID: -2515899736677409807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df62a1a98de4ab8e0800000000000000
+      internalID: -1676941219036780803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_49
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113862235620ef460800000000000000
+      internalID: 7277256681533637393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ed314d833b27e80800000000000000
+      internalID: -8182280516321157605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_51
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 143
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56555765e31713ec0800000000000000
+      internalID: -3588962915485133467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_52
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 86
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a972fd1d983e4000800000000000000
+      internalID: 22017295646882211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 86
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e04a3ee07364200800000000000000
+      internalID: 163878973533851206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_54
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 87
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b966d4a6e433ba8a0800000000000000
+      internalID: -6292879642436213093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_55
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 87
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99a96f17c71bdea0800000000000000
+      internalID: -5847053547217507939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_56
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 78
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb25e2c53437cc80800000000000000
+      internalID: -8302609982526510155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 86
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e767c4c3cf80cce0800000000000000
+      internalID: -1386950614247315484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_58
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bffea297aeded230800000000000000
+      internalID: 3665611958028009396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_59
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a91061df85591080800000000000000
+      internalID: -9216241086255588956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_60
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 79
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099d0697b6650ffc0800000000000000
+      internalID: -3463173093850031728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_61
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 79
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842902014f9aa5cc0800000000000000
+      internalID: -3721475276360609208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_62
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 78
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30268080df4065f10800000000000000
+      internalID: 2257997747980886531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_63
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 22
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f7842ab352ac640800000000000000
+      internalID: 5100930466006466307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_64
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 20
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6246d09f6baf8870800000000000000
+      internalID: 8687350701880656493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_65
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 14
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca9680e380788110800000000000000
+      internalID: 1263383407187368655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_66
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 12
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a0b29289af7ac90800000000000000
+      internalID: -7158477551249454543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_67
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 14
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68c05a58cecec150800000000000000
+      internalID: 5894876322178582635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_68
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 12
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c947a384e7c8060800000000000000
+      internalID: 6957074373064039572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_69
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 14
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bffef05365314520800000000000000
+      internalID: 2684485553566449588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_70
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 13
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e693aa22bc851dc0800000000000000
+      internalID: -3668871624575969564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_71
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 13
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4f61620e9e689b0800000000000000
+      internalID: -5078114380892670751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_72
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 6
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d073e36cc08f517d0800000000000000
+      internalID: -2948177647294859507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_73
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f868403d321c8660800000000000000
+      internalID: 7389301142620498164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_74
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 6
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916e964401951dd70800000000000000
+      internalID: 9066125451275658777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_75
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e6aa519fb1235a0800000000000000
+      internalID: -6543136551991611746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_76
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8daf3738786b490800000000000000
+      internalID: -7730842711678592795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_77
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ea9d1e34e6b7320800000000000000
+      internalID: 2556758451293892146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_78
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5690827b7a1060b00800000000000000
+      internalID: 794324204121491813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_79
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02492cd2ee8f56030800000000000000
+      internalID: 3487467188321948704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Panties and Bra_80
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53f3dfafaa696e40800000000000000
+      internalID: 5650164510314722141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Green Panties and Bra_0: -8759697785899122677
+      Green Panties and Bra_1: -5413809133187296339
+      Green Panties and Bra_10: 9120389267638758979
+      Green Panties and Bra_11: -1079560581846567102
+      Green Panties and Bra_12: 8551753353499465542
+      Green Panties and Bra_13: 8167997908112018118
+      Green Panties and Bra_14: 2440826829942197373
+      Green Panties and Bra_15: 621423603750771105
+      Green Panties and Bra_16: -3295583731926090513
+      Green Panties and Bra_17: 473660379211874630
+      Green Panties and Bra_18: -8779606786738306933
+      Green Panties and Bra_19: -1357585374864373096
+      Green Panties and Bra_2: -7472368024000522254
+      Green Panties and Bra_20: 5976358246684231625
+      Green Panties and Bra_21: 1321049241308276522
+      Green Panties and Bra_22: -2425366711383636869
+      Green Panties and Bra_23: -923235061222082872
+      Green Panties and Bra_24: 3619775074662770804
+      Green Panties and Bra_25: -9044689946321031640
+      Green Panties and Bra_26: -213151095752356647
+      Green Panties and Bra_27: 7535876806190661432
+      Green Panties and Bra_28: 481711015652602663
+      Green Panties and Bra_29: 561975244963562594
+      Green Panties and Bra_3: 4842416868562194391
+      Green Panties and Bra_30: -8777868756889017339
+      Green Panties and Bra_31: -509874930014480904
+      Green Panties and Bra_32: -6291034342432021269
+      Green Panties and Bra_33: 7797758700256104059
+      Green Panties and Bra_34: 3271245776838166171
+      Green Panties and Bra_35: -7304542072312330954
+      Green Panties and Bra_36: -8658640373639041068
+      Green Panties and Bra_37: -761887400075299230
+      Green Panties and Bra_38: -2529987848636744074
+      Green Panties and Bra_39: 8280016747825035323
+      Green Panties and Bra_4: -1816298683882849135
+      Green Panties and Bra_40: -4555593284405345196
+      Green Panties and Bra_41: 4203609728555437236
+      Green Panties and Bra_42: -2945946512071979725
+      Green Panties and Bra_43: 4044495566984500300
+      Green Panties and Bra_44: -5838457465827947151
+      Green Panties and Bra_45: -7883636936932499403
+      Green Panties and Bra_46: -4449856115760080783
+      Green Panties and Bra_47: -2515899736677409807
+      Green Panties and Bra_48: -1676941219036780803
+      Green Panties and Bra_49: 7277256681533637393
+      Green Panties and Bra_5: 6179421863478406877
+      Green Panties and Bra_50: -8182280516321157605
+      Green Panties and Bra_51: -3588962915485133467
+      Green Panties and Bra_52: 22017295646882211
+      Green Panties and Bra_53: 163878973533851206
+      Green Panties and Bra_54: -6292879642436213093
+      Green Panties and Bra_55: -5847053547217507939
+      Green Panties and Bra_56: -8302609982526510155
+      Green Panties and Bra_57: -1386950614247315484
+      Green Panties and Bra_58: 3665611958028009396
+      Green Panties and Bra_59: -9216241086255588956
+      Green Panties and Bra_6: -45207883442900499
+      Green Panties and Bra_60: -3463173093850031728
+      Green Panties and Bra_61: -3721475276360609208
+      Green Panties and Bra_62: 2257997747980886531
+      Green Panties and Bra_63: 5100930466006466307
+      Green Panties and Bra_64: 8687350701880656493
+      Green Panties and Bra_65: 1263383407187368655
+      Green Panties and Bra_66: -7158477551249454543
+      Green Panties and Bra_67: 5894876322178582635
+      Green Panties and Bra_68: 6957074373064039572
+      Green Panties and Bra_69: 2684485553566449588
+      Green Panties and Bra_7: -6360206977018149289
+      Green Panties and Bra_70: -3668871624575969564
+      Green Panties and Bra_71: -5078114380892670751
+      Green Panties and Bra_72: -2948177647294859507
+      Green Panties and Bra_73: 7389301142620498164
+      Green Panties and Bra_74: 9066125451275658777
+      Green Panties and Bra_75: -6543136551991611746
+      Green Panties and Bra_76: -7730842711678592795
+      Green Panties and Bra_77: 2556758451293892146
+      Green Panties and Bra_78: 794324204121491813
+      Green Panties and Bra_79: 3487467188321948704
+      Green Panties and Bra_8: -337731121206609573
+      Green Panties and Bra_80: 5650164510314722141
+      Green Panties and Bra_9: -9182107759632440098
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

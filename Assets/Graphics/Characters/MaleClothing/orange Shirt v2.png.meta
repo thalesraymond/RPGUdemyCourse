@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 668cdee826aa82dc0ba7ad8b523fcb8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4167445404489679379
+    second: orange Shirt v2_0
+  - first:
+      213: -738659178936013519
+    second: orange Shirt v2_1
+  - first:
+      213: 5547013174784563464
+    second: orange Shirt v2_2
+  - first:
+      213: 4100046210616925710
+    second: orange Shirt v2_3
+  - first:
+      213: -6862942723371051437
+    second: orange Shirt v2_4
+  - first:
+      213: -3602111314708451305
+    second: orange Shirt v2_5
+  - first:
+      213: 5015813914917153885
+    second: orange Shirt v2_6
+  - first:
+      213: -2837541438235393688
+    second: orange Shirt v2_7
+  - first:
+      213: 7853430810026365620
+    second: orange Shirt v2_8
+  - first:
+      213: -2702088996324611532
+    second: orange Shirt v2_9
+  - first:
+      213: -632629755124580873
+    second: orange Shirt v2_10
+  - first:
+      213: 7125410291809570957
+    second: orange Shirt v2_11
+  - first:
+      213: -5105371817449964400
+    second: orange Shirt v2_12
+  - first:
+      213: 7368735262102205736
+    second: orange Shirt v2_13
+  - first:
+      213: -8282210594713088025
+    second: orange Shirt v2_14
+  - first:
+      213: -4775096101872483317
+    second: orange Shirt v2_15
+  - first:
+      213: -5457092786315654565
+    second: orange Shirt v2_16
+  - first:
+      213: 2602755994582469561
+    second: orange Shirt v2_17
+  - first:
+      213: -8768323591109439583
+    second: orange Shirt v2_18
+  - first:
+      213: -1111989753092361973
+    second: orange Shirt v2_19
+  - first:
+      213: -4095695559041381205
+    second: orange Shirt v2_20
+  - first:
+      213: 185286666323430914
+    second: orange Shirt v2_21
+  - first:
+      213: -3906887281412851001
+    second: orange Shirt v2_22
+  - first:
+      213: -5422810913724106365
+    second: orange Shirt v2_23
+  - first:
+      213: -6129034729727814540
+    second: orange Shirt v2_24
+  - first:
+      213: -4837629935160871535
+    second: orange Shirt v2_25
+  - first:
+      213: -3828230255224804595
+    second: orange Shirt v2_26
+  - first:
+      213: 8586428731423875684
+    second: orange Shirt v2_27
+  - first:
+      213: 796661911063252768
+    second: orange Shirt v2_28
+  - first:
+      213: 8706067330589502939
+    second: orange Shirt v2_29
+  - first:
+      213: -5623417677461805919
+    second: orange Shirt v2_30
+  - first:
+      213: 4626195309185182944
+    second: orange Shirt v2_31
+  - first:
+      213: 3397014708894598597
+    second: orange Shirt v2_32
+  - first:
+      213: -6017006147594967662
+    second: orange Shirt v2_33
+  - first:
+      213: -7314554578673612564
+    second: orange Shirt v2_34
+  - first:
+      213: -3050897079418073514
+    second: orange Shirt v2_35
+  - first:
+      213: -5607663023558798395
+    second: orange Shirt v2_36
+  - first:
+      213: -4145159398815827561
+    second: orange Shirt v2_37
+  - first:
+      213: -3949278567154575072
+    second: orange Shirt v2_38
+  - first:
+      213: 3260247814920633506
+    second: orange Shirt v2_39
+  - first:
+      213: -2714180926560508556
+    second: orange Shirt v2_40
+  - first:
+      213: -1106840651414336906
+    second: orange Shirt v2_41
+  - first:
+      213: -7060930561926403092
+    second: orange Shirt v2_42
+  - first:
+      213: 6022255103795461712
+    second: orange Shirt v2_43
+  - first:
+      213: -3885246255464033054
+    second: orange Shirt v2_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orange Shirt v2_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 399
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedfe841c724a26c0800000000000000
+      internalID: -4167445404489679379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 399
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13def6de361cfb5f0800000000000000
+      internalID: -738659178936013519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 400
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8091277d713fafc40800000000000000
+      internalID: 5547013174784563464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 400
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e128a3e4a46e830800000000000000
+      internalID: 4100046210616925710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 400
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356dd9b54fde1c0a0800000000000000
+      internalID: -6862942723371051437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 335
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710336518dab20ec0800000000000000
+      internalID: -3602111314708451305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 335
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c29124e20cb9540800000000000000
+      internalID: 5015813914917153885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 336
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861478a88170f98d0800000000000000
+      internalID: -2837541438235393688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 336
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2dab366bdfcfc60800000000000000
+      internalID: 7853430810026365620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_9
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 335
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a6496cf50408ad0800000000000000
+      internalID: -2702088996324611532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_10
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 335
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdf47be6927837f0800000000000000
+      internalID: -632629755124580873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_11
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 336
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80d83a88ea82e260800000000000000
+      internalID: 7125410291809570957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_12
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 336
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09cba96a1631629b0800000000000000
+      internalID: -5105371817449964400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8253f7dfda1034660800000000000000
+      internalID: 7368735262102205736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef462b585daf0d80800000000000000
+      internalID: -8282210594713088025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 272
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04c98715637bbdb0800000000000000
+      internalID: -4775096101872483317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 271
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a0f4516038444b0800000000000000
+      internalID: -5457092786315654565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 271
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb4b1e79c8de1420800000000000000
+      internalID: 2602755994582469561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 270
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af8e348628a05680800000000000000
+      internalID: -8768323591109439583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 272
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b013e0d063b6190f0800000000000000
+      internalID: -1111989753092361973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_20
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 273
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac8137c69a2927c0800000000000000
+      internalID: -4095695559041381205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 210
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e03d7cd35429200800000000000000
+      internalID: 185286666323430914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_22
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 210
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca35e597b2f7c9c0800000000000000
+      internalID: -3906887281412851001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 210
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389fc5b843e4eb4b0800000000000000
+      internalID: -5422810913724106365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_24
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 210
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4749a86e26b41faa0800000000000000
+      internalID: -6129034729727814540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 147
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195b0ff64394ddcb0800000000000000
+      internalID: -4837629935160871535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_26
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 147
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b2cee9dd46fdac0800000000000000
+      internalID: -3828230255224804595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_27
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 147
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4626ab9307f192770800000000000000
+      internalID: 8586428731423875684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_28
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 147
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f420789cf4e0b00800000000000000
+      internalID: 796661911063252768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 79
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddab664c1a22d870800000000000000
+      internalID: 8706067330589502939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_30
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 81
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4ac3f9a6b95f1b0800000000000000
+      internalID: -5623417677461805919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 82
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecaf818f1c833040800000000000000
+      internalID: 4626195309185182944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 82
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5807c21ee942f20800000000000000
+      internalID: 3397014708894598597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_33
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 79
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295a249c9cc4f7ca0800000000000000
+      internalID: -6017006147594967662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_34
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 79
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8c3f76d5b7d7a90800000000000000
+      internalID: -7314554578673612564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_35
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 15
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e4207454909a5d0800000000000000
+      internalID: -3050897079418073514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_36
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 13
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c35fa4d0349d22b0800000000000000
+      internalID: -5607663023558798395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_37
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 8
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799f5302d7f6976c0800000000000000
+      internalID: -4145159398815827561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_38
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 7
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02910bd31185139c0800000000000000
+      internalID: -3949278567154575072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_39
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 8
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac76183d1abe3d20800000000000000
+      internalID: 3260247814920633506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_40
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 7
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4756830e3da455ad0800000000000000
+      internalID: -2714180926560508556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_41
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 7
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a8c75ba46b3a0f0800000000000000
+      internalID: -1106840651414336906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_42
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb6da87019820e90800000000000000
+      internalID: -7060930561926403092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_43
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ef2801c19539350800000000000000
+      internalID: 6022255103795461712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange Shirt v2_44
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 0
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e456269d15d41ac0800000000000000
+      internalID: -3885246255464033054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      orange Shirt v2_0: -4167445404489679379
+      orange Shirt v2_1: -738659178936013519
+      orange Shirt v2_10: -632629755124580873
+      orange Shirt v2_11: 7125410291809570957
+      orange Shirt v2_12: -5105371817449964400
+      orange Shirt v2_13: 7368735262102205736
+      orange Shirt v2_14: -8282210594713088025
+      orange Shirt v2_15: -4775096101872483317
+      orange Shirt v2_16: -5457092786315654565
+      orange Shirt v2_17: 2602755994582469561
+      orange Shirt v2_18: -8768323591109439583
+      orange Shirt v2_19: -1111989753092361973
+      orange Shirt v2_2: 5547013174784563464
+      orange Shirt v2_20: -4095695559041381205
+      orange Shirt v2_21: 185286666323430914
+      orange Shirt v2_22: -3906887281412851001
+      orange Shirt v2_23: -5422810913724106365
+      orange Shirt v2_24: -6129034729727814540
+      orange Shirt v2_25: -4837629935160871535
+      orange Shirt v2_26: -3828230255224804595
+      orange Shirt v2_27: 8586428731423875684
+      orange Shirt v2_28: 796661911063252768
+      orange Shirt v2_29: 8706067330589502939
+      orange Shirt v2_3: 4100046210616925710
+      orange Shirt v2_30: -5623417677461805919
+      orange Shirt v2_31: 4626195309185182944
+      orange Shirt v2_32: 3397014708894598597
+      orange Shirt v2_33: -6017006147594967662
+      orange Shirt v2_34: -7314554578673612564
+      orange Shirt v2_35: -3050897079418073514
+      orange Shirt v2_36: -5607663023558798395
+      orange Shirt v2_37: -4145159398815827561
+      orange Shirt v2_38: -3949278567154575072
+      orange Shirt v2_39: 3260247814920633506
+      orange Shirt v2_4: -6862942723371051437
+      orange Shirt v2_40: -2714180926560508556
+      orange Shirt v2_41: -1106840651414336906
+      orange Shirt v2_42: -7060930561926403092
+      orange Shirt v2_43: 6022255103795461712
+      orange Shirt v2_44: -3885246255464033054
+      orange Shirt v2_5: -3602111314708451305
+      orange Shirt v2_6: 5015813914917153885
+      orange Shirt v2_7: -2837541438235393688
+      orange Shirt v2_8: 7853430810026365620
+      orange Shirt v2_9: -2702088996324611532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

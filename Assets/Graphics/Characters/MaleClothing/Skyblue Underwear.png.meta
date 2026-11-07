@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: dd5076cbfa4e6445fae24a5585a27562
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5974503668619596295
+    second: Skyblue Underwear_0
+  - first:
+      213: 3712624701617312876
+    second: Skyblue Underwear_1
+  - first:
+      213: -7430200934444476466
+    second: Skyblue Underwear_2
+  - first:
+      213: 7049505762748845391
+    second: Skyblue Underwear_3
+  - first:
+      213: -478835337463814360
+    second: Skyblue Underwear_4
+  - first:
+      213: 7951668665505693621
+    second: Skyblue Underwear_5
+  - first:
+      213: -3376968992604286661
+    second: Skyblue Underwear_6
+  - first:
+      213: -5318269510537818258
+    second: Skyblue Underwear_7
+  - first:
+      213: 1227622924647656702
+    second: Skyblue Underwear_8
+  - first:
+      213: -7122384709238906106
+    second: Skyblue Underwear_9
+  - first:
+      213: -2068316335811953032
+    second: Skyblue Underwear_10
+  - first:
+      213: 5064003707600353249
+    second: Skyblue Underwear_11
+  - first:
+      213: -6231076759528504879
+    second: Skyblue Underwear_12
+  - first:
+      213: 4235066244383427038
+    second: Skyblue Underwear_13
+  - first:
+      213: -6716865222615031918
+    second: Skyblue Underwear_14
+  - first:
+      213: -1880807151496629592
+    second: Skyblue Underwear_15
+  - first:
+      213: -8652512632939831715
+    second: Skyblue Underwear_16
+  - first:
+      213: 1779984791211924765
+    second: Skyblue Underwear_17
+  - first:
+      213: 1953448767792995473
+    second: Skyblue Underwear_18
+  - first:
+      213: 4301063079397435020
+    second: Skyblue Underwear_19
+  - first:
+      213: -8298024073965855372
+    second: Skyblue Underwear_20
+  - first:
+      213: 5954641343423501203
+    second: Skyblue Underwear_21
+  - first:
+      213: 1638166623924255653
+    second: Skyblue Underwear_22
+  - first:
+      213: 3823802567799447699
+    second: Skyblue Underwear_23
+  - first:
+      213: 4503916151939434366
+    second: Skyblue Underwear_24
+  - first:
+      213: 1033412926022828685
+    second: Skyblue Underwear_25
+  - first:
+      213: -1183145472691616477
+    second: Skyblue Underwear_26
+  - first:
+      213: 484045366032636880
+    second: Skyblue Underwear_27
+  - first:
+      213: 1244208945915504342
+    second: Skyblue Underwear_28
+  - first:
+      213: 7969667895052217482
+    second: Skyblue Underwear_29
+  - first:
+      213: 4465896344033445720
+    second: Skyblue Underwear_30
+  - first:
+      213: 8536677688149595140
+    second: Skyblue Underwear_31
+  - first:
+      213: 9216565436817634075
+    second: Skyblue Underwear_32
+  - first:
+      213: -4632400799149341806
+    second: Skyblue Underwear_33
+  - first:
+      213: 7425394902268078706
+    second: Skyblue Underwear_34
+  - first:
+      213: 4016799533911314326
+    second: Skyblue Underwear_35
+  - first:
+      213: 550579115739425925
+    second: Skyblue Underwear_36
+  - first:
+      213: -8983484954558655567
+    second: Skyblue Underwear_37
+  - first:
+      213: -3910955488321048327
+    second: Skyblue Underwear_38
+  - first:
+      213: 1754170629771292158
+    second: Skyblue Underwear_39
+  - first:
+      213: -1224720011159154894
+    second: Skyblue Underwear_40
+  - first:
+      213: 8105106675569287256
+    second: Skyblue Underwear_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skyblue Underwear_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd29a2519c461da0800000000000000
+      internalID: -5974503668619596295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c649d3cee74e58330800000000000000
+      internalID: 3712624701617312876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec759a4fd9f92e890800000000000000
+      internalID: -7430200934444476466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4dc6be2420e4d160800000000000000
+      internalID: 7049505762748845391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 396
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827a09c2cc5da59f0800000000000000
+      internalID: -478835337463814360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 332
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf321385800a5e60800000000000000
+      internalID: 7951668665505693621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 332
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31105ad7989221d0800000000000000
+      internalID: -3376968992604286661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 333
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f4a9cbe06b136b0800000000000000
+      internalID: -5318269510537818258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 333
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcefb5bb84690110800000000000000
+      internalID: 1227622924647656702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 332
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603242cc7d4382d90800000000000000
+      internalID: -7122384709238906106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 332
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e7ac0404ddb43e0800000000000000
+      internalID: -2068316335811953032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_11
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 333
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7b7c4ba84f64640800000000000000
+      internalID: 5064003707600353249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_12
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 333
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d18c1c63b4c689a0800000000000000
+      internalID: -6231076759528504879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 269
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9c8b89f4af5ca30800000000000000
+      internalID: 4235066244383427038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 268
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f1bd1eaa6e8c2a0800000000000000
+      internalID: -6716865222615031918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 270
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a277045cd706e5e0800000000000000
+      internalID: -1880807151496629592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_16
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 271
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e9a037a991ce780800000000000000
+      internalID: -8652512632939831715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_17
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 270
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1dd8c1acb6c3b810800000000000000
+      internalID: 1779984791211924765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_18
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 268
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cd933fd4b0c1b10800000000000000
+      internalID: 1953448767792995473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_19
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 269
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86280c251270bb30800000000000000
+      internalID: 4301063079397435020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_20
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 269
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d10adc11f77dc80800000000000000
+      internalID: -8298024073965855372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393dc97b0c223a250800000000000000
+      internalID: 5954641343423501203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abf7e57ddfebb610800000000000000
+      internalID: 1638166623924255653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_23
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390a9e01d20e01530800000000000000
+      internalID: 3823802567799447699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_24
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 208
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e778e7e90ef118e30800000000000000
+      internalID: 4503916151939434366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8243e9b49b675e00800000000000000
+      internalID: 1033412926022828685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325ca9e067f949fe0800000000000000
+      internalID: -1183145472691616477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db9c8122bca7b600800000000000000
+      internalID: 484045366032636880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d628a7b171544110800000000000000
+      internalID: 1244208945915504342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 76
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c2c66b9b2f99e60800000000000000
+      internalID: 7969667895052217482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 76
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85744d5401d0afd30800000000000000
+      internalID: 4465896344033445720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 77
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404d82cc02f587670800000000000000
+      internalID: 8536677688149595140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 77
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1378aeee61d7ef70800000000000000
+      internalID: 9216565436817634075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_33
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 76
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293c775440866bfb0800000000000000
+      internalID: -4632400799149341806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_34
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 76
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a6faa725d4c0760800000000000000
+      internalID: 7425394902268078706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 12
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f0db8e4e98eb730800000000000000
+      internalID: 4016799533911314326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 10
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ca566e9cc04a700800000000000000
+      internalID: 550579115739425925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_37
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b31776c700445380800000000000000
+      internalID: -8983484954558655567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_38
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 5
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0724a54be79b9c0800000000000000
+      internalID: -3910955488321048327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_39
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 4
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efde0fec4e0185810800000000000000
+      internalID: 1754170629771292158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_40
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 250
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fcb8183abe00fe0800000000000000
+      internalID: -1224720011159154894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skyblue Underwear_41
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85064f7249f1b7070800000000000000
+      internalID: 8105106675569287256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skyblue Underwear_0: -5974503668619596295
+      Skyblue Underwear_1: 3712624701617312876
+      Skyblue Underwear_10: -2068316335811953032
+      Skyblue Underwear_11: 5064003707600353249
+      Skyblue Underwear_12: -6231076759528504879
+      Skyblue Underwear_13: 4235066244383427038
+      Skyblue Underwear_14: -6716865222615031918
+      Skyblue Underwear_15: -1880807151496629592
+      Skyblue Underwear_16: -8652512632939831715
+      Skyblue Underwear_17: 1779984791211924765
+      Skyblue Underwear_18: 1953448767792995473
+      Skyblue Underwear_19: 4301063079397435020
+      Skyblue Underwear_2: -7430200934444476466
+      Skyblue Underwear_20: -8298024073965855372
+      Skyblue Underwear_21: 5954641343423501203
+      Skyblue Underwear_22: 1638166623924255653
+      Skyblue Underwear_23: 3823802567799447699
+      Skyblue Underwear_24: 4503916151939434366
+      Skyblue Underwear_25: 1033412926022828685
+      Skyblue Underwear_26: -1183145472691616477
+      Skyblue Underwear_27: 484045366032636880
+      Skyblue Underwear_28: 1244208945915504342
+      Skyblue Underwear_29: 7969667895052217482
+      Skyblue Underwear_3: 7049505762748845391
+      Skyblue Underwear_30: 4465896344033445720
+      Skyblue Underwear_31: 8536677688149595140
+      Skyblue Underwear_32: 9216565436817634075
+      Skyblue Underwear_33: -4632400799149341806
+      Skyblue Underwear_34: 7425394902268078706
+      Skyblue Underwear_35: 4016799533911314326
+      Skyblue Underwear_36: 550579115739425925
+      Skyblue Underwear_37: -8983484954558655567
+      Skyblue Underwear_38: -3910955488321048327
+      Skyblue Underwear_39: 1754170629771292158
+      Skyblue Underwear_4: -478835337463814360
+      Skyblue Underwear_40: -1224720011159154894
+      Skyblue Underwear_41: 8105106675569287256
+      Skyblue Underwear_5: 7951668665505693621
+      Skyblue Underwear_6: -3376968992604286661
+      Skyblue Underwear_7: -5318269510537818258
+      Skyblue Underwear_8: 1227622924647656702
+      Skyblue Underwear_9: -7122384709238906106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

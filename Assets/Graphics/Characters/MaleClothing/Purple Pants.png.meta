@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 9f84b1eedaa466e6197933043b902fac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 204362254729962210
+    second: Purple Pants_0
+  - first:
+      213: -880344508134869750
+    second: Purple Pants_1
+  - first:
+      213: 1424642916790990951
+    second: Purple Pants_2
+  - first:
+      213: 4501065190424040127
+    second: Purple Pants_3
+  - first:
+      213: 4063289304947256031
+    second: Purple Pants_4
+  - first:
+      213: -6286479329404032013
+    second: Purple Pants_5
+  - first:
+      213: 6577821430780473305
+    second: Purple Pants_6
+  - first:
+      213: 6251832300952870360
+    second: Purple Pants_7
+  - first:
+      213: -5941599487644493174
+    second: Purple Pants_8
+  - first:
+      213: 5313084654651203258
+    second: Purple Pants_9
+  - first:
+      213: 6210744460274841207
+    second: Purple Pants_10
+  - first:
+      213: -4245508385418684426
+    second: Purple Pants_11
+  - first:
+      213: -6862772382999426849
+    second: Purple Pants_12
+  - first:
+      213: 1777375944142559112
+    second: Purple Pants_13
+  - first:
+      213: -1984582005625830384
+    second: Purple Pants_14
+  - first:
+      213: -7521861712417516161
+    second: Purple Pants_15
+  - first:
+      213: 4891636341409879318
+    second: Purple Pants_16
+  - first:
+      213: 8528607562700713406
+    second: Purple Pants_17
+  - first:
+      213: -841303192996770443
+    second: Purple Pants_18
+  - first:
+      213: -2270066063115930390
+    second: Purple Pants_19
+  - first:
+      213: -7530287902203303488
+    second: Purple Pants_20
+  - first:
+      213: 5520887685627840842
+    second: Purple Pants_21
+  - first:
+      213: -4561878472702623557
+    second: Purple Pants_22
+  - first:
+      213: -5073912798293898843
+    second: Purple Pants_23
+  - first:
+      213: 5481796951552272037
+    second: Purple Pants_24
+  - first:
+      213: 189894901375294183
+    second: Purple Pants_25
+  - first:
+      213: 7192493330072021716
+    second: Purple Pants_26
+  - first:
+      213: -641689267239920620
+    second: Purple Pants_27
+  - first:
+      213: 3047073032933762888
+    second: Purple Pants_28
+  - first:
+      213: 3808692760598902061
+    second: Purple Pants_29
+  - first:
+      213: -7378485000253158300
+    second: Purple Pants_30
+  - first:
+      213: 1037085065486917839
+    second: Purple Pants_31
+  - first:
+      213: 3104994423637526351
+    second: Purple Pants_32
+  - first:
+      213: 4821316682349433468
+    second: Purple Pants_33
+  - first:
+      213: 8995229273784982571
+    second: Purple Pants_34
+  - first:
+      213: -1148327622775060737
+    second: Purple Pants_35
+  - first:
+      213: -3522742887310823487
+    second: Purple Pants_36
+  - first:
+      213: -4423697469118568196
+    second: Purple Pants_37
+  - first:
+      213: -8766256814775515855
+    second: Purple Pants_38
+  - first:
+      213: -719886677035396533
+    second: Purple Pants_39
+  - first:
+      213: -1331078820647334044
+    second: Purple Pants_40
+  - first:
+      213: 5462639724163714018
+    second: Purple Pants_41
+  - first:
+      213: -1143477059192752608
+    second: Purple Pants_42
+  - first:
+      213: -3987737127169465942
+    second: Purple Pants_43
+  - first:
+      213: -5644362076746942406
+    second: Purple Pants_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Purple Pants_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e26dae436a06d200800000000000000
+      internalID: 204362254729962210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05b7a8855368c3f0800000000000000
+      internalID: -880344508134869750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7687a1b4f2955c310800000000000000
+      internalID: 1424642916790990951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2d91a61fef67e30800000000000000
+      internalID: 4501065190424040127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 385
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda66093814b36830800000000000000
+      internalID: 4063289304947256031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 321
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb690b6b50f1c8a0800000000000000
+      internalID: -6286479329404032013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 321
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df2f919dbd194b50800000000000000
+      internalID: 6577821430780473305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 321
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dddb95aa58f2c650800000000000000
+      internalID: 6251832300952870360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 322
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a9e45feb23b8da0800000000000000
+      internalID: -5941599487644493174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 321
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe501ee75edbb940800000000000000
+      internalID: 5313084654651203258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 321
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77638614e2ff03650800000000000000
+      internalID: 6210744460274841207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 321
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f75d2cfd9ce415c0800000000000000
+      internalID: -4245508385418684426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 321
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd845f0d0e882c0a0800000000000000
+      internalID: -6862772382999426849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 258
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88711f611028aa810800000000000000
+      internalID: 1777375944142559112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 257
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0144a0f3e295574e0800000000000000
+      internalID: -1984582005625830384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 257
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f751eb500aafc9790800000000000000
+      internalID: -7521861712417516161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 257
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6159024e55592e340800000000000000
+      internalID: 4891636341409879318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 257
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd6c7b4463bb5670800000000000000
+      internalID: 8528607562700713406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 257
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d860114371354f0800000000000000
+      internalID: -841303192996770443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_19
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 257
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae43e4361fa1f70e0800000000000000
+      internalID: -2270066063115930390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_20
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 260
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c920c4dc0b0f7790800000000000000
+      internalID: -7530287902203303488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 197
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a490da269122e9c40800000000000000
+      internalID: 5520887685627840842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 197
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb00f0ee2b3f0b0c0800000000000000
+      internalID: -4561878472702623557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_23
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 197
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a942645137d599b0800000000000000
+      internalID: -5073912798293898843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 196
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6a71c9841431c40800000000000000
+      internalID: 5481796951552272037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ead12d1864a2a200800000000000000
+      internalID: 189894901375294183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_26
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da2f44839ed0d360800000000000000
+      internalID: 7192493330072021716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_27
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cdbf1e2034817f0800000000000000
+      internalID: -641689267239920620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 133
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84760b487c0694a20800000000000000
+      internalID: 3047073032933762888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 65
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25791ee2e13bd430800000000000000
+      internalID: 3808692760598902061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 65
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ccc533cfa5a9990800000000000000
+      internalID: -7378485000253158300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 65
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0e5325f57746e00800000000000000
+      internalID: 1037085065486917839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 65
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47cb723af7271b20800000000000000
+      internalID: 3104994423637526351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_33
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 65
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c725a196af1c8e240800000000000000
+      internalID: 4821316682349433468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_34
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 65
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c1621ad5975dc70800000000000000
+      internalID: 8995229273784982571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff649b67c125010f0800000000000000
+      internalID: -1148327622775060737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfedce1204bc1fc0800000000000000
+      internalID: -3522742887310823487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_37
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8a46fe69edb92c0800000000000000
+      internalID: -4423697469118568196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_38
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13545716fdff75680800000000000000
+      internalID: -8766256814775515855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_39
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42d4c0a1e27206f0800000000000000
+      internalID: -719886677035396533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_40
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f054f6dde078de0800000000000000
+      internalID: -1331078820647334044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_41
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb47b603e13fcb40800000000000000
+      internalID: 5462639724163714018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_42
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 0
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026f10e4cad8120f0800000000000000
+      internalID: -1143477059192752608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_43
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 0
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa16d65f536b8a8c0800000000000000
+      internalID: -3987737127169465942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple Pants_44
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 0
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38ffc7a8923ba1b0800000000000000
+      internalID: -5644362076746942406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Purple Pants_0: 204362254729962210
+      Purple Pants_1: -880344508134869750
+      Purple Pants_10: 6210744460274841207
+      Purple Pants_11: -4245508385418684426
+      Purple Pants_12: -6862772382999426849
+      Purple Pants_13: 1777375944142559112
+      Purple Pants_14: -1984582005625830384
+      Purple Pants_15: -7521861712417516161
+      Purple Pants_16: 4891636341409879318
+      Purple Pants_17: 8528607562700713406
+      Purple Pants_18: -841303192996770443
+      Purple Pants_19: -2270066063115930390
+      Purple Pants_2: 1424642916790990951
+      Purple Pants_20: -7530287902203303488
+      Purple Pants_21: 5520887685627840842
+      Purple Pants_22: -4561878472702623557
+      Purple Pants_23: -5073912798293898843
+      Purple Pants_24: 5481796951552272037
+      Purple Pants_25: 189894901375294183
+      Purple Pants_26: 7192493330072021716
+      Purple Pants_27: -641689267239920620
+      Purple Pants_28: 3047073032933762888
+      Purple Pants_29: 3808692760598902061
+      Purple Pants_3: 4501065190424040127
+      Purple Pants_30: -7378485000253158300
+      Purple Pants_31: 1037085065486917839
+      Purple Pants_32: 3104994423637526351
+      Purple Pants_33: 4821316682349433468
+      Purple Pants_34: 8995229273784982571
+      Purple Pants_35: -1148327622775060737
+      Purple Pants_36: -3522742887310823487
+      Purple Pants_37: -4423697469118568196
+      Purple Pants_38: -8766256814775515855
+      Purple Pants_39: -719886677035396533
+      Purple Pants_4: 4063289304947256031
+      Purple Pants_40: -1331078820647334044
+      Purple Pants_41: 5462639724163714018
+      Purple Pants_42: -1143477059192752608
+      Purple Pants_43: -3987737127169465942
+      Purple Pants_44: -5644362076746942406
+      Purple Pants_5: -6286479329404032013
+      Purple Pants_6: 6577821430780473305
+      Purple Pants_7: 6251832300952870360
+      Purple Pants_8: -5941599487644493174
+      Purple Pants_9: 5313084654651203258
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
