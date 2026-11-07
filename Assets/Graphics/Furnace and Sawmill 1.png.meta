@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 3de47616096e3c1ef9dbefbaf79c3fc6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 322551843701084172
+    second: Furnace and Sawmill_0
+  - first:
+      213: -6656241319498553121
+    second: Furnace and Sawmill_1
+  - first:
+      213: 6357518784351339271
+    second: Furnace and Sawmill_2
+  - first:
+      213: -5811994443909173530
+    second: Furnace and Sawmill_3
+  - first:
+      213: 2054116056872881446
+    second: Furnace and Sawmill_4
+  - first:
+      213: 622360587101510279
+    second: Furnace and Sawmill_5
+  - first:
+      213: -4170619727844063057
+    second: Furnace and Sawmill_6
+  - first:
+      213: -6341624371647704250
+    second: Furnace and Sawmill_7
+  - first:
+      213: 1281842508821462439
+    second: Furnace and Sawmill_8
+  - first:
+      213: -774343799420361671
+    second: Furnace and Sawmill_9
+  - first:
+      213: -7715094193708637152
+    second: Furnace and Sawmill_10
+  - first:
+      213: -3019987784627197279
+    second: Furnace and Sawmill_11
+  - first:
+      213: -7907205361153945040
+    second: Furnace and Sawmill_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Furnace and Sawmill_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 63
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c005371613fe97400800000000000000
+      internalID: 322551843701084172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 63
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8e20449c740a3a0800000000000000
+      internalID: -6656241319498553121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 63
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703822a96a17a3850800000000000000
+      internalID: 6357518784351339271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 63
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eeef36b8d5a75fa0800000000000000
+      internalID: -5811994443909173530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 63
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d8559abafa18c10800000000000000
+      internalID: 2054116056872881446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_5
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 122
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a936418a113a800800000000000000
+      internalID: 622360587101510279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 63
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa84e94547bfe16c0800000000000000
+      internalID: -4170619727844063057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6439afcbb360ef7a0800000000000000
+      internalID: -6341624371647704250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad7c4468f40ac110800000000000000
+      internalID: 1281842508821462439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934e585ca6af045f0800000000000000
+      internalID: -774343799420361671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024615705ba7ee490800000000000000
+      internalID: -7715094193708637152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aae6474c19d616d0800000000000000
+      internalID: -3019987784627197279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furnace and Sawmill_12
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032da524e96f34290800000000000000
+      internalID: -7907205361153945040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Furnace and Sawmill_0: 322551843701084172
+      Furnace and Sawmill_1: -6656241319498553121
+      Furnace and Sawmill_10: -7715094193708637152
+      Furnace and Sawmill_11: -3019987784627197279
+      Furnace and Sawmill_12: -7907205361153945040
+      Furnace and Sawmill_2: 6357518784351339271
+      Furnace and Sawmill_3: -5811994443909173530
+      Furnace and Sawmill_4: 2054116056872881446
+      Furnace and Sawmill_5: 622360587101510279
+      Furnace and Sawmill_6: -4170619727844063057
+      Furnace and Sawmill_7: -6341624371647704250
+      Furnace and Sawmill_8: 1281842508821462439
+      Furnace and Sawmill_9: -774343799420361671
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
