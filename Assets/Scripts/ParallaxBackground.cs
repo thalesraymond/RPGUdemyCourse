@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class ParallaxBackground : MonoBehaviour
@@ -15,13 +14,13 @@ public class ParallaxBackground : MonoBehaviour
         this._lastMainCameraPositionX = this._mainCamera.transform.position.x;
         this._cameraHalfWidth = this._mainCamera.orthographicSize * this._mainCamera.aspect;
         
-        this.CalculateImageLength();
+        this.CalculateTileWidths();
     }
 
     private void Update()
     {
         var currentCameraPositionX = this._mainCamera.transform.position.x;
-        var distanceToMove = currentCameraPositionX - this._lastMainCameraPositionX;
+        var cameraMovementX = currentCameraPositionX - this._lastMainCameraPositionX;
         this._lastMainCameraPositionX = currentCameraPositionX;
         
         var cameraRightEdge = currentCameraPositionX + this._cameraHalfWidth;
@@ -29,16 +28,16 @@ public class ParallaxBackground : MonoBehaviour
         
         foreach (var layer in this.layers)
         {
-            layer.Move(distanceToMove);
-            layer.LoopBackground(cameraLeftEdge, cameraRightEdge, distanceToMove);
+            layer.Move(cameraMovementX);
+            layer.LoopBackground(cameraLeftEdge, cameraRightEdge, cameraMovementX);
         }
     }
 
-    private void CalculateImageLength()
+    private void CalculateTileWidths()
     {
         foreach (var layer in this.layers)
         {
-            layer.CalculateImageWitdh();
+            layer.CalculateTileWidth();
         }
     }
 }

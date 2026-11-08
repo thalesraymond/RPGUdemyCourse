@@ -6,40 +6,36 @@ public class ParallaxLayer
     [SerializeField] private Transform background;
     [SerializeField] private float parallaxMultiplier;
 
-    private float _imageWidth;
-    private float _imageHalfWidth;
-    
-    private SpriteRenderer _spriteRenderer;
+    private float _tileWidth;
+    private float _tileHalfWidth;
 
-    private void Awake()
+    public void CalculateTileWidth()
     {
-        this._spriteRenderer = this.background.GetComponent<SpriteRenderer>();
+        this._tileWidth = this.background.GetComponent<SpriteRenderer>().bounds.size.x;
+        this._tileHalfWidth = this._tileWidth / 2;
     }
 
-    public void CalculateImageWitdh()
+    public void Move(float cameraMovementX)
     {
-        this._imageWidth = this.background.GetComponent<SpriteRenderer>().bounds.size.x;
-        this._imageHalfWidth = this._imageWidth / 2;
-    }
-
-    public void Move(float distanceToMove)
-    {
-        this.background.position += new Vector3(distanceToMove * this.parallaxMultiplier, 0, 0);
+        this.background.position += new Vector3(cameraMovementX * this.parallaxMultiplier, 0, 0);
     }
     
     public void LoopBackground(float cameraLeftEdge, float cameraRightEdge, float cameraMovement)
     {
-        var imageRightEdge = this.background.position.x + this._imageHalfWidth;
-        var imageLeftEdge = this.background.position.x - this._imageHalfWidth;
-        var relativeMovement = cameraMovement * (this.parallaxMultiplier - 1f);
+        var tileRightEdge = this.background.position.x + this._tileHalfWidth;
+        var tileLeftEdge = this.background.position.x - this._tileHalfWidth;
+        // Negative means the tile moves left relative to the camera.
+        var movementRelativeToCamera = cameraMovement * (this.parallaxMultiplier - 1f);
         
-        if (relativeMovement < 0 && imageRightEdge < cameraLeftEdge)
+        // Each layer has three adjacent tiles; recycle an offscreen tile to the opposite end.
+        switch (movementRelativeToCamera)
         {
-            this.background.position += Vector3.right * (this._imageWidth * 3);
-        }
-        else if (relativeMovement > 0 && imageLeftEdge > cameraRightEdge)
-        {
-            this.background.position -= Vector3.right * (this._imageWidth * 3);
+            case < 0 when tileRightEdge < cameraLeftEdge:
+                this.background.position += Vector3.right * (this._tileWidth * 3);
+                break;
+            case > 0 when tileLeftEdge > cameraRightEdge:
+                this.background.position -= Vector3.right * (this._tileWidth * 3);
+                break;
         }
     }
 }
