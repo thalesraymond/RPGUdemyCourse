@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace PlayerStateMachine
 {
-    public class PlayerJumpAttackState : EntityState
+    public class PlayerJumpAttackState : PlayerState
     {
         private static readonly int JumpAttackTrigger = Animator.StringToHash("jumpAttackTrigger");
 

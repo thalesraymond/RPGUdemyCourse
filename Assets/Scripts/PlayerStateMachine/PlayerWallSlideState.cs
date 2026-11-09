@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace PlayerStateMachine
 {
-    public class PlayerWallSlideState : EntityState
+    public class PlayerWallSlideState : PlayerState
     {
         public PlayerWallSlideState(Player player, StateMachine stateMachine, string animationBoolName) : base(player, stateMachine, animationBoolName)
         {

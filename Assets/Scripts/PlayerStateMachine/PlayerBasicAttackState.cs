@@ -61,7 +61,7 @@ namespace PlayerStateMachine
             this._lastAttackTime = Time.time;
         }
         
-        private EntityState HandleStateExit()
+        private PlayerState HandleStateExit()
         {
             if (!this._isNextAttackQueued)
             {

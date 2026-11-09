@@ -1,6 +1,6 @@
 namespace PlayerStateMachine
 {
-    public class PlayerGroundedState : EntityState
+    public class PlayerGroundedState : PlayerState
     {
         public PlayerGroundedState(Player player, StateMachine stateMachine, string animationBoolName) : base(player, stateMachine, animationBoolName)
         {

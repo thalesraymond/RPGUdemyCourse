@@ -1,10 +1,9 @@
-using System.Numerics;
 using UnityEngine;
 using Vector2 = UnityEngine.Vector2;
 
 namespace PlayerStateMachine
 {
-    public class PlayerDashState : EntityState
+    public class PlayerDashState : PlayerState
     {
         private float _originalGravityScale;
         private int _dashDirection;
@@ -42,6 +41,7 @@ namespace PlayerStateMachine
             if (this.StateTimer < 0)
                 return this.Player.IsGrounded ? this.Player.IdleState : this.Player.FallState;
 
+            Debug.Log(this.StateTimer);
             return null;
         }
 
