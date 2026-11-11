@@ -1,18 +1,20 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
     protected StateMachine StateMachine { get; set; }
     
-    [Header("Movement Settings")]
-    [SerializeField] protected float moveSpeed = 5f;
+    [Header("Base Movement Settings")]
+    [SerializeField] public float moveSpeed = 5f;
     
-    [Header("Ground Detection")]
+    [Header("Base Ground Detection")]
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckDistance = 0.1f;
     [SerializeField] private LayerMask groundLayer;
         
-    [Header("Wall Detection")]
+    [Header("Base Wall Detection")]
     [SerializeField] private float wallCheckDistance = 0.1f;
     [SerializeField] private Transform primaryWallCheck;
     [SerializeField] private Transform secondaryWallCheck;
@@ -29,6 +31,7 @@ public class Entity : MonoBehaviour
     
     protected virtual void Awake()
     {
+        this.StateMachine = new StateMachine();
         this.Animator = this.GetComponentInChildren<Animator>();
         this.RigidBody2D = this.GetComponent<Rigidbody2D>();
     }
@@ -37,7 +40,16 @@ public class Entity : MonoBehaviour
     {
         this.SetIsGrounded();
         this.SetIsTouchingWall();
+        
+        // Update the current state
+        this.StateMachine.UpdateActiveState();
     }
+
+    protected virtual void Start()
+    {
+        // Base 
+    }
+
     private void SetIsGrounded()
     {
         var hit = Physics2D.Raycast(this.groundCheck.position, 
@@ -76,10 +88,21 @@ public class Entity : MonoBehaviour
 
     private void HandleRotate(Vector2 direction)
     {
+        var localScale = this.transform.localScale;
+
         if (direction.x < 0)
-            this.transform.localScale = new Vector3(-1, 1, 1);
-        else if (direction.x > 0) 
-            this.transform.localScale = new Vector3(1, 1, 1);
+            localScale.x = -Mathf.Abs(localScale.x);
+        else if (direction.x > 0)
+            localScale.x = Mathf.Abs(localScale.x);
+
+        this.transform.localScale = localScale;
+    }
+
+    public void Flip()
+    {
+        var localScale = this.transform.localScale;
+        localScale.x *= -1;
+        this.transform.localScale = localScale;
     }
     
     private void OnDrawGizmosSelected()

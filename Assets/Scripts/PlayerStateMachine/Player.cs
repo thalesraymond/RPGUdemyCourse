@@ -60,7 +60,7 @@ namespace PlayerStateMachine
         {
             base.Awake();
             
-            this.StateMachine = new StateMachine();
+            
             this.Input = new PlayerInputSet();
         
             this.IdleState = new PlayerIdleState(this, this.StateMachine, "idle");
@@ -83,15 +83,9 @@ namespace PlayerStateMachine
         protected override void Update()
         {
             base.Update();
-            
-            // Update the current state
-            this.StateMachine.UpdateActiveState();
         }
 
-        public void Flip()
-        {
-            this.transform.localScale = new Vector3(-this.transform.localScale.x, 1, 1);
-        }
+
 
         public void CallAnimationTrigger()
         {

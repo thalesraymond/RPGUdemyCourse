@@ -235,7 +235,7 @@ Transform:
   m_GameObject: {fileID: 67147991}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.283, y: -0.38, z: 0}
+  m_LocalPosition: {x: 0.226, y: -0.505, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -64755,10 +64755,10 @@ TilemapCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 129
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -65018,7 +65018,7 @@ Transform:
   m_GameObject: {fileID: 351641214}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.855, y: 1.35, z: 0}
+  m_LocalPosition: {x: 0.113, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -65775,8 +65775,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.00518624, y: -0.14746961}
-  m_Size: {x: 0.22442532, y: 0.7500393}
+  m_Offset: {x: 0.009348768, y: -0.14315125}
+  m_Size: {x: 0.23275034, y: 0.7233506}
   m_Direction: 0
 --- !u!50 &684593496
 Rigidbody2D:
@@ -65817,7 +65817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a33d738e12834e08993078dcbffa448a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemies.MeleeSkeleton
-  moveSpeed: 5
+  moveSpeed: 2
   groundCheck: {fileID: 67147992}
   groundCheckDistance: 0.1
   groundLayer:
@@ -65826,6 +65826,7 @@ MonoBehaviour:
   wallCheckDistance: 0.1
   primaryWallCheck: {fileID: 351641215}
   secondaryWallCheck: {fileID: 1003741035}
+  idleTime: 2
 --- !u!4 &684593498
 Transform:
   m_ObjectHideFlags: 0
@@ -65835,8 +65836,8 @@ Transform:
   m_GameObject: {fileID: 684593494}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.27, y: -1.46, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalPosition: {x: 17.567, y: -1.64, z: 0}
+  m_LocalScale: {x: 2.7, y: 2.7, z: 2.7}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 351641215}
@@ -65856,7 +65857,7 @@ GameObject:
   - component: {fileID: 749639311}
   - component: {fileID: 749639313}
   - component: {fileID: 749639312}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272414,7 +272415,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 7.2964993
+      m_AnimationSpeed: 10.053814
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 16, y: 0, z: 0}
@@ -272427,7 +272428,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 8.195115
+      m_AnimationSpeed: 4.352313
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -273001,7 +273002,7 @@ Transform:
   m_GameObject: {fileID: 1003741034}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.855, y: 0, z: 0}
+  m_LocalPosition: {x: 0.119, y: -0.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

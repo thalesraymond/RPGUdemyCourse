@@ -2,13 +2,13 @@ namespace Enemies
 {
     public class EnemyState : EntityState
     {
-        protected Enemy Enemy { get; set; }
+        protected Enemy EnemyObject { get; set; }
         
-        protected EnemyState(Enemy enemy, StateMachine stateMachine, string animationBoolName) : base(stateMachine, animationBoolName)
+        protected EnemyState(Enemy enemyObject, StateMachine stateMachine, string animationBoolName) : base(stateMachine, animationBoolName)
         {
-            this.Enemy = enemy;
-            this.RigidBody2D = enemy.RigidBody2D;
-            this.Animator = enemy.Animator;
+            this.EnemyObject = enemyObject;
+            this.RigidBody2D = enemyObject.RigidBody2D;
+            this.Animator = enemyObject.Animator;
         }
     }
 }

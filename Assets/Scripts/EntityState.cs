@@ -28,7 +28,6 @@ public class EntityState
     
     public virtual EntityState Update()
     {
-        Debug.Log(this.StateTimer);
         this.StateTimer -= Time.deltaTime;
         return null;
     }
