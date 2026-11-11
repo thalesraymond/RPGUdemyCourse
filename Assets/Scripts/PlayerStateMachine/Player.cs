@@ -74,8 +74,9 @@ namespace PlayerStateMachine
             this.JumpAttackState = new PlayerJumpAttackState(this, this.StateMachine, "jumpAttack");
         }
 
-        private void Start()
+        protected override void Start()
         {
+            base.Start();
             // Initialize the state machine with the IdleState
             this.StateMachine.Initialize(this.IdleState);
         }

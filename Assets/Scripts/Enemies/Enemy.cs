@@ -6,6 +6,8 @@ namespace Enemies
     {
         [Header("Enemy Movement Settings")]
         public float idleTime;
+        [Range(0,2)]
+        public float moveAnimationMultiplier;
         
         public EnemyIdleState EnemyIdleState { get; private set; }
         public EnemyMoveState EnemyMoveState { get; private set; }

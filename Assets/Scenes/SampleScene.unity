@@ -65827,6 +65827,7 @@ MonoBehaviour:
   primaryWallCheck: {fileID: 351641215}
   secondaryWallCheck: {fileID: 1003741035}
   idleTime: 2
+  moveAnimationMultiplier: 1.7
 --- !u!4 &684593498
 Transform:
   m_ObjectHideFlags: 0
@@ -272415,7 +272416,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 10.053814
+      m_AnimationSpeed: 7.5454264
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 16, y: 0, z: 0}
@@ -272428,7 +272429,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 4.352313
+      m_AnimationSpeed: 10.812512
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
