@@ -105,6 +105,11 @@ public class Entity : MonoBehaviour
         this.transform.localScale = localScale;
     }
     
+    public void CallAnimationTrigger()
+    {
+        this.StateMachine.CurrentState.CallAnimationTrigger();
+    }
+    
     private void OnDrawGizmosSelected()
     {
         if (this.groundCheck == null)

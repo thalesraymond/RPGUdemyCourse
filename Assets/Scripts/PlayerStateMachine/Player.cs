@@ -85,12 +85,5 @@ namespace PlayerStateMachine
         {
             base.Update();
         }
-
-
-
-        public void CallAnimationTrigger()
-        {
-            this.StateMachine.CurrentState.CallAnimationTrigger();
-        }
     }
 }
