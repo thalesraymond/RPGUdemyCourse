@@ -12,7 +12,7 @@ public class Entity : MonoBehaviour
     [Header("Base Ground Detection")]
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckDistance = 0.1f;
-    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] protected LayerMask groundLayer;
         
     [Header("Base Wall Detection")]
     [SerializeField] private float wallCheckDistance = 0.1f;
@@ -110,7 +110,7 @@ public class Entity : MonoBehaviour
         this.StateMachine.CurrentState.CallAnimationTrigger();
     }
     
-    private void OnDrawGizmosSelected()
+    protected virtual void OnDrawGizmosSelected()
     {
         if (this.groundCheck == null)
             return;

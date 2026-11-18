@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Enemies
 {
-    public class EnemyMoveState : EnemyState
+    public class EnemyMoveState : EnemyGroundedState
     {
         public EnemyMoveState(Enemy enemyObject, StateMachine stateMachine, string animationBoolName) : base(enemyObject, stateMachine, animationBoolName)
         {
@@ -14,17 +14,17 @@ namespace Enemies
             
             if(nextState != null)
                 return nextState;
-            
-            this.EnemyObject.SetVelocity(new Vector2(
-                this.EnemyObject.moveSpeed * this.EnemyObject.FacingDirection, 
-                this.RigidBody2D.linearVelocity.y)
-            );
 
             if (!this.EnemyObject.IsGrounded || this.EnemyObject.IsTouchingWall)
             {
                 this.EnemyObject.Flip();
                 return this.EnemyObject.EnemyIdleState;
             }
+            
+            this.EnemyObject.SetVelocity(new Vector2(
+                this.EnemyObject.moveSpeed * this.EnemyObject.FacingDirection, 
+                this.RigidBody2D.linearVelocity.y)
+            );
 
             return null;
         }

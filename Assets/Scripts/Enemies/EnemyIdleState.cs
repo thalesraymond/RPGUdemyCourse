@@ -1,8 +1,9 @@
 using Unity.VisualScripting;
+using UnityEngine;
 
 namespace Enemies
 {
-    public class EnemyIdleState : EnemyState
+    public class EnemyIdleState : EnemyGroundedState
     {
         public EnemyIdleState(Enemy enemyObject, StateMachine stateMachine, string animationBoolName) : base(enemyObject, stateMachine, animationBoolName)
         {
@@ -11,6 +12,8 @@ namespace Enemies
         public override void Enter()
         {
             base.Enter();
+            
+            this.EnemyObject.SetVelocity(new Vector2(0, this.RigidBody2D.linearVelocity.y));
             
             this.StateTimer = this.EnemyObject.idleTime;
         }
