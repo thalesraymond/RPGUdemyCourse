@@ -16,7 +16,7 @@ namespace Enemies
                 return nextState;
 
             return this.TriggerCalled 
-                ? this.EnemyObject.EnemyIdleState 
+                ? this.EnemyObject.BattleState 
                 : null;
         }
     }

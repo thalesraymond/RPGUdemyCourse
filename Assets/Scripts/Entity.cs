@@ -83,16 +83,16 @@ public class Entity : MonoBehaviour
     {
         this.RigidBody2D.linearVelocity = velocity;
             
-        this.HandleRotate(this.RigidBody2D.linearVelocity);
+        this.HandleRotate(this.RigidBody2D.linearVelocity.x);
     }
 
-    private void HandleRotate(Vector2 direction)
+    public void HandleRotate(float xDirection)
     {
         var localScale = this.transform.localScale;
 
-        if (direction.x < 0)
+        if (xDirection < 0)
             localScale.x = -Mathf.Abs(localScale.x);
-        else if (direction.x > 0)
+        else if (xDirection > 0)
             localScale.x = Mathf.Abs(localScale.x);
 
         this.transform.localScale = localScale;

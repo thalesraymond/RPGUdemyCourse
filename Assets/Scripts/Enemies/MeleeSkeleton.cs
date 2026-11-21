@@ -9,7 +9,7 @@ namespace Enemies
         protected override void Start()
         {
             base.Start();
-            this.StateMachine.Initialize(this.EnemyIdleState);
+            this.StateMachine.Initialize(this.IdleState);
         }
         
     }

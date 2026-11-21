@@ -40,8 +40,7 @@ namespace PlayerStateMachine
 
             if (this.StateTimer < 0)
                 return this.Player.IsGrounded ? this.Player.IdleState : this.Player.FallState;
-
-            Debug.Log(this.StateTimer);
+            
             return null;
         }
 

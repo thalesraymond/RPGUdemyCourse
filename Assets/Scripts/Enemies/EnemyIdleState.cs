@@ -26,7 +26,7 @@ namespace Enemies
                 return nextState;
             
             if (this.StateTimer < 0)
-                return this.EnemyObject.EnemyMoveState;
+                return this.EnemyObject.MoveState;
 
             return null;
         }

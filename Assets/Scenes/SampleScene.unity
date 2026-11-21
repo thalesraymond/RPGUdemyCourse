@@ -65826,6 +65826,12 @@ MonoBehaviour:
   wallCheckDistance: 0.1
   primaryWallCheck: {fileID: 351641215}
   secondaryWallCheck: {fileID: 1003741035}
+  battleMoveSpeed: 3
+  attackDistance: 2
+  attackHeightTolerance: 1
+  battleTimeDuration: 5
+  minimumRetreatDistance: 1
+  retreatVelocity: {x: 6, y: 3}
   idleTime: 2
   moveAnimationMultiplier: 1.7
   playerLayer:
@@ -65842,7 +65848,7 @@ Transform:
   m_GameObject: {fileID: 684593494}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.32, y: -1.797, z: 0}
+  m_LocalPosition: {x: 16.665, y: -1.797, z: 0}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -272421,7 +272427,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 10.948788
+      m_AnimationSpeed: 5.9456673
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 16, y: 0, z: 0}
@@ -272434,7 +272440,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 6.740535
+      m_AnimationSpeed: 4.319016
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:

@@ -18,7 +18,7 @@ namespace Enemies
             if (!this.EnemyObject.IsGrounded || this.EnemyObject.IsTouchingWall)
             {
                 this.EnemyObject.Flip();
-                return this.EnemyObject.EnemyIdleState;
+                return this.EnemyObject.IdleState;
             }
             
             this.EnemyObject.SetVelocity(new Vector2(

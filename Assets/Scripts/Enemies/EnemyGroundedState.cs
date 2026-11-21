@@ -14,7 +14,7 @@ namespace Enemies
 
             if (this.EnemyObject.PlayerDetection())
             {
-                return this.EnemyObject.EnemyBattleState;
+                return this.EnemyObject.BattleState;
             }
             
             return null;

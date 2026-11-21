@@ -4,6 +4,16 @@ namespace Enemies
 {
     public class Enemy : Entity
     {
+        [Header("Battle Details")]
+        public float battleMoveSpeed = 3f;
+        public float attackDistance = 2f;
+        public float attackHeightTolerance = 1f;
+        public float battleTimeDuration = 5f;
+        public float minimumRetreatDistance = 1f;
+        public Vector2 retreatVelocity;
+        public float BattleMoveAnimationMultiplier { get; private set; }
+        
+        
         [Header("Enemy Movement Settings")]
         public float idleTime;
         [Range(0,2)]
@@ -15,18 +25,30 @@ namespace Enemies
         [SerializeField] private Transform playerCheck;
         [SerializeField] private float playerCheckDistance = 10;
         
-        public EnemyIdleState EnemyIdleState { get; private set; }
-        public EnemyMoveState EnemyMoveState { get; private set; }
-        public EnemyAttackState EnemyAttackState { get; private set; }
-        public EnemyBattleState EnemyBattleState { get; private set; }
+        public EnemyIdleState IdleState { get; private set; }
+        public EnemyMoveState MoveState { get; private set; }
+        public EnemyAttackState AttackState { get; private set; }
+        public EnemyBattleState BattleState { get; private set; }
 
         protected override void Awake()
         {
             base.Awake();
-            this.EnemyIdleState = new EnemyIdleState(this, this.StateMachine, "idle");
-            this.EnemyMoveState = new EnemyMoveState(this, this.StateMachine, "move");
-            this.EnemyAttackState = new EnemyAttackState(this, this.StateMachine, "attack");
-            this.EnemyBattleState = new EnemyBattleState(this, this.StateMachine, "battle");
+            this.IdleState = new EnemyIdleState(this, this.StateMachine, "idle");
+            this.MoveState = new EnemyMoveState(this, this.StateMachine, "move");
+            this.AttackState = new EnemyAttackState(this, this.StateMachine, "attack");
+            this.BattleState = new EnemyBattleState(this, this.StateMachine, "battle");
+            
+            var speedRatio = this.moveSpeed > 0f
+                ? this.battleMoveSpeed / this.moveSpeed
+                : 1f;
+
+            this.BattleMoveAnimationMultiplier =
+                this.moveAnimationMultiplier * speedRatio;
+        }
+
+        protected override void Update()
+        {
+            base.Update();
         }
 
         public RaycastHit2D PlayerDetection()
@@ -52,10 +74,27 @@ namespace Enemies
 
             Gizmos.color = Color.yellow;
 
-            var vectorTo = new Vector3(
+            var checkDistance = new Vector3(
                 this.playerCheck.position.x + (this.FacingDirection * this.playerCheckDistance),
                 this.playerCheck.position.y);
-            Gizmos.DrawLine(this.playerCheck.position, vectorTo);
+            Gizmos.DrawLine(this.playerCheck.position, checkDistance);
+            
+            Gizmos.color = Color.blue;
+            var attackDistanceVector = new Vector3(
+                this.playerCheck.position.x + (this.FacingDirection * this.attackDistance),
+                this.playerCheck.position.y);
+            Gizmos.DrawLine(this.playerCheck.position, attackDistanceVector);
+            
+            Gizmos.color = Color.cadetBlue;
+            Gizmos.DrawLine(
+                attackDistanceVector + Vector3.down * this.attackHeightTolerance,
+                attackDistanceVector + Vector3.up * this.attackHeightTolerance);
+
+            Gizmos.color = Color.blueViolet;
+            var retreatDistanceVector = new Vector3(
+                this.playerCheck.position.x + (this.FacingDirection * this.minimumRetreatDistance),
+                this.playerCheck.position.y);
+            Gizmos.DrawLine(this.playerCheck.position, retreatDistanceVector);
         }
     }
 }
