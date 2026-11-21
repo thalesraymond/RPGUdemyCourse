@@ -13,6 +13,6 @@ public class EntityAnimationTriggers : MonoBehaviour
 
     private void CurrentStateTrigger()
     {
-        if (this._entity != null) this._entity.CallAnimationTrigger();
+        if (this._entity != null) this._entity.CalCurrentStateAnimationTrigger();
     }
 }

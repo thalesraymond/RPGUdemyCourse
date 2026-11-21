@@ -105,7 +105,7 @@ public class Entity : MonoBehaviour
         this.transform.localScale = localScale;
     }
     
-    public void CallAnimationTrigger()
+    public void CalCurrentStateAnimationTrigger()
     {
         this.StateMachine.CurrentState.CallAnimationTrigger();
     }
