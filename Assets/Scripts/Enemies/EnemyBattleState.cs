@@ -7,7 +7,7 @@ namespace Enemies
         private const float HorizontalDeadzone = 0.1f;
 
         private Transform _player;
-        private float _lastTimeWasInBattle;
+        private float _lastTimePlayerDetected;
 
         public EnemyBattleState(Enemy enemyObject, StateMachine stateMachine, string animationBoolName) 
             : base(enemyObject, stateMachine, animationBoolName)
@@ -21,17 +21,10 @@ namespace Enemies
             if (!this._player)
                 this._player = this.EnemyObject.PlayerDetection().transform;
             
-            this._lastTimeWasInBattle = Time.time;
+            this._lastTimePlayerDetected = Time.time;
 
             if (this.ShouldRetreat())
-            {
-                var directionToRetreat = this.GetDirectionToPlayer() == 0 ? 1 : -this.GetDirectionToPlayer();
-                this.RigidBody2D.linearVelocity = new Vector2(
-                    this.EnemyObject.retreatVelocity.x * directionToRetreat, 
-                    this.EnemyObject.retreatVelocity.y);
-                
-                this.EnemyObject.HandleRotate(this.GetDirectionToPlayer());
-            }
+                this.RetreatFromPlayer();
         }
 
         public override EntityState Update()
@@ -42,26 +35,41 @@ namespace Enemies
                 return nextState;
 
             if (this.EnemyObject.PlayerDetection()) 
-                this._lastTimeWasInBattle = Time.time;
+                this._lastTimePlayerDetected = Time.time;
             
-            var deltaTimeBattle = Time.time - this._lastTimeWasInBattle;
+            var timeSincePlayerDetected = Time.time - this._lastTimePlayerDetected;
             
-            if (this.EnemyObject.battleTimeDuration < deltaTimeBattle)
+            if (timeSincePlayerDetected > this.EnemyObject.battleTimeDuration)
                 return this.EnemyObject.IdleState;
             
             if (this.WithinAttackRange() && this.EnemyObject.PlayerDetection())
                 return this.EnemyObject.AttackState;
             
-            if(!this.EnemyObject.IsGrounded)
+            if (!this.EnemyObject.IsGrounded)
                 return null;
             
-            this.EnemyObject.SetVelocity(new Vector2(
-                    this.EnemyObject.battleMoveSpeed * this.GetDirectionToPlayer(), 
-                    this.RigidBody2D.linearVelocity.y
-                )
-            );
+            this.MoveTowardsPlayer();
 
             return null;
+        }
+
+        private void RetreatFromPlayer()
+        {
+            var directionToPlayer = this.GetDirectionToPlayer();
+            var directionToRetreat = directionToPlayer == 0 ? 1 : -directionToPlayer;
+
+            this.RigidBody2D.linearVelocity = new Vector2(
+                this.EnemyObject.retreatVelocity.x * directionToRetreat,
+                this.EnemyObject.retreatVelocity.y);
+
+            this.EnemyObject.HandleRotate(directionToPlayer);
+        }
+
+        private void MoveTowardsPlayer()
+        {
+            this.EnemyObject.SetVelocity(new Vector2(
+                this.EnemyObject.battleMoveSpeed * this.GetDirectionToPlayer(),
+                this.RigidBody2D.linearVelocity.y));
         }
 
         private bool WithinAttackRange() =>
