@@ -29,6 +29,7 @@ public class EntityState
     public virtual EntityState Update()
     {
         this.StateTimer -= Time.deltaTime;
+        this.UpdateAnimationParameters();
         return null;
     }
     
@@ -41,5 +42,10 @@ public class EntityState
     public void CallAnimationTrigger()
     {
         this.TriggerCalled = true;
+    }
+
+    public virtual void UpdateAnimationParameters()
+    {
+        
     }
 }

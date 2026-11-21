@@ -20,13 +20,19 @@ namespace Enemies
         public override EntityState Update()
         {
             var nextState = base.Update();
+            
             if (nextState != null) return nextState;
+            
+            return null;
+        }
+
+        public override void UpdateAnimationParameters()
+        {
+            base.UpdateAnimationParameters();
             
             this.Animator.SetFloat(MoveAnimSpeedMultiplier, this.EnemyObject.moveAnimationMultiplier);
             this.Animator.SetFloat(BattleAnimSpeedMultiplier, this.EnemyObject.BattleMoveAnimationMultiplier);
             this.Animator.SetFloat(XVelocity, this.RigidBody2D.linearVelocity.x);
-
-            return null;
         }
     }
 }

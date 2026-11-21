@@ -25,8 +25,6 @@ public abstract class PlayerState : EntityState
         var next = base.Update();
         if (next != null) return next;
 
-        this.Animator.SetFloat(YVelocity, this.RigidBody2D.linearVelocity.y);
-
         if (this.PlayerInputSet.Player.Dash.WasPressedThisFrame() && this.CanDash()) 
             return this.Player.DashState;
 
@@ -36,6 +34,14 @@ public abstract class PlayerState : EntityState
     public override void Exit()
     {
         base.Exit();
+    }
+
+    public override void UpdateAnimationParameters()
+    {
+        base.UpdateAnimationParameters();
+        
+        this.Animator.SetFloat(YVelocity, this.RigidBody2D.linearVelocity.y);
+
     }
 
     protected void SetHorizontalVelocity(float velocity)
