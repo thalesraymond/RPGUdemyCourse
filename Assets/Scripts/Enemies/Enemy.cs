@@ -13,7 +13,6 @@ namespace Enemies
         public Vector2 retreatVelocity;
         public float BattleMoveAnimationMultiplier { get; private set; }
         
-        
         [Header("Enemy Movement Settings")]
         public float idleTime;
         [Range(0,2)]
@@ -25,6 +24,8 @@ namespace Enemies
         [SerializeField] private Transform playerCheck;
         [SerializeField] private float playerCheckDistance = 10;
         
+        public EnemyHealth HealthComponent { get; private set; }
+        
         public EnemyIdleState IdleState { get; private set; }
         public EnemyMoveState MoveState { get; private set; }
         public EnemyAttackState AttackState { get; private set; }
@@ -33,6 +34,7 @@ namespace Enemies
         protected override void Awake()
         {
             base.Awake();
+            this.HealthComponent = this.GetComponent<EnemyHealth>();
             this.IdleState = new EnemyIdleState(this, this.StateMachine, "idle");
             this.MoveState = new EnemyMoveState(this, this.StateMachine, "move");
             this.AttackState = new EnemyAttackState(this, this.StateMachine, "attack");
@@ -49,6 +51,13 @@ namespace Enemies
         protected override void Update()
         {
             base.Update();
+        }
+        
+        // Move enemy towards player when attacked. Useful if a player is attacking from behind
+        public void RecordDamage(Transform attacker)
+        {
+            var attackerDirection = attacker.position - this.transform.position;
+            this.HandleRotate(attackerDirection.x);
         }
 
         public RaycastHit2D PlayerDetection()
@@ -67,7 +76,6 @@ namespace Enemies
             return hit;
         }
         
-
         protected override void OnDrawGizmosSelected()
         {
             base.OnDrawGizmosSelected();
