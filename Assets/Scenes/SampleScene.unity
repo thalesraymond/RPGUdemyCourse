@@ -65732,6 +65732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 684593498}
   - component: {fileID: 684593500}
+  - component: {fileID: 684593501}
   - component: {fileID: 684593499}
   - component: {fileID: 684593497}
   - component: {fileID: 684593496}
@@ -65893,6 +65894,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemies.EnemyHealth
   maxHealth: 100
   isDead: 0
+--- !u!114 &684593501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684593494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec1225830efee9dab3fdfa3a2ab61d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EntityVFX
+  onDamageMaterial: {fileID: 2100000, guid: 1bad3a08a29fd35ec81abcb7445501d5, type: 2}
+  onDamageVFXDuration: 0.2
 --- !u!1 &700986067
 GameObject:
   m_ObjectHideFlags: 0
@@ -272493,7 +272508,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 7.186221
+      m_AnimationSpeed: 9.551028
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 16, y: 0, z: 0}
@@ -272506,7 +272521,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 6.8154554
+      m_AnimationSpeed: 7.88218
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -275645,6 +275660,7 @@ GameObject:
   - component: {fileID: 1627843680}
   - component: {fileID: 1627843684}
   - component: {fileID: 1627843683}
+  - component: {fileID: 1627843685}
   - component: {fileID: 1627843679}
   - component: {fileID: 1627843681}
   - component: {fileID: 1627843682}
@@ -275805,6 +275821,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EntityHealth
   maxHealth: 100
   isDead: 0
+--- !u!114 &1627843685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627843678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec1225830efee9dab3fdfa3a2ab61d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EntityVFX
+  onDamageMaterial: {fileID: 2100000, guid: 1bad3a08a29fd35ec81abcb7445501d5, type: 2}
+  onDamageVFXDuration: 0.2
 --- !u!1 &1687332147
 GameObject:
   m_ObjectHideFlags: 0
