@@ -8,8 +8,10 @@ namespace Enemies
     {
         private Enemy _enemy;
 
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
+            
             this._enemy = this.GetComponent<Enemy>();
         }
 

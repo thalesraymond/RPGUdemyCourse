@@ -9,6 +9,7 @@ public class EntityCombat : MonoBehaviour
     [SerializeField] private float targetCheckRadius;
     [SerializeField] private LayerMask targetLayer;
 
+    
     public void PerformAttack()
     {
         var targetColliders = this.GetDetectedColliders();
