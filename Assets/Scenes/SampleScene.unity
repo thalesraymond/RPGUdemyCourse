@@ -65874,7 +65874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e7a2e8a6912d6255a6f39608b4e40af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EntityCombat
-  damageValue: 1
+  damageValue: 5
   targetCheck: {fileID: 1450858582}
   targetCheckRadius: 1
   targetLayer:
@@ -65893,7 +65893,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemies.EnemyHealth
   maxHealth: 100
+  currentHealth: 0
   isDead: 0
+  knockbackPower: {x: 1.5, y: 2.5}
+  knockbackDuration: 0.2
+  heavyKnockbackPower: {x: 7, y: 7}
+  heavyKnockbackDuration: 0.5
+  heavyDamageThreshold: 0.3
 --- !u!114 &684593501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272508,7 +272514,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 9.551028
+      m_AnimationSpeed: 10.356277
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 16, y: 0, z: 0}
@@ -272521,7 +272527,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 7.88218
+      m_AnimationSpeed: 10.059011
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -275801,7 +275807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e7a2e8a6912d6255a6f39608b4e40af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EntityCombat
-  damageValue: 1
+  damageValue: 5
   targetCheck: {fileID: 700986068}
   targetCheckRadius: 1
   targetLayer:
@@ -275820,7 +275826,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EntityHealth
   maxHealth: 100
+  currentHealth: 0
   isDead: 0
+  knockbackPower: {x: 1.5, y: 2.5}
+  knockbackDuration: 0.2
+  heavyKnockbackPower: {x: 7, y: 7}
+  heavyKnockbackDuration: 0.5
+  heavyDamageThreshold: 0.3
 --- !u!114 &1627843685
 MonoBehaviour:
   m_ObjectHideFlags: 0

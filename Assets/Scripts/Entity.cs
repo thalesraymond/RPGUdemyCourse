@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -26,6 +27,9 @@ public class Entity : MonoBehaviour
     public Rigidbody2D RigidBody2D { get; private set; }
     public Animator Animator { get; private set; }
     
+    private bool _isKnockbackActive;
+    private float _knockbackTimer;
+    private Coroutine _knockbackCoroutine;
 
     public bool IsGrounded { get; private set; }
     
@@ -81,6 +85,9 @@ public class Entity : MonoBehaviour
     
     public void SetVelocity(Vector2 velocity)
     {
+        if(this._isKnockbackActive)
+            return;
+
         this.RigidBody2D.linearVelocity = velocity;
             
         this.HandleRotate(this.RigidBody2D.linearVelocity.x);
@@ -108,6 +115,27 @@ public class Entity : MonoBehaviour
     public void CalCurrentStateAnimationTrigger()
     {
         this.StateMachine.CurrentState.CallAnimationTrigger();
+    }
+
+    public void ReceiveKnockback(Vector2 force, float duration)
+    {
+        if (this._knockbackCoroutine != null)
+            this.StopCoroutine(this._knockbackCoroutine);
+        
+        this._knockbackCoroutine = this.StartCoroutine(this.ReceiveKnockbackCoroutine(force, duration));
+    }
+
+    private IEnumerator ReceiveKnockbackCoroutine(Vector2 force, float duration)
+    {   
+        this._isKnockbackActive = true;
+        
+        this.RigidBody2D.linearVelocity = force;
+        
+        yield return new WaitForSeconds(duration);
+        
+        this._isKnockbackActive = false;
+        
+        this.RigidBody2D.linearVelocity = Vector2.zero;
     }
     
     protected virtual void OnDrawGizmosSelected()
