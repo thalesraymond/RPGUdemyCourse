@@ -24,12 +24,17 @@ namespace Enemies
         [SerializeField] private Transform playerCheck;
         [SerializeField] private float playerCheckDistance = 10;
         
+        [Header("Death Details")]
+        public float deathGravityScale = 12f;
+        public float deathVelocityY = 15f;
+        
         public EnemyHealth HealthComponent { get; private set; }
         
         public EnemyIdleState IdleState { get; private set; }
         public EnemyMoveState MoveState { get; private set; }
         public EnemyAttackState AttackState { get; private set; }
         public EnemyBattleState BattleState { get; private set; }
+        public EnemyDeadState DeadState { get; private set; }
 
         protected override void Awake()
         {
@@ -39,6 +44,7 @@ namespace Enemies
             this.MoveState = new EnemyMoveState(this, this.StateMachine, "move");
             this.AttackState = new EnemyAttackState(this, this.StateMachine, "attack");
             this.BattleState = new EnemyBattleState(this, this.StateMachine, "battle");
+            this.DeadState = new EnemyDeadState(this, this.StateMachine, "empty");
             
             var speedRatio = this.moveSpeed > 0f
                 ? this.battleMoveSpeed / this.moveSpeed

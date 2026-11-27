@@ -11,6 +11,8 @@ public class EntityHealth : MonoBehaviour
     [SerializeField] protected float currentHealth;
     [SerializeField] protected bool isDead;
     
+    public bool IsDead => this.isDead;
+    
     [Header("On Damage Knockback")]
     [SerializeField] protected Vector2 knockbackPower = new(1.5f, 2.5f);
     [SerializeField] protected float knockbackDuration = 0.2f;

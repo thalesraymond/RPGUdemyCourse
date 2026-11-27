@@ -21,7 +21,11 @@ namespace Enemies
         {
             var nextState = base.Update();
             
-            if (nextState != null) return nextState;
+            if (nextState != null) 
+                return nextState;
+            
+            if (this.EnemyObject.HealthComponent.IsDead && this.StateMachine.CurrentState != this.EnemyObject.DeadState) 
+                return this.EnemyObject.DeadState;
             
             return null;
         }

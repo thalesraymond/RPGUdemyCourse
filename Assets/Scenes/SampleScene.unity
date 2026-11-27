@@ -65842,6 +65842,8 @@ MonoBehaviour:
     m_Bits: 8
   playerCheck: {fileID: 684593498}
   playerCheckDistance: 10
+  deathGravityScale: 12
+  deathVelocityY: 15
 --- !u!4 &684593498
 Transform:
   m_ObjectHideFlags: 0
@@ -272514,7 +272516,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 10.356277
+      m_AnimationSpeed: 7.303854
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 16, y: 0, z: 0}
@@ -272527,7 +272529,7 @@ Tilemap:
       - {fileID: -8834423205497081501, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: -1888627308780717856, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
       - {fileID: 6415180595139034459, guid: 94526d7bde66ccb9b83a9610cb64b732, type: 3}
-      m_AnimationSpeed: 10.059011
+      m_AnimationSpeed: 7.447603
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:

@@ -22,7 +22,10 @@ public class EntityState
     public virtual void Enter()
     {
         Debug.Log("Entering " + this.AnimationBoolName);
-        this.Animator.SetBool(this.AnimationBoolName, true);
+        
+        if (this.AnimationBoolName != "empty") 
+            this.Animator.SetBool(this.AnimationBoolName, true);
+        
         this.TriggerCalled = false;
     }
     
